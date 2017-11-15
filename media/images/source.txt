@@ -1,0 +1,21 @@
+SOURCE:
+https://pixabay.com/
+
+LICENSE:
+CC0 Creative Commons
+Free for commercial use 
+No attribution required
+
+
+EXCEPTION:
+
+amp-bg*.jpg 
+(by: jujur.net)
+
+clock.gif
+URL: https://commons.wikimedia.org/wiki/File:Clock.gif
+License: Public Domain
+
+clock.webp
+from clock.gif
+Converted by: https://ezgif.com/gif-to-webp

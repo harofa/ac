@@ -1,0 +1,91 @@
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta content="{{ site.domain_verify.pinterest }}" name="p:domain_verify"/>
+  <meta content="{{ site.domain_verify.bing }}" name="msvalidate.01"/>
+  <meta content="{{ site.domain_verify.yandex }}" name="yandex-verification"/>
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}"/>
+  <title>{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>{% if page.tags and page.tags.size > 0 %}
+  <meta name="keywords" content="{% for tag in page.tags %}{{ tag }},{% endfor %}"/>{% endif %}
+
+  <!-- icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'favicon-16x16.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}"/>
+  <link rel="mask-icon" href="{{ 'safari-pinned-tab.svg' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}"/>
+  <meta name="theme-color" content="#ffffff"/>
+
+  <!-- Social -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}"/>{% if page.title %}
+  <meta property="og:type" content="article"/>{% else %}
+  <meta property="og:type" content="website"/>{% endif %}
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
+  <meta property="og:image" content="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
+  <meta property="og:site_name" content="{{ site.name }}"/>{% if page.language %}
+  <meta property="og:locale" content="{{ page.language }}"/>{% elsif site.language %}
+  <meta property="og:locale" content="{{ site.language }}"/>{% endif %}
+  <meta property="og:description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>
+
+  <meta name="twitter:card" property="twitter:card" content="summary"/>
+  <meta name="twitter:site" property="twitter:site" content="{{site.twitter.tw_name}}"/>
+  <meta name="twitter:title" property="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}"/>
+  <meta name="twitter:image" property="twitter:image" content="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
+  <meta name="twitter:description" property="twitter:description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>
+  <meta property="fb:app_id" content="{{ site.facebook.fb_app_id }}"/>
+  <meta property="fb:admins" content="{{ site.facebook.fb_admins }}"/>
+  <style>
+  {% include css.html %}
+  </style> 
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Noto+Sans" rel="stylesheet"/>
+  <script type="application/ld+json">
+  { "@context": "http://schema.org",
+    "@type": "Article",
+    "name": "{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}",
+    "headline": "{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}",
+    "image": "{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}",
+    "wordcount": "{{ content | number_of_words }}",
+    {% if page.tags and page.tags.size > 0 %}
+    "keywords": "{% for tag in page.tags %}{{ tag }},{% endfor %}",
+    {% elsif site.keywords %}
+    "keywords": "{% for tags in site.keywords %}{{ tags }},{% endfor %}",
+    {% endif %}
+    "mainEntityOfPage": "True",
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.publisher.name }}",
+      "logo": {
+        "@type": "imageObject",
+        "url": "{% if site.publisher.logo_url %}{{ site.publisher.logo_url }}{% else %}{{ 'publisher-logo.png' | prepend: site.images_path.logo | prepend: site.baseurl | prepend: site.url}}{% endif %}"
+      }
+    },
+    {% assign post_author = site.data.people[page.author] %}
+    "author": {
+      "@type": "Person",
+      "name": "{%if post_author.profile %}{{ post_author.profile }}{% else %}{{ site.author.profile }}{% endif %}"
+    },
+    "editor": "{{ site.editor.profile }}",
+    "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+    {% if page.dateCreated %} "dateCreated": "{{ page.dateCreated | date_to_xmlschema }}",{% else %} "dateCreated": "{{ page.date | date_to_xmlschema }}",{% endif %}
+    {% if page.datePublished %} "datePublished": "{{ page.datePublished | date_to_xmlschema }}",{% else %} "datePublished": "{{ page.date | date_to_xmlschema }}",{% endif %}
+    {% if page.dateModified %} "dateModified": "{{ page.dateModified | date_to_xmlschema }}",{% else %} "dateModified": "{{ page.date | date_to_xmlschema }}",{% endif %}
+
+    "description": "{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"
+  }
+  </script>
+{% if site.google_analytics %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{site.google_analytics}}');
+</script>
+{% endif %}
+</head>

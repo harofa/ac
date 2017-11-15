@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html amp="amp" {% if page.language %}lang="{{ page.language }}"{% elsif site.language %}lang="{{ site.language }}"{% endif %}>
+{% include head_amp.html %}
+<body>
+{% include header_amp.html %}
+{{ content }}
+{% include footer_amp.html %}
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!-- Sharer -->
+<section class="section-wrapper share clearfix">
+  <h2 class="section-title">Share If You Like</h2>
+  <div class="section-line">
+    <div class="section-line-inside"/></div>
+  </div>
+  <div class="section-body icon-color">
+  <amp-social-share data-param-app_id="{{ site.facebook.fb_app_id }}" height="40" type="facebook" width="40"/>
+  <amp-social-share height="40" type="gplus" width="40"/>
+  <amp-social-share height="40" type="linkedin" width="40"/>
+  <amp-social-share data-param-media="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}" height="40" type="pinterest" width="40">
+  </amp-social-share>
+  <amp-social-share height="40" type="tumblr" width="40"/>
+  <amp-social-share height="40" type="twitter" width="40"/>
+  <amp-social-share height="40" type="whatsapp" width="40"/>
+  <amp-social-share height="40" type="email" width="40"/>
+  </div>
+</section>

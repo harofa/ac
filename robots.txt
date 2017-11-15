@@ -1,0 +1,13 @@
+---
+layout:
+permalink: "/robot.txt"
+---
+
+# www.robotstxt.org/
+
+User-agent: Mediapartners-Google
+Disallow:
+User-agent: *
+Disallow: /search
+Allow: /
+Sitemap: {{ site.url }}/sitemap.xml

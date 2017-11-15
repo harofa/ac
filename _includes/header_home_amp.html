@@ -1,0 +1,37 @@
+<header id="header" class="blog-header">
+  <div  class="navigation">
+  	<div class="container">
+  		<div class="row">
+  			<div class="logo-wrap col-md-3 col-xs-10">
+          <h1 class="blog-title">
+<amp-img alt="" layout="fixed" width="20" height="20" tabindex="0" src="{{ 'apacaracom-head-25.png' | prepend: site.images_path.logo | prepend: site.baseurl | prepend: site.url}}"><noscript><div class="img-fixed"><img width="20" height="20" src="{{ 'apacaracom-head-25.png' | prepend: site.images_path.logo | prepend: site.baseurl | prepend: site.url}}" alt=""/></div></noscript></amp-img>
+          <a href="{{ site.url }}">apaCara<span class="co-tld">.com</span></a>
+          </h1>
+  			</div>
+  			<div class="menu-wrap col-md-8 ">
+  			  <nav class="nav blog-nav">
+            <ul class="list menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">{% for category in site.categories %}
+              <li itemprop="name"><a itemprop="url" href="{{ "/category" | prepend: site.baseurl | prepend: site.url }}/{{category|first}}">{{ category | first | upcase }}</a> </li>{% endfor %}
+              <li itemprop="name"><a rel="search" itemprop="url" target="_blank"  href="{{"/search" | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-search"></i></a>
+              </li>
+            </ul>
+          </nav>
+  			</div>
+  			<div class="col-md-1 col-xs-2 menu-wrap menu-wrap-right">
+          <nav class="nav">
+            <ul class="list menu menu-hover">
+              <li>
+                <i class="fa fa-lg fa-th"></i>
+                <ul class="list sub-menu-hover">
+{% for item in site.my_collection %}
+ <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
+                </ul>
+              </li>
+            </ul>
+          </nav>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+</header>

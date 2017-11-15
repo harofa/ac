@@ -1,0 +1,58 @@
+<footer id="footer" class="blog-footer">
+  <div class="container">
+  	<div class="row">
+  		<div class="col-md-3 col-sm-6">
+  			<div class="about widget clearfix">
+  				<div class="logo-wrap">
+  					<a href="{{site.url}}">
+<amp-img alt="{{site.nama}} logo footer" layout="responsive" width="233" height="34" tabindex="0" src="{{ 'logo-bottom.png' | prepend: site.images_path.logo | prepend: site.baseurl | prepend: site.url}}"><noscript><div class="img-responsive"><img src="{{ 'logo-bottom.png' | prepend: site.images_path.logo | prepend: site.baseurl | prepend: site.url}}" alt=""/></div></noscript></amp-img></a>
+  				</div>
+  				<p>apaCara.com - &quot;Belajar <span class="bd-bottom">apa</span>pun Dengan <span class="bd-bottom">Cara</span> Bagaimanapun&quot;.</p>
+          <p>Belajar seputar blogging, panduan dan referensi web design and development tutorials.</p>
+  			</div>
+  		</div>
+  		<div class="col-md-2 col-sm-6 ">
+  			<div class="quick-links widget clearfix">
+  				<h4 class="title">Pages</h4>
+  				<div class="links">{% for item in site.my_collection %}
+<a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">{{ item.title }}</a>{% endfor %}
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-md-3 col-sm-6 ">
+  			<div class="tags-outer widget clearfix">
+  				<h4 class="title">Categories</h4>
+            <div class="category">{% for category in site.categories %}
+<a class="button button-dark" href="{{ "/category" | prepend: site.baseurl | prepend: site.url }}/{{category|first}}">{{ category | first | upcase }}</a>{% endfor %}
+            </div>
+  			</div>
+  		</div>
+  		<div class="col-md-4 col-sm-6">
+        <div class="follow-social-media">
+          <h4 class="title">FOLLOW US</h4>
+        <div class="social-media dark">
+        <a class="button button-round button-dark" href="{{site.facebook.fb_url}}" rel="nofollow" target="_blank"><span class="fa fa-facebook"></span></a>
+        <a class="button button-round button-dark" href="{{site.twitter.tw_url}}" rel="nofollow" target="_blank"><span class="fa fa-twitter"></span></a>
+          <a class="button button-round button-dark" href="{{site.social.googleplus}}" rel="nofollow" target="_blank"><span class="fa fa-google-plus"></span></a>
+        <a class="button button-round button-dark" href="{{site.social.youtube}}" rel="nofollow" target="_blank"><span class="fa fa-youtube"></span></a>
+        </div>
+        </div>
+        <hr class="bd-dark"/>
+        <p class="co-wh">Unless otherwise noted, the content of this page is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="nofollow license"><i class="fa fa-creative-commons"></i> CC BY-NC-SA 4.0</a></p>
+  		</div>
+  	</div>
+  </div>
+  <div class="footer-bar">
+  	<div class="container">
+  	  <div class="row">
+  	    <div class="col-sm-6 text-left">
+  		    <p>Copyright &copy;{{ site.time | date: "%Y" }} {{site.name}}. All Rights Reserved</p>
+        </div>
+  	    <div class="col-sm-6 text-right">
+  	      <!-- DO NOT CHANGE or REMOVE - credits -->
+  		    <p>Designed with <i class="fa fa-heart" title="Love"></i> by <a href="https://www.youtube.com/halwarf" target="_blank">Halwa RF</a> and <a href="https://www.apacara.com/" target="_blank">Fadul</a></p>
+        </div>
+        </div>
+  	</div>
+  </div>
+</footer>
