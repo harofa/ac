@@ -4,15 +4,16 @@
   <div class="section-line">
     <div class="section-line-inside"/></div>
   </div>
-  <div class="section-body icon-color">
-  <amp-social-share data-param-app_id="{{ site.facebook.fb_app_id }}" height="40" type="facebook" width="40"/>
-  <amp-social-share height="40" type="gplus" width="40"/>
-  <amp-social-share height="40" type="linkedin" width="40"/>
-  <amp-social-share data-param-media="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}" height="40" type="pinterest" width="40">
-  </amp-social-share>
-  <amp-social-share height="40" type="tumblr" width="40"/>
-  <amp-social-share height="40" type="twitter" width="40"/>
-  <amp-social-share height="40" type="whatsapp" width="40"/>
-  <amp-social-share height="40" type="email" width="40"/>
-  </div>
+  <br />
+  <amp-social-share type="facebook"
+    data-param-app_id="{{ site.facebook.fb_app_id }}"></amp-social-share>
+  <amp-social-share type="twitter"></amp-social-share>
+  <amp-social-share type="gplus"></amp-social-share>
+  <amp-social-share type="linkedin"></amp-social-share>
+  <amp-social-share type="pinterest"
+    data-param-media="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}"></amp-social-share>
+  <amp-social-share type="tumblr"></amp-social-share>
+  <amp-social-share type="whatsapp"></amp-social-share>
+  <amp-social-share type="email"></amp-social-share>
+  <amp-social-share type="system"></amp-social-share>
 </section>
