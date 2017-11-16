@@ -32,7 +32,7 @@ defaults:
 name: apaCara.com
 title: apaCara.com - Belajar Blogging dan Web Design
 keywords: [blog,blogging,web,webdesign,webdesain]
-description: Web Developer from Somewhere
+description: "apacara.com - Belajar Apapun Dengan cara Bagaimanapun. Blogging tutorials, belajar Seputar Web Design and Development. "
 description_footer: "apacara.com - Belajar Apapun Dengan cara Bagaimanapun. "
 
 language: "en"          #your default site language
@@ -64,7 +64,7 @@ twitter:
   tw_url: "https://www.twitter.com/halwarf"
 
 domain_verify:                    #domain verify for validation site owner
-  google: 
+  google: "Bb-9_R3t_YIf2hlxgbUaf__9cNRDtf423EtTwV5mxsU"
   pinterest: "b2d3e9c573a74ffea0cf126e762c002f"
   yandex: "c50334a24cd0e3e6"
   bing: "E3C6D0C7D77D3A13C3C553CAE5F409B5"
@@ -74,19 +74,19 @@ social:
   youtube: "https://www.youtube.com/halwarf"
   googleplus: "https://plus.google.com/+HalwaRF"
   flickr:
-  github:
+  github: "https://github.com/apacara"
   instagram:
   linkedin:
-  pinterest:
+  pinterest: "https://www.pinterest.com/halwarf"
   rss:
   stackoverflow:
 
 # Disqus shortname
 disqus: apacara
-disqus_script_url: "https://apacara.github.io/embed/gravcms/disqus-apacara.html"
+disqus_script_url: "https://apacara.github.io/embed/gravcms/disqus-apacara2.html"
 
 # Google Analytics (e.g. UA-2110908-2)
-google_analytics:
+google_analytics: "UA-92050092-5"
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
