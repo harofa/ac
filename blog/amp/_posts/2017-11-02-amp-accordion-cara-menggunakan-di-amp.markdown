@@ -26,7 +26,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-accordion.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/amp-element/amp-accordion.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -46,37 +46,10 @@ images:
 </pre>
   </div>
 </div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/amp-element/amp-accordion.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
-  </div>
-</div>
  <h2 class="title-sub bd-primary bd-left bd-left-only">Description
  <br><small>Penjelasan</small>
  </h2>
-<p><code>amp-accordion</code> element digunakan digunakan pada sebuah element yang memerlukan <em>interface</em> untuk dapat ditampilkan atau disembunyikan. Kebutuhan ini, biasanya terjadi seperti... apabila kita hanya ingin menampilkan teks pendek, kemudian kita sedian link/tombol yang apabila diklik, maka akan terbuka teks utuh (lengkap) yang sesungguhnya tanpa harus me-<em>reload</em> (memuat ulang) halaman yang sedang terbuka. Tentunya, masih banyak kegunaan lainnya yang serupa.</p>
+<p><code>amp-accordion</code> element digunakan digunakan pada sebuah element yang memerlukan <em>interface</em> untuk dapat ditampilkan atau disembunyikan. Kebutuhan ini, biasanya terjadi seperti... apabila kita hanya ingin menampilkan teks pendek, kemudian kita sediakan link/tombol yang apabila diklik, maka akan terbuka teks utuh (lengkap) yang sesungguhnya tanpa harus me-<em>reload</em> (memuat ulang) halaman yang sedang terbuka. Tentunya, masih banyak kegunaan lainnya yang serupa.</p>
 <p>Element yang dapat disembunyikan dan ditampilkan disebut dengan istilah <em>Collapsable</em> dan <em>Expandable</em>.</p>
 <p>Dalam <code>amp-accordion</code>, setiap konten atau element yang terletak langsung didalamnya (<em>direct children</em>) dianggap sebagai bagian (section) dari accordion tersebut. Oleh karenanya, element ini harus menggunakan tag &lt;section&gt; dan boleh terdapat lebih dari satu section.</p>
 <p>Pada setiap bagian (section) hanya boleh ada dua element (<em>direct children</em>). Jika Element pertama (<em>collapsable</em>) diklik maka element kedua (<em>expandable</em>) akan terbuka.</p>
@@ -144,7 +117,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-accordion-disable-session-states.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/amp-element/amp-accordion-disable-session-states.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -163,33 +136,6 @@ images:
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>amp-accordion</span><span class="token punctuation">&gt;</span></span></code>
 </pre>
-  </div>
-</div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/amp-element/amp-accordion-disable-session-states.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
   </div>
 </div>
   </div>
@@ -216,7 +162,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-accordion-expanded.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/amp-element/amp-accordion-expanded.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -234,33 +180,6 @@ images:
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>amp-accordion</span><span class="token punctuation">&gt;</span></span></code>
 </pre>
-  </div>
-</div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/amp-element/amp-accordion-expanded.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
   </div>
 </div>
   </div>
@@ -306,7 +225,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-accordion-styling.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/amp-element/amp-accordion-styling.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -323,34 +242,6 @@ images:
 </pre>
   </div>
 </div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/amp-element/amp-accordion-styling.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
-  </div>
-</div>
-
 <h3>Additional Information and Resources</h3>
 <div class="sources bg-gr3 bordered p-space-v">
   <ul>

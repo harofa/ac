@@ -26,7 +26,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-youtube.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/amp-element/amp-youtube.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -37,39 +37,6 @@ images:
   <span class="token attr-name">data-videoid</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>W70wivX4liU<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>amp-youtube</span><span class="token punctuation">&gt;</span></span></code>
 </pre>
-  </div>
-</div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class='show-more button button-dark bg-fb'>Show Preview</span>
-        <span class='show-less button button-dark bg-pi'>Hide Preview</span>
-      </h4>
-<amp-iframe width="500"
-  height="281"
-  layout="responsive"
-  sandbox="allow-scripts allow-same-origin allow-popups"
-  allowfullscreen
-  frameborder="0"
-  src="https://www.apacara.com/embed/amp/amp-element/amp-youtube.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
   </div>
 </div>
 <!-- HR =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=* -->
@@ -88,7 +55,7 @@ images:
 </div>
 <p>Script element tersebut diletakkan pada template atau tema blog Anda, tepatnya diantara &lt;head&gt; dan &lt;/head&gt; tag.</p>
 <p>Langkah <strong>Kedua</strong>, tentunya mencari video yang ingin Anda posting dari <a target="_blank" rel="nofollow" href="https://www.youtube.com/halwarf">youtube.com</a>. kemudian cari <code>data-videoid</code> di URL video yang Anda cari tersebut. <code>data-videoid</code> dapat dilihat pada contoh gambar berikut:</p>
-<amp-img alt="amp-youtube-data-videoid" layout="responsive" width="650" height="470"  tabindex="0" src="https://www.apacara.com/media/posts/amp-youtube-data-videoid.png" ><noscript><div class="img-responsive"><img src="https://www.apacara.com/media/posts/amp-youtube-data-videoid.png" alt="" /></div></noscript></amp-img>
+<amp-img alt="amp-youtube-data-videoid" layout="responsive" width="650" height="470"  tabindex="0" src="https://4.bp.blogspot.com/-TERpXH1p38M/WffoPVv4O6I/AAAAAAAAA_c/l2Ve4SvUUc8joj7L5DbkQtyCDK1kj3_WwCLcBGAs/s1600/amp-youtube-data-videoid.png" ><noscript><div class="img-responsive"><img src="https://4.bp.blogspot.com/-TERpXH1p38M/WffoPVv4O6I/AAAAAAAAA_c/l2Ve4SvUUc8joj7L5DbkQtyCDK1kj3_WwCLcBGAs/s1600/amp-youtube-data-videoid.png" alt="" /></div></noscript></amp-img>
 <p>Pada contoh gambar tersebut, <em>data-videoid</em>-nya adalah: <code>wT21mmFrCdQ</code>, <em>data-videoid</em> ini, diperlukan untuk mengisi nilai <code>data-videoid</code> attribute didalam <code>amp-youtube</code>.</p>
 <p>Langkah <strong>Ketiga</strong>, menyisipkan element <code>&lt;amp-youtube&gt;...&lt;/amp-youtube&gt;</code> dengan contoh di bawah ini:</p>
 <div class="icard">
@@ -120,7 +87,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-youtube.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/amp-element/amp-youtube.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -150,40 +117,6 @@ images:
 </pre>
   </div>
 </div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class='show-more button button-dark bg-fb'>Show Preview</span>
-        <span class='show-less button button-dark bg-pi'>Hide Preview</span>
-      </h4>
-<amp-iframe width="500"
-  height="281"
-  layout="responsive"
-  sandbox="allow-scripts allow-same-origin allow-popups"
-  allowfullscreen
-  frameborder="0"
-  src="https://www.apacara.com/embed/amp/amp-element/amp-youtube.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
-  </div>
-</div>
-
 <h2 class="title-sub bd-primary bd-left bd-left-only">Autoplay
 <br /><small>Diputar Otomatis</small>
 </h2>
@@ -197,7 +130,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-youtube-autoplay.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/amp-element/amp-youtube-autoplay.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -209,39 +142,6 @@ images:
   <span class="token attr-name">data-videoid</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>wT21mmFrCdQ<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>amp-youtube</span><span class="token punctuation">&gt;</span></span></code>
 </pre>
-  </div>
-</div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class='show-more button button-dark bg-fb'>Show Preview</span>
-        <span class='show-less button button-dark bg-pi'>Hide Preview</span>
-      </h4>
-<amp-iframe width="500"
-  height="281"
-  layout="responsive"
-  sandbox="allow-scripts allow-same-origin allow-popups"
-  allowfullscreen
-  frameborder="0"
-  src="https://www.apacara.com/embed/amp/amp-element/amp-youtube-autoplay.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
   </div>
 </div>
 <h3>Additional Information and Resources</h3>

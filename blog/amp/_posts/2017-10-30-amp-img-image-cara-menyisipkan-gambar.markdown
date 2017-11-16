@@ -26,7 +26,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-img.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/amp-element/amp-img.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
 
       </div>
     </div>
@@ -39,33 +39,6 @@ images:
   <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/images/apple.jpg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>amp-img</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
 </pre>
-  </div>
-</div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/amp-element/amp-img.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
   </div>
 </div>
 <p><code>layout="responsive"</code> menunjukkan bahwa image (gambar) pada <code>amp-img</code> element tersebut akan mengikuti ukuran layar (browser), oleh karenanya dikenal dengan istilah "responsive"; ukuran gambar menyesuaikan layar ketika diperbesar atau diperkecil.</p>
@@ -115,7 +88,7 @@ images:
   </div>
   <div class="icard-body icode itheme">
     <p><code>src</code> menunjukkan <em>source</em> atau "sumber" yang merujuk pada URL gambar disimpan (berada).</p>
-    <p>Pada contoh dibawah ini, <code>src</code> merujuk pada sumber gambar (URL) yang saya simpan pada sebuah direktori website ini.</p>
+    <p>Pada contoh dibawah ini, <code>src</code> merujuk pada sumber gambar (URL) yang saya simpan di <a href="https://pages.github.com/" target="_blank">Github Pages</a>.</p>
 <!-- icard -->
 <h3>Contoh</h3>
 <div class="icard">
@@ -126,7 +99,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/attributes/src.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/attributes/src.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -138,33 +111,6 @@ images:
   <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/images/car.jpg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>amp-img</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
 </pre>
-  </div>
-</div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/attributes/src.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
   </div>
 </div>
   </div>
@@ -190,7 +136,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/attributes/srcset.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/attributes/srcset.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -206,33 +152,6 @@ images:
   <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nice fruits<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>amp-img</span><span class="token punctuation">&gt;</span></span></code>
 </pre>
-  </div>
-</div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/attributes/srcset.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
   </div>
 </div>
   </div>
@@ -258,7 +177,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/common-attributes/sizes.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/common-attributes/sizes.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
 
       </div>
     </div>
@@ -270,33 +189,6 @@ images:
   <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>(min-width: 320px) 320px, 100vw<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>amp-img</span><span class="token punctuation">&gt;</span></span></code>
 </pre>
-  </div>
-</div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/common-attributes/sizes.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
   </div>
 </div>
   </div>
@@ -320,7 +212,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/attributes/alt.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/attributes/alt.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -332,33 +224,6 @@ images:
   <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/images/mouse.jpg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>amp-img</span><span class="token punctuation">&gt;</span></span></code>
 </pre>
-  </div>
-</div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/attributes/alt.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
   </div>
 </div>
   </div>
@@ -383,7 +248,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/attributes/attribution.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/attributes/attribution.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -398,33 +263,6 @@ images:
   <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/images/clock.gif<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>amp-img</span><span class="token punctuation">&gt;</span></span></code>
 </pre>
-  </div>
-</div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/attributes/attribution.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
   </div>
 </div>
   </div>
@@ -449,7 +287,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/attributes/width-height.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/attributes/width-height.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -460,33 +298,6 @@ images:
   <span class="token attr-name">layout</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>fixed<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>amp-img</span><span class="token punctuation">&gt;</span></span></code>
 </pre>
-  </div>
-</div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/attributes/width-height.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
   </div>
 </div>
   </div>
@@ -501,7 +312,7 @@ images:
   </div>
   <div class="icard-body icode itheme">
     <p><em>Common Attributes</em> adalah beberapa <em>attribute umum</em> yang biasa digunakan dan berlaku untuk beberapa element AMP adalah: <code>fallback</code>, <code>heights</code>, <code>layout</code>, <code>media</code>, <code>noloading</code>, <code>on</code>, <code>placeholder</code>, <code>sizes</code>, <code>width</code>, and <code>height</code></p>
-    <p>Untuk lebih jelasnya, bisa dilihat pada halaman <a href="https://www.apacara.com/blog/amp-common-attributes-atribut-umum-amp.html">AMP HTML Common attributes</a></p>
+    <p>Untuk lebih jelasnya, bisa dilihat pada halaman <a href="https://www.apacara.com/2017/10/amp-common-attributes-atribut-umum-amp.html">AMP HTML Common attributes</a></p>
   </div>
 
 </div>
@@ -511,6 +322,7 @@ images:
 <h2 class="title-sub bd-primary bd-left bd-left-only">Example
 <br><small>Contoh <code>amp-img</code></small>
 </h2>
+<p>Beberapa contoh yang yang dapat dipelajari dan digunakan.</p>
 <h3 class="title-sub bd-danger bd-left bd-left-only">Example 1
 <br><small>Contoh <code>amp-img</code> Responsive Image</small>
 </h3>
@@ -522,7 +334,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-img-responsive.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/amp-element/amp-img-responsive.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -536,34 +348,6 @@ images:
 </pre>
   </div>
 </div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/amp-element/amp-img-responsive.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
-  </div>
-</div>
-
 <h3 class="title-sub bd-danger bd-left bd-left-only">Example 2
 <br><small>Contoh <code>amp-img</code> dengan noscript tag</small>
 </h3>
@@ -578,7 +362,7 @@ images:
         <span>INPUT</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/noscript.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/amp-element/noscript.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -595,34 +379,6 @@ images:
 </pre>
   </div>
 </div>
-<!-- OUTPUT -->
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>OUTPUT</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/amp-element/noscript.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
-  </div>
-</div>
 <h3 class="title-sub bd-danger bd-left bd-left-only">Example 3
 <br><small>Contoh <code>amp-img</code> dengan <em>fallback</em> Image</small>
 </h3>
@@ -637,7 +393,7 @@ images:
         <span>INPUT</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/common-attributes/fallback.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/common-attributes/fallback.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -653,35 +409,6 @@ images:
 </pre>
   </div>
 </div>
-<!-- OUTPUT -->
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>OUTPUT</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/common-attributes/fallback.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
-  </div>
-</div>
-
 <h2 class="title-sub bd-primary bd-left bd-left-only">Cara Memberi Style (CSS)
 </h2>
 <p><code>amp-img</code> dapat diberi style (CSS) seperti tag HTML pada umumnya dengan menggunakan property <em>amp-img</em>. Berikut contoh memberi efek <em>border</em> dan <em>border-radius</em> pada gambar dalam halaman AMP.</p>
@@ -693,7 +420,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-img-styling.html" target="_blank" rel="nofollow"><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/embed/amp/amp-element/amp-img-styling.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -705,34 +432,6 @@ images:
 </pre>
   </div>
 </div>
-<div class="icard">
-  <div class="icard-heading clearfix bg-gr">
-    <div class="icard-bar">
-      <div class="icard-bar-left pull-left">
-
-        <span>PREVIEW</span>
-      </div>
-      <div class="icard-bar-right pull-right condensed">
-        <span class="fa fa-circle co-success"></span>
-        <span class="fa fa-circle co-warning"></span>
-        <span class="fa fa-circle co-danger"></span>
-      </div>
-    </div>
-  </div>
-  <div class="icard-body icode itheme bg-gr3">
-  <amp-accordion>
-    <section>
-      <h4>
-        <span class="show-more button button-dark bg-fb">Show Preview</span>
-        <span class="show-less button button-dark bg-pi">Hide Preview</span>
-      </h4>
-<amp-iframe width="500" height="281" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" src="https://www.apacara.com/embed/amp/amp-element/amp-img-styling.html">
-</amp-iframe>
-    </section>
-  </amp-accordion>
-  </div>
-</div>
-
 <h3>Additional Information and Resources</h3>
 <div class="sources bg-gr3 bordered p-space-v">
   <ul>
