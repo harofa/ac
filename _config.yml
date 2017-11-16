@@ -65,8 +65,8 @@ twitter:
 
 domain_verify:                    #domain verify for validation site owner
   google: 
-  pinterest: "e45a3c3e7a5940c99bb2ccfce9c0dc36"
-  yandex: "bdbedbaebb9f4c33"
+  pinterest: "b2d3e9c573a74ffea0cf126e762c002f"
+  yandex: "c50334a24cd0e3e6"
   bing: "E3C6D0C7D77D3A13C3C553CAE5F409B5"
 
 social:
@@ -82,7 +82,8 @@ social:
   stackoverflow:
 
 # Disqus shortname
-disqus:
+disqus: apacara
+disqus_script_url: "https://apacara.github.io/embed/gravcms/disqus-apacara.html"
 
 # Google Analytics (e.g. UA-2110908-2)
 google_analytics:
