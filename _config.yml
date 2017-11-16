@@ -86,7 +86,7 @@ disqus: apacara
 disqus_script_url: "https://apacara.github.io/embed/gravcms/disqus-apacara2.html"
 
 # Google Analytics (e.g. UA-2110908-2)
-google_analytics: "UA-92050092-5"
+google_analytics: 
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
