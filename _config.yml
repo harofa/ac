@@ -99,7 +99,6 @@ kramdown:
 
 # Use the following plug-ins
 plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-paginate
 
 paginate: 5
