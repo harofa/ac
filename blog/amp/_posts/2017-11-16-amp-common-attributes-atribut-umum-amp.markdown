@@ -11,8 +11,8 @@ taxonomy:
   category: amp
   tag: [amp,ampattribute]
 images:
-  figure: "amp-common-attributes.jpg"
-  thumb: "amp-common-attributes.jpg"
+  figure: "amp-common-attributes.png"
+  thumb: "amp-common-attributes.png"
 
 dateCreated: "2017-10-29T00:00:00+07:00"
 datePublished: "2017-10-29T00:00:00+07:00"

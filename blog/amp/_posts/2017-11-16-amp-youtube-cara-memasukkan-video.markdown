@@ -11,8 +11,8 @@ taxonomy:
   category: amp
   tag: [amp,ampelement]  
 images:
-  figure: "amp-youtube.jpg"
-  thumb: "amp-youtube.jpg"
+  figure: "amp-youtube.png"
+  thumb: "amp-youtube.png"
 
 dateCreated: "2017-10-31T00:00:00+07:00"
 datePublished: "2017-10-31T00:00:00+07:00"

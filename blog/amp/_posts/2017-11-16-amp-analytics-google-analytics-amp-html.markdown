@@ -11,8 +11,8 @@ taxonomy:
   category: amp
   tag: [amp,ampelement]
 images:
-  figure: "amp-analytics.jpg"
-  thumb: "amp-analytics.jpg"
+  figure: "amp-analytics.png"
+  thumb: "amp-analytics.png"
 
 dateCreated: "2017-11-01T00:00:00+07:00"
 datePublished: "2017-11-01T00:00:00+07:00"
