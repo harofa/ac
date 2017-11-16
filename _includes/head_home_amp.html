@@ -81,21 +81,4 @@
     "description": "{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"
   }
   </script>
-  {% if site.google_analytics %}
-  <amp-analytics type="googleanalytics">
-  <script type="application/json">
-  {
-    "vars": {
-      "account": "{{site.google_analytics}}"
-    },
-    "triggers": {
-      "trackPageview": {
-        "on": "visible",
-        "request": "pageview"
-      }
-    }
-  }
-  </script>
-  </amp-analytics>
-  {% endif %}
 </head>

@@ -2,6 +2,21 @@
 <html amp="amp" {% if page.language %}lang="{{ page.language }}"{% elsif site.language %}lang="{{ site.language }}"{% endif %}>
 {% include head_amp.html %}
 <body>
+ <amp-analytics type="googleanalytics" id="analytics-ga">
+    <script type="application/json">
+    {
+      "vars": {
+        "account": "{{site.google_analytics}}"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+    </script>
+  </amp-analytics>
 {% include header_amp.html %}
 {{ content }}
 {% include footer_amp.html %}
