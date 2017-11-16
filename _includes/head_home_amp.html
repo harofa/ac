@@ -2,7 +2,7 @@
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
-  <meta name="google-site-verification" content="{{ site.domain_verify.google }}" />
+  <meta content="{{ {{ site.domain_verify.google }} }}" name="google-site-verification"/>
   <meta content="{{ site.domain_verify.pinterest }}" name="p:domain_verify"/>
   <meta content="{{ site.domain_verify.bing }}" name="msvalidate.01"/>
   <meta content="{{ site.domain_verify.yandex }}" name="yandex-verification"/>
@@ -23,6 +23,7 @@
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Noto+Sans" rel="stylesheet"/>
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <style amp-custom="amp-custom">
 {% include css.html %}
 </style>
@@ -81,15 +82,14 @@
   }
   </script>
 {% if site.google_analytics %}
-<script async="async" custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-<amp-analytics id="analytics1" type="googleanalytics">
+<amp-analytics type="googleanalytics">
 <script type="application/json">
 {
   "vars": {
     "account": "{{site.google_analytics}}"
   },
   "triggers": {
-    "defaultPageview": {
+    "trackPageview": {
       "on": "visible",
       "request": "pageview"
     }
