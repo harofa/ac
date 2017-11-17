@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html {% if page.language %}lang="{{ page.language }}"{% elsif site.language %}lang="{{ site.language }}"{% endif %}>
+{% include demo_head.html %}
+<body>
+{{ content }}
+</body>
+</html>

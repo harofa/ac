@@ -1,0 +1,20 @@
+<head>
+  <meta charset="utf-8">
+  <meta content='width=device-width,minimum-scale=1,initial-scale=1' name='viewport'/>
+  <title>{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
+  <meta name="description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'favicon-16x16.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}"/>
+
+   {% if page.add_head %}
+    {{ page.add_head }}
+   {% endif %}
+
+  <!-- Custom Stylesheets -->
+  <style>
+   {% if page.add_style %}
+    {{ page.add_style }}
+   {% endif %}
+  </style>
+</head>
