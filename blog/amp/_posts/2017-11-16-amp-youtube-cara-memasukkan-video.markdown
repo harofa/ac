@@ -29,7 +29,7 @@ datePublished: "2017-10-31T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-youtube.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/amp-element/amp-youtube.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -90,7 +90,7 @@ datePublished: "2017-10-31T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-youtube.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/amp-element/amp-youtube.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -99,7 +99,7 @@ datePublished: "2017-10-31T00:00:00+07:00"
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">amp</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>amp<span class="token punctuation">"</span></span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>canonical<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/embed/amp/amp-element/amp-youtube.html<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>canonical<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/example/amp/amp-element/amp-youtube.html<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>amp-youtube demo example - apacara.com<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>author<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Halwa RF, Fadlullah Fadul<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>publisher<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://plus.google.com/+HalwaRF<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
@@ -133,7 +133,7 @@ datePublished: "2017-10-31T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-youtube-autoplay.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/amp-element/amp-youtube-autoplay.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>

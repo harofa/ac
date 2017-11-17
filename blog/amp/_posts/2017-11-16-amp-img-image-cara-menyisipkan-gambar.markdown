@@ -29,7 +29,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-img.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/amp-element/amp-img.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
 
       </div>
     </div>
@@ -102,7 +102,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/attributes/src.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/attributes/src.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -139,7 +139,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/attributes/srcset.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/attributes/srcset.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -180,7 +180,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/common-attributes/sizes.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/common-attributes/sizes.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
 
       </div>
     </div>
@@ -215,7 +215,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/attributes/alt.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/attributes/alt.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -251,7 +251,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/attributes/attribution.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/attributes/attribution.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -290,7 +290,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/attributes/width-height.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/attributes/width-height.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -337,7 +337,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-img-responsive.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/amp-element/amp-img-responsive.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -365,7 +365,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
         <span>INPUT</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/noscript.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/amp-element/noscript.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -396,7 +396,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
         <span>INPUT</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/common-attributes/fallback.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/common-attributes/fallback.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -423,7 +423,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/embed/amp/amp-element/amp-img-styling.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/amp-element/amp-img-styling.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
