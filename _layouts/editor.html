@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html {% if page.language %}lang="{{ page.language }}"{% elsif site.language %}lang="{{ site.language }}"{% endif %}>
+{% include editor_head.html %}
+<body>
+  <div id="loader"></div>
+  <div id="header" role="banner">
+  	<div class="logo-wrap col-md-3 col-xs-10">
+        <span class="blog-title">
+        <a href="{{ site.url }}">apaCara<span class="co-tld">.com</span></a> <span class="tagline">editor</span>
+        </span>
+  	</div>
+  </div>
+<div class="article" id="content" role="main">
+{% if page.metadata.description %}
+  <div class="editor_desc">
+{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+     <p>{{ page.metadata.description }}</p>
+  </div>
+{% endif %}
+  <ul class='tabs'>
+  	<li><a href='#tab1' accesskey="h">HTML</a></li>
+  	<li><a href='#tab2' accesskey="c">CSS</a></li>
+  	<li><a href='#tab3' accesskey="j">JS</a></li>
+    <li><a id="preview_tab" href='#tab4' accesskey="o">PREVIEW</a></li>
+  </ul>
+  <div id='tab1'>
+    <div id="codehtml">
+      <textarea id="codeeditorhtml" name="codeeditorhtml">
+{{ content }}
+      </textarea>
+    </div>
+  </div>
+  <div id='tab2'>
+    <div id="codecss">
+      <textarea id="codeeditorcss" name="codeeditorcss">
+/* CSS code */
+{% if page.add_style %}
+{{ page.add_style }}
+{% endif %}
+      </textarea>
+    </div>
+  </div>
+  <div id='tab3'>
+    <div id="codejs">
+      <textarea id="codeeditorjs" name="codeeditorjs">
+// javascript code
+{% if page.add_js %}
+{{ page.add_js }}
+{% endif %}
+      </textarea>
+    </div>
+  </div>
+  <div id='tab4'>
+    <div id="codepreview">
+      <div id="previewmask"></div>
+      <iframe id="preview" sandbox="allow-scripts allow-same-origin"></iframe>
+    </div>
+  </div>
+</div>
+<script src="{{ "/assets/js/editor.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script>
+$(document).ready(function(){
+  $('#preview_tab')[0].click();
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+});
+</script>
+<script>
+      var tinyurl = '';
+      var revision = '';
+
+      var sembunyikanAku = function(){
+    $('#librarymenu').hide();
+    $('#settingsmenu').hide();
+  }
+      $('textarea')
+          .focus(sembunyikanAku)
+</script>
+<script>
+  $(document).ready(function(){
+    $('ul.tabs').each(function(){
+      var $active, $content, $links = $(this).find('a');
+      $active = $($links.filter('[href="'+location.hash+'"]')[0] || $links[0]);
+      $active.addClass('active');
+      $content = $($active[0].hash);
+      $links.not($active).each(function () {
+        $(this.hash).hide();
+      });
+      $(this).on('click', 'a', function(e){
+        $active.removeClass('active');
+        $content.hide();
+        $active = $(this);
+        $content = $(this.hash);
+        $active.addClass('active');
+        $content.show();
+        e.preventDefault();
+      });
+    });
+  });
+</script>
+</body>
+</html>
