@@ -2,21 +2,18 @@
 <html {% if page.language %}lang="{{ page.language }}"{% elsif site.language %}lang="{{ site.language }}"{% endif %}>
 {% include editor_head.html %}
 <body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{site.google_analytics}}');
+</script>  
   <div id="loader"></div>
-  <div id="header" role="banner">
-  	<div class="logo-wrap col-md-3 col-xs-10">
-        <span class="blog-title">
-        <a href="{{ site.url }}">apaCara<span class="co-tld">.com</span></a> <span class="tagline">editor</span>
-        </span>
-  	</div>
-  </div>
+{% include editor_navigation.html %}
 <div class="article" id="content" role="main">
-{% if page.metadata.description %}
-  <div class="editor_desc">
-{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-     <p>{{ page.metadata.description }}</p>
-  </div>
-{% endif %}
   <ul class='tabs'>
   	<li><a href='#tab1' accesskey="h">HTML</a></li>
   	<li><a href='#tab2' accesskey="c">CSS</a></li>
@@ -34,8 +31,8 @@
     <div id="codecss">
       <textarea id="codeeditorcss" name="codeeditorcss">
 /* CSS code */
-{% if page.add_style %}
-{{ page.add_style }}
+{% if page.add_css %}
+{{ page.add_css }}
 {% endif %}
       </textarea>
     </div>
@@ -58,6 +55,15 @@
   </div>
 </div>
 <script src="{{ "/assets/js/editor.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+{% if page.add_foot %}
+{{ page.add_foot }}
+{% endif %}
+
+{% if page.add_foot_script %}
+<script>
+{{ page.add_foot_script }}
+</script>
+{% endif %}
 <script>
 $(document).ready(function(){
   $('#preview_tab')[0].click();

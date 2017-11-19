@@ -52,6 +52,7 @@ editor:
 publisher:
   name: "apacara.com"
   logo_url:         # if empty, use default image in logo folder
+  profile: "https://plus.google.com/+HalwaRF"
 
 facebook:
   fb_app_id: "1935119683409174"

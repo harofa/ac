@@ -2,6 +2,60 @@
 <html amp="amp" {% if page.language %}lang="{{ page.language }}"{% elsif site.language %}lang="{{ site.language }}"{% endif %}>
 {% include demo_head_amp.html %}
 <body>
+ <amp-analytics type="googleanalytics" id="analytics-ga">
+    <script type="application/json">
+    {
+      "vars": {
+        "account": "{{site.google_analytics}}"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+    </script>
+  </amp-analytics>
+{% include demo_navigation.html %}
+<amp-accordion disable-session-states>
+  <section expanded>
+    <h3 class="accordion-heading">
+      <span class="show-more button-demo button-demo-dark bg-fb">SHOW SOURCE</span>
+      <span class="show-less button-demo button-demo-dark bg-pi">HIDE SOURCE</span>
+    </h3>
+<div class="icode itheme">
+{% if page.add_head %}
+<p>Component:</p>
+<pre class="prettyprint highlight max-height">
+{{ page.add_head | xml_escape }}
+</pre>
+{% endif %}
+{% if page.add_css %}
+<p>CSS:</p>
+<pre class="prettyprint highlight max-height">
+{{ page.add_css | xml_escape }}
+</pre>
+{% endif %}
+<pre class="prettyprint highlight max-height">
+{{ content | xml_escape }}
+</pre>
+</div>
+  </section>
+{% if page.body_preview != true %}
+  <section expanded>
+    <h3 class="accordion-heading">
+      <span class="show-more button-demo button-demo-dark bg-fb">SHOW PREVIEW</span>
+      <span class="show-less button-demo button-demo-dark bg-pi">HIDE PREVIEW</span>
+    </h3>
+<div>
 {{ content }}
+</div>
+  </section>
+{% endif %}
+</amp-accordion>
+{% if page.body_preview %}
+{{ content }}
+{% endif %}
 </body>
 </html>

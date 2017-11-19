@@ -1,0 +1,13 @@
+<div id="header-demo" role="banner">
+  <div class="logo-wrap-demo">
+    <span class="blog-title-demo">
+    <a href="{{ site.url }}">apaCara<span class="co-tld">.com</span></a> <span class="tagline">demo</span>
+    </span>
+  </div>
+</div>
+{% if page.metadata.description %}
+  <div class="description-demo">
+{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+     <p>{{ page.metadata.description }}</p>
+  </div>
+{% endif %}
