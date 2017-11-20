@@ -2,15 +2,6 @@
 <html {% if page.language %}lang="{{ page.language }}"{% elsif site.language %}lang="{{ site.language }}"{% endif %}>
 {% include editor_head.html %}
 <body>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{site.google_analytics}}');
-</script>
   <div id="loader"></div>
 {% include editor_navigation.html %}
 <div class="article" id="content" role="main">

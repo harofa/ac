@@ -10,18 +10,19 @@
   <meta name="author" content="{%if post_author.profile %}{{ post_author.profile }}{% else %}{{ site.author.profile }}{% endif %}" />
   <link rel="publisher" href="{{ site.publisher.name }}" />
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="{{ '/assets/vendor/jquery.splitter/js/splitter.js' | prepend: site.baseurl | prepend: site.url}}"></script> 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.31.0/codemirror.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.31.0/mode/xml/xml.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.31.0/mode/javascript/javascript.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.31.0/mode/css/css.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.31.0/mode/htmlmixed/htmlmixed.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.31.0/codemirror.min.css">
+  <script src="{{ '/assets/vendor/jquery/jquery-1.11.2.min.js' | prepend: site.baseurl | prepend: site.url}}"></script>
+  <script src="{{ '/assets/vendor/jquery.splitter/js/splitter.js' | prepend: site.baseurl | prepend: site.url}}"></script>
+  <script src="{{ '/assets/vendor/codemirror/lib/codemirror.js' | prepend: site.baseurl | prepend: site.url}}"></script>
+  <script src="{{ '/assets/vendor/codemirror/mode/xml/xml.js' | prepend: site.baseurl | prepend: site.url}}"></script>
+  <script src="{{ '/assets/vendor/codemirror/mode/javascript/javascript.js' | prepend: site.baseurl | prepend: site.url}}"></script>
+  <script src="{{ '/assets/vendor/codemirror/mode/css/css.js' | prepend: site.baseurl | prepend: site.url}}"></script>
+  <script src="{{ '/assets/vendor/codemirror/mode/htmlmixed/htmlmixed.js' | prepend: site.baseurl | prepend: site.url}}"></script>
+  <link rel="stylesheet" href="{{ '/assets/vendor/codemirror/lib/codemirror.css' | prepend: site.baseurl | prepend: site.url}}">
   <link rel="stylesheet" href="{{ "/assets/css/editor.css" | prepend: site.baseurl | prepend: site.url }}">
-  <script src="https://cdn.jsdelivr.net/npm/emmet-codemirror@1.2.5/dist/emmet.min.js"></script>
+  <script src="{{ '/assets/vendor/emmet/emmet.min.js' | prepend: site.baseurl | prepend: site.url}}"></script>
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet"/>
+  <link rel="stylesheet" href="{{ '/assets/css/fonts.css' }}">
+
   {% if page.add_head %}
   {{ page.add_head }}
   {% endif %}
