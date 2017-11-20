@@ -1,0 +1,41 @@
+---
+layout: editor
+title: "HTML contextmenu attribute example with editor"
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML contextmenu attribute example</title>
+ <script>
+  function perbesarFont(){
+document.getElementById("ubahFont").style.fontSize="larger";
+}
+function perkecilFont(){
+document.getElementById("ubahFont").style.fontSize="smaller";
+}
+    </script>
+    <style>
+div#ubahFont{
+width: 100%;
+height: 100%;
+border: 1px solid #555;
+padding: 1em;
+}
+    </style>
+  </head>
+  <body>
+ <div contextmenu="ukuranFont" id="ubahFont">
+Klik kanan pada kotak ini, Temukan menu tambahan untuk memperbesar dan memperkecil font. Telah dicoba pada browser mozilla firefox terbaru dan berjalan lancar.
+<menu type="context" id="ukuranFont">
+<menuitem label="Perbesar Ukuran Font" onclick="perbesarFont()"></menuitem>
+<menuitem label="Perkecil Ukuran Font" onclick="perkecilFont()"></menuitem>
+</menu>
+<script>function perbesarFont(){
+document.getElementById("ubahFont").style.fontSize="larger";
+}
+function perkecilFont(){
+document.getElementById("ubahFont").style.fontSize="smaller";
+}
+</script>
+</div>  </body>
+</html>
