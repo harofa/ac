@@ -16,6 +16,7 @@ images:
 
 dateCreated: "2017-10-30T00:00:00+07:00"
 datePublished: "2017-10-30T00:00:00+07:00"
+dateModified: "2017-11-23T00:00:00+00:00"
 ---
 <p><code>amp-img</code> digunakan untuk menyisipkan gambar pada halaman <a href="https://www.ampproject.org" target="_blank" rel="nofollow">AMP</a> HTML. <code>&lt;amp-img&gt;</code> merupakan tag pengganti dari HTML &lt;img&gt; yang biasa digunakan pada halaman HTML biasa.</p>
 <h2 class="title-sub bd-primary bd-left bd-left-only">Quick Example
@@ -91,7 +92,7 @@ datePublished: "2017-10-30T00:00:00+07:00"
   </div>
   <div class="icard-body icode itheme">
     <p><code>src</code> menunjukkan <em>source</em> atau "sumber" yang merujuk pada URL gambar disimpan (berada).</p>
-    <p>Pada contoh dibawah ini, <code>src</code> merujuk pada sumber gambar (URL) yang saya simpan di <a href="https://pages.github.com/" target="_blank">Github Pages</a>.</p>
+    <p>Pada contoh dibawah ini, <code>src</code> merujuk pada sumber gambar (URL) yang saya simpan pada sebuah direktori lain.</p>
 <!-- icard -->
 <h3>Contoh</h3>
 <div class="icard">
