@@ -55,14 +55,15 @@ publisher:
   profile: "https://plus.google.com/+HalwaRF"
 
 facebook:
-  fb_app_id: "1935119683409174"
-  fb_admins: "507359169629207"
-  fb_url: "https://www.facebook.com/halwarf"
+  fb_app_id: "128890347793115"
+  fb_admins: "100007587970981"
+  profile_id: "507359169629207"
+  fb_url: "https://www.facebook.com/apacaracom"
 
 twitter:
-  tw_name: "@halwarf"
-  tw_username: halwarf
-  tw_url: "https://www.twitter.com/halwarf"
+  tw_name: "@apacaracom"
+  tw_username: apacaracom
+  tw_url: "https://twitter.com/apacaracom"
 
 domain_verify:                    #domain verify for validation site owner
   google: "Bb-9_R3t_YIf2hlxgbUaf__9cNRDtf423EtTwV5mxsU"
@@ -82,7 +83,8 @@ social:
   rss:
   stackoverflow:
 
-# Disqus shortname
+# Comment System
+use_fb_comments: true            #if false, disqus comment will be used instead
 disqus: apacara
 disqus_script_url: "https://apacara.github.io/embed/gravcms/disqus-apacara2.html"
 

@@ -51,13 +51,15 @@ layout: default_amp
         </nav>
         <hr/>
         {% include related_posts_amp.html %}
-        {% if site.disqus %}
+        {% if site.use_fb_comments %}
 <h2 class="section-title">Comments</h2>
 <div class="section-line">
   <div class="section-line-inside"></div>
-</div>
-          {% include disqus_amp.html %}
-        {% endif %}
+</div>{% include comment.html %}{% else %}
+<h2 class="section-title">Comments</h2>
+<div class="section-line">
+  <div class="section-line-inside"></div>
+</div><div id="disqus_thread"></div>{% include disqus.html %}{% endif %}
             </div>
           </article>
         </div>
