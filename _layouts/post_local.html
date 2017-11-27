@@ -1,5 +1,5 @@
 ---
-layout: default_amp
+layout: default_local
 ---
 <div id="main" class="main-wrapper">
   <div class="container">
@@ -26,7 +26,7 @@ layout: default_amp
             <div class="article-body">
           		<div class="img-wrapper">
           		  <figure>
-<amp-img alt="" layout="responsive" width="833" height="500" tabindex="0" src="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}"><noscript><div class="img-responsive"><img src="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt=""/></div></noscript></amp-img>
+          			<img class="img-responsive" src="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="">
                 </figure>
           		</div>
               {% if page.images.source_title %}
@@ -37,9 +37,9 @@ layout: default_amp
                 </div>
               </div>{% endif %}
 {{ content }}
-        {% include sharer_amp.html %}
+        {% include sharer.html %}
         {% if site.display_author %}
-        {% include author_amp.html %}
+        {% include author.html %}
         {% endif %}
         <hr/>
         <!-- PAGINATION -->
@@ -50,16 +50,15 @@ layout: default_amp
           </ul>
         </nav>
         <hr/>
-        {% include related_posts_amp.html %}
-        {% if site.use_fb_comments %}
+        {% include related_posts.html %}
+        {% if site.disqus %}
 <h2 class="section-title">Comments</h2>
 <div class="section-line">
   <div class="section-line-inside"></div>
-</div>{% include comment.html %}{% else %}
-<h2 class="section-title">Comments</h2>
-<div class="section-line">
-  <div class="section-line-inside"></div>
-</div><div id="disqus_thread"></div>{% include disqus.html %}{% endif %}
+</div>
+<div id="disqus_thread"></div>
+        
+        {% endif %}
             </div>
           </article>
         </div>
@@ -67,7 +66,7 @@ layout: default_amp
         <!-- sidebar -->
         <div class="sidebar-wrapper col-md-4">
   			<aside id="sidebar" class="sidebar">
-  			  {% include sidebar_amp.html %}
+  			  {% include sidebar.html %}
   			</aside>
   		</div>
   	</div>

@@ -5,7 +5,7 @@ metadata:
 
 images:
   figure: "apacara.png"
-  thumb: "apacara.png" 
+  thumb: "apacara.png"
 ---
 {% for post in paginator.posts %}
 <article class="content item-wrapper">
@@ -43,8 +43,8 @@ images:
 {% if paginator.total_pages > 1 %}
 <nav class="list-bg blog-pagination">
   <ul class="row list next-prev list-bar">{% if paginator.previous_page %}
-    <li class="pull-left text-left"><a rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button button-clean"><span class="fa fa-angle-left"></span>&nbsp;&nbsp;Previous</a></li>{% endif %}{% if paginator.next_page %}
-    <li class="push-right text-right"><a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button button-clean">Next&nbsp;&nbsp;<span class="fa fa-angle-right"></span></a></li>{% endif %}
+    <li class="pull-left text-left"><a rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button button-clean"><span class="fa fa-angle-left"></span>&nbsp;&nbsp;Previous Article</a></li>{% endif %}{% if paginator.next_page %}
+    <li class="push-right text-right"><a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button button-clean">Next Article&nbsp;&nbsp;<span class="fa fa-angle-right"></span></a></li>{% endif %}
   </ul>
 </nav>
 {% endif %}

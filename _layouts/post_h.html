@@ -45,8 +45,8 @@ layout: default
         <!-- PAGINATION -->
         <nav class="list-bg blog-pagination">
           <ul class="row list next-prev list-bar">{% if page.previous.url %}
-            <li class="pull-left text-left"><a rel="prev" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}" class="button button-clean"><span class="fa fa-angle-left"></span>&nbsp;&nbsp;Previous</a></li>{% endif %}{% if page.next.url %}
-            <li class="push-right text-right"><a rel="next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}" class="button button-clean">Next&nbsp;&nbsp;<span class="fa fa-angle-right"></span></a></li>{% endif %}
+            <li class="pull-left text-left"><a rel="prev" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}" class="button button-clean"><span class="fa fa-angle-left"></span>&nbsp;&nbsp;Previous Article</a></li>{% endif %}{% if page.next.url %}
+            <li class="push-right text-right"><a rel="next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}" class="button button-clean">Next Article&nbsp;&nbsp;<span class="fa fa-angle-right"></span></a></li>{% endif %}
           </ul>
         </nav>
         <hr/>
