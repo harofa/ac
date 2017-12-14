@@ -5,7 +5,7 @@ url: "https://www.apacara.com"
 # (http://yourusername.github.io/repository-name)
 
 baseurl: ""
-permalink: /blog/:title.html
+permalink: /:categories/:title.html
 
 images_path:
   avatar: "/media/avatar/"
