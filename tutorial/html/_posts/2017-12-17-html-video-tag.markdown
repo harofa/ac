@@ -290,7 +290,7 @@ images:
   </div>
 </section>
 
-<p>Dibawah ini, contoh berikut editor untuk <strong>belajar HTML video</strong> dengan track dan <a href="https://www.apacara.com/blog/apa-itu-webvtt.html">.vtt file</a> yang dapat digunakan untuk menulis <em>caption</em> atau judul video, dapat pula digunakan untuk menulis subtitle yang sering kita lihat pada video karaoke.</p>
+<p>Dibawah ini, contoh berikut editor untuk <strong>belajar HTML video</strong> dengan track dan <a href="https://www.apacara.com/tutorial/html/apa-itu-webvtt.html">.vtt file</a> yang dapat digunakan untuk menulis <em>caption</em> atau judul video, dapat pula digunakan untuk menulis subtitle yang sering kita lihat pada video karaoke.</p>
 <p>Untuk lebih jelasnya, silahkan pelajari juga mengenai <a href="https://www.apacara.com/tutorial/html/html-track-tag">HTML &lt;track&gt; element.</a></p>
 
 <h2 class="title-sub bd-danger bd-left bd-left-only">Contoh Lengkap

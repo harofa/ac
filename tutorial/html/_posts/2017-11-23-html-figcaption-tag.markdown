@@ -29,7 +29,7 @@ images:
   <strong>HTML <code>&lt;figcaption&gt;</code> element</strong> merepresentasikan sebuah judul (caption)  untuk &lt;figure&gt; element. Contohnya, sebuah gambar seringkali terdapat catatan (judul) yang mewakili atau memberi keterangan pada gambar tersebut. Elemen &lt;figcaption&gt; dapat digunakan untuk <i>memarkup</i> judul atau keterangan dari gambar tersebut.
 </p>
 <p><code>&lt;figcaption&gt;</code> digunakan sebagai anak element pertama atau terakhir dari <code>&lt;figure&gt;</code> (terletak di dalam &lt;figure&gt; element dan posisinya bisa di awal atau terakhir).</p>
-<p>Untuk contoh dan penjelasan lengkap, pelajari juga mengenai <a href="https://www.apacara.com/blog/html-figure-tag.html">HTML &lt;figure&gt; element.</a></p>
+<p>Untuk contoh dan penjelasan lengkap, pelajari juga mengenai <a href="https://www.apacara.com/tutorial/html/html-figure-tag.html">HTML &lt;figure&gt; element.</a></p>
 
 <hr class="uk-article-divider">
 <!-- Global Attributes -->

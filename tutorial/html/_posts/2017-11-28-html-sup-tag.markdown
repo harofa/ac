@@ -28,7 +28,7 @@ images:
 <p>
   <strong>HTML <code>&lt;sup&gt;</code> element</strong> merepresentasikan <em>superscript text</em>, yaitu teks yang biasanya ditulis agak keatas setengah bagian dari teks normal dan memiliki ukuran lebih kecil. Contohnya, apabila kita ingin menulis bilangan pangkat seperti: <mark>4<sup>3</sup></mark> = 4 x 4 x 4, 200 <mark>km<sup>2</sup></mark> dan lain sebagainya yang lazimnya ditulis agak keatas dari text normal. Teks superskrip biasanya digunakan juga pada sebuah catatan kaki (<i>footnotes</i>), seperti <em>HTML<sup>[1]</sup></em>.
 </p>
-<p>Kebalikan dari element <code>&lt;sup&gt;</code> ini adalah element <a href="https://www.apacara.com/blog/html-sub-tag.html">&lt;sub&gt;</a> yang menunjukkan <i>subscript</i> yang ditulis agak kebawah dari teks normal.</p>
+<p>Kebalikan dari element <code>&lt;sup&gt;</code> ini adalah element <a href="https://www.apacara.com/tutorial/html/html-sub-tag.html">&lt;sub&gt;</a> yang menunjukkan <i>subscript</i> yang ditulis agak kebawah dari teks normal.</p>
 
 <hr class="uk-article-divider">
 <!-- Global Attributes -->

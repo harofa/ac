@@ -31,7 +31,7 @@ images:
 <p>Link-link yang merujuk ke halaman lain atau halaman web itu sendiri, dapat dikelompokkan (digabungkan) di dalam element <code>&lt;nav&gt;</code>. Akan tetapi, tidak semua link dapat ditulis (digabungkan) dalam element <code>&lt;nav&gt;</code>, seperti beberapa link yang ditulis didalam <code>&lt;footer&gt;</code> element, tidak tepat bila digabungkan dalam <code>&lt;nav&gt;</code> element.</p>
 <p>Link yang ditulis di dalam <code>&lt;nav&gt;</code> element, biasanya menunjukkan navigasi menu utama sebuah halaman (web). Contohnya, dapat digunakan untuk menggabungkan beberapa link daftar isi (table of content), link yang menuju halaman sebelum dan sesudahnya (next &amp; previous) dan penomoran halaman 1,2,3 dan seterusnya.</p>
 <p>Dalam sebuah dokumen, dapat ditulis lebih dari satu elemen <code>&lt;nav&gt;</code>.</p>
-<p><code>&lt;nav&gt;</code> tidak boleh digunakan sebagai induk element <code>&lt;main&gt;</code>. Artinya, di dalam element <code>&lt;nav&gt;</code> tidak boleh ditulis (terdapat) <a href="https://www.apacara.com/blog/html-main-tag.html">&lt;main&gt;</a> element.</p>
+<p><code>&lt;nav&gt;</code> tidak boleh digunakan sebagai induk element <code>&lt;main&gt;</code>. Artinya, di dalam element <code>&lt;nav&gt;</code> tidak boleh ditulis (terdapat) <a href="https://www.apacara.com/tutorial/html/html-main-tag.html">&lt;main&gt;</a> element.</p>
 
 <hr class="uk-article-divider">
 <!-- Global Attributes -->

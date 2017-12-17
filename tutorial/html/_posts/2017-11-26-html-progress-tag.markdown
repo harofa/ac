@@ -29,7 +29,7 @@ images:
   <strong>HTML <code>&lt;progress&gt;</code> element</strong> merepresentasikan berlangsungnya (progres) suatu kegiatan atau tugas.
 </p>
 <p><code>Progress</code> tag ditampilkan dalam sebuah <em>progress bar</em> yang menampilkan proses berlangsungnya kegiatan. Sehingga, kita bisa mengetahui sudah sampai mana dan kapan kegiatan atau proses tersebut berakhir. Untuk memanipulasi nilai dari <code>&lt;progress&gt;</code> bar ini, dapat memanfaatkan kode javascript.</p>
-<p>Element <code>&lt;progress&gt;</code> tidak tepat digunakan untuk menunjukkan sebuah meteran atau ukuran (<i>gauge</i>), seperti mengukur kapasitas hardisk / flashdisk atau sejenisnya. Untuk menunjukkan sebuah ukuran, dapat menggunakan element <a href="https://www.apacara.com/blog/html-meter-tag.html">&lt;meter&gt;</a>.</p>
+<p>Element <code>&lt;progress&gt;</code> tidak tepat digunakan untuk menunjukkan sebuah meteran atau ukuran (<i>gauge</i>), seperti mengukur kapasitas hardisk / flashdisk atau sejenisnya. Untuk menunjukkan sebuah ukuran, dapat menggunakan element <a href="https://www.apacara.com/tutorial/html/html-meter-tag.html">&lt;meter&gt;</a>.</p>
 
 <!-- Attribute  -->
 <section id="attribute">

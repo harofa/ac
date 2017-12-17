@@ -30,7 +30,7 @@ images:
   <strong>HTML <code>&lt;s&gt;</code> element</strong> digunakan untuk menunjukkan konten atau teks yang sudah tidak lagi akurat atau relevan (berkaitan).
 </p>
 <p><code>&lt;s&gt;</code> element akan menghasilkan <em>style</em> yang sama percis dengan element <code>&lt;del&gt;</code>, yaitu teks tersebut terdapat garis tengah lurus yang menunjukkan <em>tercoret</em>, adapun penggunaan kedua element tersebut jelas berbeda.</p>
-<p><code>&lt;s&gt;</code> element, tidak tepat digunakan ketika menunjukkan perubahan (edit) dokumen yang telah dihapus, untuk hal ini, gunakan <a href="https://www.apacara.com/blog/html-del-tag.html" title="HTML del tag">&lt;del&gt;</a> sebagai gantinya (karena lebih tepat dalam penggunaannya).</p>
+<p><code>&lt;s&gt;</code> element, tidak tepat digunakan ketika menunjukkan perubahan (edit) dokumen yang telah dihapus, untuk hal ini, gunakan <a href="https://www.apacara.com/tutorial/html/html-del-tag.html" title="HTML del tag">&lt;del&gt;</a> sebagai gantinya (karena lebih tepat dalam penggunaannya).</p>
 
 <hr class="uk-article-divider">
 <!-- Global Attributes -->

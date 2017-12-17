@@ -121,7 +121,7 @@ Durasi:
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code>
 </pre>
 </div>
-  <p>Pelajari selengkapnya mengenai HTML <a href="https://www.apacara.com/blog/html-time-tag.html">&lt;time&gt;</a> element.</p>
+  <p>Pelajari selengkapnya mengenai HTML <a href="https://www.apacara.com/tutorial/html/html-time-tag.html">&lt;time&gt;</a> element.</p>
   </div>
 
   <div class="dul-block">
@@ -135,7 +135,7 @@ Durasi:
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code>
 </pre>
 </div>
-  <p>Pelajari selengkapnya mengenai HTML <a href="https://www.apacara.com/blog/html-del-tag.html">&lt;del&gt;</a> dan <a href="https://www.apacara.com/blog/html-ins-tag.html">&lt;ins&gt;</a> element.</p>
+  <p>Pelajari selengkapnya mengenai HTML <a href="https://www.apacara.com/tutorial/html/html-del-tag.html">&lt;del&gt;</a> dan <a href="https://www.apacara.com/tutorial/html/html-ins-tag.html">&lt;ins&gt;</a> element.</p>
   </div>
 </section>
 <h2 class="title-sub bd-danger bd-left bd-left-only">Contoh Lengkap

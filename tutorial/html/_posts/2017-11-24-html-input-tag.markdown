@@ -172,7 +172,7 @@ images:
 <div class="icard bg-gr3 bd-primary bd-top bd-top-only">
 <div class="icard-heading clearfix co-wh bg-gr2">
    <div class="icard-bar"><div class="icard-bar-left pull-left"><span><code class="txt-lg">list</code></span></div></div></div><div class="icard-body icode itheme">
-        <p>Digunakan untuk menentukkan <code>id</code> dari sebuah <code>&lt;datalist&gt;</code> element yang digunakan untuk memberi daftar inputan otomatis pilihan yang diberikan. Pelajari juga <a href="https://www.apacara.com/blog/html-datalist-tag.html">HTML &lt;datalist&gt; element</a>.</p>
+        <p>Digunakan untuk menentukkan <code>id</code> dari sebuah <code>&lt;datalist&gt;</code> element yang digunakan untuk memberi daftar inputan otomatis pilihan yang diberikan. Pelajari juga <a href="https://www.apacara.com/tutorial/html/html-datalist-tag.html">HTML &lt;datalist&gt; element</a>.</p>
         <div class="icard-footer clearfix bg-gr2 icode itheme">
           <p>Value: <i>datalist_id</i></p>
         </div>

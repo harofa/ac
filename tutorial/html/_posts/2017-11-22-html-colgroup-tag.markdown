@@ -31,7 +31,7 @@ images:
 <p>Element <code>&lt;colgroup&gt;</code> terletak didalam element <code>&lt;table&gt;</code> setelah element <code>&lt;caption&gt;</code> dan sebelum element<code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, <code>&lt;tfoot&gt;</code> dan <code>&lt;tr&gt;</code>.</p>
 <p><code>&lt;colgroup&gt;</code> umumnya digunakan untuk memberi style pada kolom tertentu di dalam table secara keseluruhan. Sehingga, tidak mengulangi format style yang sama pada setiap cell dalam table tersebut.</p>
 <p>Didalam element <code>&lt;colgroup&gt;</code>, dapat ditulis element <code>&lt;col&gt;</code> yang digunakan untuk mendefinisikan properti yang berbeda pada setiap kolom dalam &lt;colgroup&gt; tersebut.</p>
-<p>Untuk lebih jelasnya, silahkan baca juga mengenai <a href="https://www.apacara.com/blog/html-col-tag.html">belajar HTML &lt;col&gt; tag</a>.</p>
+<p>Untuk lebih jelasnya, silahkan baca juga mengenai <a href="https://www.apacara.com/tutorial/html/html-col-tag.html">belajar HTML &lt;col&gt; tag</a>.</p>
 
 <hr class="uk-article-divider">
 <!-- Global Attributes -->

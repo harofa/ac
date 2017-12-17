@@ -57,7 +57,7 @@ images:
           </ul>
 
         </div>
-        <p>Pelajari selengkapnya mengenai HTML attribute <a href="https://www.apacara.com/blog/html-datetime-attribute.html" title="belajar HTML datetime attribute">datetime</a>.</p>
+        <p>Pelajari selengkapnya mengenai HTML attribute <a href="https://www.apacara.com/tutorial/html/html-datetime-attribute.html" title="belajar HTML datetime attribute">datetime</a>.</p>
     </div>
 
   </div>

@@ -31,7 +31,7 @@ images:
 <p>HTML <code>&lt;q&gt;</code> element digunakan untuk merepresentasikan beberapa kutipan (konten frase) yang diambil dari sumber lain.</p>
 <p>Tanda kutip (Quotation marks) tidak harus ditulis secara langsung di dalam element &lt;q&gt;, karena biasanya browser menambahkan style tanda kutip tersebut secara <em>default</em>.</p>
 <p>Penggunaaan attribute <code>cite</code> didalam element &lt;q&gt; mungkin diperlukan ketika merujukkan sumber dari kutipan tersebut (untuk mereferensikan alamat URL dari konten/teks yang dikutip).</p>
-<p>&lt;q&gt; element digunakan untuk kutipan pendek yang terletak didalam baris (inline), sedangkan untuk blok kutipan panjang menggunakan <a href="https://www.apacara.com/blog/html-blockquote-tag.html" title="HTML blockquote element">&lt;blockquote&gt;</a> element.</p>
+<p>&lt;q&gt; element digunakan untuk kutipan pendek yang terletak didalam baris (inline), sedangkan untuk blok kutipan panjang menggunakan <a href="https://www.apacara.com/tutorial/html/html-blockquote-tag.html" title="HTML blockquote element">&lt;blockquote&gt;</a> element.</p>
 
 <!-- Attribute  -->
 <section id="attribute">

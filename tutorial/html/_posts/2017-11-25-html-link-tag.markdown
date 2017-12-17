@@ -30,7 +30,7 @@ images:
 </p>
 <p>&lt;link&gt; ditulis di dalam element &lt;head&gt;..&lt;/head&gt; tanpa tag penutup (<i>end tag</i>), juga merupakan element kosong tanpa konten apapun yang hanya berisi attribute saja. <code>&lt;link&gt;</code> element selalu digunakan untuk merujuk file CSS yang berekstensi <code>.css</code>, yang berisi aturan kode CSS, sehingga kode tersebut dapat diaplikasikan untuk mendesain dan memberi sentuhan tampilan yang menarik pada sebuah dokumen web yang merujuk file tersebut.</p>
 <p>Element <code>&lt;link&gt;</code> dapat ditulis lebih dari satu kali, tergantung kebutuhan file CSS yang ingin dirujuk dan dipergunakan. Semakin banyak, tentunya semakin memperlambat <i>loading</i> halaman tersebut.</p>
-<p>Jika Anda bermaksud ingin <strong>belajar HTML link</strong> yang merujuk (membuka) website atau dokumen lain ketika diklik, silahkan pelajari <a href="https://www.apacara.com/blog/html-a-tag.html">HTML &lt;a&gt; tag</a>.</p>
+<p>Jika Anda bermaksud ingin <strong>belajar HTML link</strong> yang merujuk (membuka) website atau dokumen lain ketika diklik, silahkan pelajari <a href="https://www.apacara.com/tutorial/html/html-a-tag.html">HTML &lt;a&gt; tag</a>.</p>
 
 <!-- Attribute  -->
 <section id="attribute">

@@ -28,7 +28,7 @@ images:
 <p>
   <strong>HTML <code>&lt;sub&gt;</code> element</strong> merepresentasikan <em>subscript text</em>, yaitu teks yang biasanya ditulis agak kebawah setengah bagian dari teks normal dan memiliki ukuran lebih kecil. Contohnya, apabila kita ingin menulis rumus kimia seperti: CO<sub>2</sub> , H<sub>2</sub>O dan lain sebagainya.
 </p>
-<p>Kebalikan dari element <code>&lt;sub&gt;</code> ini adalah element <a href="https://www.apacara.com/blog/html-sup-tag.html">&lt;sup&gt;</a> yang menunjukkan <i>superscript</i> yang ditulis agak keatas dari teks normal.</p>
+<p>Kebalikan dari element <code>&lt;sub&gt;</code> ini adalah element <a href="https://www.apacara.com/tutorial/html/html-sup-tag.html">&lt;sup&gt;</a> yang menunjukkan <i>superscript</i> yang ditulis agak keatas dari teks normal.</p>
 
 <hr class="uk-article-divider">
 <!-- Global Attributes -->

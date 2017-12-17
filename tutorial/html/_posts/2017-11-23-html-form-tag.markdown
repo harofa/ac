@@ -30,15 +30,15 @@ images:
 </p>
 <p>Element yang dapat digunakan untuk melengkapi sebuah form, diantaranya adalah sebagai berikut:</p>
 <ul class="list-check">
-  <li><a href="https://www.apacara.com/blog/html-button-tag.html">&lt;button&gt;</a></li>
-  <li><a href="https://www.apacara.com/blog/html-fieldset-tag.html">&lt;fieldset&gt;</a></li>
-  <li><a href="https://www.apacara.com/blog/html-input-tag.html">&lt;input&gt;</a></li>
-  <li><a href="https://www.apacara.com/blog/html-label-tag.html">&lt;label&gt;</a></li>
-  <li><a href="https://www.apacara.com/blog/html-legend-tag.html">&lt;legend&gt;</a></li>
-  <li><a href="https://www.apacara.com/blog/html-optgroup-tag.html">&lt;optgroup&gt;</a></li>
-  <li><a href="https://www.apacara.com/blog/html-option-tag.html">&lt;option&gt;</a></li>
-  <li><a href="https://www.apacara.com/blog/html-select-tag.html">&lt;select&gt;</a></li>
-  <li><a href="https://www.apacara.com/blog/html-textarea-tag.html">&lt;textarea&gt;</a></li>
+  <li><a href="https://www.apacara.com/tutorial/html/html-button-tag.html">&lt;button&gt;</a></li>
+  <li><a href="https://www.apacara.com/tutorial/html/html-fieldset-tag.html">&lt;fieldset&gt;</a></li>
+  <li><a href="https://www.apacara.com/tutorial/html/html-input-tag.html">&lt;input&gt;</a></li>
+  <li><a href="https://www.apacara.com/tutorial/html/html-label-tag.html">&lt;label&gt;</a></li>
+  <li><a href="https://www.apacara.com/tutorial/html/html-legend-tag.html">&lt;legend&gt;</a></li>
+  <li><a href="https://www.apacara.com/tutorial/html/html-optgroup-tag.html">&lt;optgroup&gt;</a></li>
+  <li><a href="https://www.apacara.com/tutorial/html/html-option-tag.html">&lt;option&gt;</a></li>
+  <li><a href="https://www.apacara.com/tutorial/html/html-select-tag.html">&lt;select&gt;</a></li>
+  <li><a href="https://www.apacara.com/tutorial/html/html-textarea-tag.html">&lt;textarea&gt;</a></li>
 </ul>
 <p>Pada spesifikasi HTML5 &lt;form&gt; element, terdapat atribut tambahan yaitu <code>autocomplete</code> dan <code>novalidate</code>. Adapun atribut yang dihapus dari spesifikasi sebelumnya adalah <code>accept</code>.</p>
 

@@ -28,7 +28,7 @@ images:
 <p>
   <strong>HTML <code>&lt;option&gt;</code> element</strong> merepresentasikan sebuah opsi (pilihan dari daftar alternatif). Jadi, opsi ditulis lebih dari satu sebagai daftar untuk memilih pilihan yang diinginkan oleh user.
 </p>
-<p><code>&lt;option&gt;</code> element ditulis sebagai anak element dari <a href="https://www.apacara.com/blog/html-select-tag.html" title="belajar HTML select tag">&lt;select&gt;</a>, <a href="https://www.apacara.com/blog/html-datalist-tag.html" title="belajar HTML datalist tag">&lt;datalist&gt;</a> dan <a href="https://www.apacara.com/blog/html-optgroup-tag.html" title="belajar HTML optgroup tag">&lt;optgroup&gt;</a>.</p>
+<p><code>&lt;option&gt;</code> element ditulis sebagai anak element dari <a href="https://www.apacara.com/tutorial/html/html-select-tag.html" title="belajar HTML select tag">&lt;select&gt;</a>, <a href="https://www.apacara.com/tutorial/html/html-datalist-tag.html" title="belajar HTML datalist tag">&lt;datalist&gt;</a> dan <a href="https://www.apacara.com/tutorial/html/html-optgroup-tag.html" title="belajar HTML optgroup tag">&lt;optgroup&gt;</a>.</p>
 
 <!-- Attribute  -->
 <section id="attribute">

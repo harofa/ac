@@ -29,7 +29,7 @@ images:
   <strong>HTML <code>&lt;meter&gt;</code> element</strong> digunakan untuk mengukur data berdasarkan tingkat tertentu. Memeteri data dengan bilangan yang menunjukkan tingkat meteran atau dikenal dengan istilah <em>gauge</em>.
 </p>
 <p>Contohnya, digunakan untuk menunjukkan kapasitas hardisk / memory disk dan hasil pencarian (<em>query result</em>).</p>
-<p><code>&lt;meter&gt;</code> tag tidak boleh digunakan apabila menunjukkan sebuah progres (berlangsungnya sebuah kegiatan). Untuk hal ini, gunakan <a href="https://www.apacara.com/blog/html-progress-tag.html">&lt;progress&gt;</a> element.</p>
+<p><code>&lt;meter&gt;</code> tag tidak boleh digunakan apabila menunjukkan sebuah progres (berlangsungnya sebuah kegiatan). Untuk hal ini, gunakan <a href="https://www.apacara.com/tutorial/html/html-progress-tag.html">&lt;progress&gt;</a> element.</p>
 
 <!-- Attribute  -->
 <section id="attribute">
