@@ -14,9 +14,12 @@
   <meta name="keywords" content="{% for tag in page.tags %}{{ tag }},{% endfor %}"/>{% endif %}
 
   <!-- icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}"/>
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'favicon-16x16.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}"/>
+  <link href="{{ 'favicon.ico' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" rel="icon" type="image/x-icon"/>
+  <link href="{{ 'favicon-16x16.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" rel="icon" sizes="16x16"/>
+  <link href="{{ 'favicon-32x32.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" rel="icon" sizes="32x32"/>
+  <link href="{{ 'android-icon-192x192.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" rel="icon" sizes="192x192"/>
+  <link href="{{ 'apple-icon-180x180.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" rel="apple-touch-icon-precomposed"/>
+  <meta content="{{ 'ms-icon-144x144.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" name="msapplication-TileImage"/>
   <link rel="mask-icon" href="{{ 'safari-pinned-tab.svg' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}"/>
   <meta name="theme-color" content="#ffffff"/>
 
