@@ -1,0 +1,54 @@
+---
+layout: editor
+title: "HTML nav tag example - demo + Editor"
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Demo HTML nav tag</title>
+    <style>
+
+    </style>
+  </head>
+  <body itemscope itemtype="http://schema.org/Blog">
+    <header>
+    <h1>apacara.com</h1>
+    <p><a href="/category/blog.html">Blog</a> -
+       <a href="#">Chat</a> -
+       <a href="#">Forums</a></p>
+    <p>Update Terakhir: <span itemprop="dateModified">2017-10-05</span></p>
+    <nav>
+     <h1>Menu Navigasi</h1>
+     <ul>
+      <li><a href="/">Index Seluruh Article</a></li>
+      <li><a href="/category/html.html">Referensi Belajar HTML</a></li>
+      <li><a href="/category/css.html">Referensi Belajar CSS</a></li>
+     </ul>
+    </nav>
+    </header>
+    <main id="content">
+    <article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+     <header>
+      <h1 itemprop="headline">Belajar Web Design</h1>
+     </header>
+     <div itemprop="articleBody">
+      <p>Belajar Web Design Bersama apacara.com. Belajar Mudah HTML dan CSS.</p>
+      ... Penjelasan Konten Selengkapnya ...
+     </div>
+     <footer>
+      <p>Dipublikasikan: <time itemprop="datePublished" datetime="2017-09-19">Sabtu, 19 September 2017</time>.</p>
+     </footer>
+    </article>
+    </main>
+    <footer>
+    <p>Copyright &copy;
+     <span itemprop="copyrightYear">2017</span>
+     <span itemprop="copyrightHolder">apacara.com</span>
+    </p>
+    <p><a href="/p/about.php">Mengenai</a> -
+       <a href="/p/copyright.php">Hak Cipta</a> -
+       <a href="/p/contact.php">Kontak</a></p>
+    </footer>
+  </body>
+</html>

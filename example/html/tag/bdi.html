@@ -1,0 +1,49 @@
+---
+layout: editor
+title: "HTML bdi tag example - demo + Editor"
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo HTML bdi tag</title>
+  </head>
+  <body>
+    <h3>Perhatikan perbedaan arah tulisan dari ketiga contoh berikut:</h3>
+    <p>
+      Perhatikan dengan seksama perbedaan struktur tulisan Arab dari contoh masing-masing.
+    </p>
+    <hr />
+    <h4>Contoh 1</h4>
+    <p>Menggunakan bdi element:</p>
+    <ul>
+      <li>Nama: <bdi>Budi</bdi>: 12 Tahun.</li>
+      <li>Nama: <bdi>Intan</bdi>: 20 Tahun.</li>
+      <li>Nama: <bdi>&#x0625;&#x064a;&#x0627;&#x0646;</bdi>: 18 Tahun.</li>
+    </ul>
+    <p>Arah tulisan, sesuai dengan apa yang diharapkan </p>
+
+    <hr />
+
+    <h4>Contoh 2</h4>
+    <p>Tidak Menggunakan bdi element:</p>
+    <ul>
+      <li>Nama: <bdi>Budi</bdi>: 12 Tahun.</li>
+      <li>Nama: <bdi>Intan</bdi>: 20 Tahun.</li>
+      <li>Nama: &#x0625;&#x064a;&#x0627;&#x0646;: 18 Tahun.</li>
+    </ul>
+    <p> Struktur tulisan berantakan, seharusnya 18 terletak sebelum Tahun.</p>
+
+    <hr />
+
+    <h4>Contoh 3</h4>
+    <p>Tidak Menggunakan bdi element, tetapi bdi diganti dengan <code>b</code> element</p>
+    <ul>
+      <li>Nama: <bdi>Budi</bdi>: 12 Tahun.</li>
+      <li>Nama: <bdi>Intan</bdi>: 20 Tahun.</li>
+      <li>Nama: <b>&#x0625;&#x064a;&#x0627;&#x0646;</b>: 18 Tahun.</li>
+    </ul>
+    <p> Struktur tulisan berantakan, seharusnya 18 berada terletak sebelum Tahun.</p>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+---
+layout: editor
+title: "HTML onerror attribute example with editor"
+add_js: 'function gambarNihil() {
+  document.getElementById("gambarKu").innerHTML = "Sepertinya gambar sudah dihapus tuh...";
+}'
+---
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML onerror attribute</title>
+  </head>
+  <body>
+      <img src="cantik.jpg" onerror="gambarNihil()">
+      <div id="gambarKu"></div>
+      <hr />
+      <p><code>onerror</code> artinya ketika error terjadi. Pada contoh diatas letak error adalah sumber gambar (cantik.jpg) tidak ada (tersedia).</p>
+
+  </body>
+</html>

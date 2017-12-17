@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "amp-analytics - Google Analytics AMP HTML"
+short_title: "&lt;amp-analytics&gt;"
 language: id
 
 metadata:
@@ -11,8 +12,8 @@ taxonomy:
   category: amp
   tag: [amp,ampelement]
 images:
-  figure: "amp-analytics.png"
-  thumb: "amp-analytics.png"
+  figure: "posts/amp-analytics.png"
+  thumb: "posts/thumbs/amp-analytics.png"
 
 dateCreated: "2017-11-01T00:00:00+07:00"
 datePublished: "2017-11-01T00:00:00+07:00"

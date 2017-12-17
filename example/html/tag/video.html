@@ -1,9 +1,25 @@
 ---
 layout: editor
-title: "HTML vido tag example - demo + Editor"
+title: "HTML vido tag Full example - demo + Editor"
 ---
-<video width="320" preload="auto" controls>
-  <source src="https://www.apacara.com/media/video/myVideo.mp4" type="video/mp4" />
-  <source src="https://www.apacara.com/media/video/myVideo.webm" type="video/webm" />
-  <source src="https://www.apacara.com/media/video/myVideo.ogv" type="video/ogg" />
-</video>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Demo HTML video - by: apacara.com</title>
+    <style></style>
+  </head>
+  <body>
+    <video width="320" height="240" controls>
+      <source src='https://www.apacara.com/media/video/halwa.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+      <source src='https://www.apacara.com/media/video/halwa.ogv' type='video/ogg; codecs="theora, vorbis"'>
+      <source src="https://www.apacara.com/media/video/halwa.webm" type='video/webm; codecs="vp8, vorbis"'>
+
+      <track label="English" kind="subtitles" srclang="en"
+                                              src="https://www.apacara.com/media/video/subtitles-en.vtt">
+      <track label="Indonesian" kind="subtitles" srclang="id"
+                                                 src="https://www.apacara.com/media/video/subtitles-id.vtt" default>
+      Browser Anda tidak mendukung HTML video tag.
+    </video>
+  </body>
+</html>

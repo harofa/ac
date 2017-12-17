@@ -1,0 +1,70 @@
+---
+layout: editor
+title: "HTML fieldset tag example - demo + Editor"
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Demo HTML fieldset tag</title>
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <h3>Contoh 1</h3>
+
+    <form>
+    <fieldset>
+     <legend>Tampilan Layar</legend>
+     <p><label><input type=radio name=txtHitamPutih value=0 checked> Hitam Keputihan</label></p>
+     <p><label><input type=radio name=txtPutihKehitaman value=1> Putih Kehitaman</label></p>
+     <p><label><input type=checkbox name=lblHitamPutih> Gunakan Hitam Putih</label></p>
+     <p><label>Kontras Layar <input type=range name=lblKontras list=contrast min=0 max=100 value=0 step=1></label></p>
+     <datalist id=contrast>
+      <option label=Normal value=0></option>
+      <option label=Maximum value=100></option>
+     </datalist>
+    </fieldset>
+    </form>
+
+    <hr />
+    <h3>Contoh 2</h3>
+
+    <fieldset name="memberfields" disabled>
+     <legend> <label>
+      <input type=checkbox name=member onchange="form.memberfields.disabled = !checked">
+      Membership
+     </label> </legend>
+     <p><label>Nama Anggota: <input name=membername required></label></p>
+     <p><label>Nomor Anggota: <input name=membernum required pattern="[-0-9]+"></label></p>
+     <p><label>Berlaku Hingga: <input name=memberexp type=date></label></p>
+    </fieldset>
+
+    <hr />
+    <h3>Contoh 3</h3>
+
+    <fieldset name="memberfields" disabled>
+     <legend> <label>
+      <input type=checkbox name=member onchange="form.memberfields.disabled = !checked">
+      Keanggotaan
+     </label> </legend>
+     <p><label>Nama Anggota: <input name=membername required></label></p>
+     <fieldset name="numfields">
+      <legend> <label>
+       <input type=radio checked name=membertype onchange="form.numfields.disabled = !checked">
+       Gunakan Nomor Kartu
+      </label> </legend>
+      <p><label>Nomor Kartu: <input name=membernum required pattern="[-0-9]+"></label></p>
+     </fieldset>
+     <fieldset name="kodefields" disabled>
+      <legend> <label>
+       <input type=radio name=membertype onchange="form.kodefields.disabled = !checked">
+       Gunakan Kode Kartu
+      </label> </legend>
+      <p><label>Kode Kartu: <input name=memberkode required pattern="[A-Za-z]+"></label></p>
+     </fieldset>
+    </fieldset>
+
+  </body>
+</html>

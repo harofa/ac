@@ -1,0 +1,61 @@
+---
+layout: editor
+title: "HTML table tag example 3 - demo + Editor"
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML table tag Example 3</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style>
+      /* style untuk contoh 3 */
+      table#table3 {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      table#table3 td, table#table3 th {
+        border: thin solid #ccc;
+        padding: .2em;
+      }
+      table#table3 thead tr th:first-child {
+        width: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="table3">
+      <caption>
+        <strong>Juara Lomba Bulu Tangkis Antar Kelas IX</strong>
+        <details>
+          <summary>Hadiah</summary>
+          <p><strong>Juara 1</strong> mendapatkan Uang Pembinaan sebesar <strong>Rp. 3.000.000</strong>, <strong>Juara 2</strong> sebesar <strong>Rp. 2.000.000</strong> dan <strong>Juara 3</strong> sebesar <strong>Rp. 1.000.000</strong>.</p>
+        </details>
+      </caption>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Kelas</th>
+          <th>Juara</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>Kelas IX A</td>
+          <th>Juara 1</th>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Kelas IX C</td>
+          <th>Juara 2</th>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Kelas IX B</td>
+          <th>Juara 3</th>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

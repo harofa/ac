@@ -1,0 +1,58 @@
+---
+layout: editor
+title: "HTML table tag example 5 - demo + Editor"
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML table tag Example 5</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style>
+      /* style untuk contoh 5 */
+      table#table5 {
+        border-collapse: collapse;
+      }
+      /* judul (caption) diletakkan dibawah tabel */
+      table#table5 caption {
+       caption-side: bottom;
+      }
+      table#table5 td, table#table5 th {
+        border: thin solid #ccc;
+        padding: .3em 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="table5">
+      <caption>Nilai Ulangan Harian Siswa</caption>
+      <tr>
+        <th rowspan="2">No.</th>
+        <th rowspan="2">Nama</th>
+        <th colspan="3">Nilai</th>
+        <th rowspan="2">Jumlah</th>
+      </tr>
+      <tr>
+        <td>Matematika</td>
+        <td>Biologi</td>
+        <td>Fisika</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Bevi</td>
+        <td>9</td>
+        <td>7</td>
+        <td>8</td>
+        <th>24</th>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Fika</td>
+        <td>8</td>
+        <td>7</td>
+        <td>8</td>
+        <th>23</th>
+      </tr>
+    </table>
+  </body>
+</html>

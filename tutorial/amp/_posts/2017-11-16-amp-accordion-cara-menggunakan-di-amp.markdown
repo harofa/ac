@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "amp-accordion - Cara Menggunakan di AMP HTML"
+short_title: "&lt;amp-accordion&gt;"
 language: id
 
 metadata:
@@ -11,8 +12,8 @@ taxonomy:
   category: amp
   tag: [amp,ampelement]
 images:
-  figure: "amp-accordion.png"
-  thumb: "amp-accordion.png"
+  figure: "posts/amp-accordion.png"
+  thumb: "posts/thumbs/amp-accordion.png"
 
 dateCreated: "2017-11-02T00:00:00+07:00"
 datePublished: "2017-11-02T00:00:00+07:00"

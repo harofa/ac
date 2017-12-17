@@ -1,0 +1,32 @@
+---
+layout: editor
+title: "HTML content tag example - demo + Editor"
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo HTML content tag</title>
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <!-- awalnya konten seperti ini (salah): -->
+      <div>
+        <h1>Time is Monkey</h1>
+        <p>Waktu adalah Uang</p>
+      </div>
+
+      <script>
+      // Tentukkan <div> diatas yang mau diedit.
+      var ubahTulisan = document.querySelector('div');
+      // Membuat sebuah shadow DOM pada <div> diatas
+      var sumberBayangan = ubahTulisan.createShadowRoot();
+      // <h1> diubah menjadi <h2>, begitu juga konten/isi-nya
+      // Mengambil konten dari <p> element
+      sumberBayangan.innerHTML =
+       '<h2>Time is Money</h2> <content select="p"></content>';
+      </script>
+  </body>
+</html>

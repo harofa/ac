@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "amp-img (Image) - Cara Menyisipkan Gambar AMP HTML"
+short_title: "&lt;amp-img&gt;"
 language: id
 
 metadata:
@@ -11,13 +12,14 @@ taxonomy:
   category: amp
   tag: [amp,ampelement]
 images:
-  figure: "amp-img.png"
-  thumb: "amp-img.png"
+  figure: "posts/amp-img.png"
+  thumb: "posts/thumbs/amp-img.png"
 
 dateCreated: "2017-10-30T00:00:00+07:00"
 datePublished: "2017-10-30T00:00:00+07:00"
-dateModified: "2017-11-23T00:00:00+00:00"
+dateModified: "2017-12-17T00:00:00+00:00"
 ---
+
 <p><code>amp-img</code> digunakan untuk menyisipkan gambar pada halaman <a href="https://www.ampproject.org" target="_blank" rel="nofollow">AMP</a> HTML. <code>&lt;amp-img&gt;</code> merupakan tag pengganti dari HTML &lt;img&gt; yang biasa digunakan pada halaman HTML biasa.</p>
 <h2 class="title-sub bd-primary bd-left bd-left-only">Quick Example
 <br><small>Contoh</small>

@@ -1,0 +1,109 @@
+---
+layout: post
+title: "Apa Itu html? Apa itu HTML5?"
+short_title: "HTML &amp; HTML5"
+language: id
+
+metadata:
+  description: "Apa arti HTML? Apa itu HTML5?. Kepanjangan atau singkatan dari HTML itu apa sih? dan apa kegunaannya?"
+
+author: dul
+
+tag: [apa, istilahweb]
+taxonomy:
+  category: apa
+  tag: [apa, istilahweb]
+images:
+  figure: "posts/apa-itu-html-html5.png"
+  thumb: "posts/thumbs/apa-itu-html-html5.png"
+---
+<p class="lead">Sebagian orang mungkin ada yang bertanya-tanya <strong>Apa itu HTML?</strong> atau <strong>Apa perbedaan HTML dengan HTML5?</strong> Pertanyaan ini mungkin sering terlontar oleh seorang blogger pemula atau mereka yang baru mengenal HTML. Penjelasan mengenai apa sih bedanya HTML vs HTML5 dapat Anda lihat lebih detail pada masing-masing bagian pembahasan dibawah ini.</p>
+
+<hr>
+<article>
+<h2 class="title-sub bd-primary bd-left bd-left-only">Apa itu HTML?</h2>
+  <div class="dul-callout dul-callout-success">
+<p>
+<dfn><strong>HTML</strong></dfn> adalah kepanjangan dari <em lang="en">HyperText Markup Language</em>, merupakan bahasa interpretasi yang digunakan pada sebuah halaman web. HTML mendeskripsikan struktur halaman web yang ditulis dengan <em>element</em> atau <em>tag</em> yang yang mengapit konten atau teks didalamnya.
+</p>
+<p>Penjelasan lebih rinci mengenai arti kata-perkata dari HTML adalah sebagai berikut:</p>
+<ul>
+  <li><strong>HyperText</strong>: adalah istilah teks aktif, yang apabila diklik akan meloncat atau menuju halaman lain. Ini merupakan kemampuan dari sebuah halaman web yang dapat saling berhubungan antara halaman satu dengan lainnya.</li>
+  <li><strong>Markup</strong>: Merupakan tag-tag yang biasanya diawali dengan tag pembuka (opening tag) dan tag penutup (closing tag) yang memberi kemampuan untuk menata layout atau memformat struktur halaman web pada sebuah konten teks sederhana didalam file HTML itu sendiri.</li>
+  <li><strong>Language</strong>: yaitu <em>bahasa</em> yang digunakan oleh HTML itu sendiri. Perintah-perintah tag menggunakan bahasa yang dapat dimengerti oleh browser atau interpreter lainnya.</li>
+</ul>
+<p>HTML bukanlah sebuah bahasa pemrograman pada umumnya, seperti Java, C, C++, visual basic dan sejenisnya, melainkan bahasa markup / markah yang ditulis dengan perintah tag-tag atau element yang menaungi (mengapit) konten didalamnya yang akan ditampilkan pada sebuah halaman web oleh browser atau HTML interpreter (penerjemah HTML) lainnya.</p>
+  </div>
+</article>
+<article>
+<h2 class="title-sub bd-primary bd-left bd-left-only">Apa itu HTML5?</h2>
+  <div class="dul-callout dul-callout-danger">
+    <p>
+     <dfn><strong>HTML5</strong></dfn> adalah kepanjangan dari <em lang="en">HyperText Markup Language</em> versi <em>5</em>, merupakan HTML baru penerus dari HTML 4, XHTML1, dan DOM Level 2 HTML. HTML5 merupakan pengembangan bahasa HTML yang lebih baik, lebih berarti atau semantik (<em lang="en">semantic meaning</em>) yang sebelumnya adalah bahasa markup sederhana menjadi sebuah flatform canggih, penuh fitur dan kaya akan antarmuka pemrograman aplikasi yang disebut <em>API</em> (<em lang="en">Application Programming Interface</em>).
+    </p>
+  </div>
+</article>
+<section>
+<h2 class="title-sub bd-primary bd-left bd-left-only">Apa Kegunaan HTML ?</h2>
+  <div class="">
+    <p>
+     <strong>HTML</strong> berguna untuk menampilkan konten, menghubungkan (link) antar halaman, memberi struktur dan informasi terkait dengan sebuah halaman web. konten sebuah web tidak hanya terbatas pada teks saja, melainkan konten interaktif lainnya seperti video, audio, gambar dan animasi dapat disisipkan dan ditampilkan pada halaman web.
+    </p>
+  </div>
+</section>
+
+<section>
+<h2 class="title-sub bd-primary bd-left bd-left-only">Contoh Konten File Format HTML</h2>
+<div class="dul-block">
+  <p>Berikut contoh konten (markup) yang ditulis didalam <code>.html</code> file dengan contoh format HTML5.</p>
+  <!-- custom-title -->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>index.html</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="https://www.apacara.com/example/apa/arti/html-html5.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="html  language-markup"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Judul dokumen HTML<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Hai.. disini Judul Konten<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Ini adalah paragraf. Cetak <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span><span class="token punctuation">&gt;</span></span>tebal<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>, dan ini cetak <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>miring<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span>.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Ada pepatah bilang, <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>q</span><span class="token punctuation">&gt;</span></span>Buah yang jatuh tidak akan jauh dari pohonnya.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>q</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Masih banyak lagi HTML element yang dapat disisipkan disini.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+  <p>Contoh selengkapnya, dapat dilihat pada masing-masing tag HTML yang tersedia dan dapat Anda pelajari pada menu pembahasan "HTML Element" yang telah kami sediakan.</p>
+</div>
+</section>
+
+<section>
+<h2 class="title-sub bd-primary bd-left bd-left-only">Cara Menulis (Membuat) file HTML</h2>
+  <div class="dul-callout dul-callout-danger">
+    <p>
+      File HTML dapat ditulis atau dibuat dengan program teks editor sederhana, seperti <q>Notepad</q>, <q>Notepad++</q> atau teks editor lainnya dengan cara membuat file baru, kemudian menulis (atau copy-paste) seperti contoh diatas, lalu simpan dengan extensi <code>.html</code> atau <code>.htm</code>.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2 class="title-sub bd-primary bd-left bd-left-only">Cara membuka (Open) file HTML</h2>
+  <p>
+    File HTML, biasanya berekstensi <code>.html</code> atau <code>.htm</code> dapat langsung dibuka dengan web browser seperti: <q>Google Chrome</q>, <q>Mozilla Firefox</q>, <q>Opera</q>, <q>Safari</q>, <q>Internet Explorer</q> dan <q>Microsoft Edge</q>.
+  </p>
+  <p>Jika Anda ingin membuka file HTML dengan maksud untuk meng-edit (merubah) kode didalamnya, maka gunakanlah aplikasi editor yang telah disebutkan pada judul cara membuka file HTML diatas.</p>
+</section>

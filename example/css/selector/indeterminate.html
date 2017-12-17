@@ -1,0 +1,32 @@
+---
+layout: editor
+title: "CSS indeterminate selector | Contoh demo"
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo CSS indeterminate selector - apacara.com</title>
+    <style>
+      input, span.ya {
+        color: blue;
+      }
+      :indeterminate + span {
+        color: red
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Laki-laki Idaman</h1>
+    <ul>
+      <input type="checkbox"><span>Kaya tapi pelit</span> <br />
+      <input type="checkbox"><span>Ganteng tapi miskin</span> <br />
+      <input type="checkbox"><span class="ya">Udah kaya, gak pelit, ganteng lagi</span> <br />
+    </ul>
+    <script>
+    document.getElementsByTagName("input")[0].indeterminate = true;
+    document.getElementsByTagName("input")[1].indeterminate = true;
+    </script>
+
+  </body>
+</html>

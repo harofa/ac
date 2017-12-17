@@ -1,0 +1,43 @@
+---
+
+---
+
+OK
+{% for tag in page.tags.first %}{% case tag contains %}{% when "html" %}{% include widget_html.html %}{% when "css" %}{% include widget_css.html %}{% when "js" %}{% include widget_js.html %}{% when "jquery" %}{% include widget_jquery.html %}{% when "amp" %}{% include widget_amp.html %}{% when "php" %}{% include widget_php.html %}{% when "mariadb" %}{% include widget_mariadb.html %}{% when "bootstrap3" %}{% include widget_bootstrap3.html %}{% when "bootstrap4" %}{% include widget_bootstrap4.html %}{% else %}{% endcase %}{% endfor %}
+{% assign tag_item = "html,css,js,amp,php,mariadb" | split: "," %}
+{% for tag in page.tags.first %}{% case tag contains %}{% when tag_item[0] %}{% include widget_html.html %}{% when tag_item[1] %}{% include widget_css.html %}{% when tag_item[2] %}{% include widget_js.html %}{% when tag_item[3] %}{% include widget_amp.html %}{% when tag_item[4] %}{% include widget_php.html %}{% when tag_item[5] %}{% include widget_mariadb.html %}{% else %}{% endcase %}{% endfor %}
+
+DEV
+For Config
+#Different widget for single post based on tag, create include file widget_MYTAG.html
+widget_tags: "html,css,js,amp,php,mariadb,bootstrap3,bootstrap4"
+
+{% assign wtags = site.widget_tags | split: "," %}
+{% for tag in page.tags.first %}{% case tag contains %}{% when wtags[0] %}{% include widget_html.html %}{% when "css" %}{% include widget_css.html %}{% when "js" %}{% include widget_js.html %}{% when "amp" %}{% include widget_amp.html %}{% when "php" %}{% include widget_php.html %}{% when "mariadb" %}{% include widget_mariadb.html %}{% else %}{% endcase %}{% endfor %}
+
+<!--
+{% for page in site.pages %}
+    {% if page.layout == 'css-tutorials' %}
+     // do some work
+    {% endif %}
+{% endfor %}
+
+
+{% assign tutorials = (site.pages | where: "layout" , "css-tutorials") %}
+{% for page in tutorials %}
+     // do some work
+{% endfor %}
+
+-->
+
+<ul class="posts">
+{% assign sorted_tag = site.tags.htmltag | sort:"title" %}
+{% for post in sorted_tag limit: 120 %}
+  <div class="post_info">
+    <li>
+         <a href="{{ post.url }}">{{ post.title }}</a>
+         <span>({{ post.date | date:"%Y-%m-%d" }})</span>
+    </li>
+    </div>
+  {% endfor %}
+</ul>

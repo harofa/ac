@@ -1,0 +1,54 @@
+---
+layout: editor
+title: "Perbedaan Margin vs Padding contoh demo"
+add_css: "/* CSS Code */
+.container-margin, .container-padding {
+ background: red;
+ width: 230px;
+ height: 90px;
+ margin-bottom: 1em;
+}
+
+/* style untuk margin */
+.p-margin {
+width: 190px;
+height: 60px;
+margin-left: 20px;
+background-color: #DFF6EA;
+
+}
+
+/* style untuk padding */
+.p-padding {
+width: 150px;
+padding: 20px;
+background-color: #DFF6EA;
+}"
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>demo - Perbedaan margin dan Padding</title>
+</head>
+<body>
+    <h1>Perbedaan Margin dan Padding</h1>
+    <h2>Margin</h2>
+    <div class="container-margin">
+      <p class="p-margin">
+          Aku p margin  <br />
+          margin-left: 20px;  <br />
+          Aku tidak memiliki padding
+      </p>
+    </div>
+    <h2>Padding</h2>
+    <div class="container-padding">
+      <p class="p-padding">
+          Aku p padding
+      </p>
+    </div>
+ <h3>Keterangan:</h3>
+ <p><strong>margin</strong>: Mengaplikasikan jarak supaya lebih luas atau lebih sempit diantara element sebelum atau sesudahnya.</p>
+ <p><strong>padding</strong>: Mengaplikasikan jarak supaya lebih luas atau lebih sempit di dalam element itu sendiri.</p>
+</body>
+</html>

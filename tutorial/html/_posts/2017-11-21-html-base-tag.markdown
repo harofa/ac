@@ -1,0 +1,229 @@
+---
+layout: post
+title: "HTML base tag | belajar &lt;base&gt; element"
+short_title: "HTML &lt;base&gt; Tag"
+language: id
+
+metadata:
+  description: "Referensi belajar HTML &lt;base&gt; tag. Tutorial dan panduan mengenai element &lt;base /&gt;, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;base&gt;"
+
+author: dul
+
+tag: [html, htmltag]
+taxonomy:
+  category: html
+  tag: [html, htmltag]
+images:
+  figure: "posts/html-base-tag.png"
+  thumb: "posts/thumbs/html-base-tag.png"
+---
+<p class="text-muted">
+  Referensi Belajar <strong>HTML base tag</strong>. Tutorial dan panduan mengenai element <code>&lt;base /&gt;</code>. Mencakup penjelasan yang disertai contoh kode penggunaan sebagai rujukan untuk materi belajar HTML <span lang="id">elemen</span> &lt;base&gt;.
+</p>
+<hr class="uk-article-divider">
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Deskripsi <br>
+  <small>Penjelasan HTML <span class="highlight">base</span></small>
+</h2>
+<p>
+HTML <code>base</code> element digunakan untuk menentukkan <em>document base URL (URL dasar sebuah dokumen)</em>, artinya kita membuat sebuah alamat URL sebagai sandaran untuk semua relative URL. Untuk lebih jelasnya, lihat penjelasan berikut contohnya pada halaman di bawah.
+</p>
+<p>Dalam sebuah dokumen tidak boleh menuliskan lebih dari satu element <code>base</code> </p>
+<p>Di dalam element <code>base</code> harus menyertakan attribute <code>href</code>, <code>target</code> ataupun keduanya. </p>
+
+<!-- Attribute  -->
+<section id="attribute">
+<h2 class="title-sub bd-danger bd-left bd-left-only">Attributes <br>
+  <small>Atribut HTML Tag <code>&lt;base&gt;</code></small>
+</h2>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+<div class="icard-heading clearfix co-wh bg-gr2">
+ <div class="icard-bar"><div class="icard-bar-left pull-left"><span><code class="txt-lg">href</code></span></div></div></div><div class="icard-body icode itheme">
+      <p>Menentukkan URL base (URL dasar) untuk semua relative URL di dalam halaman.</p>
+      <div class="icard-footer clearfix bg-gr2 icode itheme">
+        <p>Value: (URL)</p>
+      </div>
+  </div>
+  </div>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+<div class="icard-heading clearfix co-wh bg-gr2">
+ <div class="icard-bar"><div class="icard-bar-left pull-left"><span><code class="txt-lg">target</code></span></div></div></div><div class="icard-body icode itheme">
+      <p>Menentukkan konteks jelajah dokumen yang di link, bagaimana cara membuka halaman yang dirujuk dari link tersebut?</p>
+      <div class="icard-footer clearfix bg-gr2 icode itheme">
+        <p>Value: <code>_blank</code> | <code>_parent</code> | <code>_self</code> | <code>_top</code> | nama frame</p>
+      </div>
+  </div>
+</div>
+</section>
+
+<hr class="uk-article-divider">
+<!-- Global Attributes -->
+<section id="global-attribute">
+<h2 class="title-sub bd-danger bd-left bd-left-only">Global Attributes <br>
+  <small>Atribut Secara Global (Keseluruhan)</small>
+</h2>
+  <div class="">
+      <p>&lt;base&gt; tag mencakup <em>global attributes</em>, yang artinya tag tersebut dapat disisipkan semua attributes yang termasuk dalam global attributes yang secara umum berlaku untuk semua HTML tags.</p>
+      <div class="footer-callout info">
+        <p>Silahkan, lihat referensi mengenai <a href="http://www.apacara.com/blog/html-global-attribute.html">HTML Global Attribute</a></p>
+      </div>
+  </div>
+</section>
+
+<!-- Event Attributes -->
+<section>
+<h2 class="title-sub bd-danger bd-left bd-left-only">Event Attributes <br>
+  <small>Atribut event  (Peristiwa)</small>
+</h2>
+  <div class="dul-callout dul-callout-warning">
+      <p>&lt;base&gt; tag mencakup <em>event attributes</em>, yang artinya attribute tersebut dijalankan ketika ada interaksi dari user atau dalam suatu peristiwa (kejadian). Contoh: menjalankan script (JavaScript) ketika halaman web pada jendela browser hendak ditutup, dan lain sebagainya.</p>
+      <div class="footer-callout warning">
+        <p>Silahkan, lihat referensi mengenai <a href="http://www.apacara.com/blog/html-event-attribute.html">HTML Events Attribute</a></p>
+      </div>
+  </div>
+</section>
+
+<!-- Example -->
+<section id="example">
+<h2 class="title-sub bd-danger bd-left bd-left-only">Example<br>
+  <small>Contoh HTML <code>&lt;base&gt;</code> element</small>
+</h2>
+<div class="dul-block">
+<!-- example HTML code -->
+<div class="icard">
+<div class="icard-heading clearfix co-wh bg-pi2">
+<div class="icard-bar">
+<div class="icard-bar-left pull-left">
+  <i class="fa fa-html5" aria-hidden="true"></i>
+  <span>HTML</span>
+</div>
+<div class="icard-bar-right pull-right">
+  <span>Example</span>
+</div>
+</div>
+</div>
+<div class="icard-body icode itheme">
+<pre class="prettyprint linenums line-numbers highlight language-markup" data-line="5,11,15"><code data-language="html" class="html  language-markup"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>base</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.apacara.com/media/images/<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>apacara.com.png<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.apacara.com<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Kunjungi apacara.com<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>.
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
+<div aria-hidden="true" class=" line-highlight" style="top: 96px;">
+</div><div aria-hidden="true" class=" line-highlight" style="top: 240px;">
+</div><div aria-hidden="true" class=" line-highlight" style="top: 336px;">
+</div></pre>
+</div>
+</div>
+<h5>Penjelasan:</h5>
+<p>Pertama, kita menulis markup &lt;base href="<code>alamat yang dijadikan URL dasar</code>" target="<code>target url</code>" &gt; didalam element &lt;head&gt; sebuah dokumen web (lihat baris 5). Kemudian, pada baris ke-9 kode diatas, kita cukup menulis nama file yang terletak pada base url tersebut (baris 5), sehingga baris ke-9 tersebut menjadi &lt;img src="http://www.apacara.com/images/apacara.com.png"&gt;. Selanjutnya, pada baris ke-13 link tersebut menggunakan <code>target</code> attribute pada base element (baris 5) sehingga menjadi &lt;a href="http://www.apacara.com" target="_blank"&gt;Kunjungi apacara.com&lt;/a&gt;.
+</p>
+</div>
+
+</section>
+<div class="icard">
+<div class="icard-heading clearfix co-wh bg-pi2">
+<div class="icard-bar">
+<div class="icard-bar-left pull-left">
+  <i class="fa fa-html5" aria-hidden="true"></i>
+  <span>SOURCE</span>
+</div>
+<div class="icard-bar-right pull-right">
+  <a href="https://www.apacara.com/example/html/tag/base.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+</div>
+</div>
+</div>
+<div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="inline  language-markup"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Demo HTML base element<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>base</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/images/<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style language-css">
+      <span class="token selector">img</span> <span class="token punctuation">{</span>
+        <span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
+        <span class="token property">margin-right</span><span class="token punctuation">:</span> 1em<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>apacara.com.png<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+  Logo apacara.com disamping ini aslinya terletak pada relative URL: "https://www.apacara.com/media/images/apacara.com.png" akan tetapi, disini hanya ditulis nama filenya saja (apacara.com.png) atau lebih jelasnya <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">&gt;</span></span>img src="apacara.com.png"<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">&gt;</span></span>. Kenapa bisa demikian? karena kita sudah menuliskan elemen <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">&gt;</span></span>base<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">&gt;</span></span> dengan rujukan link dasarnya yaitu: "https://www.apacara.com/media/images/"  (value dari href attribute pada base element tersebut), sehingga kita tidak perlu menulis secara lengkap cukup nama file yang merujuk pada base url tersebut .
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.apacara.com<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Kunjungi apacara.com<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>.
+  Link ini akan terbuka pada jendela baru, karena pada element <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">&gt;</span></span>base<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">&gt;</span></span> kita sudah menentukan "target=_blank" yang artinya dibuka pada jendela/tab baru untuk semua URL dasarnya.
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+</div>
+</div>
+
+<!-- Article Aside -->
+
+<!-- Browser Support -->
+<aside id="browser">
+<h2 class="title-sub bd-danger bd-left bd-left-only">Browser Support <br>
+<small>Status &amp; Dukungan Browser </small>
+</h2>
+<p>Berikut adalah keterangan mengenai dukungan (support) dari beberapa browser.</p>
+<div class="table-responsive uk-overflow-container">
+<table class="table uk-table uk-text-nowrap full-width">
+      <thead>
+        <tr>
+          <th>HTML</th>
+          <th title="Chrome"><i class="fa fa-chrome fa fa-lg"></i></th>
+          <th title="Safari"><i class="fa fa-safari fa fa-lg"></i></th>
+          <th title="Firefox"><i class="fa fa-firefox fa fa-lg"></i></th>
+          <th title="Opera"><i class="fa fa-opera fa fa-lg"></i></th>
+          <th title="Internet Explorer"><i class="fa fa-internet-explorer fa fa-lg"></i></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Element</td>
+          <td>Chrome</td>
+          <td>Safari</td>
+          <td>Firefox</td>
+          <td>Opera</td>
+          <td>IE</td>
+        </tr>
+        <tr>
+          <td><code>&lt;base&gt;</code></td>
+          <td class="success">Ya</td>
+          <td class="success">Ya</td>
+          <td class="success">Ya</td>
+          <td class="success">Ya</td>
+          <td class="success">Ya</td>
+        </tr>
+      </tbody>
+</table>
+</div>
+
+<hr class="uk-article-divider">
+<!-- Default CSS -->
+<div class="dul-block">
+<h2 class="title-sub bd-danger bd-left bd-left-only">Pengaturan awal CSS yang berlaku&nbsp;</h2>
+<p>CSS untuk element <code>&lt;base&gt;</code> yang akan diberlakukan ketika awal inisial.</p>
+<div class="icode itheme css">
+  <pre class="prettyprint highlight language-css"><code data-language="css" class=" inline language-css"><span class="token comment" >/* Tidak Ada. Element ini tidak ada default style yang berlaku */</span></code></pre>
+</div>
+</div>
+</aside>

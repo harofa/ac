@@ -15,7 +15,7 @@
 <div class="section-line">
   <div class="section-line-inside"></div>
 </div>
-{% include recent_posts.html %}
+{% include recent_posts_amp.html %}
 </section>
 
 <!-- SECTION - categories -->
@@ -28,4 +28,4 @@
   <div class="section-text list-bg list-bg-clean list-bg-bordered">
 {% include category_list.html %}
   </div>
-</section>
+</section>{% for tag in page.tags.first %}{% case tag contains %}{% when "html" %}{% include widget_html.html %}{% when "css" %}{% include widget_css.html %}{% when "js" %}{% include widget_js.html %}{% when "jquery" %}{% include widget_jquery.html %}{% when "amp" %}{% include widget_amp.html %}{% when "php" %}{% include widget_php.html %}{% when "mariadb" %}{% include widget_mariadb.html %}{% when "bootstrap3" %}{% include widget_bootstrap3.html %}{% when "bootstrap4" %}{% include widget_bootstrap4.html %}{% else %}{% endcase %}{% endfor %}

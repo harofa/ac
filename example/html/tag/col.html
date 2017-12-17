@@ -1,0 +1,93 @@
+---
+layout: editor
+title: "HTML col tag example - demo + Editor"
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo HTML col tag</title>
+    <style>
+      /* Style hanya untuk contoh 2 */
+      .tabel-2 {
+        border-collapse: collapse;
+      }
+      .tabel-2 tr {
+        border: 1px solid #ccc;
+      }
+      .tabel-2 th {
+        padding: .5em;
+      }
+      .tabel-2 td {
+        padding: .4em;
+      }
+      .col-1 {
+        background: #DFF4FB;
+      }
+      .col-2 {
+        background: #f7f7f7
+      }
+      .col-3 {
+        background: #EDFFB6;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Contoh 1</h3>
+    <table>
+      <colgroup>
+        <col style="background: lime">
+        <col style="background: cyan">
+        <col span="2" style="background: yellow">
+      </colgroup>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>TTL</th>
+        <th>Pekerjaan</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>dr. Dedi Suryadi</td>
+        <td>10 Juli 1975</td>
+        <td>Dokter</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Prof. Yudi Wahyudi</td>
+        <td>10 Januari 1984</td>
+        <td>Dosen</td>
+      </tr>
+    </table>
+
+    <hr />
+    <h3>Contoh 2</h3>
+    <table class="tabel-2">
+      <colgroup>
+        <col class="col-1">
+        <col class="col-2">
+        <col span="2" class="col-3">
+      </colgroup>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>TTL</th>
+        <th>Pekerjaan</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>dr. Dedi Suryadi</td>
+        <td>10 Juli 1975</td>
+        <td>Dokter</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Prof. Yudi Wahyudi</td>
+        <td>10 Januari 1984</td>
+        <td>Dosen</td>
+      </tr>
+    </table>
+
+    <p><b>Catatan:</b> Contoh 1 menggunakan inline style, sedangkan Contoh 2 menggunakan style tambahan.</p>
+  </body>
+</html>

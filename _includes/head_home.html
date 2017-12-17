@@ -38,11 +38,12 @@
   <meta name="twitter:description" property="twitter:description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>
   <meta property="fb:app_id" content="{{ site.facebook.fb_app_id }}"/>
   <meta property="fb:admins" content="{{ site.facebook.fb_admins }}"/>
+  <meta property="fb:profile_id" content="{{ site.facebook.profile_id }}"/>
   <style>
   {% include css.html %}
   </style> 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Noto+Sans" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet"/>
   <script type="application/ld+json">
   { "@context": "http://schema.org",
     "@type": "Article",

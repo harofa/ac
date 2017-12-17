@@ -1,0 +1,75 @@
+---
+layout: editor
+title: "CSS float Demo"
+---
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Demo CSS Float - apacara.com</title>
+      <style>
+        .float-left img {
+          float: left  ;
+          margin-right: 20px;
+        }
+
+        .float-right img {
+          float: right  ;
+          margin-left: 20px;
+        }
+
+        /* clear */
+        .clear-left:after {
+          content: " ";
+          display:table;
+          clear:left;
+        }
+      </style>
+    </head>
+  <body>
+    <h2>Mengenal CSS float</h2>
+    <p> Berikut contoh penggunaan css float pada gambar.</p>
+    <h3>Sebelumnya, <em>normal flow</em></h3>
+
+    <div>
+      <img src="https://www.apacara.com/media/images/content/muslimah-cantik.jpg" width="150px" height="154">
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <hr />
+
+    <h3>Sesudahnya, dengan <em>float:left</em></h3>
+
+    <div class="float-left">
+      <img src="https://www.apacara.com/media/images/content/muslimah-cantik.jpg" width="150px" height="154">
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="clear-left"></div>
+
+    <hr />
+
+      <h3>Sesudahnya, dengan <em>float:right</em></h3>
+
+    <div class="float-right">
+      <img src="https://www.apacara.com/media/images/content/muslimah-cantik.jpg" width="150px" height="154">
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    </body>
+</html>

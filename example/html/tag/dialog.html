@@ -1,0 +1,61 @@
+---
+layout: editor
+title: "HTML dialog tag example - demo + Editor"
+---
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Demo HTML dialog tag</title>
+  </head>
+  <body>
+    <p>Silahkan, klik tombol dibawah ini untuk menampilkan dialog box.</p>
+
+    <!-- contoh dialog box dengan konten form didalamnya -->
+    <dialog id="dialog2">
+      <form method="dialog">
+        <label>
+         Pilih Jasa Kurir:
+          <input name="ekspedisi2" list="kurir2" />
+        </label>
+        <datalist id="kurir2">
+          <label>
+            Atau Pilih dari daftar:
+            <select name="ekspedisi2">
+              <option value=""></option>
+              <option>POS Indonesia</option>
+              <option>JNE</option>
+              <option>TIKI</option>
+            </select>
+          </label>
+        </datalist>
+        <menu>
+          <button id="cancel" type="reset">Batal</button>
+          <button type="submit">Oke</button>
+        </menu>
+      </form>
+    </dialog>
+    <menu>
+      <button id="showDialog">Tampilkan Dialog</button>
+    </menu>
+
+    <script>
+      (function() {
+        var bukaDialog = document.getElementById('showDialog');
+        var tutupDialog = document.getElementById('cancel');
+
+        // buka atau tampilkan dialog box
+        bukaDialog.addEventListener('click', function() {
+          document.getElementById('dialog2').showModal();
+        });
+
+        // tutup dialog box
+        tutupDialog.addEventListener('click', function() {
+          document.getElementById('dialog2').close();
+        });
+
+      })();
+    </script>
+  </body>
+</html>

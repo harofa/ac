@@ -1,0 +1,50 @@
+---
+layout: home
+metadata:
+  description: "Belajar seputar blogging, tutorial web design and development yang dapat dijadikan referensi dan rujukan bagi pemula dan pelajar."
+
+images:
+  figure: "apacara.png"
+  thumb: "apacara.png"
+---
+{% for post in paginator.posts %}
+<article class="content item-wrapper">
+<h2><a href="{{post.url | prepend: site.baseurl | prepend: site.url}}">{{post.title}}</a></h2>
+  <!-- META - top -->
+<div class="meta list-wrapper">
+<ul class="list list-bg list-inline">
+<li><i class="fa fa-user"></i>&nbsp;
+        <span>
+          {% assign post_author = site.data.people[post.author] %}
+          <a title="author" target="_blank" rel="author" href="{%if post_author.profile %}{{ post_author.profile }}{% else %}{{ site.author.profile }}{% endif %}">{%if post_author.name %}{{ post_author.name }}{% else %}{{ site.author.name }}{% endif %}</a></span>
+      </li>
+<li><i class="fa fa-clock-o"></i>&nbsp;<span title="Updated on">{% if post.dateModified %}{{ post.dateModified | date: "%B %-d, %Y" }}{% else %}{{ post.date | date: "%B %-d, %Y"}}{% endif %}</span>
+      </li>
+<li><i class="fa fa-folder"></i>&nbsp;<span><a href="{{ "/category" | prepend: site.baseurl | prepend: site.url }}/{{post.categories[1]}}">{{post.categories[1]}}</a></span></li>
+    </ul>
+</div>
+      <div class="article-body">
+    		<div class="img-wrapper">
+    		  <a href="{{post.url | prepend: site.baseurl | prepend: site.url}}"><figure><div class="img-responsive"><img src="{% if post.images.figure %}{{ post.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif post.images.figure_absolute %}{{ post.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt=""/></div></figure></a>
+    		</div>
+        {% if post.images.source_title %}
+        <div class="image-credit clearfix">
+          <div class="pull-right">
+          {% if site.image_source_link %}
+          <small class="text-muted">Source: <a  href="{{ post.images.source_url }}" target="_blank" rel="nofollow">{{ post.images.source_title }}</a></small>{% else %}<small class="text-muted">Source: {{ post.images.source_title }}</small>{% endif %}
+          </div>
+        </div>{% endif %}
+<p>{{ post.excerpt | strip_html | truncatewords:35}} <a class="button button-clean" href="{{post.url | prepend: site.baseurl | prepend: site.url}}">Continue Reading <i class="fa fa-chevron-circle-right"></i></a></p>
+</div>
+</article>
+<hr />
+{% endfor %}
+<!-- PAGINATION -->
+{% if paginator.total_pages > 1 %}
+<nav class="list-bg blog-pagination">
+  <ul class="row list next-prev list-bar">{% if paginator.previous_page %}
+    <li class="pull-left text-left"><a rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button button-clean"><span class="fa fa-angle-left"></span>&nbsp;&nbsp;Previous Article</a></li>{% endif %}{% if paginator.next_page %}
+    <li class="push-right text-right"><a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button button-clean">Next Article&nbsp;&nbsp;<span class="fa fa-angle-right"></span></a></li>{% endif %}
+  </ul>
+</nav>
+{% endif %}

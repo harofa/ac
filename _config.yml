@@ -9,8 +9,8 @@ permalink: /:categories/:title.html
 
 images_path:
   avatar: "/media/avatar/"
-  images: "/media/posts/"
-  images_thumb: "/media/posts/thumbs/"
+  images: "/media/"
+  images_thumb: "/media/"
   favicons: "/media/favicons/"
   logo: "/media/logo/"
 

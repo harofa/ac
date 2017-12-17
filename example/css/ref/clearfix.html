@@ -1,0 +1,121 @@
+---
+layout: editor
+title: "CSS clearfix | Contoh demo Example"
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh metode CSS clearfix</title>
+
+</head>
+<body>
+  <header>
+    <p>Belajar Web Design</p>
+    <style>
+      * {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      }
+      aside, article, section, header, footer, nav {
+      display: block;
+      }
+      body {
+      font-size: 100%;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background: #FFF;
+      color: #555;
+      font: normal 14px Arial, Helvetica, sans-serif;
+      }
+      header {
+      height: 50px;
+      background: rgba(0,160,210, 1);
+      overflow: hidden;
+      }
+      header p {
+      font: 110% Georgia, "Times New Roman", Times, serif;
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 3em;
+      letter-spacing:.1em;
+      margin: 0;
+      }
+      .container {
+      max-width: 80%;
+      margin: .3em auto .3em;
+      background: rgba(140,10,145, 1);
+      padding: .3em;
+      box-shadow: 1px 1px 3px tomato, -1px -1px 3px tomato;
+      }
+      #content {
+      background: #FFF;
+      height: 300px;
+      float: left;
+      padding: 20px;
+      width: 60%;
+      margin-bottom: 20px;
+      line-height: 1.5
+      }
+      #sidebar {
+      background: #E0EFF1;
+      height: 300px;
+      float: right;
+      padding: 20px;
+      width: 40%;
+      margin-bottom: 20px;
+      }
+      footer {
+      max-height: 100px;
+      line-height: 3em;
+      background: rgba(30,70,165, .5);
+      text-align: center;
+      color: white;
+      padding: 0 2em;
+      }
+
+      /* CLearfix */
+      .clearfix:before, .clearfix:after {
+      content: "";
+      display: table;
+      }
+      .clearfix:after {
+      clear: both;
+      }
+      .clearfix {
+      *zoom: 1;
+      }
+    </style>
+  </header>
+
+  <div class="container clearfix">
+  <div id="content">
+    <article>
+    <h1>Contoh CSS Clearfix</h1>
+    <p>
+        Ini adalah contoh design web dengan CSS float dan metode clearfix.
+    </p>
+    <p>
+        Cobalah hapus blok kode clearfix pada tab CSS, dan lihatlah perbedaannya .
+    </p>
+    <p><code>float: left;</code></p>
+      </article>
+  </div>
+
+  <div id="sidebar">
+    <aside>
+    ini adalah sidebar dengan <code>float: right;</code>.
+    </aside>
+  </div>
+
+  </div>
+
+  <footer>
+    Elemen ini sudah normal, sebelumnya sudah clear  dengan metode clearfix.<br />
+    <small>Copyright&copy; 2016.</small>
+  </footer>
+</body>
+</html>

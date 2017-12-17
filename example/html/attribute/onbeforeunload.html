@@ -1,0 +1,22 @@
+---
+layout: editor
+title: "HTML onbeforeunload attribute example with editor"
+add_js: 'function janganTinggalkanAku() {
+  return "Yakin mau meninggalkan aku?"
+}'
+---
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" /> <br>
+    <title>demo HTML onbeforeunload attribute</title>
+  </head>
+
+  <body onbeforeunload="return janganTinggalkanAku()">
+    <h1>Mengenai <code>onbeforeunload</code></h1>
+    <p><em>onbeforeunload</em> adalah HTML Event Attribute yang digunakan untuk menjalankan script sebelum halaman ditutup (unload). Biasanya digunakan untuk memberi peringatan seperti: "Apakah yakin halaman mau ditutup?",dan sebagainya.</p>
+    <h2>Petunjuk:</h2>
+    <p>Cobalah untuk menutup (close), atau reload halaman ini pada browser Anda, dialog box akan muncul meminta perhatian.</p>
+  </body>
+</html>

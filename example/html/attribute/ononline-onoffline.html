@@ -1,0 +1,20 @@
+---
+layout: editor
+title: "HTML ononline an onoffline attribute example"
+add_js: 'function gueOnline() {
+    alert ("Lagi online nih.. Lancar Jaya!");
+}
+function gueOffline() {
+    alert ("Waduh.. Sepertinya sedang offline nih.");
+}'
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML ononline an onoffline attribute</title>
+  </head>
+  <body ononline="gueOnline()" onoffline="gueOffline()">
+    <p>Untuk menguji coba, silahkan putus-sambung koneksi internet Anda. kemudian reload halaman ini.</p>
+  </body>
+</html>
