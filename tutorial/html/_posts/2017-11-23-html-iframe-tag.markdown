@@ -141,7 +141,7 @@ images:
 </pre>
   </div>
 </div>
-<p>Contoh kalkulator diatas diambil dari halaman lain (sumber lain dari <a href="https://www.apacara.com/media/files/calculator.html">calculator.php</a>) yang di-<em>embed</em> dalam sebuah iframe element.</p>
+<p>Contoh kalkulator diatas diambil dari halaman lain (sumber lain dari <a href="https://www.apacara.com/media/files/calculator.html">calculator.html</a>) yang di-<em>embed</em> dalam sebuah iframe element.</p>
 <p>Untuk menyamarkan iframe diatas, supaya terlihat seperti terdapat pada dokumen ini (bukan halaman lain), saya menghapus border dan mengaplikasikan style berikut:</p>
 <div class="icard">
   <div class="icard-heading clearfix co-wh bg-tw">

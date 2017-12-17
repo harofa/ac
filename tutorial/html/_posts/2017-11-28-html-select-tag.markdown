@@ -28,7 +28,7 @@ images:
 <p>
   <em>Select</em> berarti <em>memilih</em>. <strong>HTML <code>&lt;select&gt;</code> element</strong> merepresentasikan sebuah kontrol yang digunakan untuk menyeleksi (memilih) deretan opsi (daftar pilihan) yang diberikan baik satu ataupun lebih dari satu pilihan.
 </p>
-<p>Penggunaan element &lt;select&gt; dapat ditulis bersamaan dengan element <a href="https://www.apacara.com/tutorial/html/html-option-tag.php" title="HTML option element">&lt;option&gt;</a> yang berisi daftar pilihan (opsi) yang dapat ditulis beberapa item sebagai daftar pilihan yang akan diseleksi oleh user.</p>
+<p>Penggunaan element &lt;select&gt; dapat ditulis bersamaan dengan element <a href="https://www.apacara.com/tutorial/html/html-option-tag.html" title="HTML option element">&lt;option&gt;</a> yang berisi daftar pilihan (opsi) yang dapat ditulis beberapa item sebagai daftar pilihan yang akan diseleksi oleh user.</p>
 
 <!-- Attribute  -->
 <section id="attribute">
