@@ -53,7 +53,7 @@ datePublished: "2017-11-02T00:00:00+07:00"
  <h2 class="title-sub bd-primary bd-left bd-left-only">Description
  <br><small>Penjelasan</small>
  </h2>
-<p><code>amp-accordion</code> element digunakan digunakan pada sebuah element yang memerlukan <em>interface</em> untuk dapat ditampilkan atau disembunyikan. Kebutuhan ini, biasanya terjadi seperti... apabila kita hanya ingin menampilkan teks pendek, kemudian kita sediakan link/tombol yang apabila diklik, maka akan terbuka teks utuh (lengkap) yang sesungguhnya tanpa harus me-<em>reload</em> (memuat ulang) halaman yang sedang terbuka. Tentunya, masih banyak kegunaan lainnya yang serupa.</p>
+<p><code>amp-accordion</code> element digunakan pada sebuah element yang memerlukan <em>interface</em> untuk dapat ditampilkan atau disembunyikan. Kebutuhan ini, biasanya terjadi seperti... apabila kita hanya ingin menampilkan teks pendek, kemudian kita sediakan link/tombol yang apabila diklik, maka akan terbuka teks utuh (lengkap) yang sesungguhnya tanpa harus me-<em>reload</em> (memuat ulang) halaman yang sedang terbuka. Tentunya, masih banyak kegunaan lainnya yang serupa.</p>
 <p>Element yang dapat disembunyikan dan ditampilkan disebut dengan istilah <em>Collapsable</em> dan <em>Expandable</em>.</p>
 <p>Dalam <code>amp-accordion</code>, setiap konten atau element yang terletak langsung didalamnya (<em>direct children</em>) dianggap sebagai bagian (section) dari accordion tersebut. Oleh karenanya, element ini harus menggunakan tag &lt;section&gt; dan boleh terdapat lebih dari satu section.</p>
 <p>Pada setiap bagian (section) hanya boleh ada dua element (<em>direct children</em>). Jika Element pertama (<em>collapsable</em>) diklik maka element kedua (<em>expandable</em>) akan terbuka.</p>
