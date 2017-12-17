@@ -114,8 +114,7 @@ images:
 <pre class="prettyprint linenums line-numbers highlight language-markup" data-line="2"><code data-language="html" class="html  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>del</span><span class="token punctuation">&gt;</span></span>Kalimat ini sudah dihapus<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>del</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 24px;">
-</div></pre>
+</pre>
 </div>
 </div>
 <hr class="uk-article-divider">
@@ -142,9 +141,7 @@ images:
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>del</span> <span class="token attr-name">datetime</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>2015-06-11T09:00+07:00<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Memasak<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>del</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>Membeli Notebook<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 72px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 96px;">
-</div></pre>
+</pre>
 </div>
 </div>
   <p>Pada contoh diatas, baris ke-<b>4</b> dan ke-<b>5</b> menunjukkan kegiatan yang sudah dilakukan yang ditandai dengan dicoretnya teks tersebut menggunakan element <code>&lt;del&gt;</code> berikut keterangan tanggal dan waktu selesai dikerjakannya.</p>

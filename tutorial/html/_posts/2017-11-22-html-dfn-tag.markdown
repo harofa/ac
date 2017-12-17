@@ -83,8 +83,7 @@ images:
 <pre class="prettyprint linenums line-numbers highlight language-markup" data-line="2"><code data-language="html" class="html  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dfn</span><span class="token punctuation">&gt;</span></span>HTML<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dfn</span><span class="token punctuation">&gt;</span></span> adalah bahasa markup yang digunakan untuk memformat struktur halaman web.
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 24px;">
-</div></pre>
+</pre>
 </div>
 </div>
 <hr class="uk-article-divider">
@@ -107,8 +106,7 @@ images:
 <pre class="prettyprint linenums line-numbers highlight language-markup" data-line="2"><code data-language="html" class="html  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dfn</span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>HyperText Markup Language<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>HTML<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dfn</span><span class="token punctuation">&gt;</span></span> adalah bahasa markup yang digunakan untuk memformat struktur halaman web.
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 24px;">
-</div></pre>
+</pre>
 </div>
 </div>
     <p>Contoh &lt;dfn&gt; element dengan attribute <code>title</code> langsung didalam element &lt;dfn&gt; itu sendiri.</p>
@@ -137,9 +135,7 @@ images:
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dfn</span><span class="token punctuation">&gt;</span></span>
   adalah bahasa markup yang digunakan untuk memformat struktur halaman web.
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 24px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 120px;">
-</div></pre>
+</pre>
 </div>
 </div>
     <p>Contoh &lt;dfn&gt; dengan &lt;abbr&gt; element didalamnya dan menggunakan attribute <code>title</code> untuk istilah (term) yang akan didefinisikan.</p>
@@ -169,9 +165,7 @@ images:
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dfn</span><span class="token punctuation">&gt;</span></span>
   adalah bahasa markup yang digunakan untuk memformat struktur halaman web.
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 24px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 120px;">
-</div></pre>
+</pre>
 </div>
 </div>
     <p>Contoh &lt;dfn&gt; element menggunakan <code>id</code>, sehingga bisa digunakan untuk mereferensikan definisi yang merujuk pada <code>id</code> tersebut menggunakanan <a href="a.html">&lt;a&gt;</a> element.</p>

@@ -90,9 +90,7 @@ images:
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>datalist</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 72px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 168px;">
-</div></pre>
+</pre>
 </div>
 </div>
 <h5>Contoh 2</h5>
@@ -125,9 +123,7 @@ images:
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>datalist</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 96px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 336px;">
-</div></pre>
+</pre>
 </div>
 </div>
 

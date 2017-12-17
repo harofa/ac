@@ -119,8 +119,7 @@ Durasi:
 <pre class="line-numbers prettyprint highlight language-markup" data-line="2"><code data-language="html" class="html  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Acara dimulai pada:
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>time</span> <span class="token attr-name">datetime</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>2015-03-07<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>07 Maret 2015<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>time</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 24px;">
-</div></pre>
+</pre>
 </div>
   <p>Pelajari selengkapnya mengenai HTML <a href="https://www.apacara.com/blog/html-time-tag.html">&lt;time&gt;</a> element.</p>
   </div>

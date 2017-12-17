@@ -118,8 +118,7 @@ images:
 sumberBayangan<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span>
 <span class="token string">'&lt;h2&gt;Time is Money&lt;/h2&gt; &lt;content select="p"&gt;&lt;/content&gt;'</span><span class="token punctuation">;</span>
 </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 336px;">
-</div></pre>
+</pre>
 </div>
 </div>
 <p>Dari contoh diatas, didalam element <code>&lt;div&gt;</code> (baris 2-5) terdapat element <code>&lt;h1&gt;</code> , kemudian diganti menjadi <code>&lt;h2&gt;</code> (lihat baris 15) dengan konten yang benar (Time is Money) ditambah dengan konten yang dipilih adalah element <code>&lt;p&gt;</code> (Waktu adalah Uang), sehingga hasilnya bisa dilihat pada <em>Code Editor</em> dibawah ini.</p>

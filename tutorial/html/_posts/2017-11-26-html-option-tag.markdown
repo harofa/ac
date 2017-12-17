@@ -126,11 +126,7 @@ images:
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>teri<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Ikan Teri<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>tongkol<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Ikan Tongkol<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 24px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 48px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 72px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 96px;">
-</div></pre>
+</pre>
 </div>
 </div>
   </div>

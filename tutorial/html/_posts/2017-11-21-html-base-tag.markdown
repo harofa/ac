@@ -119,10 +119,7 @@ HTML <code>base</code> element digunakan untuk menentukkan <em>document base URL
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 96px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 240px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 336px;">
-</div></pre>
+</pre>
 </div>
 </div>
 <h5>Penjelasan:</h5>

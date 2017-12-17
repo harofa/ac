@@ -84,9 +84,7 @@ images:
     HTML5 adalah versi terbaru dari spesifikasi HTML yang yang dikembangkan oleh W3C. Sebenarnya ada dua versi spesifikasi, satu dikembangkan oleh WHATWG dan satunya lagi oleh W3C.
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 0px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 120px;">
-</div></pre>
+</pre>
 </div>
 </div>
   </div>

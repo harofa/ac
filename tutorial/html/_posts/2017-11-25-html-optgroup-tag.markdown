@@ -113,11 +113,7 @@ images:
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span><span class="token punctuation">&gt;</span></span>Tongkol<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>optgroup</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 24px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 96px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 120px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 192px;">
-</div></pre>
+</pre>
 </div>
 </div>
   	<hr class="uk-article-divider">
@@ -151,11 +147,7 @@ images:
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
-<div aria-hidden="true" class=" line-highlight" style="top: 96px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 168px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 192px;">
-</div><div aria-hidden="true" class=" line-highlight" style="top: 264px;">
-</div></pre>
+</pre>
 </div>
 </div>
 
