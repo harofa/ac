@@ -28,7 +28,7 @@ images:
 <p><code>&lt;figure&gt;</code> element digunakan untuk merepresentasikan konten tersendiri (<i>self-contained</i>, seperti sebuah kalimat lengkap), contohnya sebuah ilustrasi, diagram, foto, video, skema, deretan kode (code listings) dan lain sebagainya.</p>
 <p><code>&lt;figure&gt;</code> element digunakan untuk meng-<i>group</i> blok konten yang dapat dipindahkan posisinya dari blok utama sebuah dokumen tanpa mempengaruhi arti dari induk dokumen.</p>
 <p>&lt;figure&gt; element dapat ditulis secara bersarang (nested) yang artinya, dalam sebuah <code>&lt;figure&gt;</code>..<code>&lt;/figure&gt;</code> dapat ditulis <code>&lt;figure&gt;</code> element lainnya yang berkaitan.</p>
-<p>Di dalam <code>&lt;figure&gt;</code> element dapat ditulis sebuah <i>caption</i> (judul) yang ditandai dengan tag <a href="http://www.apacara.com/blog/html-figcaption-tag.html" tile="belajar HTML figcaption element">&lt;figcaption&gt;</a>.</p>
+<p>Di dalam <code>&lt;figure&gt;</code> element dapat ditulis sebuah <i>caption</i> (judul) yang ditandai dengan tag <a href="https://www.apacara.com/tutorial/html/html-figcaption-tag.html" tile="belajar HTML figcaption element">&lt;figcaption&gt;</a>.</p>
 <p>HTML <code>&lt;figure&gt;</code> merupakan tag yang baru diperkenalkan pada HTML5.</p>
 
 <hr class="uk-article-divider">
@@ -40,7 +40,7 @@ images:
     <div class="">
         <p>&lt;figure&gt; tag mencakup <em>global attributes</em>, yang artinya tag tersebut dapat disisipkan semua attributes yang termasuk dalam global attributes yang secara umum berlaku untuk semua HTML tags.</p>
         <div class="footer-callout info">
-          <p>Silahkan, lihat referensi mengenai <a href="http://www.apacara.com/blog/html-global-attribute.html">HTML Global Attribute</a></p>
+          <p>Silahkan, lihat referensi mengenai <a href="https://www.apacara.com/tutorial/html/html-global-attribute.html">HTML Global Attribute</a></p>
         </div>
     </div>
 </section>
@@ -53,7 +53,7 @@ images:
     <div class="dul-callout dul-callout-warning">
         <p>&lt;figure&gt; tag mencakup <em>event attributes</em>, yang artinya attribute tersebut dijalankan ketika ada interaksi dari user atau dalam suatu peristiwa (kejadian). Contoh: menjalankan script (JavaScript) ketika halaman web pada jendela browser hendak ditutup, dan lain sebagainya.</p>
         <div class="footer-callout warning">
-          <p>Silahkan, lihat referensi mengenai <a href="http://www.apacara.com/blog/html-event-attribute.html">HTML Events Attribute</a></p>
+          <p>Silahkan, lihat referensi mengenai <a href="https://www.apacara.com/tutorial/html/html-event-attribute.html">HTML Events Attribute</a></p>
         </div>
     </div>
 </section>

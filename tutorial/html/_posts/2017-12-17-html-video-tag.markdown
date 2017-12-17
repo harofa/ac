@@ -215,7 +215,7 @@ images:
     <div class="">
         <p>&lt;video&gt; tag mencakup <em>global attributes</em>, yang artinya tag tersebut dapat disisipkan semua attributes yang termasuk dalam global attributes yang secara umum berlaku untuk semua HTML tags.</p>
         <div class="footer-callout info">
-          <p>Silahkan, lihat referensi mengenai <a href="http://www.apacara.com/blog/html-global-attribute.html">HTML Global Attribute</a></p>
+          <p>Silahkan, lihat referensi mengenai <a href="https://www.apacara.com/tutorial/html/html-global-attribute.html">HTML Global Attribute</a></p>
         </div>
     </div>
 </section>
@@ -228,7 +228,7 @@ images:
     <div class="dul-callout dul-callout-warning">
         <p>&lt;video&gt; tag mencakup <em>event attributes</em>, yang artinya attribute tersebut dijalankan ketika ada interaksi dari user atau dalam suatu peristiwa (kejadian). Contoh: menjalankan script (JavaScript) ketika halaman web pada jendela browser hendak ditutup, dan lain sebagainya.</p>
         <div class="footer-callout warning">
-          <p>Silahkan, lihat referensi mengenai <a href="http://www.apacara.com/blog/html-event-attribute.html">HTML Events Attribute</a></p>
+          <p>Silahkan, lihat referensi mengenai <a href="https://www.apacara.com/tutorial/html/html-event-attribute.html">HTML Events Attribute</a></p>
         </div>
     </div>
 </section>
@@ -291,7 +291,7 @@ images:
 </section>
 
 <p>Dibawah ini, contoh berikut editor untuk <strong>belajar HTML video</strong> dengan track dan <a href="https://www.apacara.com/blog/apa-itu-webvtt.html">.vtt file</a> yang dapat digunakan untuk menulis <em>caption</em> atau judul video, dapat pula digunakan untuk menulis subtitle yang sering kita lihat pada video karaoke.</p>
-<p>Untuk lebih jelasnya, silahkan pelajari juga mengenai <a href="https://www.apacara.com/blog/html-track-tag.html">HTML &lt;track&gt; element.</a></p>
+<p>Untuk lebih jelasnya, silahkan pelajari juga mengenai <a href="https://www.apacara.com/tutorial/html/html-track-tag">HTML &lt;track&gt; element.</a></p>
 
 <h2 class="title-sub bd-danger bd-left bd-left-only">Contoh Lengkap
 </h2>

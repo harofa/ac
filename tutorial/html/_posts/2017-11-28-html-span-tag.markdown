@@ -26,7 +26,7 @@ images:
     <small>Penjelasan HTML</small>
 </h2>
 <p>
-  <strong>HTML <code>&lt;span&gt;</code> element</strong> merupakan element inline (elemen yang tidak membentuk garis baru) yang digunakan untuk mengelompokkan beberapa element yang dimaksudkan untuk memudahkan dalam pemberian style (dengan CSS). Misalnya, memudahkan untuk men-style element ketika digunakan bersama dengan <a href="http://www.apacara.com/blog/html-global-attribute.html">global attributes</a>, contohnya: attribute <code>class</code>, <code>lang</code> atau <code>dir</code>.
+  <strong>HTML <code>&lt;span&gt;</code> element</strong> merupakan element inline (elemen yang tidak membentuk garis baru) yang digunakan untuk mengelompokkan beberapa element yang dimaksudkan untuk memudahkan dalam pemberian style (dengan CSS). Misalnya, memudahkan untuk men-style element ketika digunakan bersama dengan <a href="https://www.apacara.com/tutorial/html/html-global-attribute.html">global attributes</a>, contohnya: attribute <code>class</code>, <code>lang</code> atau <code>dir</code>.
 </p>
 <p><code>&lt;span&gt;</code> element hanya digunakan pada sebuah konten yang tidak merepresentasikan apapun, yang tidak memiliki arti <em>semantic</em> (semantic meaning).</p>
 
@@ -39,7 +39,7 @@ images:
     <div class="">
         <p>&lt;span&gt; tag mencakup <em>global attributes</em>, yang artinya tag tersebut dapat disisipkan semua attributes yang termasuk dalam global attributes yang secara umum berlaku untuk semua HTML tags.</p>
         <div class="footer-callout info">
-          <p>Silahkan, lihat referensi mengenai <a href="http://www.apacara.com/blog/html-global-attribute.html">HTML Global Attribute</a></p>
+          <p>Silahkan, lihat referensi mengenai <a href="https://www.apacara.com/tutorial/html/html-global-attribute.html">HTML Global Attribute</a></p>
         </div>
     </div>
 </section>
@@ -52,7 +52,7 @@ images:
     <div class="dul-callout dul-callout-warning">
         <p>&lt;span&gt; tag mencakup <em>event attributes</em>, yang artinya attribute tersebut dijalankan ketika ada interaksi dari user atau dalam suatu peristiwa (kejadian). Contoh: menjalankan script (JavaScript) ketika halaman web pada jendela browser hendak ditutup, dan lain sebagainya.</p>
         <div class="footer-callout warning">
-          <p>Silahkan, lihat referensi mengenai <a href="http://www.apacara.com/blog/html-event-attribute.html">HTML Events Attribute</a></p>
+          <p>Silahkan, lihat referensi mengenai <a href="https://www.apacara.com/tutorial/html/html-event-attribute.html">HTML Events Attribute</a></p>
         </div>
     </div>
 </section>

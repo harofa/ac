@@ -39,7 +39,7 @@ Referensi Belajar <strong>HTML abbr tag</strong>. Tutorial dan panduan mengenai 
 <div class="">
 <p>&lt;abbr&gt; tag mencakup <em>global attributes</em>, yang artinya tag tersebut dapat disisipkan semua attributes yang termasuk dalam global attributes yang secara umum berlaku untuk semua HTML tags.</p>
 <div class="footer-callout info">
-<p>Silahkan, lihat referensi mengenai <a href="http://www.apacara.com/blog/html-global-attribute.html">HTML Global Attribute</a></p>
+<p>Silahkan, lihat referensi mengenai <a href="https://www.apacara.com/tutorial/html/html-global-attribute.html">HTML Global Attribute</a></p>
 </div>
 </div>
 </section>
@@ -52,7 +52,7 @@ Referensi Belajar <strong>HTML abbr tag</strong>. Tutorial dan panduan mengenai 
 <div class="dul-callout dul-callout-warning">
 <p>&lt;abbr&gt; tag mencakup <em>event attributes</em>, yang artinya attribute tersebut dijalankan ketika ada interaksi dari user atau dalam suatu peristiwa (kejadian). Contoh: menjalankan script (JavaScript) ketika halaman web pada jendela browser hendak ditutup, dan lain sebagainya.</p>
 <div class="footer-callout warning">
-<p>Silahkan, lihat referensi mengenai <a href="http://www.apacara.com/blog/html-event-attribute.html">HTML Events Attribute</a></p>
+<p>Silahkan, lihat referensi mengenai <a href="https://www.apacara.com/tutorial/html/html-event-attribute.html">HTML Events Attribute</a></p>
 </div>
 </div>
 </section>
