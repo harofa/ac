@@ -84,9 +84,7 @@ images:
     <i class="fa fa-html5" aria-hidden="true"></i>
     <span>HTML</span>
   </div>
-  <div class="icard-bar-right pull-right">
-    <span>Example</span>
-  </div>
+  
 </div>
 </div>
 <div class="icard-body icode itheme">
@@ -116,9 +114,7 @@ baris kedalam
     <i class="fa fa-html5" aria-hidden="true"></i>
     <span>HTML</span>
   </div>
-  <div class="icard-bar-right pull-right">
-    <span>Example</span>
-  </div>
+  
 </div>
 </div>
 <div class="icard-body icode itheme">

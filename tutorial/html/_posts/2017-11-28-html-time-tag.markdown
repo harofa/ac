@@ -97,9 +97,7 @@ images:
     <i class="fa fa-html5" aria-hidden="true"></i>
     <span>HTML</span>
   </div>
-  <div class="icard-bar-right pull-right">
-    <span>Example</span>
-  </div>
+  
 </div>
 </div>
 <div class="icard-body icode itheme">
@@ -123,9 +121,7 @@ images:
     <i class="fa fa-html5" aria-hidden="true"></i>
     <span>HTML</span>
   </div>
-  <div class="icard-bar-right pull-right">
-    <span>Example</span>
-  </div>
+  
 </div>
 </div>
 <div class="icard-body icode itheme">
@@ -148,9 +144,7 @@ Saya bekerja pada pukul <span class="token tag"><span class="token tag"><span cl
     <i class="fa fa-html5" aria-hidden="true"></i>
     <span>HTML</span>
   </div>
-  <div class="icard-bar-right pull-right">
-    <span>Example</span>
-  </div>
+  
 </div>
 </div>
 <div class="icard-body icode itheme">

@@ -249,9 +249,7 @@ images:
     <i class="fa fa-html5" aria-hidden="true"></i>
     <span>HTML</span>
   </div>
-  <div class="icard-bar-right pull-right">
-    <span>Example</span>
-  </div>
+  
 </div>
 </div>
 <div class="icard-body icode itheme">
@@ -291,7 +289,7 @@ images:
 </section>
 
 <p>Dibawah ini, contoh berikut editor untuk <strong>belajar HTML video</strong> dengan track dan <a href="https://www.apacara.com/tutorial/apa/apa-itu-webvtt.html">.vtt file</a> yang dapat digunakan untuk menulis <em>caption</em> atau judul video, dapat pula digunakan untuk menulis subtitle yang sering kita lihat pada video karaoke.</p>
-<p>Untuk lebih jelasnya, silahkan pelajari juga mengenai <a href="https://www.apacara.com/tutorial/html/html-track-tag">HTML &lt;track&gt; element.</a></p>
+<p>Untuk lebih jelasnya, silahkan pelajari juga mengenai <a href="https://www.apacara.com/tutorial/html/html-track-tag.html">HTML &lt;track&gt; element.</a></p>
 
 <h2 class="title-sub bd-danger bd-left bd-left-only">Contoh Lengkap
 </h2>
