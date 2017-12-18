@@ -105,9 +105,7 @@ Ini adalah nilai <em>default</em>. Lebar dan tinggi (<code>width</code> dan <cod
         <i class="fa fa-css" aria-hidden="true"></i>
         <span>CSS</span>
       </div>
-      <div class="icard-bar-right pull-right">
-        <span>Example</span>
-      </div>
+      
     </div>
   </div>
   <div class="icard-body icode itheme">
@@ -130,9 +128,7 @@ Ini adalah nilai <em>default</em>. Lebar dan tinggi (<code>width</code> dan <cod
         <i class="fa fa-html" aria-hidden="true"></i>
         <span>HTML</span>
       </div>
-      <div class="icard-bar-right pull-right">
-        <span>Example</span>
-      </div>
+      
     </div>
   </div>
   <div class="icard-body icode itheme">

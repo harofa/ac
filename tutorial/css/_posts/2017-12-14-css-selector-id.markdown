@@ -79,9 +79,7 @@ Property: Value;  /* Deklarasi CSS */
         <i class="fa fa-css" aria-hidden="true"></i>
         <span>CSS</span>
       </div>
-     <!-- <div class="icard-bar-right pull-right">
-        <span>Example</span>
-      </div> -->
+     <!--  -->
     </div>
   </div>
   <div class="icard-body icode itheme">
