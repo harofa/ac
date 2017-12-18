@@ -107,7 +107,7 @@ HTML <code>base</code> element digunakan untuk menentukkan <em>document base URL
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>base</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.apacara.com/media/images/<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>base</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/images/<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
@@ -123,7 +123,7 @@ HTML <code>base</code> element digunakan untuk menentukkan <em>document base URL
 </div>
 </div>
 <h5>Penjelasan:</h5>
-<p>Pertama, kita menulis markup &lt;base href="<code>alamat yang dijadikan URL dasar</code>" target="<code>target url</code>" &gt; didalam element &lt;head&gt; sebuah dokumen web (lihat baris 5). Kemudian, pada baris ke-9 kode diatas, kita cukup menulis nama file yang terletak pada base url tersebut (baris 5), sehingga baris ke-9 tersebut menjadi &lt;img src="http://www.apacara.com/images/apacara.com.png"&gt;. Selanjutnya, pada baris ke-13 link tersebut menggunakan <code>target</code> attribute pada base element (baris 5) sehingga menjadi &lt;a href="http://www.apacara.com" target="_blank"&gt;Kunjungi apacara.com&lt;/a&gt;.
+<p>Pertama, kita menulis markup &lt;base href="<code>alamat yang dijadikan URL dasar</code>" target="<code>target url</code>" &gt; didalam element &lt;head&gt; sebuah dokumen web (lihat baris 5). Kemudian, pada baris ke-9 kode diatas, kita cukup menulis nama file yang terletak pada base url tersebut (baris 5), sehingga baris ke-9 tersebut menjadi &lt;img src="https://www.apacara.com/images/apacara.com.png"&gt;. Selanjutnya, pada baris ke-13 link tersebut menggunakan <code>target</code> attribute pada base element (baris 5) sehingga menjadi &lt;a href="http://www.apacara.com" target="_blank"&gt;Kunjungi apacara.com&lt;/a&gt;.
 </p>
 </div>
 

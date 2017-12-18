@@ -149,7 +149,7 @@ Durasi:
     <span>SOURCE</span>
   </div>
   <div class="icard-bar-right pull-right">
-    <a href="http://www.apacara.com/example/html/attribute/datetime.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+    <a href="https://www.apacara.com/example/html/attribute/datetime.html" target="_blank" rel="nofollow"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
   </div>
 </div>
 </div>

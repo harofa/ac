@@ -82,7 +82,7 @@ HTML <code>audio</code> element menunjukkan sebuah sound atau audio yang dapat d
       <p>Contoh:   <br>
       </p><div class="icard"><div class="icard-body icode itheme"><pre class="prettyprint highlight language-markup"><code class="block inline code-itheme language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>audio</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/audio/kucing.mp3<span class="token punctuation">"</span></span> <span class="token attr-name">autoplay</span> <span class="token attr-name">controls</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>audio</span><span class="token punctuation">&gt;</span></span></code></pre></div></div>
       <p></p>
-      <a target="_blank" href="http://www.apacara.com/example/html/tag/audio-autoplay.html">
+      <a target="_blank" href="https://www.apacara.com/example/html/tag/audio-autoplay.html">
       <span class="button button-clean absolute" title="Contoh lengkap dan hasilnya pada code editor">Lihat hasilnya</span>
       </a>
       <div class="icard-footer clearfix bg-gr2 icode itheme">
@@ -97,7 +97,7 @@ HTML <code>audio</code> element menunjukkan sebuah sound atau audio yang dapat d
       <p>Contoh:   <br>
       </p><div class="icard"><div class="icard-body icode itheme"><pre class="prettyprint highlight language-markup"><code class="block inline code-itheme language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>audio</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/audio/kucing.mp3<span class="token punctuation">"</span></span> <span class="token attr-name">controls</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>audio</span><span class="token punctuation">&gt;</span></span></code></pre></div></div>
       <p></p>
-      <a target="_blank" href="http://www.apacara.com/example/html/tag/audio-controls.html">
+      <a target="_blank" href="https://www.apacara.com/example/html/tag/audio-controls.html">
       <span class="button button-clean absolute" title="Contoh lengkap dan hasilnya pada code editor">Lihat hasilnya</span>
       </a>
       <div class="icard-footer clearfix bg-gr2 icode itheme">
@@ -112,7 +112,7 @@ HTML <code>audio</code> element menunjukkan sebuah sound atau audio yang dapat d
       <p>Contoh:   <br>
       </p><div class="icard"><div class="icard-body icode itheme"><pre class="prettyprint highlight language-markup"><code class="block inline code-itheme language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>audio</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/audio/kucing.mp3<span class="token punctuation">"</span></span> <span class="token attr-name">loop</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>audio</span><span class="token punctuation">&gt;</span></span></code></pre></div></div>
       <p></p>
-      <a target="_blank" href="http://www.apacara.com/example/html/tag/audio-loop.html">
+      <a target="_blank" href="https://www.apacara.com/example/html/tag/audio-loop.html">
       <span class="button button-clean absolute" title="Contoh lengkap dan hasilnya pada code editor">Lihat hasilnya</span>
       </a>
       <div class="icard-footer clearfix bg-gr2 icode itheme">
@@ -127,7 +127,7 @@ HTML <code>audio</code> element menunjukkan sebuah sound atau audio yang dapat d
       <p>Contoh:   <br>
       </p><div class="icard"><div class="icard-body icode itheme"><pre class="prettyprint highlight language-markup"><code class="block inline code-itheme language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>audio</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/audio/kucing.mp3<span class="token punctuation">"</span></span> <span class="token attr-name">muted</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>audio</span><span class="token punctuation">&gt;</span></span></code></pre></div></div>
       <p></p>
-      <a target="_blank" href="http://www.apacara.com/example/html/tag/audio-muted.html">
+      <a target="_blank" href="https://www.apacara.com/example/html/tag/audio-muted.html">
       <span class="button button-clean absolute" title="Contoh lengkap dan hasilnya pada code editor">Lihat hasilnya</span>
       </a>
       <div class="icard-footer clearfix bg-gr2 icode itheme">
@@ -142,7 +142,7 @@ HTML <code>audio</code> element menunjukkan sebuah sound atau audio yang dapat d
       <p>Contoh:   <br>
       </p><div class="icard"><div class="icard-body icode itheme"><pre class="prettyprint highlight language-markup"><code class="block inline code-itheme language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>audio</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/audio/kucing.mp3<span class="token punctuation">"</span></span> <span class="token attr-name">preload</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>metadata<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>audio</span><span class="token punctuation">&gt;</span></span></code></pre></div></div>
       <p></p>
-      <a target="_blank" href="http://www.apacara.com/example/html/tag/audio-preload.html">
+      <a target="_blank" href="https://www.apacara.com/example/html/tag/audio-preload.html">
       <span class="button button-clean absolute" title="Contoh lengkap dan hasilnya pada code editor">Lihat hasilnya</span>
       </a>
       <div class="icard-footer clearfix bg-gr2 icode itheme">
@@ -157,7 +157,7 @@ HTML <code>audio</code> element menunjukkan sebuah sound atau audio yang dapat d
       <p>Contoh:   <br>
       </p><div class="icard"><div class="icard-body icode itheme"><pre class="prettyprint highlight language-markup"><code class="block inline code-itheme language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>audio</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.apacara.com/media/audio/kucing.mp3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>audio</span><span class="token punctuation">&gt;</span></span></code></pre></div></div>
       <p></p>
-      <a target="_blank" href="http://www.apacara.com/example/html/tag/audio-src.html">
+      <a target="_blank" href="https://www.apacara.com/example/html/tag/audio-src.html">
       <span class="button button-clean absolute" title="Contoh lengkap dan hasilnya pada code editor">Lihat hasilnya</span>
       </a>
       <div class="icard-footer clearfix bg-gr2 icode itheme">
