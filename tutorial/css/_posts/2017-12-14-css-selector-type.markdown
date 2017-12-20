@@ -21,6 +21,7 @@ images:
 <em>Type Selector</em> digunakan untuk memberi style pada dokumen html berdasarkan tag / element tertentu, contoh: <code>p {color: green}</code> yang artinya, element <code>&lt;p&gt;...&lt;/p&gt;</code> akan memiliki teks berwarna hijau.
 </p>
 
+<p>Type selector terkadang disebut juga <em>element selector</em>.
 <!-- Syntax  -->
 <section id="syntax">
   <h3 class="title-sub bd-danger bd-left bd-left-only">Syntax <br>

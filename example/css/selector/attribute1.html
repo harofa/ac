@@ -1,0 +1,28 @@
+---
+layout: editor
+title: "CSS class selector | Contoh"
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo CSS attribute selector - apacara.com</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style>
+      p {
+        color: blue;
+      }
+
+      p[class] {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="user1">Markonah</p>
+    <p>Juminten</p>
+    <p class="user2">Tukimin</p>
+
+    <p>Menyeleksi p yang memiliki attribute class meskipun nilai ataupun value-nya berbeda (Markonah dan Tukimin). adapun p element yang tidak memiliki attribute class, maka berwarna biru (blue)</p>
+  </body>
+</html>
