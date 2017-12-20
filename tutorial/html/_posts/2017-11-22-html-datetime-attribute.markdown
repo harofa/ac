@@ -189,7 +189,7 @@ Durasi:
   <small>Status &amp; Dukungan Browser </small>
 </h3>
 <p>Berikut adalah keterangan mengenai dukungan (support) dari beberapa browser.</p>
-<div class="uk-overflow-container">
+<div class="table-responsive uk-overflow-container">
   <table class="table uk-table uk-table-striped uk-table-bordered uk-text-nowrap full-width">
         <thead>
           <tr>
