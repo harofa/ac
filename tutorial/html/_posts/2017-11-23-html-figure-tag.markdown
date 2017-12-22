@@ -28,7 +28,7 @@ images:
 <p><code>&lt;figure&gt;</code> element digunakan untuk merepresentasikan konten tersendiri (<i>self-contained</i>, seperti sebuah kalimat lengkap), contohnya sebuah ilustrasi, diagram, foto, video, skema, deretan kode (code listings) dan lain sebagainya.</p>
 <p><code>&lt;figure&gt;</code> element digunakan untuk meng-<i>group</i> blok konten yang dapat dipindahkan posisinya dari blok utama sebuah dokumen tanpa mempengaruhi arti dari induk dokumen.</p>
 <p>&lt;figure&gt; element dapat ditulis secara bersarang (nested) yang artinya, dalam sebuah <code>&lt;figure&gt;</code>..<code>&lt;/figure&gt;</code> dapat ditulis <code>&lt;figure&gt;</code> element lainnya yang berkaitan.</p>
-<p>Di dalam <code>&lt;figure&gt;</code> element dapat ditulis sebuah <i>caption</i> (judul) yang ditandai dengan tag <a href="https://www.apacara.com/tutorial/html/html-figcaption-tag.html" tile="belajar HTML figcaption element">&lt;figcaption&gt;</a>.</p>
+<p>Di dalam <code>&lt;figure&gt;</code> element dapat ditulis sebuah <i>caption</i> (judul) yang ditandai dengan tag <a href="https://www.apacara.com/tutorial/html/html-figcaption-tag.html" title="belajar HTML figcaption element">&lt;figcaption&gt;</a>.</p>
 <p>HTML <code>&lt;figure&gt;</code> merupakan tag yang baru diperkenalkan pada HTML5.</p>
 
 <hr class="uk-article-divider">
