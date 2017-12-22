@@ -30,6 +30,9 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet"/>
 <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <script async="async" custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+{% if site.ads.enabled %}
+<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+{% endif %}
 {% if site.use_fb_comments %}
 <script async custom-element="amp-facebook-comments" src="https://cdn.ampproject.org/v0/amp-facebook-comments-0.1.js"></script>{% elsif site.disqus %}<script async="async" custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
 {% endif %}

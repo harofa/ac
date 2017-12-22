@@ -22,5 +22,18 @@ layout: default_home_amp
 			</aside>
 		</div>
   	</div>
+{% if site.ads.enabled %}
+<div class="row">
+<div id="topsl" class="col-xs-12">
+<amp-ad
+layout="fixed-height"
+height="100"
+type="adsense"
+data-ad-client="{{ site.ads.data_ad_client }}"
+data-ad-slot="{{ site.ads.topsl }}">
+</amp-ad>
+</div>
+</div>
+{% endif %}
   </div>
 </div>
