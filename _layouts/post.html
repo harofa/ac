@@ -5,6 +5,9 @@ layout: default_amp
   <div class="container">
     <div class="row">
       <div class="col-md-8 blog-main">
+{% if site.ads.enabled %}
+{% include ads_top_72890.html %}
+{% endif %}
         <!-- breadcrumb -->
         {% include breadcrumbs.html path=page.path title=page.title %}
   	    <div class="post hentry blog-post">
@@ -37,6 +40,9 @@ layout: default_amp
                 </div>
               </div>{% endif %}
 {{ content }}
+{% if site.ads.enabled %}
+{% include ads_bottom_post.html %}
+{% endif %}
         {% include sharer_amp.html %}
         {% if site.display_author %}
         {% include author_amp.html %}
@@ -72,17 +78,7 @@ layout: default_amp
   		</div>
   	</div>
 {% if site.ads.enabled %}
-<div class="row">
-<div id="topsl" class="col-xs-12">
-<amp-ad
-layout="fixed-height"
-height="100"
-type="adsense"
-data-ad-client="{{ site.ads.data_ad_client }}"
-data-ad-slot="{{ site.ads.topsl }}">
-</amp-ad>
-</div>
-</div>
-{% endif %}    
+{% include ads_bottom.html %}
+{% endif %}
   </div>
 </div>

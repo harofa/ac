@@ -57,7 +57,6 @@ publisher:
 ads:
   enabled: true
   data_ad_client: "ca-pub-3288866780282962"
-  topsl: "1288156479"
 
 facebook:
   fb_name: "@apacaracom"
