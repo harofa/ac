@@ -51,7 +51,7 @@ images:
 </tr>
 <tr>
 <td><code>onafterprint</code></td>
-<td><a target="_blank" href="https://www.apacara.com/example/html/event-attribute/onafterprint.html"><span class="btn button button-clean">Contoh</span></a></td>
+<td><a target="_blank" href="https://www.apacara.com/example/html/attribute/onafterprint.html"><span class="btn button button-clean">Contoh</span></a></td>
 <td>Instruksi untuk menjalankan script ketika dokumen (halaman) selesai dicetak (print)</td>
 </tr>
 <tr>
@@ -61,7 +61,7 @@ images:
 </tr>
 <tr>
 <td><code>onbeforeunload</code></td>
-<td><a target="_blank" href="https://www.apacara.com/example/html/event-attribute/onbeforeunload.html"><span class="btn button button-clean">Contoh</span></a></td>
+<td><a target="_blank" href="https://www.apacara.com/example/html/attribute/onbeforeunload.html"><span class="btn button button-clean">Contoh</span></a></td>
 <td>Instruksi untuk menjalankan script ketika sebuah halaman web hendak ditutup. Artinya, sebelum di-<em>unload (tutup)</em></td>
 </tr>
 <tr>
@@ -166,7 +166,7 @@ images:
 </tr>
 <tr>
 <td><code>onerror</code></td>
-<td><a target="_blank" href="https://www.apacara.com/example/html/event-attribute/onerror.html"><span class="btn button button-clean">Contoh</span></a></td>
+<td><a target="_blank" href="https://www.apacara.com/example/html/attribute/onerror.html"><span class="btn button button-clean">Contoh</span></a></td>
 <td>Instruksi untuk menjalankan script ketika error terjadi, seperti kesalahan me-<em>load</em> external file</td>
 </tr>
 <tr>
@@ -256,12 +256,12 @@ images:
 </tr>
 <tr>
 <td><code>onoffline</code></td>
-<td><a target="_blank" href="https://www.apacara.com/example/html/event-attribute/ononline-onoffline.html"><span class="btn button button-clean">Contoh</span></a></td>
+<td><a target="_blank" href="https://www.apacara.com/example/html/attribute/ononline-onoffline.html"><span class="btn button button-clean">Contoh</span></a></td>
 <td>Instruksi untuk menjalankan script ketika browser menyatakan offline (Tidak terhubung dengan internet)</td>
 </tr>
 <tr>
 <td><code>ononline</code></td>
-<td><a target="_blank" href="https://www.apacara.com/example/html/event-attribute/ononline-onoffline.html"><span class="btn button button-clean">Contoh</span></a></td>
+<td><a target="_blank" href="https://www.apacara.com/example/html/attribute/ononline-onoffline.html"><span class="btn button button-clean">Contoh</span></a></td>
 <td>Instruksi untuk menjalankan script ketika browser menyatakan online (Terhubung dengan internet)</td>
 </tr>
 <tr>

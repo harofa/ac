@@ -128,7 +128,7 @@ Menuju <a href="https://www.google.com" accesskey="g">google.com</a>
 </div>
 </div>
 <div class="icard-body icode itheme">
-<p><code>class</code> attribute digunakan untuk menentukan nama class pada sebuah element. Penggunaannya boleh lebih dari satu nama class dalam satu element. Silahkan, pelajari juga <a href="../../css/selector/class-selector.html">CSS Class Selector</a> .</p>
+<p><code>class</code> attribute digunakan untuk menentukan nama class pada sebuah element. Penggunaannya boleh lebih dari satu nama class dalam satu element. Silahkan, pelajari juga <a href="https://www.apacara.com/tutorial/css/css-selector-class.html">CSS Class Selector</a> .</p>
 <pre class="prettyprint highlight">
 <code data-language="html" class="html language-markup inline">&lt;div class="container"&gt;
 &lt;p class="artikel intro"&gt; Intro Artikel &lt;/p&gt;
@@ -204,8 +204,7 @@ Klik kanan pada kotak ini, Temukan menu tambahan untuk memperbesar dan memperkec
 &lt;menuitem label="Perbesar Ukuran Font" onclick="perbesarFont()"&gt;&lt;/menuitem&gt;
 &lt;menuitem label="Perkecil Ukuran Font" onclick="perkecilFont()"&gt;&lt;/menuitem&gt;
 &lt;/menu&gt;
-&lt;/div&gt;</code>
-</pre>
+&lt;/div&gt;</code></pre>
 </div>
 </div>
 

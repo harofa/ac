@@ -59,7 +59,7 @@ datePublished: "2017-10-31T00:00:00+07:00"
 </div>
 <p>Script element tersebut diletakkan pada template atau tema blog Anda, tepatnya diantara &lt;head&gt; dan &lt;/head&gt; tag.</p>
 <p>Langkah <strong>Kedua</strong>, tentunya mencari video yang ingin Anda posting dari <a target="_blank" rel="nofollow" href="https://www.youtube.com/halwarf">youtube.com</a>. kemudian cari <code>data-videoid</code> di URL video yang Anda cari tersebut. <code>data-videoid</code> dapat dilihat pada contoh gambar berikut:</p>
-<amp-img alt="amp-youtube-data-videoid" layout="responsive" width="650" height="470"  tabindex="0" src="https://4.bp.blogspot.com/-TERpXH1p38M/WffoPVv4O6I/AAAAAAAAA_c/l2Ve4SvUUc8joj7L5DbkQtyCDK1kj3_WwCLcBGAs/s1600/amp-youtube-data-videoid.png" ><noscript><div class="img-responsive"><img src="https://4.bp.blogspot.com/-TERpXH1p38M/WffoPVv4O6I/AAAAAAAAA_c/l2Ve4SvUUc8joj7L5DbkQtyCDK1kj3_WwCLcBGAs/s1600/amp-youtube-data-videoid.png" alt="" /></div></noscript></amp-img>
+<amp-img alt="amp-youtube-data-videoid" layout="responsive" width="650" height="470"  tabindex="0" src="https://www.apacara.com/media/posts/amp-youtube-data-videoid.png" ><noscript><div class="img-responsive"><img src="https://www.apacara.com/media/posts/amp-youtube-data-videoid.png" alt="" /></div></noscript></amp-img>
 <p>Pada contoh gambar tersebut, <em>data-videoid</em>-nya adalah: <code>wT21mmFrCdQ</code>, <em>data-videoid</em> ini, diperlukan untuk mengisi nilai <code>data-videoid</code> attribute didalam <code>amp-youtube</code>.</p>
 <p>Langkah <strong>Ketiga</strong>, menyisipkan element <code>&lt;amp-youtube&gt;...&lt;/amp-youtube&gt;</code> dengan contoh di bawah ini:</p>
 <div class="icard">
