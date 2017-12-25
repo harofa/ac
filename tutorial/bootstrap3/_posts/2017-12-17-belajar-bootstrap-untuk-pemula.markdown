@@ -70,7 +70,7 @@ images:
         <span>index.html</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/bootstrap/ref/bootstrap-template-dasar.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/bootstrap/ref/bootstrap-template-dasar.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>

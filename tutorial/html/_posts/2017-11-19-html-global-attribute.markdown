@@ -159,7 +159,7 @@ Menuju <a href="https://www.google.com" accesskey="g">google.com</a>
 <span>SOURCE</span>
 </div>
 <div class="icard-bar-right pull-right">
-<a href="https://www.apacara.com/example/html/attribute/contenteditable.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+<a href="https://www.apacara.com/example/html/attribute/contenteditable.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
 </div>
 </div>
 </div>
@@ -192,7 +192,7 @@ Menuju <a href="https://www.google.com" accesskey="g">google.com</a>
 <span>HTML</span>
 </div>
 <div class="icard-bar-right pull-right">
-<a href="https://www.apacara.com/example/html/attribute/contextmenu.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+<a href="https://www.apacara.com/example/html/attribute/contextmenu.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
 </div>
 </div>
 </div>

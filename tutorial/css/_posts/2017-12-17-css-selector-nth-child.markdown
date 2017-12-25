@@ -59,7 +59,7 @@ nth-child(X) = X bisa di tulis dengan:
         <span>HTML</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/css/selector/nth-child-1.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/css/selector/nth-child-1.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -112,7 +112,7 @@ Artinya, <code>div</code> yang memiliki anak <code>p</code> urutan ke 2 (anak ke
 <p>Kode diatas dapat dilihat hasilnya pada contoh lengkap <i>demo editor</i> dibawah ini:</p>
 <h2 class="title-sub bd-danger bd-left bd-left-only">Contoh Lengkap
 </h2>
-<p>Contoh <em>source code</em> lengkap disertai dengan demo link untuk mencoba (try it) dan melihat hasil (preview) kode.</p>
+<p>Contoh <em>source code</em> lengkap disertai dengan link  &quot;editor&quot; untuk mencoba (try it) dan melihat hasil (preview) kode.</p>
 <div class="icard">
   <div class="icard-heading clearfix co-wh bg-pi2">
     <div class="icard-bar">
@@ -121,7 +121,7 @@ Artinya, <code>div</code> yang memiliki anak <code>p</code> urutan ke 2 (anak ke
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/css/selector/nth-child.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/css/selector/nth-child.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -181,7 +181,7 @@ Artinya, <code>div</code> yang memiliki anak <code>p</code> urutan ke 2 (anak ke
         <span>HTML</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/css/selector/nth-child-2.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/css/selector/nth-child-2.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -241,7 +241,7 @@ Artinya, <code>div</code> yang memiliki anak <code>p</code> urutan ke 2 (anak ke
         <span>CSS</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/css/selector/nth-child-3.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/css/selector/nth-child-3.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -275,7 +275,7 @@ Artinya, <code>div</code> yang memiliki anak <code>p</code> urutan ke 2 (anak ke
         <span>CSS</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/css/selector/nth-child-4.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/css/selector/nth-child-4.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -306,7 +306,7 @@ Artinya, <code>div</code> yang memiliki anak <code>p</code> urutan ke 2 (anak ke
         <span>CSS</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/css/selector/nth-child-5.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/css/selector/nth-child-5.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -348,7 +348,7 @@ Artinya, <code>div</code> yang memiliki anak <code>p</code> urutan ke 2 (anak ke
         <span>CSS</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/css/selector/nth-child-6.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/css/selector/nth-child-6.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -379,7 +379,7 @@ Artinya, <code>div</code> yang memiliki anak <code>p</code> urutan ke 2 (anak ke
         <span>CSS</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/css/selector/nth-child-7.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/css/selector/nth-child-7.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>

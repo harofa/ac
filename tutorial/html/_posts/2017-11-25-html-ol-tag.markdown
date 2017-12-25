@@ -117,7 +117,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/html/tag/ol.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/html/tag/ol.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -140,7 +140,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/html/tag/ol-start-attribute.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/html/tag/ol-start-attribute.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -163,7 +163,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/html/tag/ol-nested.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/html/tag/ol-nested.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
@@ -186,7 +186,7 @@ images:
 <p>Untuk contoh dibawah ini (Contoh lengkap), agak sedikit berbeda menggunakan roman numbers. Silahkan edit dan mencoba sendiri.</p>
 <h2 class="title-sub bd-danger bd-left bd-left-only">Contoh Lengkap
 </h2>
-<p>Contoh <em>source code</em> lengkap disertai dengan demo link untuk mencoba (try it) dan melihat hasil (preview) kode.</p>
+<p>Contoh <em>source code</em> lengkap disertai dengan link  &quot;editor&quot; untuk mencoba (try it) dan melihat hasil (preview) kode.</p>
 <div class="icard">
   <div class="icard-heading clearfix co-wh bg-pi2">
     <div class="icard-bar">
@@ -195,7 +195,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/html/tag/ol-list-roman-numbers.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/html/tag/ol-list-roman-numbers.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
       </div>
     </div>
   </div>
