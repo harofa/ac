@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS type Selector | Belajar css selector"
+title: "CSS Type Selector"
 short_title: "type selector"
 language: id
 

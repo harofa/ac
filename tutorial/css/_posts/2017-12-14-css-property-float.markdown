@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS float | Belajar css property"
+title: "CSS Float"
 short_title: "CSS float"
 language: id
 

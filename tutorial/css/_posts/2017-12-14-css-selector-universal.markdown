@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS universal Selector | Belajar css selector"
+title: "CSS Universal Selector"
 short_title: "* selector"
 language: id
 

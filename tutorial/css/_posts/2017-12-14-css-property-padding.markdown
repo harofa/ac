@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS padding | Belajar css property"
+title: "CSS Padding"
 short_title: "CSS padding"
 language: id
 

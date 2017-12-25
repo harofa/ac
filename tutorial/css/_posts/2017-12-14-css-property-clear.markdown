@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS clear | Belajar css property"
+title: "CSS Clear"
 short_title: "CSS clear"
 language: id
 

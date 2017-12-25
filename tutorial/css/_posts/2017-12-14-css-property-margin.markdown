@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "CSS margin | Belajar css property"
+title: "CSS Margin"
 short_title: "CSS margin"
 language: id
 
 metadata:
   description: "Belajar CSS margin. Referensi, Syntax, Penggunaan dan Penjelasan margin di dalam CSS. Panduan, tutorial  dan contoh CSS margin bahasa Indonesia"
 
-author: dul  
+author: dul
 
 tag: [css, cssproperty]
 taxonomy:

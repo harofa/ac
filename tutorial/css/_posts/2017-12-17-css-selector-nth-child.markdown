@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS nth-child | Belajar css selector"
+title: "CSS nth-child Selector"
 short_title: "nth-child"
 language: id
 

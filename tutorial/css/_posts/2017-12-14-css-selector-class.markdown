@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS class | Belajar css selector"
+title: "CSS class Selector"
 short_title: "class"
 language: id
 

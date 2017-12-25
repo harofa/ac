@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS indeterminate | Belajar css selector"
+title: "CSS indeterminate Selector"
 short_title: "indeterminate"
 language: id
 

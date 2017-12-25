@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS Clearfix | Belajar CSS"
+title: "CSS Clearfix"
 short_title: "CSS clearfix"
 language: id
 

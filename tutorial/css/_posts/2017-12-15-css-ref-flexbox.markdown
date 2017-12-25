@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS flexbox | Belajar CSS"
+title: "CSS Flexbox"
 short_title: "CSS flexbox"
 language: id
 

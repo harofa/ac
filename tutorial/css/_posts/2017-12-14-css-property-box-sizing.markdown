@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS box-sizing | Belajar css property"
+title: "CSS Box-Sizing"
 short_title: "CSS box-sizing"
 language: id
 
