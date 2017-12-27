@@ -39,6 +39,7 @@ layout: default_amp
                 <small class="text-muted">Source: <a  href="{{ page.images.source_url }}" target="_blank" rel="nofollow">{{ page.images.source_title }}</a></small>{% else %}<small class="text-muted">Source: {{ page.images.source_title }}</small>{% endif %}
                 </div>
               </div>{% endif %}
+{% if site.ads.enabled %}{% include ads_bottom_image.html %}{% endif %}
 {{ content }}
 {% if site.ads.enabled %}
 {% include ads_bottom_post.html %}

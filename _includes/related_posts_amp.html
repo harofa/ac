@@ -3,7 +3,7 @@
 <h2 class="section-title">You May Also Like</h2>
 <div class="section-line">
   <div class="section-line-inside"></div>
-</div>{% assign listed_posts_urls = page.url | split: ' ' %}{% for tag in page.tags %}{% for mypost in site.tags[tag] limit:5 %}{% assign author_info = site.data.people[mypost.author] %}{% if listed_posts_urls contains mypost.url %}{% else %}
+</div>{% assign listed_posts_urls = page.url | split: ' ' %}{% for tag in page.tags limit:5 %}{% for mypost in site.tags[tag] limit:5 %}{% assign author_info = site.data.people[mypost.author] %}{% if listed_posts_urls contains mypost.url %}{% else %}
   <div class="section-body">
     <div class="section-thumb">
       <div class="section-img img-mask"><!-- remove .img-mask -->
