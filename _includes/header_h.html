@@ -12,7 +12,7 @@
   			  <nav class="nav blog-nav">
             <ul class="list menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">{% for category in site.categories %}
               <li itemprop="name"><a itemprop="url" href="{{ "/category" | prepend: site.baseurl | prepend: site.url }}/{{category|first}}">{{ category | first | upcase }}</a> </li>{% endfor %}
-              <li itemprop="name"><a rel="search" itemprop="url" target="_blank"  href="{{"/search" | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-search"></i></a>
+              <li itemprop="name"><a rel="search" itemprop="url" target="_blank"  href="{{"/search.html" | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-search"></i></a>
               </li>
             </ul>
           </nav>
