@@ -17,7 +17,7 @@ images:
   figure: "posts/html-event-attributes.png"
   thumb: "posts/thumbs/html-event-attributes.png"
 ---
-<p class="text-muted" class="description">
+<p class="text-muted description">
 <em>Event attribute</em> adalah HTML atribut yang digunakan untuk menjalankan perintah script yang secara umum dapat digunakan pada semua elemen HTML.
 </p>
 

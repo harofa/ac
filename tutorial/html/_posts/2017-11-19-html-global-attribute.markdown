@@ -17,7 +17,7 @@ images:
   figure: "posts/html-global-attributes.png"
   thumb: "posts/thumbs/html-global-attributes.png"
 ---
-<p class="text-muted" class="description">
+<p class="text-muted description">
 <em>Global attribute</em> adalah HTML atribut yang secara umum dapat digunakan pada semua elemen HTML.
 </p>
 
@@ -492,7 +492,7 @@ color: green;
 </div>
 <pre class="prettyprint highlight line-numbers"  data-line="2,4">
 <code data-language="html" class="html language-markup inline">&lt;p&gt;Perbedaan Teks area dengan spellcheck &lt;strong&gt;true&lt;/strong&gt; dan &lt;strong&gt;false&lt;/strong&gt;&lt;/p&gt;
-&lt;textarea &gt;Click Me! I loooove you. spell check="true"
+&lt;textarea &gt;Click Me! I loooove you. spellcheck='true'
 &lt;/textarea&gt;
 &lt;textarea spellcheck="false"&gt;Click Me! I loooove you. spellcheck="false"
 &lt;/textarea&gt;
