@@ -12,24 +12,11 @@
   			  <nav class="nav blog-nav">
             <ul class="list menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">{% for category in site.categories %}
               <li itemprop="name"><a itemprop="url" href="{{ "/category" | prepend: site.baseurl | prepend: site.url }}/{{category|first}}">{{ category | first | upcase }}</a> </li>{% endfor %}
-              <li itemprop="name"><a rel="search" itemprop="url" target="_blank"  href="{{"/search.html" | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-search"></i></a>
-              </li>
             </ul>
           </nav>
   			</div>
   			<div class="col-md-1 col-xs-2 menu-wrap menu-wrap-right">
-          <nav class="nav">
-            <ul class="list menu menu-hover">
-              <li>
-                <i class="fa fa-lg fa-th"></i>
-                <ul class="list sub-menu-hover">
-{% for item in site.my_collection %}
- <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-{% endfor %}
-                </ul>
-              </li>
-            </ul>
-          </nav>
+          <a aria-label="Search" rel="search" target="_blank"  href="{{"/search.html" | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-search"></i></a>
   			</div>
   		</div>
   	</div>
