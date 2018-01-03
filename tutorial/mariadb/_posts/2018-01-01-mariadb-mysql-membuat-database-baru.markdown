@@ -8,10 +8,10 @@ metadata:
   description: "Tutorial belajar bagaimana membuat database baru dengan perintah &quot;CREATE DATABASE&quot; pada MariaDB atau MySQL"
 
 author: halwa
-tag: [mariadb, maridbref]
+tag: [mariadb, mariadbref]
 taxonomy:
   category: mariadb
-  tag: [mariadb, maridbref]
+  tag: [mariadb, mariadbref]
 images:
   figure: "posts/mariadb-create-database.png"
   thumb: "posts/thumbs/mariadb-create-database.png"

@@ -8,10 +8,10 @@ metadata:
   description: "Tutorial belajar bagaimana menggunakan perintah INSERT INTO yang digunakan untuk memasukkan (menginput) data baru (record) dalam database MariaDB atau MySQL"
 
 author: halwa
-tag: [mariadb, maridbref]
+tag: [mariadb, mariadbref]
 taxonomy:
   category: mariadb
-  tag: [mariadb, maridbref]
+  tag: [mariadb, mariadbref]
 images:
   figure: "posts/mariadb-insert-into.png"
   thumb: "posts/thumbs/mariadb-insert-into.png"

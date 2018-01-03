@@ -8,10 +8,10 @@ metadata:
   description: "Tutorial belajar menggunakan perintah DESCRIBE dalam database MariaDB atau MySQL yang digunakan untuk menampilkan deskripsi sebuah table dengan lengkap beserta rinciannya (lebih detail)"
 
 author: halwa
-tag: [mariadb, maridbref]
+tag: [mariadb, mariadbref]
 taxonomy:
   category: mariadb
-  tag: [mariadb, maridbref]
+  tag: [mariadb, mariadbref]
 images:
   figure: "posts/mariadb-describe.png"
   thumb: "posts/thumbs/mariadb-describe.png"

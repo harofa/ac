@@ -8,10 +8,10 @@ metadata:
   description: "Tutorial belajar bagaimana menggunakan perintah CREATE TABLE yang digunakan untuk membuat table baru dalam database MariaDB atau MySQL"
 
 author: halwa
-tag: [mariadb, maridbref]
+tag: [mariadb, mariadbref]
 taxonomy:
   category: mariadb
-  tag: [mariadb, maridbref]
+  tag: [mariadb, mariadbref]
 images:
   figure: "posts/mariadb-create-table.png"
   thumb: "posts/thumbs/mariadb-create-table.png"

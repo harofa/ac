@@ -8,10 +8,10 @@ metadata:
   description: "Tutorial belajar bagaimana menggunakan perintah DROP DATABASE yang digunakan untuk menghapus database pada MariaDB atau MySQL"
 
 author: halwa
-tag: [mariadb, maridbref]
+tag: [mariadb, mariadbref]
 taxonomy:
   category: mariadb
-  tag: [mariadb, maridbref]
+  tag: [mariadb, mariadbref]
 images:
   figure: "posts/mariadb-drop-database.png"
   thumb: "posts/thumbs/mariadb-drop-database.png"

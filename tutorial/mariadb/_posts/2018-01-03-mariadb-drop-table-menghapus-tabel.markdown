@@ -8,10 +8,10 @@ metadata:
   description: "Tutorial belajar bagaimana menggunakan perintah DROP TABLE yang digunakan untuk menghapus tabel dalam database MariaDB atau MySQL"
 
 author: halwa
-tag: [mariadb, maridbref]
+tag: [mariadb, mariadbref]
 taxonomy:
   category: mariadb
-  tag: [mariadb, maridbref]
+  tag: [mariadb, mariadbref]
 images:
   figure: "posts/mariadb-drop-table.png"
   thumb: "posts/thumbs/mariadb-drop-table.png"

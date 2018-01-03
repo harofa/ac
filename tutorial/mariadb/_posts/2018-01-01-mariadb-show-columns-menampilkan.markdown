@@ -8,10 +8,10 @@ metadata:
   description: "Tutorial belajar bagaimana menggunakan perintah SHOW COLUMNS dalam database MariaDB atau MySQL yang digunakan untuk menampilkan kolom apa saja yang terdapat dalam sebuah tabel"
 
 author: halwa
-tag: [mariadb, maridbref]
+tag: [mariadb, mariadbref]
 taxonomy:
   category: mariadb
-  tag: [mariadb, maridbref]
+  tag: [mariadb, mariadbref]
 images:
   figure: "posts/mariadb-show-columns.png"
   thumb: "posts/thumbs/mariadb-show-columns.png"
