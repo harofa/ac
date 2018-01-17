@@ -318,7 +318,7 @@ dateModified: "2017-12-17T00:00:00+00:00"
   </div>
   <div class="icard-body icode itheme">
     <p><em>Common Attributes</em> adalah beberapa <em>attribute umum</em> yang biasa digunakan dan berlaku untuk beberapa element AMP adalah: <code>fallback</code>, <code>heights</code>, <code>layout</code>, <code>media</code>, <code>noloading</code>, <code>on</code>, <code>placeholder</code>, <code>sizes</code>, <code>width</code>, and <code>height</code></p>
-    <p>Untuk lebih jelasnya, bisa dilihat pada halaman <a href="https://www.apacara.com/2017/10/amp-common-attributes-atribut-umum-amp.html">AMP HTML Common attributes</a></p>
+    <p>Untuk lebih jelasnya, bisa dilihat pada halaman <a href="https://www.apacara.com/tutorial/amp/amp-common-attributes-atribut-umum-amp.html">AMP HTML Common attributes</a></p>
   </div>
 
 </div>

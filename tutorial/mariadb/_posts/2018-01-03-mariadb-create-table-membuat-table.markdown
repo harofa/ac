@@ -16,7 +16,7 @@ images:
   figure: "posts/mariadb-create-table.png"
   thumb: "posts/thumbs/mariadb-create-table.png"
 ---
-<p class="lead">Disini, kita akan belajar bagaimana membuat table dalam sebuah database MariaDB atau mySQL. Ketika hendak "bikin" table dalam sebuah database, yang kita perlukan sebelumnya adalah pengetahuan tentang tipe data (Data Type) karena setiap table mungkin akan menggunakan tipe data yang berbeda-beda sesuai kebutuhan dan koten yang akan diisi.</p>
+<p class="lead">Disini, kita akan belajar bagaimana membuat table dalam sebuah database MariaDB atau mySQL. Ketika hendak "bikin" table dalam sebuah database, yang kita perlukan sebelumnya adalah pengetahuan tentang tipe data (Data Type) karena setiap table mungkin akan menggunakan tipe data yang berbeda-beda sesuai kebutuhan dan konten yang akan diisi.</p>
 <hr/>
 <h2>Syntax</h2>
 <div class="icard">
