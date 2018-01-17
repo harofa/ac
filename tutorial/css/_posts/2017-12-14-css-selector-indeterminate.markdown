@@ -17,10 +17,10 @@ images:
   figure: "posts/css-selector-indeterminate.png"
   thumb: "posts/thumbs/css-selector-indeterminate.png"
 ---
-<p>
+<p class="lead">
 Jika diartikan kedalam Bahasa Indonesia, <em>indeterminate</em> artinya adalah <em>yang tidak menentukan</em>. Di dalam CSS, <code>:indeterminate</code> adalah CSS pseudo-class yang digunakan untuk merepresentasikan element &lt;input type="checkbox"&gt; yang mana property indeterminate tersebut dinyatakan <em>true</em> dengan kode javascript. Artinya, style akan berlaku jika di<em>checked</em> dan dideklarasikan <em>true</em> oleh javascript. <code>:indeterminate</code> digunakan oleh beberapa browser bersamaan dengan element &lt;progress&gt; untuk menentukaan keadaan <em>indeterminate (yang tidak menentukan).</em>
-    </p>
-
+</p>
+<hr />
 <!-- Syntax  -->
 <section id="syntax">
     <h3 class="title-sub bd-danger bd-left bd-left-only">Syntax <br>

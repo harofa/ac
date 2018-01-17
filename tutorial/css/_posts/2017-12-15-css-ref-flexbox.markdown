@@ -17,9 +17,10 @@ images:
   figure: "posts/css-ref-flexbox.png"
   thumb: "posts/thumbs/css-ref-flexbox.png"
 ---
-<p>
+<p class="lead">
 CSS3 Flexible box atau lebih dikenal dengan <em>flexbox</em> adalah mode layout yang mana digunakan untuk mengatur keluwesan elemen pada sebuah halaman web. Artinya, elemen-elemen tersebut bisa diatur sedemikian rupa sehingga bisa menyesuaikan ukuran layar dan diposisikan serta didistribusikan dengan jarak tertentu diantara item-item dalam sebuah <em>container flex</em> tersebut, bahkan ketika ukuran dari elemen tersebut tidak diketahui.
 </p>
+<hr />
 <p><em>Flexbox</em> sangat cocok digunakan untuk komponen sebuah aplikasi dan layout skala kecil. Tujuan utama penggunaan <em>layout flex</em> adalah untuk memberi kemampuan <em>container</em> agar dapat memenipulasi item-item (elemen) yang ada didalamnya, baik itu merubah tinggi dan lebar, urutan posisi elemen, dan spasi (jarak) diantara elemen tersebut.</p>
 
 <p><strong>Harap Diperhatikan:</strong>  Untuk mencoba dan mengaplikasikan tutorial mengenai <em>flexbox</em> ini, diharapkan tidak menggunakan browser versi lama yang tidak mendukung <em>flex</em>.

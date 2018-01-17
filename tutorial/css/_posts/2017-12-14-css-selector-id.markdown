@@ -17,9 +17,10 @@ images:
   figure: "posts/css-selector-id.png"
   thumb: "posts/thumbs/css-selector-id.png"
 ---
-<p>
+<p class="lead">
 ID Selector digunakan untuk menyeleksi elemen berdasarkan ID tertentu. Dalam penggunaannya, ID selector diawali dengan tanda pagar (#) atau <em>hash</em>. Contoh di dalam css: <code>#intro {color: blue}</code>. Contoh tersebut menyeleksi element yang memiliki attribute ID dengan value "intro" agar tulisannya berwarna biru dan didalam html, kita sisipkan attribute: <code>id="intro"</code>. Misalkan, kita ingin menyisipkannya pada sebuah elemen <code>&lt;p&gt;</code> maka, kita bisa menulis markup <code>&lt;p id="intro"&gt;...&lt;/p&gt;</code>.
 </p>
+<hr />
 <p>Harap diperhatikan, dalam sebuah halaman atau dokumen tidak boleh terdapat lebih dari satu <em>id</em> dengan value yang sama. Artinya, nilai (value) dari sebuah <em>id</em> harus unik dan tidak boleh dideklarasikan lebih dari satu. Apabila sudah disisipkan pada elemen tertentu maka tidak boleh disisipkan pada elemen yang lain dalam satu halaman. </p>
 <p>Dalam penamaan ID tidak boleh menggunakan angka pada awal nama ID, contoh <em>salah</em>: <code>id="3intro"</code>  tetapi, yang <em>benar</em> adalah: <code>id="intro3"</code> atau <code>id="intro3-teks"</code> (angka diakhir kata atau ditengah-tengah adalah benar.)
 </p>

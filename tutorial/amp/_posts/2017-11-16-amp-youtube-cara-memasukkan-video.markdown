@@ -18,7 +18,8 @@ images:
 dateCreated: "2017-10-31T00:00:00+07:00"
 datePublished: "2017-10-31T00:00:00+07:00"
 ---
-<p>Tutorial yang akan Anda pelajari dibawah ini, mengenai bagaimana menyisipkan (<em>embed</em>) video youtube ke dalam AMP HTML, atau lebih jelasnya, bagaimana posting video youtube di blogger atau wordpress dengan tema atau template AMP.</p>
+<p class="lead">Tutorial yang akan Anda pelajari dibawah ini, mengenai bagaimana menyisipkan (<em>embed</em>) video youtube ke dalam AMP HTML, atau lebih jelasnya, bagaimana posting video youtube di blogger atau wordpress dengan tema atau template AMP.</p>
+<hr /> 
 <h2 class="title-sub bd-primary bd-left bd-left-only">Quick Example
 <br /><small>Contoh</small>
 </h2>

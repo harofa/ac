@@ -17,7 +17,7 @@ images:
   figure: "posts/apa-itu-webvtt.png"
   thumb: "posts/thumbs/apa-itu-webvtt.png"
 ---
-<p>
+<p class="lead">
 <dfn><strong>WebVTT</strong></dfn> adalah <em>Web Video Text Tracks</em>, merupakan format yang digunakan untuk me<i>markup</i> teks track yang disimpan pada file external berformat <code>.vtt</code>. <em>Text track</em> bisa dibilang tulisan yang muncul diatas video atau audio yang sedang diputar / dimainkan .
 </p>
 

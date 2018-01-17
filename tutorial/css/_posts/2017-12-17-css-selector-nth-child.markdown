@@ -18,10 +18,10 @@ images:
   thumb: "posts/thumbs/css-selector-nth-child.png"
 ---
 
-<p>
+<p class="lead">
 <strong>nth-child</strong> digunakan untuk menyeleksi element berdasarkan urutan anak (child). Dalam sebuah element, terdapat tag pembuka (opening tag) dan tag penutup (closing tag), contoh: <em>opening tag:</em> <code> &lt;div&gt;</code> dan <em>closing tag</em>-nya adalah: <code>&lt;/div&gt;</code> yang ditandai dengan <code>/</code>. Jadi, setiap element yang berada didalam element lain (didalam tag pembuka dan tag penutup), bisa dikatakan <em>child</em> atau anak element dari element yang menaunginya. Tapi, tidak semua element memiliki <em>closing tag</em>. <span class="highlight">nth-child</span> ditulis dengan kode seperti: <code>:nth-child(X)</code> : X = bisa ditulis dengan nomor, <em>keyword</em> ataupun <em>formula</em>.
 </p>
-
+<hr />
 <!-- Syntax  -->
 <section id="syntax">
     <h3 class="title-sub bd-danger bd-left bd-left-only">Syntax <br>

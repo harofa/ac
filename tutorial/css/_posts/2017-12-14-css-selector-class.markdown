@@ -20,9 +20,10 @@ images:
 <p>
     <em><code>.class</code> Selector</em> digunakan untuk menyeleksi element berdasarkan nama class atau nilai (value) dari attribute class yang sama pada html element yang sebelumnya telah ditentukan.
 </p>
-<p>
+<p class="lead">
     Penulisan <em>Class Selector</em> diawali dengan tanda titik (.) atau <em>period</em>, kemudian diikuti dengan nama class. Kita bisa menentukan sendiri nama class apa saja yang kita inginkan, asalkan mengikuti aturan berikut:
 </p>
+<hr />
 <ul>
     <li>Nama Class hanya bisa ditulis dengan letters (abjad [A-Z, a-z]), numbers (angka), hyphens (tanda penghubung), dan underscores (tanda garis bawah).</li>
     <li>Setelah titik (.) nama class harus diawali dengan letters (huruf alphabet) pada awal karakter. contoh: <code>.wali9</code> adalah benar, tetapi, <code>.9wali</code> adalah salah.</li>

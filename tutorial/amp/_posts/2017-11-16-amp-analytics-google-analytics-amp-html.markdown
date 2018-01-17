@@ -18,8 +18,8 @@ images:
 dateCreated: "2017-11-01T00:00:00+07:00"
 datePublished: "2017-11-01T00:00:00+07:00"
 ---
-<p>Sebuah website atau blog yang dikelola dengan baik dan sungguh-sungguh pasti butuh analisa untuk mengetahui seberapa banyak pengunjung yang singgah ke website kita, halaman apa saja yang paling banyak dikunjungi, halaman apa yang minim pengunjung dan lain sebagainya. Semua ini, butuh <em>tool</em> atau <em>widget</em> yang biasanya didapat dari pihak ketiga yang menangani pekerjaan itu dengan baik. Salah satu yang banyak digunakan adalah <em>Google analytics</em>.</p>
-
+<p class="lead">Sebuah website atau blog yang dikelola dengan baik dan sungguh-sungguh pasti butuh analisa untuk mengetahui seberapa banyak pengunjung yang singgah ke website kita, halaman apa saja yang paling banyak dikunjungi, halaman apa yang minim pengunjung dan lain sebagainya. Semua ini, butuh <em>tool</em> atau <em>widget</em> yang biasanya didapat dari pihak ketiga yang menangani pekerjaan itu dengan baik. Salah satu yang banyak digunakan adalah <em>Google analytics</em>.</p>
+<hr />
 <h2 class="title-sub bd-primary bd-left bd-left-only">Cara Penggunaan
 <br><small>amp-analytics dengan Google Analytics (GA)</small>
 </h2>

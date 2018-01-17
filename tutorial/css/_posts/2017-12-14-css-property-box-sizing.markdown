@@ -20,9 +20,10 @@ images:
 <p>
   <code>box-sizing</code> adalah css property yang digunakan untuk merubah kalkulasi dalam mengukur lebar element.
 </p>
-<p>
+<p class="lead">
 Sebagaimana diketahui, secara <em>default</em> sebuah konten box (content-box) akan bertambah lebar ukurannya apabila diberi <code>border</code>, <code>padding</code>, <code>height</code> dan <code>width</code>. ketika <code>box-sizing</code> dideklarasikan, maka border, padding dan ukuran sebuah konten box bergantung pada <code>value</code> yang ditentukan.
 </p>
+<hr />
 <section id="syntax">
   <h3 class="title-sub bd-danger bd-left bd-left-only">Syntax <br>
   <small>Penggunaan Sintaksis CSS <code>box-sizing</code></small>

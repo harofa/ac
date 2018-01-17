@@ -18,7 +18,8 @@ images:
 dateCreated: "2017-11-02T00:00:00+07:00"
 datePublished: "2017-11-02T00:00:00+07:00"
 ---
-<p><em>accordion</em> biasanya digunakan untuk menampilkan dan menyembunyikan element HTML atau &quot;lompat&quot; dari satu bagian ke bagian yang lain. Ini, dimaksudkan untuk mendapatkan tampilan (<em>interface</em>) yang lebih baik, khususnya untuk perangkat mobile, ukuran layar kecil dan sejenisnya.</p>
+<p class="lead"><em>accordion</em> biasanya digunakan untuk menampilkan dan menyembunyikan element HTML atau &quot;lompat&quot; dari satu bagian ke bagian yang lain. Ini, dimaksudkan untuk mendapatkan tampilan (<em>interface</em>) yang lebih baik, khususnya untuk perangkat mobile, ukuran layar kecil dan sejenisnya.</p>
+<hr />
 <h2 class="title-sub bd-primary bd-left bd-left-only">Quick Example
 <br><small>Contoh</small>
 </h2>

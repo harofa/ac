@@ -17,10 +17,11 @@ images:
   figure: "posts/css-property-margin.png"
   thumb: "posts/thumbs/css-property-margin.png"
 ---
-<p>
+<p class="lead">
 <code>margin</code> digunakan untuk mengaplikasikan jarak tepi pada sebuah elemen bagian luar (tepi garis luar). Margin memiliki 4 macam penjabaran yang dapat digunakan secara terpisah sendiri-sendiri, yaitu: <code>margin-top</code>, <code>margin-right</code>, <code>margin-bottom</code> dan <code>margin-left</code>. Jadi, margin adalah <em>shorthand (kependekan)</em> untuk mendeklarasikan keempat penjabaran tersebut secara serentak (sekaligus) dalam satu baris. </p>
 <p>Dengan margin, kita bisa mengatur posisi elemen agar memiliki ruang lebih luas atau lebih sempit dari elemen sebelum, bersebelahan atau sesudahnya, sesuai dengan keinginan.
 </p>
+<hr />
 <!-- Syntax  -->
 <section id="syntax">
   <h3 class="title-sub bd-danger bd-left bd-left-only">Syntax <br>

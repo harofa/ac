@@ -17,8 +17,8 @@ images:
   figure: "posts/css-selector-universal.png"
   thumb: "posts/thumbs/css-selector-universal.png"
 ---
-<p>CSS <em>Universal Selector</em> (<code>*</code>) digunakan untuk menyeleksi setiap single element dari tipe element apapun. Artinya, penyeleksian berlaku secara keseluruhan untuk semua single element. Penggunaan <em>Universal Selector</em> ditandai dengan karakter arterisk <code>*</code> yang dapat digunakan secara berdiri sendiri ataupun digabungkan dengan tipe selektor lainnya.</p>
-
+<p class="lead">CSS <em>Universal Selector</em> (<code>*</code>) digunakan untuk menyeleksi setiap single element dari tipe element apapun. Artinya, penyeleksian berlaku secara keseluruhan untuk semua single element. Penggunaan <em>Universal Selector</em> ditandai dengan karakter arterisk <code>*</code> yang dapat digunakan secara berdiri sendiri ataupun digabungkan dengan tipe selektor lainnya.</p>
+<hr />
 <!-- Syntax  -->
 <section id="syntax">
   <h3 class="title-sub bd-danger bd-left bd-left-only">Syntax <br>

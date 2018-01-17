@@ -17,8 +17,8 @@ images:
 dateCreated: "2017-10-29T00:00:00+07:00"
 datePublished: "2017-10-29T00:00:00+07:00"
 ---
-<p><i>Common Attributes</i> adalah attibute yang secara umum dapat digunakan pada AMP Components (atau bisa juga pada HTML element). Pada HTML regular mungkin kita mengenalnya dengan istilah <i>global attribute</i> akan tetapi pada AMP<i>, common attribute</i> cakupannya lebih luas.</p>
-
+<p class="lead"><i>Common Attributes</i> adalah attibute yang secara umum dapat digunakan pada AMP Components (atau bisa juga pada HTML element). Pada HTML regular mungkin kita mengenalnya dengan istilah <i>global attribute</i> akan tetapi pada AMP<i>, common attribute</i> cakupannya lebih luas.</p>
+<hr />
 <!-- ATTRIBUTES -->
 <div class="icard bg-gr3 bd-primary bd-top bd-top-only">
   <div id="fallback-attr" class="icard-heading clearfix co-wh bg-gr2">

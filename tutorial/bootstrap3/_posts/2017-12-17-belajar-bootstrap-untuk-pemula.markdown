@@ -21,6 +21,7 @@ images:
 <p class="lead">
 <dfn title="front-end framework yang terdiri dari HTML, CSS dan Javascript untuk membuat responsive website">Bootstrap</dfn> adalah front-end framework  yang solek, bagus dan luar biasa yang mengedapankan tampilan untuk mobile device (Handphone, smartphone dll.) guna mempercepat dan mempermudah pengembangan website. Bootstrap menyediakan HTML, CSS dan Javascript siap pakai dan mudah untuk dikembangkan.
 </p>
+<hr />
 <div>
 <h2 class="title-sub bd-danger bd-left bd-left-only">Untuk Apa itu bootstrap?</h2>
 <p><strong>Bootstrap</strong> merupakan framework untuk membangun desain web secara responsif. Artinya, tampilan web yang dibuat oleh bootstrap akan menyesuaikan ukuran layar dari browser yang kita gunakan baik di desktop, tablet ataupun mobile device. Fitur ini bisa diaktifkan ataupun dinon-aktifkan sesuai dengan keinginan kita sendiri. Sehingga, kita bisa membuat web untuk tampilan desktop saja dan apabila dirender oleh mobile browser maka tampilan dari web yang kita buat tidak bisa beradaptasi sesuai layar. Dengan bootstrap kita juga bisa membangun web dinamis ataupun statis. </p>

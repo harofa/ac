@@ -17,7 +17,7 @@ images:
   figure: "posts/apa-itu-semantic-meaning.png"
   thumb: "posts/thumbs/apa-itu-semantic-meaning.png"
 ---
-<p>
+<p class="lead">
 <dfn><strong>semantic meaning</strong></dfn> adalah studi mengenai arti kata-kata dan <em>frasa</em> (gabungan dua kata atau lebih yg bersifat nonpredikatif) pada sebuah bahasa.
 </p>
 <p><strong>semantic</strong> secara tidak langsung menyatakan arti sebuah subjek seperti kata-kata atau kalimat-kalimat. Studi tersebut mencakup seberapa penting arti kata-kata tersebut dapat dipahami oleh manusia.</p>

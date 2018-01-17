@@ -17,7 +17,8 @@ images:
   figure: "posts/css-property-float.png"
   thumb: "posts/thumbs/css-property-float.png"
 ---
-<p>Apa itu float di dalam CSS? <strong>float</strong> secara <em>etimologi</em> berarti "mengapung". Property <code>float</code> digunakan untuk menentukan apakah sebuah elemen box harus mengapung (float) atau tidak. Sebuah elemen bisa diposisikan seakan-akan berada mengapung diantara elemen setelahnya. Mengapung disini, berarti elemen yang mengalami <em>float</em> tersebut akan dipindahkan ke tepi paling kiri (float:left) atau tepi paling kanan (float:right) dari element induknya.</p>
+<p class="lead">Apa itu float di dalam CSS? <strong>float</strong> secara <em>etimologi</em> berarti "mengapung". Property <code>float</code> digunakan untuk menentukan apakah sebuah elemen box harus mengapung (float) atau tidak. Sebuah elemen bisa diposisikan seakan-akan berada mengapung diantara elemen setelahnya. Mengapung disini, berarti elemen yang mengalami <em>float</em> tersebut akan dipindahkan ke tepi paling kiri (float:left) atau tepi paling kanan (float:right) dari element induknya.</p>
+<hr />
 <p> Tujuan utama <code>float</code> adalah untuk mengatur text agar melipat di sekitar elemen image (gambar). Akan tetapi, float juga bisa digunakan untuk layout dan style lainnya.</p>
 <p>Elemen yang tidak mengalami <code>float</code> berada pada posisi normal, yaitu berada pada arah berlawanan dengan elemen yang mengelilinginya (bertumpuk dari atas kebawah atau dari kiri ke kanan). Sedangkan, Elemen yang mengalami <em>float</em> tidak mengikuti kaidah sebagaimana semestinya. Property <code>float</code> tidak bisa digunakan untuk elemen-elemen yang memiliki posisi absolute (<code>position: absolute;</code>)</p>
 

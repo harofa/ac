@@ -17,11 +17,11 @@ images:
   figure: "posts/css-property-clear.png"
   thumb: "posts/thumbs/css-property-clear.png"
 ---
-<p>
+<p class="lead">
   <strong>CSS <code>clear</code></strong> merupakan CSS property yang digunakan untuk membersihkan element yang sebelumnya telah mengalami <a href="https://www.apacara.com/tutorial/css/css-property-float.html">float</a>. Sehingga, element yang di-clear akan berpisah dari element yang mengalami float dan akan berpindah pada baris baru.
 </p>
 
-
+<hr />
 <!-- Syntax  -->
 <section id="syntax">
     <h3 class="title-sub bd-danger bd-left bd-left-only">Syntax <br>

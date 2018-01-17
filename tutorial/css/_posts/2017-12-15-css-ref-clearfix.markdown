@@ -17,8 +17,9 @@ images:
   figure: "posts/css-ref-clearfix.png"
   thumb: "posts/thumbs/css-ref-clearfix.png"
 ---
-<p>
+<p class="lead">
 Clearfix adalah cara praktis yang digunakan untuk <a href="https://www.apacara.com/tutorial/css/css-property-clear.html">clear</a> element yang sebelumnya mengalami <a href="https://www.apacara.com/tutorial/css/css-property-float.html">float</a>. Clearfix, biasanya digunakan sebagai nama class. Sehingga, kita bisa memanggil ulang kode tersebut dengan nama class di dalam markup.</p>
+<hr />
 <p>
 Clearfix sebenarnya metode lama dalam design layout CSS. Akan tetapi dalam kasus tertentu, teknik ini masih tetap digunakan oleh para web designer. Adapun teknik layout lain yang lebih fleksibel semacam ini, yaitu dengan CSS Flex (Flexbox). Silahkan pelajari selengkapnya mengenai <a href="https://www.apacara.com/tutorial/css/css-ref-flexbox.html">Belajar CSS Flexbox</a>.</p>
 

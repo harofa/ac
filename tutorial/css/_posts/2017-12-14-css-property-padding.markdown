@@ -17,10 +17,11 @@ images:
   figure: "posts/css-property-padding.png"
   thumb: "posts/thumbs/css-property-padding.png"
 ---
-<p>
+<p class="lead">
 <code>padding</code> digunakan untuk mengaplikasikan jarak tepi pada sebuah elemen bagian dalam (Jarak tepi di dalam sebuah element). padding memiliki 4 individual property yang dapat digunakan secara terpisah sendiri-sendiri, yaitu: <code>padding-top</code>, <code>padding-right</code>, <code>padding-bottom</code> dan <code>padding-left</code>. Jadi, padding adalah <em>shorthand (kependekan)</em> untuk mendeklarasikan keempat penjabaran tersebut secara serentak (sekaligus) dalam satu baris. </p>
 <p>Dengan padding, kita bisa mengatur posisi elemen agar memiliki ruang lebih luas atau lebih sempit dalam lingkup konten elemen itu sendiri.
 </p>
+<hr />
 <section id="syntax">
     <h3 class="title-sub bd-danger bd-left bd-left-only">Syntax <br>
     <small>Penggunaan Sintaksis <code>padding</code></small>
