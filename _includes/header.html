@@ -10,7 +10,7 @@
   			</div>
   			<div class="menu-wrap col-md-8 ">
   			  <nav class="nav blog-nav">
-            <ul class="list menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">{% for category in site.categories %}
+            <ul class="list menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement">{% for category in site.categories limit:6 %}
               <li itemprop="name"><a itemprop="url" href="{{ "/category" | prepend: site.baseurl | prepend: site.url }}/{{category|first}}">{{ category | first | upcase }}</a> </li>{% endfor %}
             </ul>
           </nav>

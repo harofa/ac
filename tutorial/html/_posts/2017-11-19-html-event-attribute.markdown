@@ -9,10 +9,10 @@ metadata:
 
 author: dul  
 
-tag: [html, Event, htmlattribute]
+tag: [html, event, htmlattribute]
 taxonomy:
   category: html
-  tag: [html, Event, htmlattribute]
+  tag: [html, event, htmlattribute]
 images:
   figure: "posts/html-event-attributes.png"
   thumb: "posts/thumbs/html-event-attributes.png"
