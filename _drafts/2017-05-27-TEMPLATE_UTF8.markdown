@@ -2,11 +2,11 @@
 layout: post
 title:  "مرحباً بك في جيكل!"
 
-short_title: "XXX"
+short_title: "XXXXXX"
 language: id
 
 metadata:
-  description: "XXX"
+  description: "XXXXXX"
 
 author: dul
 
