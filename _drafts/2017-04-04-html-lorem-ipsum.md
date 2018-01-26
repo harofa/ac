@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Lorem Ipsum"
-short_title: "XXXXX"
+short_title: "XXX"
 language: id
 
 metadata:
-  description: "XXXXX"
+  description: "XXX"
 
 author: dul
 
