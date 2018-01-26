@@ -30,7 +30,7 @@ images:
   <strong>HTML <code>&lt;div&gt;</code> element</strong> dapat dijadikan "wadah" untuk menempatkan beberapa elemen menjadi satu bagian, yang penggunaannya ditujukan untuk mempermudah aplikasi style dengan CSS dan perlakuan khusus lainnya yang kemudian dapat diberi atribut <code>class</code>, <code>id</code>, <code>title</code> dan lain sebagainya.
 </p>
 <p>
-  <strong>HTML <code>&lt;div&gt;</code> element</strong> tidak memiliki arti khusus atau lebih dikenal dengan elemen yang tidak memiliki arti semantik (<a href="https://www.apacara.com/tutorial/html/apa-itu-arti-semantic-meaning.html">semantic meaning</a>).
+  <strong>HTML <code>&lt;div&gt;</code> element</strong> tidak memiliki arti khusus atau lebih dikenal dengan elemen yang tidak memiliki arti semantik (<a href="https://www.apacara.com/tutorial/apa/apa-itu-semantic-meaning.html">semantic meaning</a>).
 </p>
 
 <!-- Attribute  -->

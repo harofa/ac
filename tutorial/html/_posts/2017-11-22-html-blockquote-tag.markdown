@@ -42,7 +42,7 @@ images:
   </div>
   <div class="icard-body bg-success2">
 <p class="uk-text-left">&lt;blockquote&gt; element digunakan untuk blok kutipan panjang, sedangkan untuk kutipan pendek yang terletak didalam baris (inline) menggunakan <a href="https://www.apacara.com/tutorial/html/html-q-tag.html" title="Belajar HTML q element">&lt;q&gt;</a> element.</p>
-<p class="uk-text-left">Untuk merubah tampilan indentasi, dapat menggunakan <a href="https://www.apacara.com/tutorial/html/css-margin.html" title="Belajar CSS margin property">CSS Margin</a> property.</p>
+<p class="uk-text-left">Untuk merubah tampilan indentasi, dapat menggunakan <a href="https://www.apacara.com/tutorial/css/css-property-margin.html" title="Belajar CSS margin property">CSS Margin</a> property.</p>
   </div>
 </div>
 

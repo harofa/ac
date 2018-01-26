@@ -5,7 +5,7 @@ short_title: "HTML Event Attributes"
 language: id
 
 metadata:
-  description: "Belajar Mengenai HTML Event attributes. Referensi, penggunaan dan penjelasan berkaitan dengan HTML Event attribute"
+  description: "Belajar Mengenai HTML Event attributes. Referensi, penggunaan dan penjelasan berkaitan dengan HTML Event attribute sebagai rujukan"
 
 author: dul  
 

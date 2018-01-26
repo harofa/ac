@@ -11,7 +11,7 @@
   </li>
 <li><i class="fa fa-clock-o"></i>&nbsp;<span title="Updated on">{% if post.dateModified %}{{ post.dateModified | date: "%B %-d, %Y" }}{% else %}{{ post.date | date: "%B %-d, %Y"}}{% endif %}</span>
   </li>
-<li><i class="fa fa-folder"></i>&nbsp;<span><a href="{{ "/category" | prepend: site.baseurl | prepend: site.url }}/{{post.categories[0]}}/{{post.categories[1]}}">{{post.categories[1]}}</a></span></li>
+<li><i class="fa fa-folder"></i>&nbsp;<span><a href="{{ "/category" | prepend: site.baseurl | prepend: site.url }}/{{post.categories[1]}}">{{post.categories[1]}}</a></span></li> 
   </ul>
 </div>
 <div class="article-body">
