@@ -1,6 +1,6 @@
 <!-- SECTION - related post -->
 <section class="section-wrapper related">
-<h2 class="section-title">You May Also Like</h2>
+<h3 class="section-title">You May Also Like</h3>
 <div class="section-line">
   <div class="section-line-inside"></div>
 </div>{% assign listed_posts_urls = page.url | split: ' ' %}{% for tag in page.tag limit:1 %}{% for mypost in site.tags[tag] limit:5 %}{% assign author_info = site.data.people[mypost.author] %}{% if listed_posts_urls contains mypost.url %}{% else %}
