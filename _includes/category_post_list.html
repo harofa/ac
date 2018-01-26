@@ -17,7 +17,7 @@
 <div class="article-body">
 <div class="img-wrapper">
   <figure>
-	<img class="img-responsive" src="{% if post.images.figure %}{{ post.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif post.images.figure_absolute %}{{ post.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="">
+	<img class="img-responsive" src="{% if post.images.figure %}{{ post.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif post.images.figure_absolute %}{{ post.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'posts/default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="">
     </figure>
 </div>
   {% if post.images.source_title %}

@@ -25,7 +25,7 @@ images:
 </div>
       <div class="article-body">
     		<div class="img-wrapper">
-    		  <a href="{{post.url | prepend: site.baseurl | prepend: site.url}}"><figure><div class="img-responsive"><img src="{% if post.images.figure %}{{ post.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif post.images.figure_absolute %}{{ post.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="{{post.url | prepend: site.baseurl | prepend: site.url}}"/></div></figure></a>
+    		  <a href="{{post.url | prepend: site.baseurl | prepend: site.url}}"><figure><div class="img-responsive"><img src="{% if post.images.figure %}{{ post.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif post.images.figure_absolute %}{{ post.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'posts/default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="{{post.url | prepend: site.baseurl | prepend: site.url}}"/></div></figure></a>
     		</div>
         {% if post.images.source_title %}
         <div class="image-credit clearfix">

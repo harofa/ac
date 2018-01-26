@@ -57,7 +57,7 @@
     "@type": "Article",
     "name": "{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}",
     "headline": "{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}",
-    "image": "{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}",
+    "image": "{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'posts/default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}",
     "wordcount": "{{ content | number_of_words }}",
     {% if page.tags and page.tags.size > 0 %}
     "keywords": "{% for tag in page.tags %}{{ tag }},{% endfor %}",
