@@ -1,9 +1,21 @@
 ---
-language: en
-title: "Lorem"
-author: "Lorem"
-tags: lorem html htmllorem loremipsum loremipsumhtml
-cover: Lorem.png
+layout: post
+title: "Lorem Ipsum"
+short_title: "XXXXX"
+language: id
+
+metadata:
+  description: "XXXXX"
+
+author: dul
+
+tag: [ibadah, shalat]
+taxonomy:
+  category: ibadah
+  tag: [ibadah, shalat]
+images:
+  figure: "posts/html-event-attributes.png"
+  thumb: "posts/thumbs/html-event-attributes.png"
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tollitur beneficium, tollitur gratia, quae sunt vincla concordiae. Sin kakan malitiam dixisses, ad aliud nos unum certum vitium consuetudo Latina traduceret. Ita similis erit ei finis boni, atque antea fuerat, neque idem tamen; Quae duo sunt, unum facit. Duo Reges: constructio interrete. Quo modo autem optimum, si bonum praeterea nullum est? Quorum altera prosunt, nocent altera. Quamquam te quidem video minime esse deterritum. At ego quem huic anteponam non audeo dicere; </p>
 
