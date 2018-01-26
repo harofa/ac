@@ -83,7 +83,7 @@
     {% assign post_author = site.data.people[page.author] %}
     "author": {
       "@type": "Person",
-      "name": "{%if post_author.profile %}{{ post_author.profile }}{% else %}{{ site.author.profile }}{% endif %}"
+      "name": "{% if post_author.profile %}{{ post_author.profile }}{% else %}{{ site.author.profile }}{% endif %}"
     },
     "editor": "{{ site.editor.profile }}",
     "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
