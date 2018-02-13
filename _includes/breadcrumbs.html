@@ -7,7 +7,7 @@
   {% endif %}
 {% assign route="" %}
 <ol class="list breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
-  <li><a href="{{ '/' | absolute_url }}"><i class="fa fa-home fa-lg" role="button"></i></a></li>
+  <li><a href="{{ '/' | absolute_url }}"><i class="fa fa-home fa-lg"></i></a></li>
   {% for category in categories %}
   {% assign route = route | append: '/' | append: category %}
   {% if forloop.last %}
