@@ -5,7 +5,6 @@ language: id
 permalink: /p/privacy.html
 ---
 <h2>Mengenai Privacy dan Cookies - apacara.com</h2>
-
 <p>Kami tidak mengambil informasi yang bersifat personal dari pengguna. Kami hanya mendapatkan informasi dari pengguna, untuk kepentingan statistic dan diagnosis. </p>
 
 <h3>Informasi Personal Pengguna</h3>

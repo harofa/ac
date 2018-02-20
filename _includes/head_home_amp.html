@@ -10,10 +10,23 @@
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}"/>
-  <title>{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>{% if page.tags and page.tags.size > 0 %}
-  <meta name="keywords" content="{% for tag in page.tags %}{{ tag }},{% endfor %}"/>{% endif %}
+  {%- capture page_title -%}
+    {% if page.title %}{{ page.title }} - {{ site.short_name }}{%- else -%}{{ site.title }}{%- endif -%}{%- if paginator and paginator.page != 1 -%} - page {{ paginator.page }}{% endif %}
+  {%- endcapture -%}
+  {%- capture page_description -%}
+    {%- if paginator and paginator.page != 1 -%}{{ paginator.page }} - Posts pagination. Page: {{ paginator.page }}. {% endif %}{% if page.metadata.description %}{{ page.metadata.description }}{%- else -%}{%- if page.excerpt -%}{{ page.excerpt | strip | strip_html | strip_newlines | truncatewords: 50 }}{%- else -%}{{ site.description }}{%- endif -%}{%- endif -%}
+  {%- endcapture -%}
 
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_description }}"/>
+  {%- if page.tags and page.tags.size > 0 -%}
+    {%- capture page_tags -%}
+      {{ page.tags | join: ',' }}
+    {%- endcapture -%}
+  {%- endif -%}
+  {%- if page.tags -%}
+  <meta name="keywords" content="{{ page_tags }}"/>
+  {%- endif -%}
   <!-- icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.apacara.com/media/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.apacara.com/media/favicons/favicon-32x32.png">
@@ -36,7 +49,7 @@
 {% include css.html %}
 </style>
   <!-- Social -->
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}"/>{% if page.title %}
+  <meta property="og:title" content="{{ page_title }}"/>{% if page.title %}
   <meta property="og:type" content="article"/>{% else %}
   <meta property="og:type" content="website"/>{% endif %}
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
@@ -44,13 +57,13 @@
   <meta property="og:site_name" content="{{ site.name }}"/>{% if page.language %}
   <meta property="og:locale" content="{{ page.language }}"/>{% elsif site.language %}
   <meta property="og:locale" content="{{ site.language }}"/>{% endif %}
-  <meta property="og:description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>
+  <meta property="og:description" content="{{ page_description }}"/>
 
   <meta name="twitter:card" property="twitter:card" content="summary"/>
   <meta name="twitter:site" property="twitter:site" content="{{site.twitter.tw_name}}"/>
-  <meta name="twitter:title" property="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}"/>
+  <meta name="twitter:title" property="twitter:title" content="{{ page_title }}"/>
   <meta name="twitter:image" property="twitter:image" content="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'posts/default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
-  <meta name="twitter:description" property="twitter:description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>
+  <meta name="twitter:description" property="twitter:description" content="{{ page_description }}"/>
   <meta property="fb:app_id" content="{{ site.facebook.fb_app_id }}"/>
   <meta property="fb:admins" content="{{ site.facebook.fb_admins }}"/>
   <meta property="fb:profile_id" content="{{ site.facebook.profile_id }}"/>
@@ -58,14 +71,12 @@
   <script type="application/ld+json">
   { "@context": "http://schema.org",
     "@type": "Article",
-    "name": "{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}",
-    "headline": "{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}",
+    "name": "{{ page_title }}",
+    "headline": "{{ page_title }}",
     "image": "{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'posts/default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}",
     "wordcount": "{{ content | number_of_words }}",
     {% if page.tags and page.tags.size > 0 %}
-    "keywords": "{% for tag in page.tags %}{{ tag }},{% endfor %}",
-    {% elsif site.keywords %}
-    "keywords": "{% for tags in site.keywords %}{{ tags }},{% endfor %}",
+    "keywords": "page_tags",
     {% endif %}
     "mainEntityOfPage": "True",
     "publisher": {
@@ -87,7 +98,7 @@
     {% if page.datePublished %} "datePublished": "{{ page.datePublished | date_to_xmlschema }}",{% else %} "datePublished": "{{ page.date | date_to_xmlschema }}",{% endif %}
     {% if page.dateModified %} "dateModified": "{{ page.dateModified | date_to_xmlschema }}",{% else %} "dateModified": "{{ page.date | date_to_xmlschema }}",{% endif %}
 
-    "description": "{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"
+    "description": "{{ page_description }}"
   }
   </script>
 </head>

@@ -30,6 +30,7 @@ defaults:
 
 # Name of your site
 name: apaCara.com
+short_name: apaCara
 title: apaCara.com - Belajar Blogging dan Web Design
 keywords: [blog,blogging,web,webdesign,webdesain]
 description: "apacara.com - Belajar Apapun Dengan cara Bagaimanapun. Blogging tutorials, belajar Seputar Web Design and Development. "
@@ -110,7 +111,7 @@ kramdown:
 plugins:
   - jekyll-paginate
 
-paginate: 5
+paginate: 10
 paginate_path: "page:num"
 
 # Exclude these files from your production _site
