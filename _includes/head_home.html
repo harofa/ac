@@ -51,37 +51,30 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet"/>
   <script type="application/ld+json">
   { "@context": "http://schema.org",
-    "@type": "Article",
-    "name": "{% if page.title %}{{ page.title }} - {{ site.short_name }}{% else %}{{ site.title }}{% endif %}",
-    "headline": "{% if page.title %}{{ page.title }} - {{ site.short_name }}{% else %}{{ site.title }}{% endif %}",
-    "image": "{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'posts/default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}",
-    "wordcount": "{{ content | number_of_words }}",
-    {% if page.tags and page.tags.size > 0 %}
-    "keywords": "{% for tag in page.tags %}{{ tag }},{% endfor %}",
-    {% elsif site.keywords %}
-    "keywords": "{% for tags in site.keywords %}{{ tags }},{% endfor %}",
-    {% endif %}
+    "@type": "WebPage",
+    "name": "{{ page_title }}",
+    "headline": "{{ page_title }}",
+    {%- if page.lang and page.lang.size > 0 -%}
+
+    "inLanguage": "{{ page.lang }}", {%- else -%} "inLanguage": "{{ site.lang }}",
+    {%- endif -%}
+
     "mainEntityOfPage": "True",
     "publisher": {
       "@type": "Organization",
       "name": "{{ site.publisher.name }}",
       "logo": {
         "@type": "imageObject",
-        "url": "{% if site.publisher.logo_url %}{{ site.publisher.logo_url }}{% else %}{{ 'publisher-logo.png' | prepend: site.images_path.logo | prepend: site.baseurl | prepend: site.url}}{% endif %}"
+        "url": "{{ '/assets/img/publisher-logo.png' | absolute_url }}"
       }
     },
-    {% assign post_author = site.data.people[page.author] %}
     "author": {
       "@type": "Person",
-      "name": "{%if post_author.profile %}{{ post_author.profile }}{% else %}{{ site.author.profile }}{% endif %}"
+      "name": "{{ site.author.profile }}"
     },
     "editor": "{{ site.editor.profile }}",
     "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
-    {% if page.dateCreated %} "dateCreated": "{{ page.dateCreated | date_to_xmlschema }}",{% else %} "dateCreated": "{{ page.date | date_to_xmlschema }}",{% endif %}
-    {% if page.datePublished %} "datePublished": "{{ page.datePublished | date_to_xmlschema }}",{% else %} "datePublished": "{{ page.date | date_to_xmlschema }}",{% endif %}
-    {% if page.dateModified %} "dateModified": "{{ page.dateModified | date_to_xmlschema }}",{% else %} "dateModified": "{{ page.date | date_to_xmlschema }}",{% endif %}
-
-    "description": "{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"
+    "description": "{{ page_description }}"
   }
   </script>
 {% if site.google_analytics %}
