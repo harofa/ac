@@ -28,16 +28,16 @@
   <meta name="keywords" content="{{ page_tags }}"/>
   {%- endif -%}
   <!-- icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="https://www.apacara.com/media/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://www.apacara.com/media/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://www.apacara.com/media/favicons/favicon-16x16.png">
-  <link rel="manifest" href="https://www.apacara.com/media/favicons/manifest.json">
-  <link rel="mask-icon" href="https://www.apacara.com/media/favicons/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="https://www.apacara.com/media/favicons/favicon.ico">
-  <meta name="msapplication-config" content="https://www.apacara.com/media/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="apple-mobile-web-app-title" content="apacara.com">
-  <meta name="application-name" content="apacara.com" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | absolute_url }}"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | absolute_url }}"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | absolute_url }}"/>
+  <link rel="manifest" href="{{ '/assets/favicons/manifest.json' | absolute_url }}"/>
+  <link rel="mask-icon" color="#5bbad5" href="{{ '/assets/favicons/safari-pinned-tab.svg' | absolute_url }}"/>
+  <link rel="shortcut icon" href="{{ '/assets/favicons/favicon.ico' | absolute_url }}"/>
+  <meta name="msapplication-config" content="{{ '/assets/favicons/browserconfig.xml' | absolute_url }}"/>
+  <meta name="theme-color" content="#ffffff"/>
+  <meta name="apple-mobile-web-app-title" content="{{ site.name }}"/>
+  <meta name="application-name" content="{{ site.name }}"/>
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet"/>

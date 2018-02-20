@@ -5,8 +5,7 @@ language: id
 permalink: /p/privacy.html
 ---
 <h2>Mengenai Privacy dan Cookies - apacara.com</h2>
-<p>Kami tidak mengambil informasi yang bersifat personal dari pengguna. Kami hanya mendapatkan informasi dari pengguna, untuk kepentingan statistic dan diagnosis. </p>
-
+<p>Kami (apacara.com) tidak mengambil informasi yang bersifat personal dari pengguna. Kami hanya mendapatkan informasi dari pengguna, untuk kepentingan statistic dan diagnosis. </p>
 <h3>Informasi Personal Pengguna</h3>
 <p>apacara.com tidak membutuhkan registrasi user. Penguna dari manapun dan kapanpun bebas menjelajahi seluruh konten material tanpa perlu registrasi keanggotaan terlebih dahulu.</p>
 

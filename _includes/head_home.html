@@ -9,21 +9,21 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}"/>
-  <title>{% if page.title %}{{ page.title }} - {{ site.short_name }}{% else %}{{ site.title }}{% endif %}{% if paginator %} - page {{ paginator.page }}{% endif %}</title> 
+  <title>{% if page.title %}{{ page.title }} - {{ site.short_name }}{% else %}{{ site.title }}{% endif %}{% if paginator %} - page {{ paginator.page }}{% endif %}</title>
   <meta name="description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>{% if page.tags and page.tags.size > 0 %}
   <meta name="keywords" content="{% for tag in page.tags %}{{ tag }},{% endfor %}"/>{% endif %}
 
   <!-- icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="https://www.apacara.com/media/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://www.apacara.com/media/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://www.apacara.com/media/favicons/favicon-16x16.png">
-  <link rel="manifest" href="https://www.apacara.com/media/favicons/manifest.json">
-  <link rel="mask-icon" href="https://www.apacara.com/media/favicons/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="https://www.apacara.com/media/favicons/favicon.ico">
-  <meta name="msapplication-config" content="https://www.apacara.com/media/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="apple-mobile-web-app-title" content="apacara.com">
-  <meta name="application-name" content="apacara.com" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | absolute_url }}"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | absolute_url }}"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | absolute_url }}"/>
+  <link rel="manifest" href="{{ '/assets/favicons/manifest.json' | absolute_url }}"/>
+  <link rel="mask-icon" color="#5bbad5" href="{{ '/assets/favicons/safari-pinned-tab.svg' | absolute_url }}"/>
+  <link rel="shortcut icon" href="{{ '/assets/favicons/favicon.ico' | absolute_url }}"/>
+  <meta name="msapplication-config" content="{{ '/assets/favicons/browserconfig.xml' | absolute_url }}"/>
+  <meta name="theme-color" content="#ffffff"/>
+  <meta name="apple-mobile-web-app-title" content="{{ site.name }}"/>
+  <meta name="application-name" content="{{ site.name }}"/>
 
   <!-- Social -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.short_name }}{% else %}{{ site.title }}{% endif %}"/>{% if page.title %}

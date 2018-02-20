@@ -14,14 +14,16 @@
   <meta name="keywords" content="{% for tag in page.tags %}{{ tag }},{% endfor %}"/>{% endif %}
 
   <!-- icons -->
-  <link href="{{ 'favicon.ico' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" rel="icon" type="image/x-icon"/>
-  <link href="{{ 'favicon-16x16.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" rel="icon" sizes="16x16"/>
-  <link href="{{ 'favicon-32x32.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" rel="icon" sizes="32x32"/>
-  <link href="{{ 'android-icon-192x192.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" rel="icon" sizes="192x192"/>
-  <link href="{{ 'apple-icon-180x180.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" rel="apple-touch-icon-precomposed"/>
-  <meta content="{{ 'ms-icon-144x144.png' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}" name="msapplication-TileImage"/>
-  <link rel="mask-icon" href="{{ 'safari-pinned-tab.svg' | prepend: site.images_path.favicons | prepend: site.baseurl | prepend: site.url}}"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | absolute_url }}"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | absolute_url }}"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | absolute_url }}"/>
+  <link rel="manifest" href="{{ '/assets/favicons/manifest.json' | absolute_url }}"/>
+  <link rel="mask-icon" color="#5bbad5" href="{{ '/assets/favicons/safari-pinned-tab.svg' | absolute_url }}"/>
+  <link rel="shortcut icon" href="{{ '/assets/favicons/favicon.ico' | absolute_url }}"/>
+  <meta name="msapplication-config" content="{{ '/assets/favicons/browserconfig.xml' | absolute_url }}"/>
   <meta name="theme-color" content="#ffffff"/>
+  <meta name="apple-mobile-web-app-title" content="{{ site.name }}"/>
+  <meta name="application-name" content="{{ site.name }}"/>
 
   <!-- Social -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.title }}{% endif %}"/>{% if page.title %}

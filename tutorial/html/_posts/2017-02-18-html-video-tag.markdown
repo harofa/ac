@@ -17,12 +17,10 @@ images:
   figure: "posts/html-video-tag.png"
   thumb: "posts/thumbs/html-video-tag.png"
 ---
-
 <p class="text-muted">
-    Referensi Belajar <strong>HTML video tag</strong>. Tutorial dan panduan mengenai element <code>&lt;video&gt;...&lt;/video&gt;</code> yang digunakan untuk memutar video. Mencakup penjelasan yang disertai contoh kode penggunaan sebagai rujukan untuk materi belajar HTML <span lang="id">elemen</span> &lt;video&gt;.
+Referensi Belajar <strong>HTML video tag</strong>. Tutorial dan panduan mengenai element <code>&lt;video&gt;...&lt;/video&gt;</code> yang digunakan untuk memutar video. Mencakup penjelasan yang disertai contoh kode penggunaan sebagai rujukan untuk materi belajar HTML <span lang="id">elemen</span> &lt;video&gt;.
 </p>
 <hr class="uk-article-divider">
-
 <h2 class="title-sub bd-danger bd-left bd-left-only">Deskripsi <br>
     <small>Penjelasan HTML <span class="highlight">video</span></small>
 </h2>
