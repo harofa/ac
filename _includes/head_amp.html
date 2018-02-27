@@ -13,7 +13,6 @@
   <title>{% if page.title %}{{ page.title }} - {{ site.short_name }}{% else %}{{ site.title }}{% endif %}{% if paginator %} - page {{ paginator.page }}{% endif %}</title>
   <meta name="description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>{% if page.tags and page.tags.size > 0 %}
   <meta name="keywords" content="{% for tag in page.tags %}{{ tag }},{% endfor %}"/>{% endif %}
-
   <!-- icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | absolute_url }}"/>
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | absolute_url }}"/>
@@ -26,10 +25,10 @@
   <meta name="apple-mobile-web-app-title" content="{{ site.name }}"/>
   <meta name="application-name" content="{{ site.name }}"/>
 
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet"/>
-<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-<script async="async" custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet"/>
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  <script async="async" custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
 {% if site.ads.enabled %}
 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 {% endif %}
@@ -49,7 +48,6 @@
   <meta property="og:locale" content="{{ page.language }}"/>{% elsif site.language %}
   <meta property="og:locale" content="{{ site.language }}"/>{% endif %}
   <meta property="og:description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>
-
   <meta name="twitter:card" property="twitter:card" content="summary"/>
   <meta name="twitter:site" property="twitter:site" content="{{site.twitter.tw_name}}"/>
   <meta name="twitter:title" property="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.short_name }}{% else %}{{ site.title }}{% endif %}"/>
@@ -87,7 +85,6 @@
     },
     "editor": "{{ site.editor.profile }}",
     "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
-    {% if page.dateCreated %} "dateCreated": "{{ page.dateCreated | date_to_xmlschema }}",{% else %} "dateCreated": "{{ page.date | date_to_xmlschema }}",{% endif %}
     {% if page.datePublished %} "datePublished": "{{ page.datePublished | date_to_xmlschema }}",{% else %} "datePublished": "{{ page.date | date_to_xmlschema }}",{% endif %}
     {% if page.dateModified %} "dateModified": "{{ page.dateModified | date_to_xmlschema }}",{% else %} "dateModified": "{{ page.date | date_to_xmlschema }}",{% endif %}
 
