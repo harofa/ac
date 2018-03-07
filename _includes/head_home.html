@@ -1,15 +1,15 @@
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="google-site-verification" content="{{ site.domain_verify.google }}" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
+  <meta content="{{ site.domain_verify.google }}" name="google-site-verification"/>
   <meta content="{{ site.domain_verify.pinterest }}" name="p:domain_verify"/>
   <meta content="{{ site.domain_verify.bing }}" name="msvalidate.01"/>
   <meta content="{{ site.domain_verify.yandex }}" name="yandex-verification"/>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}"/>
-  <title>{% if page.title %}{{ page.title }} - {{ site.short_name }}{% else %}{{ site.title }}{% endif %}{% if paginator %} - page {{ paginator.page }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} - {% else %}{{ site.title }}{% endif %}{% if paginator %} - page {{ paginator.page }}{% endif %}</title>
   <meta name="description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>{% if page.tags and page.tags.size > 0 %}
   <meta name="keywords" content="{% for tag in page.tags %}{{ tag }},{% endfor %}"/>{% endif %}
 

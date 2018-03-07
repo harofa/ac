@@ -11,7 +11,7 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}"/>
   {%- capture page_title -%}
-    {% if page.title %}{{ page.title }} - {{ site.short_name }}{%- else -%}{{ site.title }}{%- endif -%}{%- if paginator and paginator.page != 1 -%} - page {{ paginator.page }}{% endif %}
+    {% if page.title %}{{ page.title }} - {%- else -%}{{ site.title }}{%- endif -%}{%- if paginator and paginator.page != 1 -%} - page {{ paginator.page }}{% endif %}
   {%- endcapture -%}
   {%- capture page_description -%}
     {%- if paginator and paginator.page != 1 -%}{{ paginator.page }} - Posts pagination. Page: {{ paginator.page }}. {% endif %}{% if page.metadata.description %}{{ page.metadata.description }}{%- else -%}{%- if page.excerpt -%}{{ page.excerpt | strip | strip_html | strip_newlines | truncatewords: 50 }}{%- else -%}{{ site.description }}{%- endif -%}{%- endif -%}

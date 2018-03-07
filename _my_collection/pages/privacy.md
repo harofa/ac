@@ -3,6 +3,8 @@ layout: page
 title: "Privacy Policy"
 language: id
 permalink: /p/privacy.html
+metadata:
+  description: "Mengenai Privacy dan Cookies di apacara.com. Kebijakan yang berkanaan dengan privasi dan kukis untuk pengguna dan pengunjung."
 ---
 <h2>Mengenai Privacy dan Cookies - apacara.com</h2>
 <p>Kami (apacara.com) tidak mengambil informasi yang bersifat personal dari pengguna. Kami hanya mendapatkan informasi dari pengguna, untuk kepentingan statistic dan diagnosis. </p>
