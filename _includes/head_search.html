@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="canonical" href="{{ ".html" | prepend: page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}"/>
-  <title>{% if page.title %}{{ page.title }} - {% else %}{{ site.title }}{% endif %}{% if paginator %} - page {{ paginator.page }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} {% else %}{{ site.title }}{% endif %}{% if paginator %} - page {{ paginator.page }}{% endif %}</title>
   <meta name="description" content="{% if page.metadata.description %}{{ page.metadata.description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}"/>{% if page.tags and page.tags.size > 0 %}
   <meta name="keywords" content="{% for tag in page.tags %}{{ tag }},{% endfor %}"/>{% endif %}
 
