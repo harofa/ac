@@ -17,6 +17,7 @@
     <div class="content-info">
       <ul class="list list-bg list-inline">
     	<li><i class="fa fa-user"></i> {%if mypost.author %}{{ author_info.name }}{% else %}{{ site.author.name }}{% endif %}</li>
+    	<li><i class="fa fa fa-clock-o"></i>{% if mypost.dateModified %}{{ mypost.dateModified | date: "%B %-d, %Y" }}{% else %}{{ mypost.date | date: "%B %-d, %Y" }}{% endif %}</li>
       </ul>
     </div>
     </div>

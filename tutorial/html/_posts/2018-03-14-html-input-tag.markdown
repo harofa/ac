@@ -343,6 +343,20 @@ images:
     </div>
 </section>
 
+<div class="row sl-featured">
+<div id="sl-in-ar" class="col-xs-12">
+<amp-ad
+layout="responsive"
+width="700"
+height="700"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+type="adsense"
+data-ad-client="ca-pub-3288866780282962"
+data-ad-slot="7963371614">
+</amp-ad>
+</div>
+</div>
 <!-- Example -->
 <section id="example">
   <h2 class="title-sub bd-danger bd-left bd-left-only">Example<br>
