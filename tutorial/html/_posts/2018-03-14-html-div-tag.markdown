@@ -90,8 +90,8 @@ data-ad-slot="7963371614">
 <div id="sl-in-ar" class="col-xs-12">
 <amp-ad
 layout="responsive"
-width="700"
-height="700"
+width="500"
+height="350"
 data-ad-layout="in-article"
 data-ad-format="fluid"
 type="adsense"
