@@ -259,7 +259,7 @@ images:
 </div>
 </div>
 </article>
-    <p>Untuk membuat link pada sebuah gambar, tulis/tempatkan <code>&lt;img&gt;</code> didalam <code>&lt;a&gt;</code> element.</p>
+<p>Untuk membuat link pada sebuah gambar, tulis/tempatkan <code>&lt;img&gt;</code> didalam <code>&lt;a&gt;</code> element.</p>
 
 <!-- Article Aside -->
 
@@ -315,3 +315,16 @@ images:
 </div>
 
 </aside>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-primary">
+    <div class="icard-bar bar-lg">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
+        <span>INFO</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body bg-primary2">
+<p>Jika halaman web Anda menggunakan <a target="_blank" rel="nofollow" href="https://www.ampproject.org/">AMP HTML</a>, maka Anda harus menggunakan <a href="https://www.apacara.com/tutorial/amp/amp-img-image-cara-menyisipkan-gambar.html">&lt;amp-img&gt;</a> tag sebagai ganti HTML &lt;img&gt; tag</p>
+  </div>
+</div>

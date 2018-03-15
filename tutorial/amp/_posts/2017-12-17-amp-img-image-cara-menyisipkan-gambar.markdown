@@ -439,6 +439,19 @@ dateModified: "2017-12-17T00:00:00+00:00"
 </pre>
   </div>
 </div>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-primary">
+    <div class="icard-bar bar-lg">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
+        <span>INFO</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body bg-primary2">
+<p>Jika halaman web Anda menggunakan HTML Biasa (Non-AMP), maka Anda harus menggunakan <a href="https://www.apacara.com/tutorial/html/html-img-tag.html">HTML &lt;img&gt; tag</a> sebagai ganti &lt;amp-img&gt; tag</p>
+  </div>
+</div>
 <h3>Additional Information and Resources</h3>
 <div class="sources bg-gr3 bordered p-space-v">
   <ul>
