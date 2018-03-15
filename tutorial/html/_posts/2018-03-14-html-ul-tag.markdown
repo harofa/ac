@@ -67,22 +67,9 @@ images:
         </div>
     </div>
 </section>
-
-<div class="row sl-featured">
-<div id="sl-in-ar" class="col-xs-12">
-<amp-ad
-layout="responsive"
-width="500"
-height="350"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-type="adsense"
-data-ad-client="ca-pub-3288866780282962"
-data-ad-slot="7963371614">
-</amp-ad>
-</div>
-</div>
-<!-- Example -->
+<!-- begin sl-featured -->
+<div class="row sl-featured"><div id="sl-in-ar" class="col-xs-12"><amp-ad layout="responsive" width="500" height="350" data-ad-layout="in-article" data-ad-format="fluid" type="adsense" data-ad-client="ca-pub-3288866780282962" data-ad-slot="7963371614"></amp-ad></div></div>
+<!-- end sl-featured -->
 <section id="example">
   <h2 class="title-sub bd-danger bd-left bd-left-only">Example<br>
     <small>Contoh HTML <code>&lt;ul&gt;</code> element</small>

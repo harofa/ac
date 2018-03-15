@@ -48,6 +48,9 @@ images:
 </li>
 
 </ol>
+<!-- begin sl-featured -->
+<div class="row sl-featured"><div id="sl-in-ar" class="col-xs-12"><amp-ad layout="responsive" width="500" height="350" data-ad-layout="in-article" data-ad-format="fluid" type="adsense" data-ad-client="ca-pub-3288866780282962" data-ad-slot="7963371614"></amp-ad></div></div>
+<!-- end sl-featured -->
 <h3 class="title-sub bd-primary bd-left bd-left-only">Memulai...</h3>
 <p>Setelah semua dipersiapkan saatnya memulai untuk belajar bootstrap. Baik, ikuti tahap-tahapnya berikut ini: </p>
 <ol>
@@ -63,20 +66,6 @@ images:
 </li>
 
 </ol>
-<div class="row sl-featured">
-<div id="sl-in-ar" class="col-xs-12">
-<amp-ad
-layout="responsive"
-width="500"
-height="350"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-type="adsense"
-data-ad-client="ca-pub-3288866780282962"
-data-ad-slot="7963371614">
-</amp-ad>
-</div>
-</div>
 <div class="icard">
   <div class="icard-heading clearfix co-wh bg-pi2">
     <div class="icard-bar">
