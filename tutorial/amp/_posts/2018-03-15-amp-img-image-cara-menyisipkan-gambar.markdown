@@ -439,6 +439,7 @@ dateModified: "2017-12-17T00:00:00+00:00"
 </pre>
   </div>
 </div>
+<hr />
 <div class="icard">
   <div class="icard-heading clearfix co-wh bg-primary">
     <div class="icard-bar bar-lg">

@@ -315,6 +315,7 @@ images:
 </div>
 
 </aside>
+<hr/>
 <div class="icard">
   <div class="icard-heading clearfix co-wh bg-primary">
     <div class="icard-bar bar-lg">
