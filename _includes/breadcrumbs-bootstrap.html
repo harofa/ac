@@ -1,0 +1,20 @@
+{% assign categories = include.path | split:"/" %}
+  {% assign filename_without_extension = categories | last | split:"." | first %}
+  {% if categories contains "_posts" or filename_without_extension == "index" %}
+  {% comment %} posts are like /docs/python/_posts/2016-06-06-foobar.md {% endcomment %}
+  {% comment %} OR pages are index.* i.e.: like /docs/python/index.md or index.html {% endcomment %}
+  {% assign categories = categories | pop %}
+  {% endif %}
+{% assign route="" %}
+<ol class="list breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+  <li><a class="ac-a" href="{{ '/' | absolute_url }}"><i class="fa fa-home fa-lg"></i></a></li>
+  {% for category in categories %}
+  {% assign route = route | append: '/' | append: category %}
+  {% if forloop.last %}
+  {% if include.title %}<li><span class="text-muted" itemprop="name">{{include.title}}</span>{% else %}<span itemprop="name">{{ category }}</span>{% endif %}</li>
+  {% else %}
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem"><a class="ac-a" itemprop="item" href="{{ "/category" | prepend: site.baseurl | prepend: site.url }}/{{category}}"><span itemprop="name">{{ category }}</span></a></li>
+  {% endif %}
+  {% endfor %}
+</ol><!-- /breadcrumb -->

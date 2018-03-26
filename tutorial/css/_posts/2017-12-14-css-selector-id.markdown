@@ -106,7 +106,7 @@ Property: Value;  /* Deklarasi CSS */
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/css/selector/id.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/css/selector/id.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
       </div>
     </div>
   </div>

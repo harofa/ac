@@ -131,7 +131,7 @@ konteks<span class="token punctuation">.</span><span class="token function">fill
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/html/tag/canvas.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/html/tag/canvas.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
       </div>
     </div>
   </div>

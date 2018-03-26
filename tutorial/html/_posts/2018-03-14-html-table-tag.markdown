@@ -110,7 +110,7 @@ images:
     <span>HTML</span>
   </div>
   <div class="icard-bar-right pull-right">
-    <a href="https://www.apacara.com/example/html/tag/table1.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+    <a href="https://www.apacara.com/example/html/tag/table1.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
   </div>
 </div>
 </div>
@@ -141,7 +141,7 @@ images:
     <span>HTML</span>
   </div>
   <div class="icard-bar-right pull-right">
-    <a href="https://www.apacara.com/example/html/tag/table2.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+    <a href="https://www.apacara.com/example/html/tag/table2.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
   </div>
 </div>
 </div>
@@ -206,7 +206,7 @@ images:
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/html/tag/table.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/html/tag/table.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
       </div>
     </div>
   </div>
@@ -315,7 +315,7 @@ images:
     <span>HTML</span>
   </div>
   <div class="icard-bar-right pull-right">
-    <a href="https://www.apacara.com/example/html/tag/table3.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+    <a href="https://www.apacara.com/example/html/tag/table3.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
   </div>
 </div>
 </div>
@@ -396,7 +396,7 @@ images:
     <span>HTML</span>
   </div>
   <div class="icard-bar-right pull-right">
-    <a href="https://www.apacara.com/example/html/tag/table4.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+    <a href="https://www.apacara.com/example/html/tag/table4.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
   </div>
 </div>
 </div>
@@ -480,7 +480,7 @@ images:
     <span>HTML</span>
   </div>
   <div class="icard-bar-right pull-right">
-    <a href="https://www.apacara.com/example/html/tag/table5.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+    <a href="https://www.apacara.com/example/html/tag/table5.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
   </div>
 </div>
 </div>

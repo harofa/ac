@@ -31,7 +31,7 @@ datePublished: "2017-10-31T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/amp/amp-element/amp-youtube.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/amp-element/amp-youtube.html" target="_blank"><span>demo</span><i class="fa fa-external-link"></i></a>
       </div>
     </div>
   </div>
@@ -92,7 +92,7 @@ datePublished: "2017-10-31T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/amp/amp-element/amp-youtube.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/amp-element/amp-youtube.html" target="_blank"><span>demo</span><i class="fa fa-external-link"></i></a>
       </div>
     </div>
   </div>
@@ -135,7 +135,7 @@ datePublished: "2017-10-31T00:00:00+07:00"
         <span>SOURCE</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/amp/amp-element/amp-youtube-autoplay.html" target="_blank"><span>demo</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/amp/amp-element/amp-youtube-autoplay.html" target="_blank"><span>demo</span><i class="fa fa-external-link"></i></a>
       </div>
     </div>
   </div>

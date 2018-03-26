@@ -55,7 +55,7 @@ images:
         <span>Contoh</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/javascript/ref/variable.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/javascript/ref/variable.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
       </div>
     </div>
   </div>
@@ -88,7 +88,7 @@ images:
         <span>Contoh</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/javascript/ref/variable2.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/javascript/ref/variable2.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
       </div>
     </div>
   </div>
@@ -148,7 +148,7 @@ images:
         <span>Contoh</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/javascript/ref/multiple-variable.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/javascript/ref/multiple-variable.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
       </div>
     </div>
   </div>
@@ -196,7 +196,7 @@ images:
         <span>Contoh</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/javascript/ref/variable-value.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/javascript/ref/variable-value.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
       </div>
     </div>
   </div>

@@ -74,7 +74,7 @@ images:
         <span>index.html</span>
       </div>
       <div class="icard-bar-right pull-right">
-        <a href="https://www.apacara.com/example/bootstrap/ref/bootstrap-template-dasar.html" target="_blank"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+        <a href="https://www.apacara.com/example/bootstrap/ref/bootstrap-template-dasar.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
       </div>
     </div>
   </div>
@@ -156,7 +156,7 @@ images:
     &#x2514;&#x2500;&#x2500; glyphicons-halflings-regular.woff2</code></pre>
 <p>Jika sudah benar, maka kita akan mulai mencoba dan belajar bootstrap pada step berikutnya.</p>
 <h3 class="title-sub bd-primary bd-left bd-left-only">Saatnya untuk Uji Coba:</h3>
-<p>Buka file "index.html" yang telah dibuat dengan code snippet diatas, buka dengan browser terbaru misalkan Google Chrome atau Firefox <del> jangan gunakan internet explorer</del>. Jika file <em>Bootstrap.css</em> berhasil di-load, maka tombol button akan memiliki style ala bootstrap seperti pada demo <a href="https://www.apacara.com/example/bootstrap/ref/bootstrap-template-dasar.html" target="_blank"><span>disini </span><i class="fa fa-external-link" role="button"></i></a> </p>
+<p>Buka file "index.html" yang telah dibuat dengan code snippet diatas, buka dengan browser terbaru misalkan Google Chrome atau Firefox <del> jangan gunakan internet explorer</del>. Jika file <em>Bootstrap.css</em> berhasil di-load, maka tombol button akan memiliki style ala bootstrap seperti pada demo <a href="https://www.apacara.com/example/bootstrap/ref/bootstrap-template-dasar.html" target="_blank"><span>disini </span><i class="fa fa-external-link"></i></a> </p>
 <p>Kita coba lagi apakah <em>bootstrap.js</em> berhasil di load dengan cara mengklik tombol "Klik Aku" tersebut. Apabila muncul dialog box, maka <em>bootstrap.js</em> juga berhasil di load dan siap digunakan sebagai template. Gunakan template ini untuk setiap materi pembelajaran bootstrap dan hapuslah AWAL CONTENT sampai AKHIR CONTENT untuk memulai file baru kosong tanpa konten.</p>
 <div class="dul-callout dul-callout-success">
 <hr>

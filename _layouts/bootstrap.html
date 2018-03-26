@@ -1,18 +1,15 @@
 ---
-layout: default_amp
+layout: default_bootstrap
 ---
 <div id="main" class="main-wrapper">
   <div class="container">
     <div class="row">
       <div class="col-md-8 blog-main">
-{% if site.ads.enabled %}
-{% include ads_top_72890.html %}
-{% endif %}
         <!-- breadcrumb -->
-        {% include breadcrumbs.html path=page.path title=page.title %}
+        {% include breadcrumbs-bootstrap.html path=page.path title=page.title %}
   	    <div class="post hentry blog-post">
   	      <article class="content item-wrapper" >
-          	<h1 class="blog-post-title">{{ page.title }}</h1>
+          	<h1 class="ac-h1 blog-post-title">{{ page.title }}</h1>
             <!-- META - top -->
     				<div class="meta list-wrapper">
     				  <ul class="list list-bg list-inline">
@@ -29,7 +26,7 @@ layout: default_amp
             <div class="article-body">
           		<div class="img-wrapper">
           		  <figure>
-<amp-img alt="{% if page.images.alt %}{{ page.images.alt }}{% else %}{{ page.title }}{% endif %}" layout="responsive" width="833" height="500" src="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'posts/default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}"><noscript><img class="img-responsive" src="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'posts/default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="{% if page.images.alt %}{{ page.images.alt }}{% else %}{{ page.title }}{% endif %}"/></noscript></amp-img>
+          			<img class="img-fluid" src="{% if page.images.figure %}{{ page.images.figure | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% elsif page.images.figure_absolute %}{{ page.images.figure_absolute }}{% elsif site.default_image_url %}{{ site.default_image_url }}{% else %}{{'posts/default_image.png' | prepend: site.images_path.images | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="{% if page.images.alt %}{{ page.images.alt }}{% else %}{{ page.title }}{% endif %}">
                 </figure>
           		</div>
               {% if page.images.source_title %}
@@ -39,14 +36,10 @@ layout: default_amp
                 <small class="text-muted">Source: <a  href="{{ page.images.source_url }}" target="_blank" rel="nofollow">{{ page.images.source_title }}</a></small>{% else %}<small class="text-muted">Source: {{ page.images.source_title }}</small>{% endif %}
                 </div>
               </div>{% endif %}
-{% if site.ads.enabled %}{% include ads_bottom_image.html %}{% endif %}
 {{ content }}
-{% if site.ads.enabled %}
-{% include ads_bottom_post.html %}
-{% endif %}
-        {% include sharer_amp.html %}
+        {% include sharer.html %}
         {% if site.display_author %}
-        {% include author_amp.html %}
+        {% include author.html %}
         {% endif %}
         <hr/>
         <!-- PAGINATION -->
@@ -57,16 +50,7 @@ layout: default_amp
           </ul>
         </nav>
         <hr/>
-        {% include related_posts_amp.html %}
-        {% if site.use_fb_comments %}
-<h3 class="section-title">Comments</h3>
-<div class="section-line">
-  <div class="section-line-inside"></div>
-</div>{% include comment.html %}{% else %}
-<h3 class="section-title">Comments</h3>
-<div class="section-line">
-  <div class="section-line-inside"></div>
-</div><div id="disqus_thread"></div>{% include disqus.html %}{% endif %}
+        {% include related_posts.html %}
             </div>
           </article>
         </div>
@@ -74,12 +58,9 @@ layout: default_amp
         <!-- sidebar -->
         <div class="sidebar-wrapper col-md-4">
   			<aside id="sidebar" class="sidebar">
-  			  {% include sidebar_amp.html %}
+  			  {% include sidebar_local.html %}
   			</aside>
   		</div>
   	</div>
-{% if site.ads.enabled %}
-{% include ads_bottom.html %}
-{% endif %}
   </div>
 </div>

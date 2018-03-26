@@ -120,7 +120,7 @@ adalah organisasi perhimpunan nasional Indonesia yang bergerak di bidang sosial 
 <span>SOURCE</span>
 </div>
 <div class="icard-bar-right pull-right">
-<a href="https://www.apacara.com/example/html/tag/abbr.html" target="_blank" rel="nofollow"><span>editor</span><i class="fa fa-external-link" role="button"></i></a>
+<a href="https://www.apacara.com/example/html/tag/abbr.html" target="_blank" rel="nofollow"><span>editor</span><i class="fa fa-external-link"></i></a>
 </div>
 </div>
 </div>
