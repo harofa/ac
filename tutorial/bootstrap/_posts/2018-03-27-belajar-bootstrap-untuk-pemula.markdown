@@ -9,13 +9,13 @@ metadata:
 
 author: dul
 
-tag: [bootstrap3, bootstrap3ref]
+tag: [bootstrap]
 taxonomy:
-  category: bootstrap3
-  tag: [bootstrap3, bootstrap3ref]
+  category: bootstrap
+  tag: [bootstrap]
 images:
-  figure: "posts/bootstrap3-apa-mulai-belajar.png"
-  thumb: "posts/thumbs/bootstrap3-apa-mulai-belajar.png"
+  figure: "posts/bootstrap-apa-mulai-belajar.png"
+  thumb: "posts/thumbs/bootstrap-apa-mulai-belajar.png"
 ---
 <h2 class="title-sub bd-danger bd-left bd-left-only">Apa Itu Bootstrap?</h2>
 <p class="lead">
@@ -184,7 +184,7 @@ images:
 <p>Jika Anda ingin mereferensikan artikel halaman ini, gunakan link berikut:</p>
 <div class="icard">
 <div class="icard-body icode itheme">
-<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="html  language-markup">https://www.apacara.com/tutorial/bootstrap3/belajar-bootstrap-untuk-pemula.html</code>
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="html  language-markup">https://www.apacara.com/tutorial/bootstrap/belajar-bootstrap-untuk-pemula.html</code>
 </pre>
 </div>
 </div>
