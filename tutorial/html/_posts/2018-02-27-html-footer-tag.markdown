@@ -5,7 +5,7 @@ short_title: "HTML &lt;footer&gt; Tag"
 language: id
 
 metadata:
-  description: "Referensi belajar HTML &lt;footer&gt; tag. Tutorial dan panduan mengenai element <code>&lt;footer&gt;&lt;/footer&gt;</code>. Penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;footer&gt;"
+  description: "Referensi belajar HTML &lt;footer&gt; tag. Tutorial dan panduan mengenai element &lt;footer&gt;&lt;/footer&gt;. Penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;footer&gt;"
 
 author: dul
 

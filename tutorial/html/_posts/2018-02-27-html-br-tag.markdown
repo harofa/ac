@@ -5,7 +5,7 @@ short_title: "HTML &lt;br&gt; Tag"
 language: id
 
 metadata:
-  description: "Referensi belajar HTML &lt;br&gt; tag. Tutorial dan panduan mengenai element <code>&lt;br /&gt;</code>, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;br&gt;"
+  description: "Referensi belajar HTML &lt;br&gt; tag. Tutorial dan panduan mengenai element &lt;br /&gt;, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;br&gt;"
 
 author: dul
 

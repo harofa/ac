@@ -5,7 +5,7 @@ short_title: "HTML &lt;nav&gt; Tag"
 language: id
 
 metadata:
-  description: "Referensi belajar HTML &lt;nav&gt; tag. Tutorial dan panduan mengenai element <code>&lt;nav&gt;&lt;/nav&gt;</code>, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;nav&gt;"
+  description: "Referensi belajar HTML &lt;nav&gt; tag. Tutorial dan panduan mengenai element &lt;nav&gt;&lt;/nav&gt;, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;nav&gt;"
 
 author: dul
 

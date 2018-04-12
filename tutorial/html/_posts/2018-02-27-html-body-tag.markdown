@@ -5,7 +5,7 @@ short_title: "HTML &lt;body&gt; Tag"
 language: id
 
 metadata:
-  description: "Referensi belajar HTML &lt;body&gt; tag. Tutorial dan panduan mengenai element <code>&lt;body&gt;..&lt;/body&gt;</code>, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;body&gt;"
+  description: "Referensi belajar HTML &lt;body&gt; tag. Tutorial dan panduan mengenai element &lt;body&gt;..&lt;/body&gt;, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;body&gt;"
 
 author: dul
 

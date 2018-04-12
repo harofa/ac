@@ -5,7 +5,7 @@ short_title: "HTML &lt;canvas&gt; Tag"
 language: id
 
 metadata:
-  description: "Referensi belajar HTML &lt;canvas&gt; tag. Tutorial dan panduan mengenai element <code>&lt;canvas&gt;..&lt;/canvas&gt;</code>, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;canvas&gt;"
+  description: "Referensi belajar HTML &lt;canvas&gt; tag. Tutorial dan panduan mengenai element &lt;canvas&gt;..&lt;/canvas&gt;, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;canvas&gt;"
 
 author: dul
 

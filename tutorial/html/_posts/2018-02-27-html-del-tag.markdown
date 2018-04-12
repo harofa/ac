@@ -5,7 +5,7 @@ short_title: "HTML &lt;del&gt; Tag"
 language: id
 
 metadata:
-  description: "Referensi belajar HTML &lt;del&gt; tag. Tutorial dan panduan mengenai element <code>&lt;del&gt;..&lt;/del&gt;</code>, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;del&gt;"
+  description: "Referensi belajar HTML &lt;del&gt; tag. Tutorial dan panduan mengenai element &lt;del&gt;..&lt;/del&gt;, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;del&gt;"
 
 author: dul
 
