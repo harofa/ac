@@ -1,5 +1,6 @@
 ---
 layout: editor
+template: editor
 title: "HTML video tag Full example - demo + Editor"
 ---
 <!DOCTYPE html>
@@ -11,14 +12,14 @@ title: "HTML video tag Full example - demo + Editor"
   </head>
   <body>
     <video width="320" height="240" controls>
-      <source src='https://www.apacara.com/media/video/halwa.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-      <source src='https://www.apacara.com/media/video/halwa.ogv' type='video/ogg; codecs="theora, vorbis"'>
-      <source src="https://www.apacara.com/media/video/halwa.webm" type='video/webm; codecs="vp8, vorbis"'>
+      <source src='/media/video/halwa.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+      <source src='/media/video/halwa.ogv' type='video/ogg; codecs="theora, vorbis"'>
+      <source src="/media/video/halwa.webm" type='video/webm; codecs="vp8, vorbis"'>
 
       <track label="English" kind="subtitles" srclang="en"
-                                              src="https://www.apacara.com/media/video/subtitles-en.vtt">
+                                              src="/media/video/subtitles-en.vtt">
       <track label="Indonesian" kind="subtitles" srclang="id"
-                                                 src="https://www.apacara.com/media/video/subtitles-id.vtt" default>
+                                                 src="/media/video/subtitles-id.vtt" default>
       Browser Anda tidak mendukung HTML video tag.
     </video>
   </body>

@@ -1,0 +1,258 @@
+---
+layout: post_amp
+template: post_amp
+date: 10 April 2018
+
+title: "HTML header tag | belajar &lt;header&gt; element"
+short_title: "HTML &lt;header&gt; Tag"
+language: id
+
+metadata:
+  description: "Referensi belajar HTML &lt;header&gt; tag. Tutorial dan panduan mengenai element &lt;header&gt;&lt;/header&gt;, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;header&gt;"
+
+author: dul
+
+tags: html, htmltag
+tag: [html, htmltag]
+taxonomy:
+  category: html
+  tags: html, htmltag
+  tag: [html, htmltag]
+images:
+  figure: "posts/html-header-tag.png"
+  thumb: "posts/thumbs/html-header-tag.png"
+---
+<p class="text-muted">
+    Referensi Belajar <strong>HTML header tag</strong>. Tutorial dan panduan mengenai element <code>&lt;header&gt;...&lt;/header&gt;</code> yang digunakan sebagai konten pengantar (introductory). Mencakup penjelasan yang disertai contoh kode penggunaan sebagai rujukan untuk materi belajar HTML <span lang="id">elemen</span> &lt;header&gt;.
+</p>
+<hr class="uk-article-divider">
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Deskripsi <br>
+    <small>Penjelasan HTML <span class="highlight">header</span></small>
+</h2>
+<p>
+  <strong>HTML <code>&lt;header&gt;</code> element</strong> merepresentasikan konten pengantar, pembukaan atau navigasi yang terdiri dari deretan link.
+</p>
+<p>Dalam penggunaannya, <code>&lt;header&gt;</code> element dapat berisi <i>element heading</i> (<code>&lt;h1&gt;</code>-<code>&lt;h6&gt;</code>) tapi tidak diperlukan, daftar isi (table of contents), sebuah logo, form pencarian dan lain sebagainya.</p>
+<p><code>&lt;header&gt;</code> element bukanlah sebuah konten pemisah (<i>sectioning content</i>) karena ia bukanlah konten yang terdiri dari <i title="konten pada bagian kepala (catatan kepala)">headings</i> dan <i title="konten pada bagian kaki (catatan kaki)">footers</i>, karena jelas sekali dalam sebuah &lt;header&gt; tidak boleh terdapat element &lt;header&gt; lain.</p>
+<p>Elemen &lt;header&gt; tidak boleh digunakan sebagai anak element (<i>descendant</i>) dari <code>&lt;address&gt;</code>, <code>&lt;footer&gt;</code>, atau <code>&lt;header&gt;</code> lainnya.</p>
+<p>Dalam sebuah dokumen, dapat ditemukan lebih dari satu <code>&lt;header&gt;</code> element.</p>
+
+<hr class="uk-article-divider">
+<!-- Global Attributes -->
+<section id="global-attribute">
+  <h2 class="title-sub bd-danger bd-left bd-left-only">Global Attributes <br>
+    <small>Atribut Secara Global (Keseluruhan)</small>
+  </h2>
+    <div class="">
+        <p>&lt;header&gt; tag mencakup <em>global attributes</em>, yang artinya tag tersebut dapat disisipkan semua attributes yang termasuk dalam global attributes yang secara umum berlaku untuk semua HTML tags.</p>
+        <div class="footer-callout info">
+          <p>Silahkan, lihat referensi mengenai <a href="/tutorial/html/html-global-attribute.html">HTML Global Attribute</a></p>
+        </div>
+    </div>
+</section>
+
+<!-- Event Attributes -->
+<section>
+  <h2 class="title-sub bd-danger bd-left bd-left-only">Event Attributes <br>
+    <small>Atribut event  (Peristiwa)</small>
+  </h2>
+    <div class="dul-callout dul-callout-warning">
+        <p>&lt;header&gt; tag mencakup <em>event attributes</em>, yang artinya attribute tersebut dijalankan ketika ada interaksi dari user atau dalam suatu peristiwa (kejadian). Contoh: menjalankan script (JavaScript) ketika halaman web pada jendela browser hendak ditutup, dan lain sebagainya.</p>
+        <div class="footer-callout warning">
+          <p>Silahkan, lihat referensi mengenai <a href="/tutorial/html/html-event-attribute.html">HTML Events Attribute</a></p>
+        </div>
+    </div>
+</section>
+
+<!-- Example -->
+<section id="example">
+  <h2 class="title-sub bd-danger bd-left bd-left-only">Example<br>
+    <small>Contoh HTML <code>&lt;header&gt;</code> element</small>
+  </h2>
+    <h5>Contoh 1</h5>
+    <p>&lt;header&gt; yang ditulis di dalam &lt;body&gt; element, sehingga dapat ditulis informasi yang berlaku pada dokumen secara keseluruhan.</p>
+<!-- HTML Code Example -->
+<div class="icard">
+<div class="icard-heading clearfix co-wh bg-pi2">
+<div class="icard-bar">
+  <div class="icard-bar-left pull-left">
+    <i class="fa fa-html5" aria-hidden="true"></i>
+    <span>HTML</span>
+  </div>
+  
+</div>
+</div>
+<div class="icard-body icode itheme">
+<pre class="prettyprint linenums line-numbers highlight max-height language-markup" data-line="3,18"><code data-language="html" class="html  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token comment" >&lt;!-- header pertama --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>apaCara Blog<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Artikel Terbaru<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Artikel Populer<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Hubungi Kami<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
+</pre>
+</div>
+</div>
+  <hr class="uk-article-divider">
+  <h5>Contoh 2</h5>
+  <p>&lt;header&gt; ditulis didalam &lt;article&gt; element. Isinya berkenaan dengan catatan kepala dan informasi yang berkaitan dengan article tersebut.</p>
+<div class="icard">
+<div class="icard-heading clearfix co-wh bg-pi2">
+<div class="icard-bar">
+  <div class="icard-bar-left pull-left">
+    <i class="fa fa-html5" aria-hidden="true"></i>
+    <span>HTML</span>
+  </div>
+  
+</div>
+</div>
+<div class="icard-body icode itheme">
+<pre class="prettyprint linenums line-numbers highlight language-markup" data-line="3,8"><code data-language="html" class="html  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span><span class="token punctuation">&gt;</span></span>
+  <span class="token comment" >&lt;!-- header kedua --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">&gt;</span></span>Mengenal Web Standard<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Ditulis oleh: dul,
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>time</span> <span class="token attr-name">datetime</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>2015-03-07T13:00<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>07 Maret 2015, pkl. 13:00<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>time</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Apa itu Web Standard? Web Standard adalah teknologi yang dibangun oleh
+  W3C dan lainnya yang dikembangkan untuk menginterpretasikan konten web
+  agar memiliki standar yang dapat dinikmati oleh semua kalangan dan dapat
+  diakses di semua
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>device<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span>(smartphone, tablet, desktop dan lain sebagainya).<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
+</pre>
+  </div>
+  <p>Jika Contoh 1 dan Contoh 2 digabungkan, maka hasilnya dapat dilihat pada demo editor dibawah ini:</p>
+  </div>
+</section>
+<h2 class="title-sub bd-danger bd-left bd-left-only">Contoh Lengkap
+</h2>
+<p>Contoh <em>source code</em> lengkap disertai dengan link  &quot;editor&quot; untuk mencoba (try it) dan melihat hasil (preview) kode.</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html5" aria-hidden="true"></i>
+        <span>SOURCE</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/html/tag/header.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="inline  language-markup"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Demo HTML header tag<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment" >&lt;!-- header pertama --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>apaCara Blog<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Artikel Terbaru<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Artikel Populer<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Hubungi Kami<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span><span class="token punctuation">&gt;</span></span>
+      <span class="token comment" >&lt;!-- header kedua --&gt;</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">&gt;</span></span>Mengenal Web Standard<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Ditulis oleh: dul,
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>time</span> <span class="token attr-name">datetime</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>2015-03-07T13:00<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>07 Maret 2015, pkl. 13:00<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>time</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Apa itu Web Standard? Web Standard adalah teknologi yang dibangun oleh
+        W3C dan lainnya yang dikembangkan untuk menginterpretasikan konten web
+        agar memiliki standar yang dapat dinikmati oleh semua kalangan dan dapat
+        diakses di semua
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>device<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span>(smartphone, tablet, desktop dan lain sebagainya).<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+<!-- Article Aside -->
+
+<!-- Browser Support -->
+<aside id="browser">
+<h2 class="title-sub bd-danger bd-left bd-left-only">Browser Support <br>
+  <small>Status &amp; Dukungan Browser </small>
+</h2>
+<p>Berikut adalah keterangan mengenai dukungan (support) dari beberapa browser.</p>
+<div class="table-responsive uk-overflow-container">
+  <table class="table uk-table uk-text-nowrap full-width">
+        <thead>
+          <tr>
+            <th>HTML</th>
+            <th title="Chrome"><i class="fa fa-chrome fa fa-lg"></i></th>
+            <th title="Safari"><i class="fa fa-safari fa fa-lg"></i></th>
+            <th title="Firefox"><i class="fa fa-firefox fa fa-lg"></i></th>
+            <th title="Opera"><i class="fa fa-opera fa fa-lg"></i></th>
+            <th title="Internet Explorer"><i class="fa fa-internet-explorer fa fa-lg"></i></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Element</td>
+            <td>Chrome</td>
+            <td>Safari</td>
+            <td>Firefox</td>
+            <td>Opera</td>
+            <td>IE</td>
+          </tr>
+          <tr>
+            <td><code>&lt;header&gt;</code></td>
+            <td class="success">5</td>
+            <td class="success">4.1</td>
+            <td class="success">4.0</td>
+            <td class="success">11.10</td>
+            <td class="success">9.0</td>
+          </tr>
+        </tbody>
+  </table>
+</div>
+
+<hr class="uk-article-divider">
+<!-- Default CSS -->
+<div class="dul-block">
+  <h2 class="title-sub bd-danger bd-left bd-left-only">Pengaturan awal CSS yang berlaku&nbsp;</h2>
+  <p>CSS untuk element <code>&lt;header&gt;</code> yang akan diberlakukan ketika awal inisial.</p>
+  <div class="icode itheme css">
+    <pre class="prettyprint highlight language-css"><code data-language="css" class=" inline language-css"><span class="token selector">header</span> <span class="token punctuation">{</span>
+<span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+</div>
+</div>
+
+</aside>

@@ -58,11 +58,12 @@ layout: default_amp
         </nav>
         <hr/>
         {% include related_posts_amp.html %}
+        {% include ads_bottom_comments.html %}
         {% if site.use_fb_comments %}
 <h3 class="section-title">Comments</h3>
 <div class="section-line">
   <div class="section-line-inside"></div>
-</div>{% include comment.html %}{% else %}
+</div>{% include comment.html %}{% elsif site.disqus %}
 <h3 class="section-title">Comments</h3>
 <div class="section-line">
   <div class="section-line-inside"></div>

@@ -1,18 +1,21 @@
 ---
 layout: editor
+template: editor
 title: "Example (contoh) HTML img srcset"
 ---
 <!DOCTYPE html>
 
 <html>
   <head>
+    <meta charset="utf-8" />
+    <title>Example (contoh) HTML img srcset</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <p>Responsive image dengan &lt;img&gt; <code>srcset</code> attribute</p>
     <p>Silahkan perbesar dan perkecil layar browser, gambar yang ditampilkan akan berbeda berdasarkan ukuran layar.</p>
-    <img src="https://www.apacara.com/media/images/orange.jpg"
-         srcset="https://www.apacara.com/media/images/apple.jpg 1024w, https://www.apacara.com/media/images/grape.jpg 640w, https://www.apacara.com/media/images/banana.jpg 320w"
+    <img src="/media/images/orange.jpg"
+         srcset="/media/images/apple.jpg 1024w, /media/images/grape.jpg 640w, /media/images/banana.jpg 320w"
          sizes="(min-width: 900px) 50vw, 100vw"
          alt="">
   </body>

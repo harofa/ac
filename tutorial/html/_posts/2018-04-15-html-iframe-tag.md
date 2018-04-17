@@ -1,0 +1,246 @@
+---
+layout: post_amp
+template: post_amp
+date: 10 April 2018
+
+title: "HTML iframe tag | belajar &lt;iframe&gt; element"
+short_title: "HTML &lt;iframe&gt; Tag"
+language: id
+
+metadata:
+  description: "Referensi belajar HTML &lt;iframe&gt; tag. Tutorial dan panduan mengenai element &lt;iframe&gt;&lt;/iframe&gt;, penjelasan dengan contoh kode penggunaan sebagai referensi belajar HTML &lt;iframe&gt;"
+
+author: dul
+
+tags: html, htmltag
+tag: [html, htmltag]
+taxonomy:
+  category: html
+  tags: html, htmltag
+  tag: [html, htmltag]
+images:
+  figure: "posts/html-iframe-tag.png"
+  thumb: "posts/thumbs/html-iframe-tag.png"
+---
+<p class="text-muted">
+    Referensi Belajar <strong>HTML iframe tag</strong>. Tutorial dan panduan mengenai element <code>&lt;iframe&gt;...&lt;/iframe&gt;</code> yang digunakan untuk menyisipkan dokumen lain dalam dokumen yang bersangkutan. Mencakup pembahasan lebih detail dan lengkap yang disertai contoh kode penggunaan sebagai rujukan untuk materi belajar HTML <span lang="id">elemen</span> &lt;iframe&gt;.
+</p>
+<hr class="uk-article-divider">
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Deskripsi <br>
+    <small>Penjelasan HTML <span class="html-tag">iframe</span> tag</small>
+</h2>
+<p>
+  <strong>HTML <code>&lt;iframe&gt;</code> element</strong> digunakan untuk merepresentasikan konteks jelajah dari sebuah dokumen atau file lain untuk dimasukkan (<em>embed</em>) dalam dokumen yang bersangkutan.
+</p>
+<p><code>&lt;iframe&gt;</code> element sering digunakan untuk menyisipkan konten dari website lain, contohnya menyisipkan script iklan dari website pihak ketiga, memasukkan widget atau aplikasi tertentu, dan memasukkan video dari sumber lain (seperti Youtube, Vimeo dan sejenisnya).</p>
+
+<!-- Attribute  -->
+<section id="attribute">
+  <h2 class="title-sub bd-danger bd-left bd-left-only">Attributes <br>
+    <small>Atribut HTML Tag <code>&lt;iframe&gt;</code></small>
+  </h2>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+<div class="icard-heading clearfix co-wh bg-gr2">
+   <div class="icard-bar"><div class="icard-bar-left pull-left"><span><code class="txt-lg">sandbox</code></span></div></div></div><div class="icard-body icode itheme">
+        <p>Membolehkan batasan-batasan tambahan untuk konten dalam sebuah iframe.</p>
+      <div class="icard-footer clearfix bg-gr2 icode itheme">
+        <p>Value:</p>
+        <ul>
+          <li><code><i>allow-forms</i></code></li>
+          <li><code><i>allow-pointer-lock</i></code></li>
+          <li><code><i>allow-popups</i></code></li>
+          <li><code><i>allow-same-origin</i></code></li>
+          <li><code><i>allow-scripts</i></code></li>
+          <li><code><i>allow-top-navigation</i></code></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+<div class="icard-heading clearfix co-wh bg-gr2">
+   <div class="icard-bar"><div class="icard-bar-left pull-left"><span><code class="txt-lg">seamless</code></span></div></div></div><div class="icard-body icode itheme">
+        <p>Menentukkan bahwa <code>&lt;iframe&gt;</code> harus nampak seperti bagian dari konten dalam dokumen tersebut.</p>
+      <div class="icard-footer clearfix bg-gr2 icode itheme">
+        <p>Value: <code><i>seamless</i></code></p>
+      </div>
+    </div>
+    </div>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+<div class="icard-heading clearfix co-wh bg-gr2">
+   <div class="icard-bar"><div class="icard-bar-left pull-left"><span><code class="txt-lg">src</code></span></div></div></div><div class="icard-body icode itheme">
+        <p>Menentukkan sumber (url) dokumen atau file yang akan disisipkan pada sebuah <code>&lt;iframe&gt;</code>.</p>
+      <div class="icard-footer clearfix bg-gr2 icode itheme">
+        <p>Value: <code><i>url</i></code></p>
+      </div>
+    </div>
+    </div>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+<div class="icard-heading clearfix co-wh bg-gr2">
+   <div class="icard-bar"><div class="icard-bar-left pull-left"><span><code class="txt-lg">srcdoc</code></span></div></div></div><div class="icard-body icode itheme">
+        <p>Menentukkan konten halaman HTML yang akan ditampilkan dalam sebuah <code>&lt;iframe&gt;</code>.</p>
+      <div class="icard-footer clearfix bg-gr2 icode itheme">
+        <p>Value: <i>HTML_code</i> (kode HTML)</p>
+      </div>
+    </div>
+    </div>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+<div class="icard-heading clearfix co-wh bg-gr2">
+   <div class="icard-bar"><div class="icard-bar-left pull-left"><span><code class="txt-lg">width</code></span></div></div></div><div class="icard-body icode itheme">
+        <p>Menentukkan lebar dari sebuah <code>&lt;iframe&gt;</code>.</p>
+      <div class="icard-footer clearfix bg-gr2 icode itheme">
+        <p>Value: <code><i>pixels</i></code></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="uk-article-divider">
+<!-- Global Attributes -->
+<section id="global-attribute">
+  <h2 class="title-sub bd-danger bd-left bd-left-only">Global Attributes <br>
+    <small>Atribut Secara Global (Keseluruhan)</small>
+  </h2>
+    <div class="">
+        <p>&lt;iframe&gt; tag mencakup <em>global attributes</em>, yang artinya tag tersebut dapat disisipkan semua attributes yang termasuk dalam global attributes yang secara umum berlaku untuk semua HTML tags.</p>
+        <div class="footer-callout info">
+          <p>Silahkan, lihat referensi mengenai <a href="/tutorial/html/html-global-attribute.html">HTML Global Attribute</a></p>
+        </div>
+    </div>
+</section>
+
+<!-- Event Attributes -->
+<section>
+  <h2 class="title-sub bd-danger bd-left bd-left-only">Event Attributes <br>
+    <small>Atribut event  (Peristiwa)</small>
+  </h2>
+    <div class="dul-callout dul-callout-warning">
+        <p>&lt;iframe&gt; tag mencakup <em>event attributes</em>, yang artinya attribute tersebut dijalankan ketika ada interaksi dari user atau dalam suatu peristiwa (kejadian). Contoh: menjalankan script (JavaScript) ketika halaman web pada jendela browser hendak ditutup, dan lain sebagainya.</p>
+        <div class="footer-callout warning">
+          <p>Silahkan, lihat referensi mengenai <a href="/tutorial/html/html-event-attribute.html">HTML Events Attribute</a></p>
+        </div>
+    </div>
+</section>
+
+<!-- Example -->
+<section id="example">
+  <h2 class="title-sub bd-danger bd-left bd-left-only">Example<br>
+    <small>Contoh HTML <code>&lt;iframe&gt;</code> element</small>
+  </h2>
+  <h5>Contoh 1</h5>
+
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html5" aria-hidden="true"></i>
+        <span>SOURCE</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/html/tag/iframe.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="inline  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>iframe</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>kalkulator<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>/media/files/calculator.html<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>iframe</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+<p>Contoh kalkulator diatas diambil dari halaman lain (sumber lain dari <a href="/media/files/calculator.html">calculator.html</a>) yang di-<em>embed</em> dalam sebuah iframe element.</p>
+<p>Untuk menyamarkan iframe diatas, supaya terlihat seperti terdapat pada dokumen ini (bukan halaman lain), saya menghapus border dan mengaplikasikan style berikut:</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">iframe#kalkulator</span> <span class="token punctuation">{</span>
+<span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+<span class="token property">border</span><span class="token punctuation">:</span>0<span class="token punctuation">;</span> <span class="token comment" >/* menghilangkan border */</span>
+<span class="token property">min-height</span><span class="token punctuation">:</span> 230px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+  <h5>Contoh 2</h5>
+  <p>Pada contoh dibawah ini, menggunakan konten HTML tanpa sumber lain.</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html5" aria-hidden="true"></i>
+        <span>SOURCE</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/html/tag/iframe2.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="inline  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>iframe</span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>100%<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>100%<span class="token punctuation">"</span></span> <span class="token attr-name">seamless</span> <span class="token attr-name">sandbox</span> <span class="token attr-name">srcdoc</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>&lt;p<span class="token punctuation">&gt;</span>Selamat Datang di apacara.com &lt;br<span class="token punctuation">&gt;</span>&lt;img src<span class="token punctuation">=</span><span class="token entity" title="&quot;">&amp;quot;</span>/media/images/apple.jpg<span class="token entity" title="&quot;">&amp;quot;</span><span class="token punctuation">&gt;</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>iframe</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+</section>
+<!-- Article Aside -->
+
+<!-- Browser Support -->
+<aside id="browser">
+<h2 class="title-sub bd-danger bd-left bd-left-only">Browser Support <br>
+  <small>Status &amp; Dukungan Browser </small>
+</h2>
+<p>Berikut adalah keterangan mengenai dukungan (support) dari beberapa browser.</p>
+<div class="table-responsive uk-overflow-container">
+  <table class="table uk-table uk-text-nowrap full-width">
+        <thead>
+          <tr>
+            <th>HTML</th>
+            <th title="Chrome"><i class="fa fa-chrome fa fa-lg"></i></th>
+            <th title="Safari"><i class="fa fa-safari fa fa-lg"></i></th>
+            <th title="Firefox"><i class="fa fa-firefox fa fa-lg"></i></th>
+            <th title="Opera"><i class="fa fa-opera fa fa-lg"></i></th>
+            <th title="Internet Explorer"><i class="fa fa-internet-explorer fa fa-lg"></i></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Element</td>
+            <td>Chrome</td>
+            <td>Safari</td>
+            <td>Firefox</td>
+            <td>Opera</td>
+            <td>IE</td>
+          </tr>
+          <tr>
+            <td><code>&lt;iframe&gt;</code></td>
+            <td class="success">Ya</td>
+            <td class="success">Ya</td>
+            <td class="success">Ya</td>
+            <td class="success">Ya</td>
+            <td class="success">Ya</td>
+          </tr>
+        </tbody>
+  </table>
+</div>
+
+<hr class="uk-article-divider">
+<!-- Default CSS -->
+<div class="dul-block">
+  <h2 class="title-sub bd-danger bd-left bd-left-only">Pengaturan awal CSS yang berlaku&nbsp;</h2>
+  <p>CSS untuk element <code>&lt;iframe&gt;</code> yang mungkin akan diberlakukan ketika awal inisial.</p>
+  <div class="icode itheme css">
+<pre class="prettyprint highlight language-css"><code class="prettyprint inline language-css"><span class="token selector">iframe:focus</span> <span class="token punctuation">{</span>
+<span class="token property">outline</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">iframe[seamless]</span> <span class="token punctuation">{</span>
+<span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+</div>
+</div>
+
+</aside>

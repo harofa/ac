@@ -1,9 +1,7 @@
 ---
 layout: editor
+template: editor
 title: "HTML onerror attribute example with editor"
-add_js: 'function gambarNihil() {
-  document.getElementById("gambarKu").innerHTML = "Sepertinya gambar sudah dihapus tuh...";
-}'
 ---
 <!DOCTYPE html>
 
@@ -18,5 +16,10 @@ add_js: 'function gambarNihil() {
       <hr />
       <p><code>onerror</code> artinya ketika error terjadi. Pada contoh diatas letak error adalah sumber gambar (cantik.jpg) tidak ada (tersedia).</p>
 
+<script>
+function gambarNihil() {
+  document.getElementById("gambarKu").innerHTML = "Sepertinya gambar sudah dihapus tuh...";
+}
+</script>
   </body>
 </html>

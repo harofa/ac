@@ -1,0 +1,441 @@
+---
+layout: post_amp
+template: post_amp
+date: 10 April 2018
+
+title: "CSS nth-child Selector"
+short_title: "nth-child"
+language: id
+
+metadata:
+  description: "Belajar CSS nth-child. Referensi, syntax dan contoh selektor nth-child di dalam CSS. Panduan dan tutorial Bahasa Indonesia mengenai CSS nth-child selector"
+
+author: dul  
+
+tags: css, cssselector
+tag: [css, cssselector]
+taxonomy:
+  category: html
+  tags: css, cssselector
+  tag: [css, cssselector]
+images:
+  figure: "posts/css-selector-nth-child.png"
+  thumb: "posts/thumbs/css-selector-nth-child.png"
+---
+
+<p class="lead">
+<strong>nth-child</strong> digunakan untuk menyeleksi element berdasarkan urutan anak (child). Dalam sebuah element, terdapat tag pembuka (opening tag) dan tag penutup (closing tag), contoh: <em>opening tag:</em> <code> &lt;div&gt;</code> dan <em>closing tag</em>-nya adalah: <code>&lt;/div&gt;</code> yang ditandai dengan <code>/</code>. Jadi, setiap element yang berada didalam element lain (didalam tag pembuka dan tag penutup), bisa dikatakan <em>child</em> atau anak element dari element yang menaunginya. Tapi, tidak semua element memiliki <em>closing tag</em>. <span class="highlight">nth-child</span> ditulis dengan kode seperti: <code>:nth-child(X)</code> : X = bisa ditulis dengan nomor, <em>keyword</em> ataupun <em>formula</em>.
+</p>
+<hr />
+<!-- Syntax  -->
+<section id="syntax">
+    <h3 class="title-sub bd-danger bd-left bd-left-only">Syntax <br>
+    <small>Penggunaan Sintaksis CSS <code>nth-child</code></small>
+    </h3>
+<div class="icode itheme syntax">
+<pre class="prettyprint highlight language-css"><code data-language="css" class=" inline language-css"><span class="token selector">:nth-child(X)</span> <span class="token punctuation">{</span>
+<span class="token property">Property</span><span class="token punctuation">:</span> Value<span class="token punctuation">;</span>        <span class="token comment">/* Deklarasi CSS */</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/*
+Ket:
+nth-child(X) = X bisa di tulis dengan:
+1. number : nomor (1,2,3,4,5 etc.)
+2. keyword: odd, even
+3. formula: (3n), (n+4), (-n+4), (2n+3), (-2n+9)  etc.
+*/</span></code>
+</pre>
+</div>
+</section>
+
+<!-- Example -->
+<section id="example">
+  <h3 class="title-sub bd-danger bd-left bd-left-only">Example<br>
+    <small>Contoh CSS <code>nth-child</code></small>
+  </h3>
+  <p><code>div p:nht-child(2)</code> : Menyeleksi <code>p</code> yang mana anak kedua dari <code>div</code>.</p>
+    <div class="dul-block">
+<!-- Contoh Kode HTML -->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/nth-child-1.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="html  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>anak pertama<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>anak kedua<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>anak ketiga<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>anak keempat<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">div p:nth-child(2)</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> yellow
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+<p>Contoh diatas, Kita analogikan seperti ini: </p>
+ <ul>
+    <li>Dalam kode HTML diatas, elemen <code>&lt;div&gt;</code>...<code>&lt;/div&gt;</code> adalah orang tua (parent) yang memiliki anak (children) sebanyak 4 ( yaitu elemen <code>&lt;p&gt;</code>...<code>&lt;/p&gt;</code> sebanyak 4 baris)</li>
+    <li>Contoh: <br>kita ingin menyeleksi anak kedua saja, maka didalam css kita tulis:  <br>
+            <code>div p:nth-child(2) </code>   <br>
+Yang artinya: <br>
+<code>div</code> = orang tua <br>
+<code>p</code> = anak dari <code>div</code> <br>
+<code>:nth-child(X)</code> = Dalam contoh pertama ini, kita ganti <code>X</code> dengan angka 2 seperti ini: <code>nth-child(2)</code> yang artinya urutan anak ke 2, Sehingga:
+<div class="icode itheme-plain">
+<pre class="prettyprint highlight language-css"><code data-language="css" class=" inline language-css"><span class="token selector">div p:nth-child(2)</span> <span class="token punctuation">{</span>
+<span class="token property">background</span><span class="token punctuation">:</span> yellow
+<span class="token punctuation">}</span></code>
+</pre>
+</div>
+Artinya, <code>div</code> yang memiliki anak <code>p</code> urutan ke 2 (anak kedua) memiliki style background yellow (background berwarna kuning).
+        </li>
+     </ul>
+     </div>
+</section>
+<p>Kode diatas dapat dilihat hasilnya pada contoh lengkap <i>demo editor</i> dibawah ini:</p>
+<h2 class="title-sub bd-danger bd-left bd-left-only">Contoh Lengkap
+</h2>
+<p>Contoh <em>source code</em> lengkap disertai dengan link  &quot;editor&quot; untuk mencoba (try it) dan melihat hasil (preview) kode.</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html5" aria-hidden="true"></i>
+        <span>SOURCE</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/nth-child.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="inline  language-markup"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Demo CSS nth-child - apacara.com<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style language-css">
+      <span class="token selector">div p:nth-child(2)</span> <span class="token punctuation">{</span>
+          <span class="token property">background-color</span><span class="token punctuation">:</span> yellow
+      <span class="token punctuation">}</span>
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>anak pertama<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>anak kedua<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>anak ketiga<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>anak keempat<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-success">
+    <div class="icard-bar bar-lg">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+        <span>TIPS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body bg-success2">
+<p>Untuk pembahasan selanjutnya, gunakan <em>Code Editor</em> diatas untuk uji coba dengan cara copy-paste kedalam editor tersebut, ataupun mengetiknya secara manual.</p>
+  </div>
+</div>
+
+<article class="contoh-kode">
+  <div class="dul-block">
+      <h3 class="title-sub bd-danger bd-left bd-left-only">
+      <small>Contoh 2</small> <br>
+      <code>:nth-child(3n)</code>
+      </h3>
+      <p><code>nth-child</code> dengan formula <em>(3n)</em>.</p>
+
+<!-- Contoh Kode HTML -->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/nth-child-2.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="html  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>list 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>list 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>list 3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>list 4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>list 5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>list 6<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>list 7<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>list 8<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>list 9<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>list 10<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+<!-- Contoh kode CSS-->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">li:nth-child(3n)</span> <span class="token punctuation">{</span>
+<span class="token property">background-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+<p><em>3n</em> bisa diartikan setiap kelipatan 3 dan dimulai dari anak ke-3. Kode diatas, menyeleksi <code>&lt;li&gt;</code> anak ke-3 dan kemudian setiap kelipatan 3 berikutnya. jadi memilih anak ke- 3, 6, dan 9. Kita bisa menentukan angka berapapun sesuai dengan kelipatan yang kita inginkan.</p>
+  </div>
+</article>
+
+<article class="contoh-kode">
+  <div class="dul-block">
+      <h3 class="title-sub bd-danger bd-left bd-left-only">
+      <small>Contoh 3</small> <br>
+      <code>:nth-child(odd)</code> <small>dan</small>
+      <code>:nth-child(even)</code>
+      </h3>
+      <p><code>:nth-child</code> dengan <em>odd</em> dan <em>even</em> sebagai keyword.</p>
+      <p>Kita gunakan kode HTML pada <em>Contoh Kedua</em> diatas, dan kode CSS-nya adalah sebagai berikut:</p>
+
+<!-- Contoh kode CSS-->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/nth-child-3.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">li:nth-child(odd)</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">li:nth-child(even)</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+<p><em>odd</em> artinya <em>ganjil</em>, jadi menyeleksi "anak" dengan urutan ganjil, yaitu: 1, 3, 5, 7 dan 9. Sedangkan <em>even</em> adalah kebalikannya, yaitu genap, jadi menyeleksi "anak" ke 2, 4, 6, 8 dan 10.</p>
+</div>
+</article>
+
+<article class="contoh-kode">
+  <div class="dul-block">
+      <h3 class="title-sub bd-danger bd-left bd-left-only">
+      <small>Contoh 4</small> <br>
+      <code>:nth-child(n+4)</code>
+      </h3>
+      <p>Masih menggunakan kode HTML dari <em>Contoh Kedua</em> diatas, dan dengan CSS berikut:</p>
+<!-- Contoh kode CSS-->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/nth-child-4.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">li:nth-child(n+4)</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+  <p>Artinya, menyeleksi semua <code>&lt;li&gt;</code> dari anak ke-4 dan seterusnya (menyeleksi anak ke 4, 5, 6, 7, 8, 9 dan 10).</p>
+  </div>
+</article>
+
+<article class="contoh-kode">
+  <div class="dul-block">
+      <h3 class="title-sub bd-danger bd-left bd-left-only">
+      <small>Contoh 5</small> <br>
+      <code>:nth-child(-n+4)</code>
+      </h3>
+      <p>Dengan menggunakan kode HTML dari <em>Contoh Kedua</em> diatas, dan dengan CSS berikut:</p>
+<!-- Contoh kode CSS-->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/nth-child-5.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">li:nth-child(-n+4)</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+  <p>Artinya menyeleksi semua <code>&lt;li&gt;</code> dari anak ke-4 dan kebawahnya (hingga angka terendah yang menunjukkan minus). Ini menyeleksi anak ke 4, 3, 2, dan 1.</p>
+  </div>
+</article>
+
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-primary">
+    <div class="icard-bar bar-lg">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
+        <span>Kesimpulan!</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body bg-primary2">
+      <p class="uk-text-left">Dari contoh <code>nth-child(n+4)</code> dan <code>nth-child(-n+4)</code> diatas, dapat diambil kesimpulan: Jika <em>n</em> adalah positif (bukan <em>-n</em>) maka penyeleksiannya dari "anak" pertama hingga "anak" terakhir, sedangkan jika negatif (-n) maka penyeleksiannya dari "anak" terakhir hingga "anak" pertama (sampai dengan angka yang ditentukan setelah +).</p>
+  </div>
+</div>
+<article class="contoh-kode">
+  <div class="dul-block">
+      <h3 class="title-sub bd-danger bd-left bd-left-only">
+      <small>Contoh 6</small> <br>
+      <code>:nth-child(2n+3)</code>
+      </h3><!-- Contoh kode CSS-->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/nth-child-6.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">li:nth-child(2n+3)</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+  <p><code>2n+3</code> = <code>3</code>, artinya penyeleksian dimulai dari anak ke-3.<br>
+  <code>2n</code> = artinya setiap kelipatan dua. </p>
+  <p>Jadi, pertama seleksi anak ketiga, kemudian teruskan penyeleksian dengan kelipatan dua dari anak ketiga tersebut. Hasilnya, yang terseleksi adalah anak ke-3, 5, 7 dan 9.</p>
+  </div>
+</article>
+  <hr>
+<article class="contoh-kode">
+  <div class="dul-block">
+      <h3 class="title-sub bd-danger bd-left bd-left-only">
+      <small>Contoh 7</small> <br>
+      <code>:nth-child(-2n+9)</code>
+      </h3><!-- Contoh kode CSS-->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/nth-child-7.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">li:nth-child(-2n+9)</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+  <p><code>-2n+9</code> = <code>9</code>, artinya penyeleksian dimulai dari anak ke 9.<br>
+  <code>-2n</code> = artinya setiap kelipatan dua (minus kebawahnya (urutan angka dari tinggi hingga terendah)). </p>
+  <p>Jadi, pertama seleksi anak kesembilan, kemudian penyeleksian minus dengan kelipatan dua dari anak kesembilan tersebut hingga angka terendah. Hasilnya, yang terseleksi adalah anak ke 9, 7, 5, 3 dan 1.</p>
+  </div>
+</article>
+<!-- Browser Support -->
+<aside id="browser">
+<h3 class="title-sub bd-danger bd-left bd-left-only">Browser Support <br>
+  <small>Status &amp; Dukungan Browser </small>
+</h3>
+<p>Berikut adalah keterangan mengenai dukungan (support) dari beberapa browser.</p>
+<div class="table-responsive uk-overflow-container">
+  <table class="table uk-table uk-table-striped uk-table-bordered uk-text-nowrap full-width">
+        <thead>
+          <tr>
+            <th>CSS</th>
+            <th title="Chrome"><i class="fa fa-chrome fa-lg"></i></th>
+            <th title="Safari"><i class="fa fa-safari fa-lg"></i></th>
+            <th title="Firefox"><i class="fa fa-firefox fa-lg"></i></th>
+            <th title="Opera"><i class="fa fa-opera fa-lg"></i></th>
+            <th title="Internet Explorer"><i class="fa fa-internet-explorer fa-lg"></i></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>selector</td>
+            <td>Chrome</td>
+            <td>Safari</td>
+            <td>Firefox</td>
+            <td>Opera</td>
+            <td>IE</td>
+          </tr>
+          <tr>
+            <td><code>:nth-child()</code></td>
+            <td class="success">4.0</td>
+            <td class="success">3.2</td>
+            <td class="success">3.5</td>
+            <td class="success">9.6</td>
+            <td class="success">9.0</td>
+          </tr>
+        </tbody>
+  </table>
+</div>
+</aside>

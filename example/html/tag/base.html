@@ -1,5 +1,6 @@
 ---
 layout: editor
+template: editor
 title: "HTML base tag example - demo + Editor"
 ---
 <!DOCTYPE html>
@@ -8,7 +9,7 @@ title: "HTML base tag example - demo + Editor"
   <head>
     <meta charset="utf-8" />
     <title>Demo HTML base element</title>
-    <base href="https://www.apacara.com/media/images/" target="_blank">
+    <base href="/media/images/" target="_blank">
     <style>
       img {
         float: left;
@@ -21,7 +22,7 @@ title: "HTML base tag example - demo + Editor"
 
   <p>
   <img src="apacara.com.png" alt="" />
-  Logo apacara.com disamping ini aslinya terletak pada relative URL: "https://www.apacara.com/media/images/apacara.com.png" akan tetapi, disini hanya ditulis nama filenya saja (apacara.com.png) atau lebih jelasnya <code>img src="apacara.com.png"</code>. Kenapa bisa demikian? karena kita sudah menuliskan elemen <code>base</code> dengan rujukan link dasarnya yaitu: "https://www.apacara.com/media/images/"  (value dari href attribute pada base element tersebut), sehingga kita tidak perlu menulis secara lengkap cukup nama file yang merujuk pada base url tersebut .
+  Logo apacara.com disamping ini aslinya terletak pada relative URL: "/media/images/apacara.com.png" akan tetapi, disini hanya ditulis nama filenya saja (apacara.com.png) atau lebih jelasnya <code>img src="apacara.com.png"</code>. Kenapa bisa demikian? karena kita sudah menuliskan elemen <code>base</code> dengan rujukan link dasarnya yaitu: "/media/images/"  (value dari href attribute pada base element tersebut), sehingga kita tidak perlu menulis secara lengkap cukup nama file yang merujuk pada base url tersebut .
   </p>
 
   <p>

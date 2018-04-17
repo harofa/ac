@@ -1,9 +1,7 @@
 ---
 layout: editor
+template: editor
 title: "HTML onerror attribute example with editor"
-add_js: 'function videoNihil() {
-  alert("Sorry, video tidak tersedia.")
-}'
 ---
 <!DOCTYPE html>
 
@@ -15,5 +13,11 @@ add_js: 'function videoNihil() {
   <body>
       <p><code>onerror</code> artinya ketika error terjadi. Pada contoh dibawah ini letak error adalah sumber video tidak ada.</p>
       <video src="myvideo.mp4" preload="auto" controls="controls" onerror="videoNihil()"></video>
+
+<script>
+function videoNihil() {
+  alert("Sorry, video tidak tersedia.")
+}
+</script>
   </body>
 </html>

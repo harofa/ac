@@ -1,9 +1,7 @@
 ---
 layout: editor
+template: editor
 title: "HTML onafterprint attribute example with editor"
-add_js: 'function selesaiCetak() {
-    alert("Dokumen sudah selesai di cetak (print)");
-}'
 ---
 <!DOCTYPE html>
 <html>
@@ -14,5 +12,11 @@ add_js: 'function selesaiCetak() {
 <body onafterprint="selesaiCetak()">
   <h1>Untuk menguji coba, halaman ini harus di-<em>print (dicetak)</em></h1>
   <p>Setelah di-<em>print (dicetak)</em>, maka akan muncul kotak dialog yang memberitahukan bahwa halaman sudah selesai diprint.</p>
+
+<script>
+ function selesaiCetak() {
+   alert("Dokumen sudah selesai di cetak (print)");
+ }
+</script>
 </body>
 </html>
