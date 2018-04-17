@@ -92,7 +92,7 @@ social:
 
 # Comment System
 use_fb_comments: false            #if false, disqus comment will be used instead
-disqus: apacara
+disqus:                           # apacara
 disqus_script_url: "https://apacara.github.io/embed/gravcms/disqus-apacara2.html"
 
 # Google Analytics (e.g. UA-2110908-2)
