@@ -91,7 +91,7 @@ social:
   stackoverflow:
 
 # Comment System
-use_fb_comments: true            #if false, disqus comment will be used instead
+use_fb_comments: false            #if false, disqus comment will be used instead
 disqus: apacara
 disqus_script_url: "https://apacara.github.io/embed/gravcms/disqus-apacara2.html"
 
