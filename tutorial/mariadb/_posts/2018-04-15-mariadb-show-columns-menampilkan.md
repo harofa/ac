@@ -90,7 +90,7 @@ images:
  </pre>
    </div>
  </div>
-<p>Berikut sinomim atau varian lain dari <strong>SHOW COLUMNS</strong></p>
+<p>Berikut sinonim atau varian lain dari <strong>SHOW COLUMNS</strong></p>
 <div class="icard">
   <div class="icard-heading clearfix co-wh bg-in">
     <div class="icard-bar">

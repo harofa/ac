@@ -1,0 +1,29 @@
+<head>
+  {%- include bootstrap/bs_meta.html -%}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded:400%7CMontserrat:500" rel="stylesheet"/>
+
+  <link href="{{ '/assets/css/style.css?ver=1.0.0' | absolute_url }}" rel="stylesheet"/>
+
+{%- if page.add_css_lib -%}
+{{ page.add_css_lib }}
+{%- endif -%}
+
+  <style>
+{%- if site.code_highlighter == "prism" -%}
+{%- include bootstrap/bs_css_prism.html -%}
+{%- elsif site.code_highlighter == "highlight" -%}
+{%- include bootstrap/bs_css_highlight.html -%}
+{%- endif -%}
+  {%- if page.add_style -%}
+  {{ page.add_style  }}
+  {%- endif -%}
+  </style>
+{%- if page.add_js_lib_top -%}
+{{ page.add_js_lib_top }}
+{%- endif -%}
+  {%- if page.add_script_top -%}
+  <script>{{ page.add_script_top }}</script>
+  {%- endif -%}
+</head>

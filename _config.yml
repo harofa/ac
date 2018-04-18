@@ -1,5 +1,9 @@
-# Used for Sitemap.xml and RSS feed
 url: "https://www.apacara.com"
+
+bootstrap_version: "4.0.0"
+
+environment: "production"      # development or empty (production)
+code_highlighter: ""    # prism or highlight or empty (disable) - select syntax / code hightligter
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -11,8 +15,8 @@ images_path:
   avatar: "/media/avatar/"
   images: "/media/"
   images_thumb: "/media/"
-  favicons: "/media/favicons/"
-  logo: "/media/logo/"
+  favicons: "/assets/favicons/"
+  logo: "/assets/logo/"
 
 #set defult image for posts without image (absolute url eg: domain.com/myimage.png)
 #if not set, local default_image will be used
@@ -27,6 +31,10 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"  # default layout: post to every post page
+  - scope:
+      path: "media/"
+    values:
+      layout: "no_layout"
 
 # Name of your site
 name: apaCara.com
@@ -115,6 +123,7 @@ plugins:
 paginate: 5
 paginate_path: "page:num"
 
+index_pagination: false    # add by admin - custom pagination for index pages, true = enable , false = disable
 # Exclude these files from your production _site
 exclude:
   - Gemfile
@@ -122,6 +131,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - .php
 
 collections:
   my_collection:

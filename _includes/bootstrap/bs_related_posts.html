@@ -1,0 +1,26 @@
+<!-- SECTION - related post -->
+<section class="section-wrapper related">
+<h3 class="ac-h3 section-title">You May Also Like</h3>
+<div class="section-line">
+  <div class="section-line-inside"></div>
+</div>{% assign listed_posts_urls = page.url | split: ' ' %}{% for tag in page.tags limit:5 %}{% for mypost in site.tags[tag] limit:5 %}{% assign author_info = site.data.people[mypost.author] %}{% if listed_posts_urls contains mypost.url %}{% else %}
+  <div class="section-body">
+{% if mypost.images.thumb %}
+<div class="section-thumb">
+  <div class="section-img img-mask">
+    <div class="mask"><a href="{{ mypost.url }}"><i class="fa fa-link"></i></a></div>
+    <img width="100" height="60" src="{{ mypost.images.thumb | prepend: site.images_path.images_thumb | absolute_url  }}" alt="" />
+  </div>
+</div>
+{% endif %}
+  <div class="section-content">
+    <h6 class="section-content-heading">
+      <a class="ac-a" href="{{ mypost.url | absolute_url  }}">{{ mypost.title }}</a></h6>
+    <div class="content-info">
+      <ul class="ac-list list-inline">
+    	<li><i class="fa fa-user"></i> {%if mypost.author %}{{ author_info.name }}{% else %}{{ site.author.name }}{% endif %}</li>
+      </ul>
+    </div>
+    </div>
+  </div>{% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}{% endif %}{% endfor %}{% endfor %}
+</section><!-- /SECTION -->

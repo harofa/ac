@@ -1,0 +1,46 @@
+{%- unless page.layout == "bs_page" -%}
+<!-- sl_ -->
+{%- if site.ads.enabled -%}
+{%- include boostrap_ads/ads_sidebar_top.html -%}
+{%- endif -%}
+{%- endunless -%}
+
+{%- comment -%}
+<section class="section-wrapper tags">
+  <h3 class="ac-h3 section-title">GET FREE UPDATES</h3>
+  <div class="section-line">
+  	<div class="section-line-inside"></div>
+  </div>
+    <!-- Widget -->
+  <div class="section-text">
+  <a target="_blank" rel="nofollow" class="ac-a button button-clean co-fb" href="{{site.facebook.fb_url}}"><i class="fa fa-facebook"></i> {{site.facebook.fb_name}}</a>
+  <a target="_blank" rel="nofollow" class="ac-a button button-clean co-tw" href="{{site.twitter.tw_url}}"><i class="fa fa-twitter"></i> {{site.twitter.tw_name}}</a>
+  </div>
+</section>
+{%- endcomment -%}
+<section class="section-wrapper recent-posts">
+<h3 class="ac-h3 section-title">Recent Posts</h3>
+<div class="section-line">
+  <div class="section-line-inside"></div>
+</div>
+{% include bootstrap/bs_recent_posts.html %}
+</section>
+
+<!-- SECTION - categories -->
+<section class="section-wrapper categories">
+  <h3 class="ac-h3 section-title">Categories</h3>
+  <div class="section-line">
+  	<div class="section-line-inside"></div>
+  </div>
+    <!-- Widget -->
+  <div class="section-text list-bg list-bg-clean list-bg-bordered">
+{% include bootstrap/bs_category_list.html %}
+  </div>
+</section>{% for tag in page.tags.first %}{% case tag contains %}{% when "bootstrap3" %}{% include bootstrap/bs3_widget.html %}{% when "bootstrap" %}{% include bootstrap/bs_widget.html %}{% else %}{% endcase %}{% endfor %}
+
+{%- unless page.layout == "bs_page" -%} 
+<!-- sl_ -->
+{%- if site.ads.enabled -%}
+{%- include boostrap_ads/ads_sidebar_bottom.html -%}
+{%- endif -%}
+{%- endunless -%}

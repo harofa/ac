@@ -1,6 +1,6 @@
 ---
-layout: post_amp
-template: post_amp
+layout: post
+template: post
 date: 10 April 2018
 
 title: "Apa Itu html? Apa itu HTML5?"
@@ -8,7 +8,7 @@ short_title: "HTML &amp; HTML5"
 language: id
 
 metadata:
-  description: "Apa arti HTML? Apa itu HTML5?. Kepanjangan atau singkatan dari HTML itu apa sih? dan apa kegunaannya?"
+  description: "Apa arti HTML? Apa itu HTML5?. Kepanjangan atau singkatan dari HTML itu apa sih? dan apa kegunaannya? Anda akan mengetahui pengertian dari HTML dan fungsinya untuk apa."
 
 author: dul
 

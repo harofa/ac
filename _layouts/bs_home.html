@@ -1,0 +1,36 @@
+---
+layout: bs_home_default
+---
+<div id="main" class="main-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 blog-main">
+<!-- sl_ -->
+{%- comment -%}
+{%- if site.ads.enabled -%}
+{%- include boostrap_ads/ads_article_top.html -%}
+{%- endif -%}
+{%- endcomment -%}
+  	    <div class="post hentry blog-post">
+  	      <div class="content item-wrapper" >
+          	{% if page.title %}<h2 class="blog-post-title">{{ page.title }}</h2>{% endif %}
+            <!-- ARTICLE - body -->
+            <div class="article-body">
+{{ content }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sidebar -->
+      <div class="sidebar-wrapper col-lg-4">
+			<aside id="sidebar" class="sidebar">
+			  {% include bootstrap/bs_sidebar.html %}
+			</aside>
+		</div>
+  	</div>
+<!-- sl_ -->
+{%- if site.ads.enabled -%}
+{%- include boostrap_ads/ads_article_bottom.html -%}
+{%- endif -%}
+  </div>
+</div>
