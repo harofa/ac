@@ -1,5 +1,5 @@
 ---
-layout: bs_item_default
+layout: bs_item_compress
 ---
 <div id="main" class="main-wrapper">
   <div class="container">
@@ -39,17 +39,11 @@ layout: bs_item_default
 {%- if page.metadata.intro -%}
 <p class="lead">{{ page.metadata.intro }}</p>
 {%- endif -%}
-<!-- sl_ -->
+
 {%- if site.ads.enabled -%}
-{%- include boostrap_ads/ads_article_top.html -%}
+{%- include boostrap_ads/ads_bottom_image.html -%}
 {%- endif -%}
-              {% if page.images.source_title %}
-              <div class="image-credit clearfix">
-                <div class="pull-right">
-                {% if site.image_source_link %}
-                <small class="text-muted">Source: <a  href="{{ page.images.source_url }}" target="_blank" rel="nofollow">{{ page.images.source_title }}</a></small>{% else %}<small class="text-muted">Source: {{ page.images.source_title }}</small>{% endif %}
-                </div>
-              </div>{% endif %}
+
 {{ content }}
 <!-- sl_ -->
 {%- if site.ads.enabled -%}
@@ -78,14 +72,10 @@ layout: bs_item_default
 </div><div id="disqus_thread"></div>{% include bootstrap/bs_disqus.html %}
 </div>{% endif %}
 
-<div class="sl_resp1 mt-1 mb-3">
-<!-- sl_resp1 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-3288866780282962"
-  data-ad-slot="4194992625"
-  data-ad-format="auto"></ins>
-</div>
+<!-- sl_ -->
+{%- if site.ads.enabled -%}
+{%- include boostrap_ads/ads_bottom.html -%}
+{%- endif -%}
             </div>
           </article>
         </div>
