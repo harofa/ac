@@ -1,6 +1,6 @@
 ---
-layout: post
-template: post
+layout: post_amp
+template: post_amp
 date: 10 April 2018
 
 title: "Apa Itu html? Apa itu HTML5?"

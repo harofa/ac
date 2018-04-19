@@ -6,7 +6,7 @@
 <head>
   {% include bootstrap/bs_meta.html %}
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css?ver={{ site.bootstrap_version }}">
-  <link rel="stylesheet" href="/assets/css/bs-main.css?ver={{ build_version }}"/>
+  <link href="{{ '/assets/css/style.css?ver=1.0.1' | absolute_url }}" rel="stylesheet"/>
 {%- if page.add_css_lib -%}
 {{ page.add_css_lib }}
 {%- endif -%}
