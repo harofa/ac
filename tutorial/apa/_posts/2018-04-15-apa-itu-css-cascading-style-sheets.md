@@ -1,6 +1,6 @@
 ---
-layout: post_amp
-template: post_amp
+layout: post
+template: post
 date: 10 April 2018
 
 title: "Apa Itu CSS (Cascading Style Sheets)?"

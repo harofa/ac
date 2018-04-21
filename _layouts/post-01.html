@@ -36,12 +36,12 @@ layout: bs_item_compress
           			<img class="img-fluid img-responsive" src="{{ page_image }}" alt="{% if page.images.alt %}{{ page.images.alt }}{% else %}{{ page.title }}{% endif %}">
                 </figure>
           		</div>
-{%- if site.ads.enabled -%}
-{%- include boostrap_ads/ads_bottom_image.html -%}
-{%- endif -%}
-
 {%- if page.metadata.intro -%}
 <p class="lead">{{ page.metadata.intro }}</p>
+{%- endif -%}
+
+{%- if site.ads.enabled -%}
+{%- include boostrap_ads/ads_bottom_image.html -%}
 {%- endif -%}
 
 {{ content }}
@@ -72,6 +72,10 @@ layout: bs_item_compress
 </div><div id="disqus_thread"></div>{% include bootstrap/bs_disqus.html %}
 </div>{% endif %}
 
+<!-- sl_ -->
+{%- if site.ads.enabled -%}
+{%- include boostrap_ads/ads_bottom.html -%}
+{%- endif -%}
             </div>
           </article>
         </div>
@@ -84,10 +88,25 @@ layout: bs_item_compress
   		</div>
   	</div>
 
-<!-- sl_ -->
-{%- if site.ads.enabled -%}
-{%- include boostrap_ads/ads_bottom.html -%}
-{%- endif -%}
+    <div class="row">
+      <div class="col text-center">
+        <div class="sl_72890 d-none d-lg-block mb-5">
+        <!-- sl_72890 -->
+        <ins class="adsbygoogle"
+          style="display:inline-block;width:728px;height:90px"
+          data-ad-client="ca-pub-3288866780282962"
+          data-ad-slot="3377782122"></ins>
+        </div>
+        <div class="sl_resp1 d-lg-none mb-5">
+        <!-- sl_resp1 -->
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-3288866780282962"
+          data-ad-slot="4194992625"
+          data-ad-format="auto"></ins>
+        </div>
+      </div>
+    </div>
 
   </div>
 </div>
