@@ -1,7 +1,7 @@
 ---
 layout: post
 template: post
-date: 20 April 2018
+date: 23 April 2018
 prism: true
 
 title: "Bootstrap 4 Typography (Tipografi)"
@@ -298,7 +298,7 @@ images:
 <br><small>Bootstrap Teks utiliti</small>
 </h2>
 
-<p>Bootstrap menambahkan style (CSS) untuk penataan teks gaya ketebalan tulisan, warna dan lainnya yang lebih detail dijelaskan pada <a href="/tutorial/bootstrap/bootstrap-text-utilites.html">teks utilities</a> dan <a href="/tutorial/bootstrap/bootstrap-color-utilites.html">Color utilities</a>.</p>
+<p>Bootstrap menambahkan style (CSS) untuk penataan teks gaya ketebalan tulisan, warna dan lainnya yang lebih detail dijelaskan pada <strong>teks utilities</strong> dan <strong>Color utilities</strong>.</p>
 
 <h3 class="title-sub bd-primary bd-left bd-left-only">Abbreviation (Singkatan)
 </h3>

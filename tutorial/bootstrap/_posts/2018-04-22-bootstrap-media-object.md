@@ -1,7 +1,7 @@
 ---
 layout: post
 template: post
-date: 20 April 2018
+date: 23 April 2018
 prism: true
 
 title: "Bootstrap 4 Media Object"
@@ -328,7 +328,7 @@ images:
 </div>
 </div>
 <hr/>
-<h2 class="title-sub bd-danger bd-left bd-left-only">Order (Pengaturan/Pengurutan)
+<h2 class="title-sub bd-danger bd-left bd-left-only">Order (Pengurutan)
 </h2>
 <p>Media (gambar dan lainnya) selain diposisikan di sebelah kiri, kita juga dapat menempatkannya di posisi kanan dan konten-nya disebelah kiri (dibalik).</p>
 <p>Caranya, kita dapat memindahkan element (<code>&lt;img&gt;</code>) di akhir. Atau kita juga dapat menggunakan kode CSS flexbox sendiri.</p>
