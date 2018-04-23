@@ -189,7 +189,7 @@ images:
 <p>Jika Anda ingin mereferensikan artikel halaman ini, gunakan link berikut:</p>
 <div class="icard">
 <div class="icard-body icode itheme">
-<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="html  language-markup">/tutorial/bootstrap/belajar-bootstrap-untuk-pemula.html</code>
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="html  language-markup">https://www.apacara.com/tutorial/bootstrap/belajar-bootstrap-untuk-pemula.html</code>
 </pre>
 </div>
 </div>
