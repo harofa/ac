@@ -721,7 +721,7 @@ images:
 </div>
 </div>
 <hr/>
-<h4 clas="ac-h4">Additional Information and Resources</h4>
+<h4 class="ac-h4">Additional Information and Resources</h4>
 <div class="sources bg-gr3 bordered p-space-v">
   <ul class="list-unstyled">
     <li><a rel="nofollow" href="http://getbootstrap.com/docs/4.1/content/typography/" target="_blank" class="text-muted">http://getbootstrap.com/docs/4.1/content/typography/</a></li>
