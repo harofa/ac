@@ -1,0 +1,342 @@
+---
+layout: post
+template: post
+date: 23 April 2018
+prism: true
+
+title: "Bootstrap 4 Code - Menulis Kode"
+short_title: "Bootstrap 4 - Code"
+language: id
+
+metadata:
+  description: "Belajar Bootstrap Untuk Pemula. Apa itu Bootstrap? Untuk Apa itu Bootstrap? Bagaimana Belajar Bootstrap dari dasar untuk pemula?"
+
+author: dul
+
+tags: bootstrap,bootstrap4
+tag: [bootstrap,bootstrap4]
+taxonomy:
+  category: bootstrap
+  tags: bootstrap,bootstrap4
+  tag: [bootstrap,bootstrap4]
+images:
+  figure: "bootstrap/code.png"
+  thumb: "bootstrap/thumbs/code.png"
+---
+<p class="lead">Belajar Menulis kode dengan bootstrap 4. Dalam HTML, ada dua jenis tampilan kode, yaitu inline (berbaris) dan block (blok). <em>Inline code</em> biasanya kode yang ditulis berbaris, sebaris atau beriringan dengan teks lain dalam sebuah paragraf. Sedangkan, <em>block code</em> adalah terpisah (berdiri sendiri) pada sebuah baris baru (paragraf baru).</p>
+<hr/>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Menulis Kode inline (Inline Code)
+</h2>
+
+<p>Menulis kode <em>inline</em> dapat menggunakan HTML <code>&lt;code&gt;</code> element. Mengenai element ini, dapat Anda pelajari selengkapnya pada <a href="/tutorial/html/html-code-tag.html">HTML &lt;code&gt; tag</a>.</p>
+
+<p>Tulislah kode inline di dalam <code>&lt;code&gt;</code>...<code>&lt;/code&gt;</code> element. Sebelumnya, pastikan karakter <code>&lt;</code> di-<em>escape</em> menjadi <code>&amp;lt;</code> dan karakter <code>&gt;</code> di-<em>escape</em> menjadi <code>&amp;gt;</code> juga karakter lain yang dikenali sebagai bagian dari kode (markup) HTML. Sehingga, jika Anda menulis kode <code>&lt;p&gt;</code> harus di-<em>escape</em> dan ditulis: <code>&amp;lt;p&amp;gt;</code>. Ada banyak sekali HTML escape tools online yang dapat Anda gunakan secara otomatis, sehingga Anda tidak perlu menulis dan meng-escape karakter tersebut secara manual.</p>
+
+<h3 class="title-sub bd-primary bd-left bd-left-only">Contoh
+<br /><small>Menulis kode dengan &lt;code&gt;</small>
+</h3>
+
+<p>Pada contoh dibawah ini, saya menulis HTML <a href="/tutorial/html/html-p-tag.html">&lt;p&gt;</a> element yang digunakan untuk menulis sebuah paragraf, kemudian saya menyisipkan HTML <code>&lt;code&gt;</code> element didalamnya.</p>
+
+<div class="icode itheme">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;p&gt;Di Bootstrap, kita bisa membuat tabel cantik hanya dengan menggunakan nama class &lt;code&gt;.table&lt;/code&gt;&lt;/p&gt;</code>
+</pre>
+</div>
+
+<p>Untuk menuliskannya sebagai sebuah tampilan kode, maka harus di-escape seperti ini:</p>
+
+<div class="icode itheme">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&amp;lt;p&amp;gt;Di Bootstrap, kita bisa membuat tabel cantik hanya dengan menggunakan nama class &amp;lt;code&amp;gt;.table&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;</code>
+</pre>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right pull-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre><code></code>&lt;p&gt;Di Bootstrap, kita bisa membuat tabel cantik hanya dengan menggunakan nama class &lt;code&gt;.table&lt;/code&gt;&lt;/p&gt;</pre>
+  </div>
+</div>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Menulis Blok Code (code block)
+</h2>
+
+<p>Untuk menulis blok kode atau kode lebih dari satu baris, gunakan HTML <a href="/tutorial/html/html-pre-tag.html">&lt;pre&gt;</a> element. Sama seperti contoh sebelumnya, karakter khusus harus di-<em>escape</em>.</p>
+
+<p>Sebagai tambahan, bootstrap menyediakan nama class <code>.pre-scrollable</code> jika kita menginginkan tampilan blok kode yang panjang dapat di-<em>scroll</em> (digulung) apabila melebihi batas lebar atau tinggi element tersebut. Juga perlu diperhatikan bahwa tinggi element dibatasi maksimal 350px (<code>max-height: 350px</code>).</p>
+
+<h3 class="title-sub bd-primary bd-left bd-left-only">Contoh
+<br /><small>Blok kode dengan &lt;pre&gt;</small>
+</h3>
+
+<p>Contohnya, jika Anda ingin menulis output kode (menampilkan kode) dalam sebuah dokumen HTML (Bootstrap khususnya) seperti ini:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;!doctype html&gt;
+&lt;html lang=&quot;id&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;/&gt;
+    &lt;title&gt;Mari Belajar Bootstrap&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Halo Dunia, Apa Kabar?&lt;/h1&gt;
+    &lt;p&gt;Belajar Bootstrap itu Mengasyikkan.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code>
+</pre>
+</div>
+</div>
+</div>
+
+<p>Maka, Anda harus meng-<em>escape</em> beberapa karakter khusus sehingga menjadi seperti ini:</p>
+
+<div class="icode itheme">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;id&amp;quot;&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+    &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1, shrink-to-fit=no&amp;quot;/&amp;gt;
+    &amp;lt;title&amp;gt;Mari Belajar Bootstrap&amp;lt;/title&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;h1&amp;gt;Halo Dunia, Apa Kabar?&amp;lt;/h1&amp;gt;
+    &amp;lt;p&amp;gt;Belajar Bootstrap itu Mengasyikkan.&amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;</code>
+</pre>
+</div>
+
+<p>Terakhir, kita meletakkannya didalam element <code>&lt;pre&gt;&lt;code&gt;</code> seperti contoh berikut:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-code.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;id&amp;quot;&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+    &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1, shrink-to-fit=no&amp;quot;/&amp;gt;
+    &amp;lt;title&amp;gt;Mari Belajar Bootstrap&amp;lt;/title&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;h1&amp;gt;Halo Dunia, Apa Kabar?&amp;lt;/h1&amp;gt;
+    &amp;lt;p&amp;gt;Belajar Bootstrap itu Mengasyikkan.&amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right pull-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;id&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;/&gt;
+    &lt;title&gt;Mari Belajar Bootstrap&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Halo Dunia, Apa Kabar?&lt;/h1&gt;
+    &lt;p&gt;Belajar Bootstrap itu Mengasyikkan.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+  </div>
+</div>
+</div>
+
+<p>Pada contoh diatas saya menulis kode (yang telah di-escape) tersebut didalam element <br><code>&lt;pre&gt;&lt;code&gt;</code><br> ... <br><code>&lt;/code&gt;&lt;/pre&gt;</code><br> Pada titik tiga (...) tersebut maksudnya adalah kode yang telah di-<em>escape</em> kita masukkan didalamnya.</p>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Variable
+<br><small>variabel</small>
+</h2>
+
+<p>Untuk menunjukkan sebuah <dfn title="dapat berubah-ubah, berbeda-beda, bermacam-macam (tt mutu, harga, dsb); sesuatu yg dapat berubah; faktor atau unsur yg ikut menentukan perubahan">variabel</dfn> (<em>variable</em>) kita dapat menulisnya di dalam element <code>&lt;var&gt;</code> seperti contoh berikut:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-code-variable.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;var&gt;y&lt;/var&gt; = &lt;var&gt;m&lt;/var&gt;&lt;var&gt;x&lt;/var&gt; + &lt;var&gt;b&lt;/var&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3">
+<var>y</var> = <var>m</var><var>x</var> + <var>b</var>
+  </div>
+</div>
+</div>
+<hr/>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Menulis User Input (Keyboard)
+</h2>
+
+<p>Biasanya dalam sebuah tutorial, dimana kita menulis tombol/kunci keyboard seperti <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>o</kbd> maka untuk menunjukkan kunci-kunci tersebut kita dapat menggunakan HTML element <a href="/tutorial/html/html-kbd-tag.html">&lt;kbd&gt;</a> seperti contoh berikut:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-code-kbd.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;p&gt;Untuk menyimpan dokumen, gunakan shortcut &lt;kbd&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;s&lt;/kbd&gt;&lt;/kbd&gt;&lt;/p&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<p>Untuk menyimpan dokumen, gunakan shortcut <kbd><kbd>Ctrl</kbd> + <kbd>s</kbd></kbd></p>
+  </div>
+</div>
+</div>
+
+<hr/>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Sample output (Keluaran) Program
+</h2>
+
+<p>Untuk menunjukkan sebuah output (keluaran) sebuah program (komputer, misalnya) kita bisa menulisnya dalam sebuah HTML <code>&lt;sample&gt;</code> element seperti contoh di bawah ini.</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-code-samp.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;samp&gt;Teks ini dimaksudkan sebagai contoh keluaran (output) sebuah program komputer&lt;/samp&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<samp>Teks ini dimaksudkan sebagai contoh keluaran (output) sebuah program komputer</samp>
+  </div>
+</div>
+</div>
+
+<hr/>
+
+<h4>Additional Information and Resources</h4>
+<div class="sources bg-gr3 bordered p-space-v">
+  <ul class="ac-list">
+    <li><a rel="nofollow" href="http://getbootstrap.com/docs/4.1/content/code/" class="text-muted">http://getbootstrap.com/docs/4.1/content/code/</a></li>
+  </ul>
+</div>
+
+
+
+
+
+
+
