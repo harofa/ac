@@ -9,7 +9,7 @@ short_title: "Bootstrap 4 - Code"
 language: id
 
 metadata:
-  description: "Belajar Bootstrap Untuk Pemula. Apa itu Bootstrap? Untuk Apa itu Bootstrap? Bagaimana Belajar Bootstrap dari dasar untuk pemula?"
+  description: "Bootstrap Code tutorial. Referensi Belajar Bootstrap, pembahasan secara detail mengenai fitur dan komponen yang ada pada  framework twitter bootstrap. Mengenai Belajar menulis dan menampilkan keluaran kode"
 
 author: dul
 
@@ -23,7 +23,7 @@ images:
   figure: "bootstrap/code.png"
   thumb: "bootstrap/thumbs/code.png"
 ---
-<p class="lead">Belajar Menulis kode dengan bootstrap 4. Dalam HTML, ada dua jenis tampilan kode, yaitu inline (berbaris) dan block (blok). <em>Inline code</em> biasanya kode yang ditulis berbaris, sebaris atau beriringan dengan teks lain dalam sebuah paragraf. Sedangkan, <em>block code</em> adalah terpisah (berdiri sendiri) pada sebuah baris baru (paragraf baru).</p>
+<p class="lead demo">Belajar Menulis kode dengan bootstrap 4. Dalam HTML, ada dua jenis tampilan kode, yaitu inline (berbaris) dan block (blok). <em>Inline code</em> biasanya kode yang ditulis berbaris, sebaris atau beriringan dengan teks lain dalam sebuah paragraf. Sedangkan, <em>block code</em> adalah terpisah (berdiri sendiri) pada sebuah baris baru (paragraf baru).</p>
 <hr/>
 
 <h2 class="title-sub bd-danger bd-left bd-left-only">Menulis Kode inline (Inline Code)
@@ -228,7 +228,7 @@ images:
       </div>
     </div>
   </div>
-  <div class="icard-body my-3">
+  <div class="icard-body my-3 demo">
 <var>y</var> = <var>m</var><var>x</var> + <var>b</var>
   </div>
 </div>

@@ -1,0 +1,139 @@
+---
+layout: post
+template: post
+date: 25 April 2018
+prism: true
+
+title: "Bootstrap 4 Figures"
+short_title: "Bootstrap 4 - Figures"
+language: id
+
+metadata:
+  description: "Bootstrap Figures tutorial. Referensi Belajar Bootstrap, pembahasan secara detail mengenai fitur dan komponen yang ada pada  framework twitter bootstrap. mengenai Bootstrap 4 Figures (Menyisipkan gambar di dalam figure element)."
+
+author: dul
+
+tags: bootstrap,bootstrap4
+tag: [bootstrap,bootstrap4]
+taxonomy:
+  category: bootstrap
+  tags: bootstrap,bootstrap4
+  tag: [bootstrap,bootstrap4]
+images:
+  figure: "bootstrap/figures.png"
+  thumb: "bootstrap/thumbs/figures.png"
+---
+
+<p class="lead demo">Ketika ingin menampilkan gambar dalam sebuah halaman HTML dilengkapi dengan judul (<a href="/tutorial/html/html-caption-tag.html">caption</a>), sehingga menunjukkan konten yang berdiri sendiri (utuh), kita akan berhadapan dengan istilah <em>figure</em>. Bootstrap menyediakan <em>modifier</em> khusus untuk menangani media figure.</p>
+
+<hr>
+<h2 class="title-sub bd-danger bd-left bd-left-only">Menyisipkan Gambar Figur
+</h2>
+
+<p>Untuk menyisipkan sebuah gambar yang menunjukkan figur, buatlah/tulis elemen <a href="/tutorial/html/html-figure-tag.html">&lt;figure&gt;</a>, kemudian tambahkan nama class <code>.figure</code>. Selanjutnya, pada element <a href="/tutorial/html/html-img-tag.html">&lt;img&gt;</a> tambahkan class <code>.figure-img</code> dan class lain sebagaimana dijelaskan pada <a href="/tutorial/bootstrap/bootstrap-images.html">Tutorial Bootstrap 4 Images</a>.</p>
+
+<p>Terakhir, tulis <a href="/tutorial/html/html-figcaption-tag.html">&lt;figcaption&gt;</a> dengan tambahan class <code>.figure-caption</code> didalam <code>&lt;figure&gt;</code> element.</p>
+
+<p>Selengkapnya, dapat dilihat contohnya berikut ini:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-figure.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;/media/images/orange.jpg&quot; class=&quot;figure-img img-fluid rounded&quot; alt=&quot;Buah Jeruk&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Jeruk yang menggoda Selera&lt;/figcaption&gt;
+&lt;/figure&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<figure class="figure">
+  <img src="/media/images/orange.jpg" class="figure-img img-fluid rounded" alt="Buah Jeruk">
+  <figcaption class="figure-caption">Jeruk yang menggoda Selera</figcaption>
+</figure>
+  </div>
+</div>
+</div>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Aligning Caption
+<br><small>Memposisikan Judul Caption</small>
+</h2>
+
+<p>Jika posisi caption ingin terletak disebelah kanan, tambahkan nama class <code>.text-right</code> seperti contoh berikut:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-figure-caption-right.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;/media/images/orange.jpg&quot; class=&quot;figure-img img-fluid rounded&quot; alt=&quot;Buah Jeruk&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption text-right&quot;&gt;Jeruk yang menggoda Selera&lt;/figcaption&gt;
+&lt;/figure&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<figure class="figure">
+  <img src="/media/images/orange.jpg" class="figure-img img-fluid rounded" alt="Buah Jeruk">
+  <figcaption class="figure-caption text-right">Jeruk yang menggoda Selera</figcaption>
+</figure>
+  </div>
+</div>
+</div>
+
+<p><strong>Keterangan:</strong></p>
+<p><strong>img-fluid</strong>: adalah class tambahan agar gambar menjadi responsive (Menyesuaikan ukuran layar)</p>
+
+<p><strong>img-rounded</strong>: adalah class tambahan untuk menjadikan gambar terlihat tumpul disetiap sisi (pojok) gambar tersebut.</p>
+

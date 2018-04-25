@@ -23,7 +23,7 @@ images:
   figure: "bootstrap/typography.png"
   thumb: "bootstrap/thumbs/typography.png"
 ---
-<p class="lead">Jika kita menggunakan bootstrap, kemudian menulis sebuah postingan (artikel) untuk publikasi online, tepatnya menggunakan kode HTML untuk format tulisan kita, maka kita perlu memahami <em>typography</em> (<mark title="ilmu cetak, seni percetakan">tipografi</mark>) yang disediakan oleh bootstrap.</p>
+<p class="lead demo">Jika kita menggunakan bootstrap, kemudian menulis sebuah postingan (artikel) untuk publikasi online, tepatnya menggunakan kode HTML untuk format tulisan kita, maka kita perlu memahami <em>typography</em> (<mark title="ilmu cetak, seni percetakan">tipografi</mark>) yang disediakan oleh bootstrap.</p>
 <hr/>
 <p>Bootstrap tipografi adalah semua hal yang berkaitan dengan pengaturan umum teks dan tulisan, mencakup pengaturan umum kepala tulisan (heading), teks bodi (body text), daftar (list) dan lainnya.</p>
 <h2 class="title-sub bd-danger bd-left bd-left-only">Heading
@@ -203,7 +203,7 @@ images:
     </div>
   </div>
   <div class="icard-body my-3 demo">
-<p class="lead">Sultan Ageng Tirtayasa atau Pangeran Surya (Lahir di Kesultanan Banten, 1631 - meninggal di Batavia, Hindia Belanda, 1692 pada umur 60 - 61 tahun) adalah Sultan Banten ke-6.</p>
+<p class="lead demo">Sultan Ageng Tirtayasa atau Pangeran Surya (Lahir di Kesultanan Banten, 1631 - meninggal di Batavia, Hindia Belanda, 1692 pada umur 60 - 61 tahun) adalah Sultan Banten ke-6.</p>
   </div>
 </div>
 </div>

@@ -1,0 +1,1471 @@
+---
+layout: post
+template: post
+date: 25 April 2018
+prism: true
+
+title: "Bootstrap 4 Tables - Membuat Tabel"
+short_title: "Bootstrap 4 - Tables"
+language: id
+
+metadata:
+  description: "Bootstrap Table tutorial. Referensi Belajar Bootstrap, pembahasan secara detail mengenai fitur dan komponen yang ada pada  framework twitter bootstrap. Mengenai Belajar Membuat tabel di Bootstrap"
+
+author: dul
+
+tags: bootstrap,bootstrap4
+tag: [bootstrap,bootstrap4]
+taxonomy:
+  category: bootstrap
+  tags: bootstrap,bootstrap4
+  tag: [bootstrap,bootstrap4]
+images:
+  figure: "bootstrap/tables.png"
+  thumb: "bootstrap/thumbs/tables.png"
+---
+
+<p class="lead demo"> Anda akan belajar bagaimana membuat tabel dengan bootstrap. Jika Anda sebelumnya telah mempelajari <a href="/tutorial/html/html-table-tag.html">HTML &lt;table&gt; Tag</a>, maka Anda juga dapat dengan mudah menyisipkan tabel di dalam HTML yang ditenagai oleh Bootstrap.</p>
+
+<hr>
+
+<p>Bootstrap menyediakan style khusus tinggal pakai untuk membuat tabel dengan mudah dan cepat tapi tetap dengan tampilkan indah dan baik.</p>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Membuat Tabel
+</h2>
+
+<p>Untuk membuat tabel, gunakan HTML <code>&lt;table&gt;</code> element, kemudian tambahkan nama class <code>.table</code>, selanjutnya akan dijelaskan tambahan lain (<em>modifier</em>) yang akan dipaparkan berikutnya.</p>
+
+<p>Tabel sederhana dapat dibuat dengan contoh berikut:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;No.&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Nama&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Jenis Kelamin&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;Muhammad&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;Aisyah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;Fatimah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Muhammad</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Aisyah</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Fatimah</td>
+      <td>Perempuan</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+<p>Perhatikan contoh diatas, <strong>thead</strong> menunjukkan <strong>table head</strong> (kepala tabel), <strong>tr</strong> adalah <strong>table row</strong> (baris tabel), <strong>th</strong> ialah <strong>table heading</strong> yang bisanya digunakan untuk judul kolom. <strong>tbody</strong> menunjukkan <strong>table body</strong> (untuk konten atau baris data), <strong>td</strong> adalah <strong>table data cell</strong> adalah baris data sebuah sel (cell).</p>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Dark Table
+<br><small>Tabel Gelap dengan latar Hitam</small>
+</h2>
+
+<p>Membuat tabel dengan latar (background) hitam. Gunakan tambahan class <code>table-dark</code> di dalam element &lt;table&gt;  seperti contoh berikut:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-dark.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table table-dark&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;No.&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Nama&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Jenis Kelamin&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;Muhammad&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;Aisyah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;Fatimah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Muhammad</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Aisyah</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Fatimah</td>
+      <td>Perempuan</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Table Head Options
+<br><small>Tabel Latar Hitam Judul Kolom</small>
+</h2>
+
+<p>Jika hanya menginginkan bagian kepala (head) atau judul kolomnya saja, gunakan class <code>.thead-dark</code> di dalam element <code>&lt;thead&gt;</code>
+seperti contoh di bawah ini.</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-thead-dark.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table&quot;&gt;
+  &lt;thead class=&quot;thead-dark&quot;&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;No.&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Nama&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Jenis Kelamin&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;Muhammad&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;Aisyah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;Fatimah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Muhammad</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Aisyah</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Fatimah</td>
+      <td>Perempuan</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+<p>Jika ingin latar abu-abu, gunakan class <code>.thead-light</code> di dalam element <code>&lt;thead&gt;</code> seperti berikut:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-thead-light.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table&quot;&gt;
+  &lt;thead class=&quot;thead-light&quot;&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;No.&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Nama&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Jenis Kelamin&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;Muhammad&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;Aisyah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;Fatimah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Muhammad</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Aisyah</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Fatimah</td>
+      <td>Perempuan</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Striped rows
+<br><small>Tabel Garis Zebra</small>
+</h2>
+
+<p>Tabel garis zebra dengan latar abu-abu dan putih  (selang seling) dapat dibuat dengan memberi tambahan class <code>.table-striped</code> di dalam element <code>&lt;table&gt;</code> seperti contoh berikut:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-striped.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table table-striped&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;No.&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Nama&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Jenis Kelamin&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;Muhammad&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;Aisyah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;Fatimah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Muhammad</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Aisyah</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Fatimah</td>
+      <td>Perempuan</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+<p>Table zebra juga dapat dibuat dengan latar hitam seperti contoh di bawah ini:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-striped-dark.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table table-striped table-dark&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;No.&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Nama&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Jenis Kelamin&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;Muhammad&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;Aisyah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;Fatimah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Muhammad</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Aisyah</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Fatimah</td>
+      <td>Perempuan</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Bordered table
+<br><small>Tabel Bergaris</small>
+</h2>
+
+<p>Memberi garis pada setiap sisi tabel dengan menambahkan nama class <code>.table-bordered</code>. Ini contohnya:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-bordered.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table table-bordered&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;No.&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Nama&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Jenis Kelamin&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;Muhammad&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;Aisyah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;Fatimah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Muhammad</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Aisyah</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Fatimah</td>
+      <td>Perempuan</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+<p>Apabila menggunakan latar hitam (table-dark) maka hasilnya seperti ini:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-bordered-dark.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table table-bordered table-dark&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;No.&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Nama&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Jenis Kelamin&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;Muhammad&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;Aisyah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;Fatimah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table table-bordered table-dark">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Muhammad</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Aisyah</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Fatimah</td>
+      <td>Perempuan</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Hoverable rows
+</h2>
+
+<p>Tabel melayang yang apabila kursor berada di atas baris tabel, maka latar (background) memiliki style khusus.</p>
+
+<p>Pada contoh di bawah ini, coba tap atau arahkan kursor di atas baris tabel, lihat perbedaannya.</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-hoverable.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table table-hover&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;No.&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Nama&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Jenis Kelamin&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;Muhammad&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;Aisyah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;Fatimah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Muhammad</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Aisyah</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Fatimah</td>
+      <td>Perempuan</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Small table
+<br><small>Tabel Ukuran Kecil (Sempit)</small>
+</h2>
+
+<p>Tabel dengan ukuran kecil dan ramping. Tabel seperti ini digunakan menghemat ruang (padding) pada sebuah baris kolom agar terlihat kompak dan ramping.</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-small.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table table-sm&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;No.&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Nama&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Jenis Kelamin&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;Muhammad&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;Aisyah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;Fatimah&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table table-sm">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Muhammad</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Aisyah</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Fatimah</td>
+      <td>Perempuan</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+<p>Contoh diatas adalah varian table dari Bootstrap dengan tambahan class <code>.table-sm</code></p>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Contextual classes
+<br><small>Beberapa kelas untuk mewarnai baris tabel</small>
+</h2>
+
+<p>Gunakan class tambahan seperti contoh dibawah ini untuk mewarnai dan membedakan baris tabel satu dengan lainnya. Letakkan nama class di dalam <code>&lt;tr&gt;</code> atau <code>&lt;td&gt;</code> tag.</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-contextual-classes.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table&quot;&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;col&quot;&gt;Class&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Judul&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr class=&quot;table-active&quot;&gt;
+        &lt;th scope=&quot;row&quot;&gt;table-active&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;row&quot;&gt;...&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr class=&quot;table-primary&quot;&gt;
+        &lt;th scope=&quot;row&quot;&gt;table-primary&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr class=&quot;table-secondary&quot;&gt;
+        &lt;th scope=&quot;row&quot;&gt;table-secondary&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr class=&quot;table-success&quot;&gt;
+        &lt;th scope=&quot;row&quot;&gt;table-success&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr class=&quot;table-danger&quot;&gt;
+        &lt;th scope=&quot;row&quot;&gt;table-danger&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr class=&quot;table-warning&quot;&gt;
+        &lt;th scope=&quot;row&quot;&gt;table-warning&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr class=&quot;table-info&quot;&gt;
+        &lt;th scope=&quot;row&quot;&gt;table-info&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr class=&quot;table-light&quot;&gt;
+        &lt;th scope=&quot;row&quot;&gt;table-light&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr class=&quot;table-dark&quot;&gt;
+        &lt;th scope=&quot;row&quot;&gt;table-dark&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Class</th>
+        <th scope="col">Judul</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-active">
+        <th scope="row">table-active</th>
+        <td>Cell</td>
+      </tr>
+      <tr>
+        <th scope="row">...</th>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-primary">
+        <th scope="row">table-primary</th>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-secondary">
+        <th scope="row">table-secondary</th>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-success">
+        <th scope="row">table-success</th>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-danger">
+        <th scope="row">table-danger</th>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-warning">
+        <th scope="row">table-warning</th>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-info">
+        <th scope="row">table-info</th>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-light">
+        <th scope="row">table-light</th>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-dark">
+        <th scope="row">table-dark</th>
+        <td>Cell</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+</div>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Captions
+<br><small>Menulis Judul Tabel</small>
+</h2>
+
+<p>Judul tabel dapat dibuat dengan mudah dengan menggunakan element <a href="/tutorial/html/html-caption-tag.html">&lt;caption&gt;</a> yang ditulis didalam <code>&lt;table&gt;</code> tag seperti contoh berikut:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-caption.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;table class=&quot;table&quot;&gt;
+  &lt;caption&gt;Data Siswa&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;No.&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Nama&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Jenis Kelamin&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;Yudi&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;Sista&lt;/td&gt;
+      &lt;td&gt;Perempuan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;Dedi&lt;/td&gt;
+      &lt;td&gt;Laki-laki&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<table class="table">
+  <caption>Data Siswa</caption>
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Yudi</td>
+      <td>Laki-laki</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Sista</td>
+      <td>Perempuan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Dedi</td>
+      <td>Laki-laki</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</div>
+
+<h2 class="title-sub bd-danger bd-left bd-left-only">Responsive tables
+<br><small>Tabel yang &quot;nge-PAS&quot; (Menyesuaikan Layar)</small>
+</h2>
+
+<p>Agar tabel dapat menyesuaikan layar meskipun layar kecil sekalipun (handphone/smartphone) maka element <code>&lt;table&gt;</code> perlu ditempatkan didalam element <a href="/tutorial/html/html-div-tag.html">&lt;div&gt;</a> atau element lain sebagai kontainer yang diberi nama class <code>table-responsive</code>. Berikut contohnya:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-responsive.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;div class=&quot;table-responsive&quot;&gt;
+  &lt;table class=&quot;table&quot;&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;col&quot;&gt;#&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Judul&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Judul&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Judul&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Judul&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Judul&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Judul</th>
+        <th scope="col">Judul</th>
+        <th scope="col">Judul</th>
+        <th scope="col">Judul</th>
+        <th scope="col">Judul</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  </div>
+</div>
+</div>
+
+<p>Sebagai tambahan, Anda juga dapat mentarget table tersebut responsive hanya untuk ukuran layar tertentu dengan menambahkan <em>breakpoint</em> (<code>sm, md, lg, xl</code>) sehingga menjadi:</p>
+
+<ul class="list-unstyled">
+<li><code>.table-responsive-sm</code> (ukuran layar <em>small</em> / kecil)</li>
+<li><code>.table-responsive-md</code> (ukuran layar <em>middle</em> / sedang)</li>
+<li><code>.table-responsive-lg</code> (ukuran layar <em>large</em> / besar)</li>
+<li><code>.table-responsive-xl</code> (ukuran layar <em>extra large</em> / sangat besar)</li>
+</ul>
+
+<p>Berikut contohnya:</p>
+
+<div class="source-preview">
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right float-right">
+        <a href="/example/bootstrap/ref/bootstrap-table-responsive-breakpoint.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height">
+<code data-language="html" class="html language-markup">&lt;div class=&quot;table-responsive-sm&quot;&gt;
+  &lt;table class=&quot;table&quot;&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;col&quot;&gt;#&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Judul&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Judul&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Judul&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Judul&lt;/th&gt;
+        &lt;th scope=&quot;col&quot;&gt;Judul&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+        &lt;td&gt;Cell&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;</code>
+</pre>
+  </div>
+</div>
+<div class="icard">
+  <div class="icard-heading clearfix bg-gr">
+    <div class="icard-bar">
+      <div class="icard-bar-left float-left">
+        <i class="fa fa-hand-o-down co-danger" aria-hidden="true"></i>
+        <span>PREVIEW</span>
+      </div>
+      <div class="icard-bar-right float-right condensed">
+        <span class="fa fa-circle co-success"></span>
+        <span class="fa fa-circle co-warning"></span>
+        <span class="fa fa-circle co-danger"></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body my-3 demo">
+<div class="table-responsive-sm">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Judul</th>
+        <th scope="col">Judul</th>
+        <th scope="col">Judul</th>
+        <th scope="col">Judul</th>
+        <th scope="col">Judul</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  </div>
+</div>
+</div>
+
+
+
+
