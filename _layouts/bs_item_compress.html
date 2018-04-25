@@ -35,7 +35,7 @@ layout: compress
   <script src="{{ '/assets/js/popper.min.js' | absolute_url }}"></script>
   <script src="{{ '/assets/js/bootstrap.min.js' | absolute_url }}"></script>
   {%- endif -%}
-  {%- if site.code_highlighter == "prism" -%}
+  {%- if page.prism -%}
   <script src="{{ '/assets/js/prism.js' | absolute_url }}"></script>
   {%- endif -%}
 {%- else -%}
@@ -44,7 +44,7 @@ layout: compress
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   {%- endif -%}
-  {%- if site.code_highlighter == "prism" -%}
+  {%- if page.prism -%}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.13.0/prism.min.js" integrity="sha384-CjZ2FNuzz/q4VROdeivBNACDLKNBEZU+K0Yj2dng71kohuyc62FKbyNd2syo5jGK" crossorigin="anonymous"></script>
   {%- endif -%}
 {%- endif -%}
