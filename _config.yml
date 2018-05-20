@@ -1,6 +1,7 @@
 url: "https://www.apacara.com"
+timezone: Asia/Jakarta
 
-bootstrap_version: "4.0.0"
+bootstrap_version: "4.1.1"
 
 environment: "production"      # development or empty (production)
 code_highlighter: ""    # prism or highlight or empty (disable) - select syntax / code hightligter
