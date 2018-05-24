@@ -25,7 +25,7 @@ images:
 ---
 <p class="lead demo"><em>Media object</em> merupakan bagian dari bootstrap layout yang berguna untuk menempatkan beberapa komponen dan media (seperti gambar, video dan lainnya) agar memiliki tata letak yang sejajar dengan konten-nya. Layout untuk objek media seperti ini, dimaksudkan untuk membuat stayle sejenis agar dapat digunakan secara berulang (terus-menerus) beberapa kali sesuai kebutuhan. Sehingga, dapat diaplikasikan pada komponen yang kompleks sekalipun</p>
 <hr/>
-<p>Penggunaan <strong>Bootstrap media object</strong> sering kita lihat pada layout kompentar (comment) yang biasanya terdapat dalam sebuah halaman blog. Bootstrap media object juga bisa digunakan untuk aplikasi lainnya sesuai kebutuhan.</p>
+<p>Penggunaan <strong>Bootstrap media object</strong> sering kita lihat pada layout komentar (comment) yang biasanya terdapat dalam sebuah halaman blog. Bootstrap media object juga bisa digunakan untuk aplikasi lainnya sesuai kebutuhan.</p>
 
 <h2 class="title-sub bd-danger bd-left bd-left-only">Cara Menggunakan
 <br /><small>Bootstrap Media Object</small>
