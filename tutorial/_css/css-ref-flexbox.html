@@ -1,0 +1,421 @@
+---
+layout: post_amp
+template: post_amp
+date: 10 April 2018
+
+title: "CSS Flexbox"
+short_title: "CSS flexbox"
+language: id
+
+metadata:
+  description: "Belajar CSS Flexbox. Referensi, Syntax, Penggunaan dan Penjelasan Flexbox di dalam CSS. Panduan, tutorial  bahasa Indonesia dan contoh CSS3 Flexbox"
+
+author: dul
+
+tags: css, cssref
+tag: [css, cssref]
+taxonomy:
+  category: html
+  tags: css, cssref
+  tag: [css, cssref]
+images:
+  figure: "posts/css-ref-flexbox.jpg"
+  thumb: "posts/thumbs/css-ref-flexbox.jpg"
+---
+<p class="lead">
+CSS3 Flexible box atau lebih dikenal dengan <em>flexbox</em> adalah mode layout yang mana digunakan untuk mengatur keluwesan elemen pada sebuah halaman web. Artinya, elemen-elemen tersebut bisa diatur sedemikian rupa sehingga bisa menyesuaikan ukuran layar dan diposisikan serta didistribusikan dengan jarak tertentu diantara item-item dalam sebuah <em>container flex</em> tersebut, bahkan ketika ukuran dari elemen tersebut tidak diketahui.
+</p>
+<hr />
+<p><em>Flexbox</em> sangat cocok digunakan untuk komponen sebuah aplikasi dan layout skala kecil. Tujuan utama penggunaan <em>layout flex</em> adalah untuk memberi kemampuan <em>container</em> agar dapat memenipulasi item-item (elemen) yang ada didalamnya, baik itu merubah tinggi dan lebar, urutan posisi elemen, dan spasi (jarak) diantara elemen tersebut.</p>
+
+<p><strong>Harap Diperhatikan:</strong>  Untuk mencoba dan mengaplikasikan tutorial mengenai <em>flexbox</em> ini, diharapkan tidak menggunakan browser versi lama yang tidak mendukung <em>flex</em>.
+</p>
+
+<section id="syntax">
+<h3 class="title-sub bd-danger bd-left bd-left-only">Syntax <br>
+<small>Penggunaan Sintaksis Flexbox</small>
+</h3>
+<div class="icode itheme syntax">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" inline language-css"><span class="token selector">.flex-container</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> flex | inline-flex<span class="token punctuation">;</span>
+
+  <span class="token property">flex-direction</span><span class="token punctuation">:</span> row | row-reverse | column | column-reverse<span class="token punctuation">;</span>
+  <span class="token property">flex-wrap</span><span class="token punctuation">:</span> nowrap | wrap | wrap-reverse<span class="token punctuation">;</span>
+  <span class="token comment">/* shorthand: Tulisan cepat/Kependekan */</span>
+  <span class="token property">flex-flow</span><span class="token punctuation">:</span> &lt;flex-direction&gt; | &lt;flex-wrap&gt;<span class="token punctuation">;</span>
+
+  <span class="token property">justify-content</span><span class="token punctuation">:</span> flex-start | flex-end | center | space-between | space-around<span class="token punctuation">;</span>
+  <span class="token property">align-items</span><span class="token punctuation">:</span> flex-start | flex-end | center | baseline | stretch<span class="token punctuation">;</span>
+  <span class="token property">align-content</span><span class="token punctuation">:</span> flex-start | flex-end | center | space-between | space-around | stretch<span class="token punctuation">;</span>
+
+<span class="token punctuation">}</span>
+
+<span class="token selector">.flex-items</span> <span class="token punctuation">{</span>
+  <span class="token property">order</span><span class="token punctuation">:</span> &lt;integer&gt;<span class="token punctuation">;</span>
+
+  <span class="token property">flex-grow</span><span class="token punctuation">:</span> &lt;number&gt;<span class="token punctuation">;</span> <span class="token comment">/* defaultnya adalah: 0 */</span>
+  <span class="token property">flex-shrink</span><span class="token punctuation">:</span> &lt;number&gt;<span class="token punctuation">;</span> <span class="token comment">/* defaulnya adalah: 1 - nilai negatif tidak berlaku*/</span>
+  <span class="token property">flex-basis</span><span class="token punctuation">:</span> &lt;length&gt; | auto<span class="token punctuation">;</span> <span class="token comment">/* defaultnya adalah: auto */</span>
+  <span class="token comment">/* shorthand: Tulisan cepat/Kependekan */</span>
+  <span class="token property">flex</span><span class="token punctuation">:</span> &lt;flex-grow&gt; | &lt;flex-shrink&gt; | &lt;flex-basis&gt; <span class="token punctuation">;</span> <span class="token comment">/* defaultnya adalah: 0 1 auto; */</span>
+
+  <span class="token property">align-self</span><span class="token punctuation">:</span> auto | flex-start | flex-end | center | baseline | stretch<span class="token punctuation">;</span> <span class="token comment">/* lihat: align-items */</span>
+<span class="token punctuation">}</span></code>
+</pre>
+</div>
+</section>
+    <hr>
+<section id="property">
+<h3 class="title-sub bd-danger bd-left bd-left-only">Properti untuk <em>Parent</em><br>
+<small>.flex-container</small></h3>
+<p>Properti-properti di bawah ini digunakan hanya untuk container dari flexbox atau dengan kata lain adalah tempat dimana semua item dari flexbox itu ditempatkan.</p>
+
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+  <div class="icard-heading clearfix co-wh bg-gr2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+       <span><code>display</code></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<p>Menentukkan container untuk flex apakah <em>inline</em> atau <em>block</em>. Inilah yang mendasari sebuah elemen akan memiliki sifat <em>flex</em> atau tidak.
+</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span> <span class="token comment">/* atau inline-flex */</span>
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+  </div>
+</div>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+  <div class="icard-heading clearfix co-wh bg-gr2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+       <span><code>flex-direction</code></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<p>Menentukkan arah (direction) yang akan diberlakukan untuk item-item yang ada pada container flexbox. Arah yang dimaksud adalah apakah ingin mengarah berbaris/horizontal (dari kiri ke kanan atau sebaliknya) atau seperti kolom/vertikal (dari atas kebawah atau sebaliknya).
+</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">flex-direction</span><span class="token punctuation">:</span> column<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/*
+Pilihan value-nya adalah: row | row-reverse | column | column-reverse;
+*/</span></code>
+</pre>
+  </div>
+</div>
+  </div>
+</div>
+<img class="img-fluid"  width="444" height="121" src="/media/posts/flexbox-direction.png" alt="flex direction" />
+<ul>
+  <li><strong>row</strong>: Dari kiri ke Kanan.</li>
+  <li><strong>row-reverse</strong>: Dari Kanan ke Kiri (Kebalikan dari <strong>row</strong>).</li>
+  <li><strong>column</strong>: Dari Atas ke Bawah.</li>
+  <li><strong>column-reverse</strong>: Dari Bawah ke Atas (kebalikan dari <strong>column</strong>).</li>
+</ul>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+  <div class="icard-heading clearfix co-wh bg-gr2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+       <span><code>flex-wrap</code></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<p>flex-wrap digunakan untuk mendefinisikan bahwa elemen item di dalam container flexbox tidak harus disejajarkan dalam satu baris. Artinya, elemen item tersebut digulung (dipindahkan) ke baris baru bila sudah memenuhi lebar container-nya.
+</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">flex-wrap</span><span class="token punctuation">:</span> wrap<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/*
+Pilihan value-nya adalah: nowrap | wrap | wrap-reverse
+*/</span></code>
+</pre>
+  </div>
+</div>
+  </div>
+</div>
+<img class="img-fluid"  width="382" height="80" src="/media/posts/flex-wrap.png" alt="" />
+<ul>
+  <li><strong>nowrap</strong>: Jangan digulung (dipindahkan) ke baris baru.</li>
+  <li><strong>wrap</strong>: Digulung (dipindahkan) ke baris baru.</li>
+  <li><strong>wrap-reverse</strong>: digulung (dipindahkan) ke baris baru tapi dibalik (elemen item terakhir, jadi pertama ).</li>
+</ul>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+  <div class="icard-heading clearfix co-wh bg-gr2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+       <span><code>flex-flow</code></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+ <p><em>flex-flow</em> adalah kependekan (tulisan cepat) dari <code>flex-direction</code> dan <code>flex-wrap</code> sebagaimana dijelaskan tersebut diatas. Sebaiknya menggunakan kependekan ini dalam produksi design web. </p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">flex-flow</span><span class="token punctuation">:</span> row wrap<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/*
+penggunaanya adalah: &lt;flex-direction&gt; &lt;spasi&gt; &lt;flex-wrap&gt;
+*/</span></code>
+</pre>
+  </div>
+</div>
+  </div>
+</div>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+  <div class="icard-heading clearfix co-wh bg-gr2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+       <span><code>justify-content</code></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<p><code>justify-content</code> digunakan untuk mensejajarkan item-item diantara flexbox agar container dari flexbox tersebut bisa mendistribusikan ruang kosong yang tersisa ketika item flex dalam satu baris tersebut tidak flexsibel atau meskipun flexsibel tapi sudah mencapai batas ukuran maksimum.</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">justify-content</span><span class="token punctuation">:</span> space-around<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/*
+Pilihan value-nya adalah: flex-start | flex-end | center | space-between | space-around;
+*/</span></code>
+</pre>
+  </div>
+</div>
+  </div>
+</div>
+<ul>
+  <li><strong>flex-start</strong>: Item flex disejajarkan dari baris pertama (kiri).</li>
+  <li><strong>flex-end</strong>: Item flex disejajarkan pada baris terakhir (kanan).</li>
+  <li><strong>center</strong>: disejajarkan ditengah-tengah baris.</li>
+  <li><strong>space-between</strong>: disejajarkan dengan memberi spasi diantara item, yang mana item pertama berada pada baris pertama dan item terakhir pada baris terakhir.</li>
+  <li><strong>space-around</strong>: disejajarkan dengan memberi spasi yang sama diantara item. spasi diantara item tersebut mungkin nampak tidak sama karena semua item memiliki spasi yang sama pada kedua sisi.</li>
+</ul>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+  <div class="icard-heading clearfix co-wh bg-gr2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+       <span><code>align-items</code></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<p><code>align-items</code> mendefinisikan bagaimana item-item pada container flex tersebut diletakkan sepanjang garis tegak lurus pada sumbu utama (cross-axis). Ini sama halnya dengan <code>justify-content</code> tapi peletakkannya saja yang berbeda.</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">align-items</span><span class="token punctuation">:</span> flex-end<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/*
+Pilihan value-nya adalah: flex-start | flex-end | center | baseline | stretch;
+*/</span></code>
+</pre>
+  </div>
+</div>
+  </div>
+</div>
+<div class="icard bg-gr3 bd-primary bd-top bd-top-only">
+  <div class="icard-heading clearfix co-wh bg-gr2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+       <span><code>align-content</code></span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<p><code>align-content</code> digunakan untuk mensejajarkan garis <em>flex container</em> ketika ada ruang kosong secara garis tegak lurus pada sumbu utama (cross-axis). Sama halnya dengan <code>justify-content</code> yang mana mensejajarkan individu items pada <em>main axis</em>. </p>
+<p><strong>Harap diperhatikan:</strong> Properti ini tidak dapat diaplikasikan jika hanya terdapat satu flex item.</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">align-content</span><span class="token punctuation">:</span> flex-end<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/*
+Pilihan value-nya adalah: flex-start | flex-end | center | space-between | space-around | stretch;
+*/</span></code>
+</pre>
+  </div>
+</div>
+  </div>
+</div>
+</section>
+<h2 class="title-sub bd-danger bd-left bd-left-only">Contoh Lengkap
+</h2>
+<p>Contoh <em>source code</em> lengkap disertai dengan link  &quot;editor&quot; untuk mencoba (try it) dan melihat hasil (preview) kode.</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html5" aria-hidden="true"></i>
+        <span>SOURCE</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/ref/flexbox.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="inline  language-markup"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>CSS Flexbox Demo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style language-css">
+      <span class="token selector">.flex-container</span> <span class="token punctuation">{</span>
+        <span class="token property">height</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span>
+        <span class="token property">background</span><span class="token punctuation">:</span> #ddd<span class="token punctuation">;</span>
+        <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+        <span class="token property">flex-flow</span><span class="token punctuation">:</span> row wrap<span class="token punctuation">;</span>
+        <span class="token property">justify-content</span><span class="token punctuation">:</span> space-between<span class="token punctuation">;</span>
+        <span class="token property">align-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token selector">.flex-item</span> <span class="token punctuation">{</span>
+        <span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+        <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+        <span class="token property">background</span><span class="token punctuation">:</span> tomato<span class="token punctuation">;</span>
+        <span class="token property">margin</span><span class="token punctuation">:</span> 2px<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-container<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-4<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-5<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-6<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 6<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-7<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 7<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 8<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-9<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 9<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-10<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 10<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-11<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 11<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 12<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-13<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 13<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-14<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 14<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>flex-item flex-item-15<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>flex-item 15<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+<!-- Article Aside -->
+
+<!-- Browser Support -->
+  <aside id="browser">
+    <h3 class="title-sub bd-danger bd-left bd-left-only">Browser Support <br>
+      <small>Status &amp; Dukungan Browser </small>
+    </h3>
+    <p>Berikut adalah keterangan mengenai dukungan (support) dari beberapa browser.</p>
+    <div class="table-responsive uk-overflow-container">
+    <table class="table uk-table uk-table-striped uk-table-bordered uk-text-nowrap full-width">
+          <thead>
+            <tr>
+              <th>CSS</th>
+                <th title="Chrome"><i class="fa fa-chrome fa-lg"></i></th>
+                <th title="Safari"><i class="fa fa-safari fa-lg"></i></th>
+                <th title="Firefox"><i class="fa fa-firefox fa-lg"></i></th>
+                <th title="Opera"><i class="fa fa-opera fa-lg"></i></th>
+                <th title="Internet Explorer"><i class="fa fa-internet-explorer fa-lg"></i></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Property</td>
+              <td>Chrome</td>
+              <td>Safari</td>
+              <td>Firefox</td>
+              <td>Opera</td>
+              <td>IE</td>
+            </tr>
+            <tr>
+              <td><code>flex</code></td>
+              <td class="success">29.0</td>
+              <td class="success"></td>
+              <td class="success">20.0</td>
+              <td class="success">12.10</td>
+              <td class="success">11.0</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><code>-webkit-</code> (21.0 )</td>
+              <td><code>-webkit-</code> (6.1 )</td>
+              <td>18.0</td>
+              <td></td>
+              <td><code>-ms-</code> (10.0 )</td>
+            </tr>
+          </tbody>
+    </table>
+</div>
+  </aside>

@@ -1,0 +1,325 @@
+---
+layout: post_amp
+template: post_amp
+date: 10 April 2018
+
+title: "CSS Universal Selector"
+short_title: "CSS * selector"
+language: id
+
+metadata:
+  description: "Belajar CSS Universal selector. Referensi, Syntax, Penggunaan dan Penjelasan selektor * Universal di dalam CSS. Panduan, tutorial CSS dan CSS3 Bahasa Indonesia"
+
+author: dul
+
+tags: css, cssselector
+tag: [css, cssselector]
+taxonomy:
+  category: html
+  tags: css, cssselector
+  tag: [css, cssselector]
+images:
+  figure: "posts/css-selector-universal.jpg"
+  thumb: "posts/thumbs/css-selector-universal.jpg"
+---
+<p class="lead">CSS <em>Universal Selector</em> (<code>*</code>) digunakan untuk menyeleksi setiap single element dari tipe element apapun. Artinya, penyeleksian berlaku secara keseluruhan untuk semua single element. Penggunaan <em>Universal Selector</em> ditandai dengan karakter arterisk <code>*</code> yang dapat digunakan secara berdiri sendiri ataupun digabungkan dengan tipe selektor lainnya.</p>
+<hr />
+<!-- Syntax  -->
+<section id="syntax">
+  <h3 class="title-sub bd-danger bd-left bd-left-only">Syntax <br>
+  <small>Penggunaan Sintaksis <code>*</code></small>
+  </h3>
+<div class="icode itheme syntax">
+<pre class="prettyprint highlight language-css"><code data-language="css" class=" inline language-css"><span class="token selector">*</span> <span class="token punctuation">{</span>
+<span class="token property">Property</span><span class="token punctuation">:</span> Value<span class="token punctuation">;</span>  <span class="token comment">/* Deklarasi CSS */</span>
+<span class="token punctuation">}</span></code>
+</pre>
+</div>
+</section>
+
+<!-- Example -->
+<section id="example">
+<h3 class="title-sub bd-danger bd-left bd-left-only">Example<br>
+  <small>Contoh <code>*</code>(universal selector)</small>
+</h3>
+<!-- HTML Code -->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/universal-selector-1.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="html  language-markup"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>CSS * Selector - contoh 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Ini adalah paragraf<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>table contoh1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Kolom 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Kolom 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Kolom 3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>List 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>List 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+<!-- CSS Code -->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">*</span> <span class="token punctuation">{</span>
+  <span class="token property">font-family</span><span class="token punctuation">:</span> Arial, Helvetica, sans-serif<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+  <p>Kode diatas, menyeleksi semua single element apapun, agar memiliki font Arial atau Helvetica dan warna text green (hijau).
+  </p>
+</section>
+<h2 class="title-sub bd-danger bd-left bd-left-only">Contoh Lengkap
+</h2>
+<p>Contoh <em>source code</em> lengkap disertai dengan link  &quot;editor&quot; untuk mencoba (try it) dan melihat hasil (preview) kode.</p>
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html5" aria-hidden="true"></i>
+        <span>SOURCE</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/universal-selector.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme bg-gr3">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="inline  language-markup"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>CSS universal Selector - apacara.com<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style language-css">
+      <span class="token selector">*</span> <span class="token punctuation">{</span>
+          <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+          <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Ini adalah paragraf<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>table contoh1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Kolom 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Kolom 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Kolom 3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Baris 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Baris 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Baris 3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>List 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>List 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-success">
+    <div class="icard-bar bar-lg">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+        <span>TIPS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body bg-success2">
+<p>Untuk pembahasan selanjutnya, gunakan <em>Code Editor</em> diatas untuk uji coba dengan cara copy-paste kedalam editor tersebut, ataupun mengetiknya secara manual.</p>
+  </div>
+</div>
+<article class="contoh-kode">
+<div class="dul-block">
+  <h3 class="title-sub bd-danger bd-left bd-left-only">
+  <small>Contoh 2</small> <br>
+  <code>div *</code>
+  </h3>
+  <p>Seleksi <code>&lt;div&gt;</code> dan semua single element apapun di dalamnya.</p>
+<!-- Contoh Kode HTML -->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/universal-selector-2.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="html  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Tutorial CSS Universal Selector<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>Ditandai dengan asterik atau tanda bintang<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span> Kita biasa menyebutnya dengan <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>tanda bintang<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span>.
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>Tanda bintang inilah yang menandakan selektor <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>universal<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span>.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>penyeleksiannnya berlaku untuk setiap single element secara <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>keseluruhan<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>.
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>Ini contoh unordered list pertama dari <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>universal Selector<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+<!-- Contoh kode CSS-->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">div *</span><span class="token punctuation">{</span>
+  <span class="token property">font-family</span><span class="token punctuation">:</span> sans-serif<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> tomato<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+  <p>Artinya, Seleksi semua single element apapun di dalam &lt;div&gt; agar memiliki style dengan font dan warna teks sebagaimana dalam kode CSS diatas.</p>
+</div>
+</article>
+
+<article class="contoh-kode">
+<div class="dul-block">
+  <h3 class="title-sub bd-danger bd-left bd-left-only">
+  <small>Contoh 3</small> <br>
+  <code>div * em</code>
+  </h3>
+  <p>Seleksi <code>&lt;div&gt;</code> + <code>element apapun</code> + <code>&lt;em&gt;</code> di dalamnya.</p>
+<!-- Contoh Kode HTML -->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-pi2">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-html" aria-hidden="true"></i>
+        <span>HTML</span>
+      </div>
+      <div class="icard-bar-right pull-right">
+        <a href="/example/css/selector/universal-selector-3.html" target="_blank"><span>editor</span><i class="fa fa-external-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-markup"><code data-language="html" class="html  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Panduan Belajar <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>Universal Selector<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>Universal Selector<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span> ditandai dengan <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>asterisk<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">&gt;</span></span>*<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>Tanda Bintang?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Ya, Kita biasa menyebutnya dengan <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>tanda bintang<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span>.
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>Tanda bintang inilah yang menandakan selektor <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>universal<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span>.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Jadi, penyeleksiannnya digunakan untuk setiap single element secara <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>keseluruhan<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>.
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>Ini contoh unordered list pertama dari <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>universal Selector<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+  </div>
+</div>
+<!-- Contoh kode CSS-->
+<div class="icard">
+  <div class="icard-heading clearfix co-wh bg-tw">
+    <div class="icard-bar">
+      <div class="icard-bar-left pull-left">
+        <i class="fa fa-css" aria-hidden="true"></i>
+        <span>CSS</span>
+      </div>
+    </div>
+  </div>
+  <div class="icard-body icode itheme">
+<pre class="prettyprint highlight max-height language-css"><code data-language="css" class=" language-css"><span class="token selector">div * em</span><span class="token punctuation">{</span>
+  <span class="token property">font-family</span><span class="token punctuation">:</span> sans-serif<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> tomato<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code>
+</pre>
+  </div>
+</div>
+  <p>Artinya: <br>Seleksi &lt;div&gt;, kemudian element (keturunan) apapun didalam div tersebut yang memiliki tag &lt;em&gt;. <br>
+Singkatnya, hanya seleksi div + element apapun + em.</p>
+  <p>Pada contoh diatas, &lt;em&gt; pada &lt;h1&gt; tidak terseleksi, karena tidak berada didalam &lt;div&gt;.</p>
+</div>
+</article>
+<!-- Browser Support -->
+<aside id="browser">
+<h3 class="title-sub bd-danger bd-left bd-left-only">Browser Support <br>
+<small>Status &amp; Dukungan Browser </small>
+</h3>
+<p>Berikut adalah keterangan mengenai dukungan (support) dari beberapa browser.</p>
+<div class="table-responsive uk-overflow-container">
+<table class="table uk-table uk-table-striped uk-table-bordered uk-text-nowrap full-width">
+      <thead>
+        <tr>
+          <th>CSS</th>
+          <th title="Chrome"><i class="fa fa-chrome fa-lg"></i></th>
+          <th title="Safari"><i class="fa fa-safari fa-lg"></i></th>
+          <th title="Firefox"><i class="fa fa-firefox fa-lg"></i></th>
+          <th title="Opera"><i class="fa fa-opera fa-lg"></i></th>
+          <th title="Internet Explorer"><i class="fa fa-internet-explorer fa-lg"></i></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>selector</td>
+          <td>Chrome</td>
+          <td>Safari</td>
+          <td>Firefox</td>
+          <td>Opera</td>
+          <td>IE</td>
+        </tr>
+        <tr>
+        <td><code>* {}</code></td>
+          <td class="success">Ya</td>
+          <td class="success">Ya</td>
+          <td class="success">Ya</td>
+          <td class="success">Ya</td>
+          <td class="success">Ya</td>
+        </tr>
+      </tbody>
+</table>
+</div>
+</aside>

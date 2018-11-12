@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html {% if page.language %}lang="{{ page.language }}"{% elsif site.language %}lang="{{ site.language }}"{% endif %}>
-{% include demo_head_html.html %}
+{% include demo/demo_head_html.html %}
 <body>
+{%- if site.environment == "production" -%}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
 <script>
@@ -11,8 +12,9 @@
 
   gtag('config', '{{site.google_analytics}}');
 </script>
+{%- endif -%}
 
-{% include demo_navigation.html %}
+{% include demo/demo_navigation.html %}
 {{ content }}
 
 {% if page.add_foot %}

@@ -1,5 +1,5 @@
 ---
-layout: search
+layout: page
 title: "Search"
 metadata:
   description: "Article Search. halaman untuk pencarian artikel, masukkan kata kunci pada kotak pencarian."
@@ -9,19 +9,33 @@ datePublished: "2017-11-14T00:00:00+07:00"
 dateModified: "2017-11-14T00:00:00+07:00"
 
 author: dul
+inject_header: '<link rel="stylesheet" href="/assets/css/search.css"/>'
 ---
+<main class="container mt-3">
+  <div class="row no-gutters">
+    <!-- post content -->
+    <div class="col-12 post">
 <div class="text-center">
-<h2 class="section-title">Search</h2>
 <div class="section-line">
   <div class="section-line-inside"></div>
 </div>
-<h2>Press <kbd>Esc</kbd> or <kbd>/</kbd> to open search box</h2>
+<h2 class="mt-5">Press <kbd>Esc</kbd> or <kbd>/</kbd> to open search box</h2>
 <p>Untuk mencari artikel, silahkan tekan tombol <kbd>Esc</kbd> atau <kbd>/</kbd> pada papan keyboard Anda.</p>
-<p>OR / ATAU</p>
-<a class="button button-clean" href="javascript:void(0)" title="Open Search Box" onclick="toggleSearch()"> Open Search Box <i class="fa fa-search"></i></a>
+<p class="mt-5 mb-5">OR / ATAU</p>
+<a class="btn btn-success" href="javascript:void(0)" title="Open Search Box" onclick="toggleSearch()"> Open Search Box <i class="fa fa-search"></i></a>
+
+<p class="text-muted mt-5 mb-5">Halaman ini digunakan untuk mencari artikel di apacara.com, klik tombol <strong>Open Search Box</strong> untuk menampilkan kotak pencarian.</p>
 </div>
 <div class="super-search" id="js-super-search">
 <a href="javascript:void(0)" onclick="superSearch.toggle()" class="super-search__close-btn"><i class="fa fa-close"></i></a>
 <input type="text" placeholder="Type here to search" class="super-search__input" id="js-super-search__input">
 <ul class="super-search__results" id="js-super-search__results"></ul>
 </div>
+    </div>
+  </div>
+</main>
+<script src="{{ "/assets/js/super-search.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+ <script>superSearch({
+ 	// rss feed file path
+ 	searchFile: "{{site.url}}/feed-full.xml"
+ });</script>

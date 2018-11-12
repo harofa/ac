@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html amp="amp" {% if page.language %}lang="{{ page.language }}"{% elsif site.language %}lang="{{ site.language }}"{% endif %}>
-{% include demo_head_amp.html %}
+{% include demo/demo_head_amp.html %}
 <body>
  <amp-analytics type="googleanalytics" id="analytics-ga">
     <script type="application/json">
@@ -17,7 +17,7 @@
     }
     </script>
   </amp-analytics>
-{% include demo_navigation.html %}
+{% include demo/demo_navigation.html %}
 <amp-accordion disable-session-states>
   <section expanded>
     <h3 class="accordion-heading">

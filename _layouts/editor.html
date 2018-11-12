@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html {% if page.language %}lang="{{ page.language }}"{% elsif site.language %}lang="{{ site.language }}"{% endif %}>
-{% include editor_head_cdn.html %}
+{%- if site.environment == "production" -%}
+  {% include editor/editor_head_cdn.html %}
 <body>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
@@ -11,8 +12,12 @@
 
   gtag('config', '{{site.google_analytics}}');
 </script>
+{%- else -%}
+{% include editor/editor_head_local.html %}
+<body>
+{%- endif -%}
   <div id="loader"></div>
-{% include editor_navigation.html %}
+{% include editor/editor_navigation.html %}
 <div class="article" id="content" role="main">
   <ul class='tabs'>
   	<li><a href='#tab1' accesskey="h">HTML</a></li>

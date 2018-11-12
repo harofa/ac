@@ -1,16 +1,54 @@
 url: "https://www.apacara.com"
 timezone: Asia/Jakarta
+show_banner: true
 
-bootstrap_version: "4.1.1"
-
-environment: "production"      # development or empty (production)
-code_highlighter: ""    # prism or highlight or empty (disable) - select syntax / code hightligter
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
+ads:
+  enabled: true
+  data_ad_client: "ca-pub-3288866780282962"
 
 baseurl: ""
 permalink: /:categories/:title.html
+
+collections_dir: tutorial
+collections:
+  amp:
+    output: true
+    permalink: /tutorial/amp/:title.html
+  apa:
+    output: true
+    permalink: /tutorial/apa/:title.html
+  html:
+    output: true
+    permalink: /tutorial/html/:title.html
+  css:
+    output: true
+    permalink: /tutorial/css/:title.html
+  bootstrap:
+    output: true
+    permalink: /tutorial/bootstrap/:title.html
+  javascript:
+    output: true
+    permalink: /tutorial/javascript/:title.html
+  mariadb:
+    output: true
+    permalink: /tutorial/mariadb/:title.html
+  php:
+    output: true
+    permalink: /tutorial/php/:title.html
+  cara:
+    output: true
+    permalink: /tutorial/cara/:title.html
+
+
+bootstrap_version: "4.1.3"
+bootstrap_css: "https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+jquery: "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+bootstrap_bundle: "https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.bundle.min.js"
+bootstrap_js: "https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+popper: "https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js"
+
+environment: "production"      # development or empty (production)
+code_highlighter: ""    # prism or highlight or empty (disable) - select syntax / code hightligter
 
 images_path:
   avatar: "/media/avatar/"
@@ -25,19 +63,6 @@ default_image_url:
 default_thumb_url:
 image_source_link: false    #creadit link set active (clickable) if true
 
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
-    values:
-      layout: "post"  # default layout: post to every post page
-  - scope:
-      path: "media/"
-    values:
-      layout: "no_layout"
-
-# Name of your site
 name: apaCara.com
 short_name: apaCara
 title: apaCara.com - Belajar Blogging dan Web Design
@@ -45,7 +70,7 @@ keywords: [blog,blogging,web,webdesign,webdesain]
 description: "apacara.com - Belajar Apapun Dengan cara Bagaimanapun. Blogging tutorials, belajar Seputar Web Design and Development. "
 description_footer: "apacara.com - Belajar Apapun Dengan cara Bagaimanapun. "
 
-language: "en"          #your default site language
+language: "id"          #your default site language
 
 author:            #default author
   name: "Halwa RF"
@@ -63,10 +88,6 @@ publisher:
   name: "apacara.com"
   logo_url:         # if empty, use default image in logo folder
   profile: "https://plus.google.com/+HalwaRF"
-
-ads:
-  enabled: true
-  data_ad_client: "ca-pub-3288866780282962"
 
 facebook:
   fb_name: "@apacaracom"
@@ -99,33 +120,12 @@ social:
   rss:
   stackoverflow:
 
-# Comment System
 use_fb_comments: false            #if false, disqus comment will be used instead
 disqus:                           # apacara
 disqus_script_url: "https://apacara.github.io/embed/gravcms/disqus-apacara2.html"
 
-# Google Analytics (e.g. UA-2110908-2)
 google_analytics: "UA-92050092-5"
 
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'monokai'
-
-# Use the following plug-ins
-plugins:
-  - jekyll-paginate
-
-paginate: 5
-paginate_path: "page:num"
-
-index_pagination: false    # add by admin - custom pagination for index pages, true = enable , false = disable
-# Exclude these files from your production _site
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -133,7 +133,3 @@ exclude:
   - README.md
   - CNAME
   - .php
-
-collections:
-  my_collection:
-    output: true
