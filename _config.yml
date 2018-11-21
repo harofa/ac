@@ -11,6 +11,9 @@ permalink: /:categories/:title.html
 
 collections_dir: tutorial
 collections:
+  aaa_drafts:
+    output: false
+    permalink: /tutorial/amp/:title.html
   amp:
     output: true
     permalink: /tutorial/amp/:title.html

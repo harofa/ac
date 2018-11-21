@@ -28,3 +28,6 @@
 {%- endif -%}
 
 <script src="/assets/js/bundle.js?v.1.0"></script>
+{%- if page.inject_footer -%}
+  {{ page.inject_footer }}
+{%- endif -%}

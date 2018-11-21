@@ -2,4 +2,8 @@
 layout: default
 language: id
 ---
+{%- if site.environment == "production" -%}
 {%- include post_category.html index_category='css' -%}
+{%- else -%}
+{%- include post_category.html index_category='aaa_drafts' -%}
+{%- endif -%}

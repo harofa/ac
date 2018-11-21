@@ -7,32 +7,35 @@ permalink: /:categories/:title.html
 
 collections_dir: tutorial
 collections:
-  amp:
+  aaa_drafts:
     output: true
     permalink: /tutorial/amp/:title.html
+  amp:
+    output: false
+    permalink: /tutorial/amp/:title.html
   apa:
-    output: true
+    output: false
     permalink: /tutorial/apa/:title.html
   html:
-    output: true
+    output: false
     permalink: /tutorial/html/:title.html
   css:
-    output: true
+    output: false
     permalink: /tutorial/css/:title.html
   bootstrap:
-    output: true
+    output: false
     permalink: /tutorial/bootstrap/:title.html
   javascript:
-    output: true
+    output: false
     permalink: /tutorial/javascript/:title.html
   mariadb:
-    output: true
+    output: false
     permalink: /tutorial/mariadb/:title.html
   php:
-    output: true
+    output: false
     permalink: /tutorial/php/:title.html
   cara:
-    output: true
+    output: false
     permalink: /tutorial/cara/:title.html    
 
 bootstrap_version: "4.1.3"
@@ -131,4 +134,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - .php
+  - "*.php"
+  - "*.xml"
+  - embed
+  - category
+  - playground
