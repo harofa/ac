@@ -9,7 +9,7 @@ collections_dir: tutorial
 collections:
   aaa_drafts:
     output: true
-    permalink: /tutorial/amp/:title.html
+    permalink: /tutorial/draft/:title.html
   amp:
     output: false
     permalink: /tutorial/amp/:title.html
