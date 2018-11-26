@@ -7,8 +7,8 @@
 {%- endcapture -%}
 
 {%- capture page_image -%}
-  {%- if page.images.figure -%}
-    {{ page.images.figure | prepend: site.images_path.images | absolute_url }}
+  {%- if page.image.src -%}
+    {{ page.image.src | prepend: site.images_path.images | absolute_url }}
   {%- endif -%}
 {%- endcapture -%}
 
@@ -22,9 +22,9 @@
   {%- endif -%}
 {%- endcapture -%}
 
-{%- if page.taxonomy.tag and page.taxonomy.tag.size > 0 -%}
-  {%- capture page_tag -%}
-   {%- for tag in page.taxonomy.tag -%}
+{%- if page.tag and page.tag.size > 0 -%}
+  {%- capture page_tags -%}
+   {%- for tag in page.tags -%}
       {{ tag }}
       {%- unless forloop.last -%},
       {%- endunless -%}
@@ -35,8 +35,6 @@
 {%- capture page_url -%}
   {{ page.url | replace:'index.html','' | absolute_url }}
 {%- endcapture -%}
-
-{%- assign post_author = site.data.people[page.author] -%}
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -49,7 +47,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}"/>
   <title>{{ page_title }}</title>
   <meta name="description" content="{{ page_description }}"/>
-  {%- if page.taxonomy.tag and page.taxonomy.tag.size > 0 -%}<meta name="keywords" content="{{ page_tag }}"/>{%- endif -%}
+  <meta name="keywords" content="{{ page_tags }}"/>
   <!-- icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
@@ -71,52 +69,49 @@
   {%- if page_image.size > 0 -%}
   <meta property="og:image" content="{{ page_image }}"/>
   <meta property="og:image:secure_url" content="{{ page_image }}" />
-  <meta property="og:image:width" content="773" />
-  <meta property="og:image:height" content="464" />
+  <meta property="og:image:width" content="823" />
+  <meta property="og:image:height" content="441" />
   {%- endif -%}
   <meta property="og:site_name" content="{{ site.name }}"/>
   {%- if page.language -%}
     <meta property="og:locale" content="{{ page.language }}"/>
   {%- endif -%}
   <meta property="og:description" content="{{ page_description }}"/>
-  <meta property="article:publisher" content="{{ site.facebook.fb_url }}" />
-  <meta property="article:author" content="{{ post_author.facebook | default: site.facebook.fb_url }}" />
+  <meta property="og:updated_time" content="2018-10-23T10:32:08+00:00" />
 
-  {%- for p_tag in page.taxonomy.tag -%}
-  <meta property="article:tag" content="{{ p_tag }}" />
-  {%- endfor -%}
-  {%- if page.date and site.show_date_schema == true -%}
-    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
-    {%- endif -%}
-    {%- if page.dateModified and site.show_date_schema == true -%}
-    <meta property="article:modified_time" content="{{ page.dateModified | date_to_xmlschema }}" />
-    {%- elsif page.date and site.show_date_schema == true -%}
-    <meta property="article:modified_time" content="{{ page.date | date_to_xmlschema }}" />
-  {%- endif -%}
+  <meta property="article:publisher" content="https://www.facebook.com/apacaracom" />
+  <meta property="article:author" content="https://www.facebook.com/halwarf" />
+  <meta property="article:tag" content="WordPress" />
+  <meta property="article:tag" content="Yoast SEO Premium" />
+  <meta property="article:published_time" content="2017-01-04T14:15:54+00:00" />
+  <meta property="article:modified_time" content="2018-10-23T10:32:08+00:00" />
+
   <meta name="twitter:card" property="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:site" property="twitter:site" content="{{site.twitter.tw_name}}"/>
-  <meta name="twitter:title" property="twitter:title" content="{{ page_title }}"/>
-  {%- if page_image.size > 0 -%}<meta name="twitter:image" property="twitter:image" content="{{ page_image }}"/>{%- endif -%}
   <meta name="twitter:description" property="twitter:description" content="{{ page_description }}"/>
+  <meta name="twitter:title" property="twitter:title" content="{{ page_title }}"/>
+  {%- if page_image.size > 0 -%}
+  <meta name="twitter:image" property="twitter:image" content="{{ page_image }}"/>
+  {%- endif -%}
+  <meta name="twitter:site" property="twitter:site" content="{{site.twitter.tw_name}}"/>
+  <meta name="twitter:creator" property="twitter:creator" content="{{site.twitter.tw_name}}" />
+
   <meta property="fb:app_id" content="{{ site.facebook.fb_app_id }}"/>
   <meta property="fb:admins" content="{{ site.facebook.fb_admins }}"/>
   <meta property="fb:profile_id" content="{{ site.facebook.profile_id }}"/>
-  <meta name="amp-google-client-id-api" content="googleanalytics">
+  <meta property="fb:pages" content="{{ site.facebook.profile_id }}" />
+
+  <link rel='dns-prefetch' href='//www.googletagmanager.com' />
+  <link rel='preconnect' href='https://www.googletagmanager.com' />
+  <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+  <link rel='preconnect' href='https://fonts.googleapis.com' />
+  <link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+  <link rel='preconnect' href='https://pagead2.googlesyndication.com' />
+
   <script type="application/ld+json">
-  { "@context": "https://schema.org",
+  { "@context": "http://schema.org",
     "@type": "WebPage",
     "name": "{{ page_title }}",
     "headline": "{{ page_title }}",
-    {%- if page.taxonomy.tag and page.taxonomy.tag.size > 0 -%}"keywords": "{{ page_tag }}",{%- endif -%}
-  {%- if page.date and site.show_date_schema == true -%}
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  {%- endif -%}
-  {%- if page.dateModified and site.show_date_schema == true -%}
-  "dateModified": "{{ page.dateModified | date_to_xmlschema }}",
-  {%- elsif page.date and site.show_date_schema == true -%}
-  "dateModified": "{{ page.date | date_to_xmlschema }}",
-  {%- endif -%}
-
     {%- if page_image.size > 0 -%}"image": "{{ page_image }}",{%- endif -%}
     "inLanguage": "{{ page.language }}",
     "mainEntityOfPage": "True",
@@ -136,22 +131,18 @@
     "url": "{{ page_url }}"
   }
   </script>
-  {%- if page.layout == "post" or page.layout == "post_amp" -%}
-  <script type='application/ld+json'>
-  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"{{ site.url | absolute_url }}","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"{{ site.url | absolute_url }}/category/{{ page.taxonomy.topic |default: site.topic }}","name":"{{ page.taxonomy.topic_title | default: site.topic_title }}"}},{"@type":"ListItem","position":3,"item":{"@id":"{{ site.url | absolute_url }}/category/{{ page.taxonomy.topic |default: site.topic }}/{{ page.taxonomy.category }}","name":"{{ page.taxonomy.category_title | default: page.taxonomy.category }}"}},{"@type":"ListItem","position":4,"item":{"@id":"{{ page.url | absolute_url }}","name":"{{ page.title }}"}}]}</script>
-  {%- endif -%}
 
-  {%- if site.environment == "production" -%}
-    {%- include script/bootstrap_header.html -%}
+{%- if site.environment == "production" -%}
+  {%- include script/bootstrap_header.html -%}
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i" rel="stylesheet"/>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="/assets/css/bundle.min.css?v4">
-  {%- else -%}
+  <link rel="stylesheet" href="/assets/css/bundle.min.css?v.3.0">
+{%- else -%}
   <link rel="stylesheet" href="/assets/css/nunito-sans.css">
   <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/assets/css/bundle.min.css?v4">
-  {%- endif -%}
+  <link rel="stylesheet" href="/assets/css/bundle.min.css?v.3.0">
+{%- endif -%}
 
 {%- comment -%}
   <link rel="stylesheet" href="/assets/css/test.css">

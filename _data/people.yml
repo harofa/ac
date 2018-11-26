@@ -1,6 +1,7 @@
 halwa:
   name: "Halwa RF"
   profile: "https://plus.google.com/+HalwaRF"
+  facebook: "https://www.facebook.com/halwarf"
   url: "https://www.youtube.com/halwarf"
   avatar: "halwa.jpg"
   gender: female
@@ -14,6 +15,7 @@ Lorem:
 dul:
   name: "Fadlullah Fadul"
   profile: "https://plus.google.com/+FadlullahFadul"
+  facebook: "https://www.facebook.com/apacaracom"
   url: "https://dul.web.id/"
   avatar: "dul.jpg"
   gender: male

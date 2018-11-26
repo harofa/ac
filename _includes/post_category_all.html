@@ -1,12 +1,13 @@
-{%- assign index_category = include.index_category -%}
-
 <main class="container content-wrapper">
     <div class="content" id="content">
       <div class="post-wrapper">
 
         <article class="post post-category">
-          <div class="mt-4 summary">    
-{%- for post in site[index_category] reversed limit: 6 -%}
+          <div class="mt-4 summary">
+{%- for collection in site.collections -%}
+ {%- assign name = collection.label -%}
+ {%- for post in site[name] reversed limit: 2 -%}
+
   {%- if forloop.index == 6 -%}
     {%- assign index_post_url = post.url -%}
     {%- assign index_post_title = post.title -%}
@@ -45,6 +46,7 @@
                   <p class="excerp">{{ post.content | strip_html | strip_newlines | truncatewords:20  }}</p>
                 </div>
               </article>
+ {%- endfor -%}
 {%- endfor -%}
           </div>
           {%- if site.environment == "production" -%}

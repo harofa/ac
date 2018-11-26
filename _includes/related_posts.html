@@ -15,7 +15,7 @@
     {% assign item_author = site.data.people[item.author] %}
           <li class="border-bottom">
             <a href="{{ item.url | absolute_url }}" class="d-block mb-2 text-facebook">{{ item.title }}</a>
-            <div class="row text-black-50 d-md-flex d-none text-sm pb-2">
+            <div class="row text-black-50 d-md-flex d-none text-sm pb-2 no-gutters">
               <div class="col-4 d-flex">
                 <small class="mb-0 mr-2 text-muted" aria-label="date"><i class="fa fa-user" aria-hidden="true"></i></small>
                 <small class="mr-2 mb-0 text-muted">{{ item_author.name }}</small>
@@ -27,7 +27,11 @@
       </ul>
     </div>
     {%- if site.environment == "production" -%}
-      {%- include ads/bottom.html -%}
+      {%- if page.layout == "post_amp" -%}
+        {%- include ads_amp/bottom.html -%}
+      {%- else -%}
+        {%- include ads/bottom.html -%}
+      {%- endif -%}
     {%- endif -%}
   </div>
 </section>

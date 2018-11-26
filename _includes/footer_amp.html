@@ -18,13 +18,4 @@
 </div>
 {%- endcomment -%}
 </footer>
-{%- if site.environment == "production" -%}
-  {%- include script/bootstrap_footer.html -%}
-  <script src="/assets/js/bundle.js?v4"></script>
-{%- else -%}
-<script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/bootstrap.bundle.min.js"></script>
-
-<script src="/assets/js/bundle.js?v4"></script>
-{%- endif -%}
 

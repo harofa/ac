@@ -1,6 +1,10 @@
 url: "https://www.apacara.com"
 timezone: Asia/Jakarta
 show_banner: true
+show_date_schema: true
+
+topic: "tutorial"
+topic_title: "Tutorial Web"
 
 ads:
   enabled: true
@@ -135,4 +139,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - .php
+  - "*.php"

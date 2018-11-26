@@ -9,20 +9,18 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb text-muted text-sm">
             <li class="breadcrumb-item"><a href="{{ site.url | absolute_url }}"><i class="fa fa-home" aria-label="home"></i></a></li>
-            <li class="breadcrumb-item"><a href="/category/{{ page.taxonomy.topic |default: site.topic }}">{{ page.taxonomy.topic_title | default: site.topic_title }}</a></li>
-            <li class="breadcrumb-item"><a href="/category/{{ page.taxonomy.category }}">{{ page.taxonomy.category_title | default: page.taxonomy.category | upcase }}</a></li>
+            <li class="breadcrumb-item"><a href="{{ site.url | absolute_url }}/category/{{ page.taxonomy.topic |default: site.topic }}">{{ page.taxonomy.topic_title | default: site.topic_title }}</a></li>
+            <li class="breadcrumb-item"><a href="{{ site.url | absolute_url }}/category/{{ page.taxonomy.category }}">{{ page.taxonomy.category_title | default: page.taxonomy.category | upcase }}</a></li>
             <li class="breadcrumb-item active text-muted" aria-current="page">{{ page.title }}</li>
           </ol>
         </nav>
-
-      {%- include banner.html -%}
+      {%- include banner_amp.html -%}
 
         <!-- post content -->
         <article class="post post-item">
           {%- if page_image.size > 0 -%}
           <figure class="img-responsive mb-4 text-center">
-            <img class="img-fluid" src="{{ page_image }}" width="773" height="464" alt="{{ page.title }}" />
-          </figure>
+            <amp-img class="img-fluid" alt="{{ page.title }}" width="773" height="464" layout="responsive" src="{{ page_image }}"></amp-img>        </figure>
           {%- endif -%}
           <h1 class="title mb-4">{{ page.title }}</h1>
           <div class="post-meta mb-2 pb-3 mt-4 text-muted text-xs a-title">
@@ -45,13 +43,13 @@
               </span>
           </div>
           {%- if site.environment == "production" -%}
-            {%- include ads/top.html -%}
+            {%- include ads_amp/top.html -%}
           {%- endif -%}
 {{ content }}
 
         </article>
         {%- if site.environment == "production" -%}
-          {%- include ads/center.html -%}
+          {%- include ads_amp/center.html -%}
         {%- endif -%}
 
         {%- include share.html -%}

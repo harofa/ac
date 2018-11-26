@@ -2,7 +2,7 @@
   <div class="container">
       <nav class="navbar default-layout col-lg-12 col-12 p-sm-0 d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
-          <img width="23" height="23" class="logo-rounded" src="{{ '/assets/img/logo2.svg' | absolute_url }}" alt="{{site.name}} icon" />
+          <amp-img alt="{{site.name}} icon" width="23" height="23" layout="fixed" src="{{ '/assets/img/logo2.svg' | absolute_url }}"></amp-img>
           <a class="navbar-brand brand-logo" href="{{ site.url }}">
             apaCara<small class="text-muted">.com</small>
           </a>
@@ -25,28 +25,15 @@
                 BOOTSTRAP</a>
             </li>
           </ul>
-          
-          <ul class="navbar-nav navbar-nav-right ml-auto">
-            <li class="nav-item dropdown d-none d-md-inline-block">
-              <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-                <span class="profile-text btn btn-outline-light btn-rounded btn-fw">HTML Editor</span>
-              </a>
-              <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
-                <a href="https://htmleditor.apacara.com/" target="_blank" class="dropdown-item mt-2">
-                  HTML Editor
-                </a>
-                <a href="https://htmleditor.apacara.com/mobile" target="_blank" class="dropdown-item">
-                  Mobile Editor
-                </a>
-              </div>
+
+          <ul class="navbar-nav navbar-nav-right header-links ml-auto">
+            <li class="nav-item">
+              <a class="profile-text btn btn-outline-light btn-rounded btn-fw" href="https://htmleditor.apacara.com/" target="_blank">HTML Editor</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-muted" href="/search" target="_blank"><i class="fa fa-search"></i></a>
             </li>
           </ul>
-          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
-            <span class="fa fa-navicon"></span>
-          </button>
         </div>
       </nav>
   </div>

@@ -1,7 +1,13 @@
 <aside class="sidebar sidebar-offcanvas" id="sidebar">
       {% unless include.sidebar_no_ads == true %}
         {%- if site.environment == "production" -%}
-          {%- include ads/sidebar.html -%}
+
+          {%- if page.layout == "post_amp" -%}
+            {%- include ads_amp/sidebar.html -%}
+          {%- else -%}
+            {%- include ads/sidebar.html -%}
+          {%- endif -%}
+
         {%- endif -%}
       {%- endunless -%}
 
@@ -14,11 +20,11 @@
             </div>
         </form>
       </div>
-  {%- endcomment -%}
+
       <div class="mt-3 mt-lg-0 mb-4 px-3 px-lg-0 input-group">
         <a class="btn btn-link text-muted" href="/search.html" target="_blank"> Search Article... <i class="pl-5 fa fa-search"></i></a>
       </div>
-
+  {%- endcomment -%}
 
       <section id="social-follow">
         <h5 class="bg-light w-100 d-block py-3 px-3 m-0 text-center">
@@ -41,11 +47,11 @@
         <h5 class="bg-light w-100 d-block py-3 px-3 m-0 text-center">
             <i class="fa fa-folder-open pr-2"></i>CATEGORIES
         </h5>
-        <ul class="nav">
-          {% for label in site.data.category %}
+        <ul class="nav ">
+          {%- for label in site.data.category -%}
           {%- unless label.hidden == true -%}
           <li class="nav-item">
-            <a class="nav-link" href="/category/{{ label.slug }}">
+            <a class="nav-link" href="/category/{{ label.slug }}/">
               <i class="menu-icon fa fa-folder text-muted"></i>
               <span class="menu-title">{{ label.title }}</span>
             </a>
@@ -79,3 +85,4 @@
         {%- endcase -%}
       {%- endfor -%}
     </aside>
+
