@@ -7,8 +7,8 @@
 {%- endcapture -%}
 
 {%- capture page_image -%}
-  {%- if page.images.figure -%}
-    {{ page.images.figure | prepend: site.images_path.images | absolute_url }}
+  {%- if page.image.url -%}
+    {{ page.image.url | absolute_url }}
   {%- endif -%}
 {%- endcapture -%}
 
@@ -71,8 +71,8 @@
   {%- if page_image.size > 0 -%}
   <meta property="og:image" content="{{ page_image }}"/>
   <meta property="og:image:secure_url" content="{{ page_image }}" />
-  <meta property="og:image:width" content="773" />
-  <meta property="og:image:height" content="464" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="675" />
   {%- endif -%}
   <meta property="og:site_name" content="{{ site.name }}"/>
   {%- if page.language -%}
@@ -107,6 +107,7 @@
     "@type": "WebPage",
     "name": "{{ page_title }}",
     "headline": "{{ page_title }}",
+    "description":"{{ page_description }}",
     {%- if page.taxonomy.tag and page.taxonomy.tag.size > 0 -%}"keywords": "{{ page_tag }}",{%- endif -%}
   {%- if page.date and site.show_date_schema == true -%}
   "datePublished": "{{ page.date | date_to_xmlschema }}",
@@ -117,15 +118,26 @@
   "dateModified": "{{ page.date | date_to_xmlschema }}",
   {%- endif -%}
 
-    {%- if page_image.size > 0 -%}"image": "{{ page_image }}",{%- endif -%}
+    {%- if page_image.size > 0 -%}
+    "image": {
+    "@type": "imageObject",
+    "url": "{{ page_image }}",
+    "width": "1200",
+    "height": "675"
+    },{%- endif -%}
     "inLanguage": "{{ page.language }}",
-    "mainEntityOfPage": "True",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page_url }}"
+    },
     "publisher": {
       "@type": "Organization",
       "name": "{{ site.publisher.name }}",
       "logo": {
         "@type": "imageObject",
-        "url": "{{ '/assets/img/publisher-logo.png' | absolute_url }}"
+        "url": "{{ '/assets/img/logo-600x60.png' | absolute_url }}",
+        "width": 600,
+        "height": 60
       }
     },
     "author": {
@@ -143,9 +155,9 @@
 
   {%- if site.environment == "production" -%}
     {%- include script/bootstrap_header.html -%}
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i" rel="stylesheet"/>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="/assets/css/bundle.min.css?v4">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i" rel="stylesheet"/>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>  
   {%- else -%}
   <link rel="stylesheet" href="/assets/css/nunito-sans.css">
   <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
@@ -153,9 +165,6 @@
   <link rel="stylesheet" href="/assets/css/bundle.min.css?v4">
   {%- endif -%}
 
-{%- comment -%}
-  <link rel="stylesheet" href="/assets/css/test.css">
-{%- endcomment -%}
 {%- if page.inject_header -%}
   {{ page.inject_header }}
 {%- endif -%}

@@ -3,7 +3,11 @@ layout: default
 language: id
 ---
 {%- if site.environment == "production" -%}
-{%- include post_category.html index_category='css' -%}
+{%- include post_category_all.html -%}
 {%- else -%}
-{%- include post_category.html index_category='aaa_drafts' -%}
+{%- include post_category_all.html -%}
 {%- endif -%}
+
+{%- comment -%}
+{%- include post_category.html index_category='css' -%}
+{%- endcomment -%}

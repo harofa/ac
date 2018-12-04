@@ -1,16 +1,23 @@
+{%- assign image_url = page.image.url | strip -%}
 {%- capture page_image -%}
-  {%- if page.images.figure -%}
-    {{ page.images.figure | prepend: site.images_path.images | absolute_url }}
+  {%- if image_url and image_url.size > 0 -%}
+    {{ page.image.url | strip | absolute_url }}
   {%- endif -%}
 {%- endcapture -%}
+
+{%- if page.image.webp -%}
+  {%- capture page_webp -%}
+    {{ page_image | replace: '.jpg', '.webp' | replace: '.png', '.webp' }}
+  {%- endcapture -%}
+{%- endif -%}
 <main class="container content-wrapper">
     <div class="content" id="content">
       <div class="post-wrapper">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb text-muted text-sm">
             <li class="breadcrumb-item"><a href="{{ site.url | absolute_url }}"><i class="fa fa-home" aria-label="home"></i></a></li>
-            <li class="breadcrumb-item"><a href="/category/{{ page.taxonomy.topic |default: site.topic }}">{{ page.taxonomy.topic_title | default: site.topic_title }}</a></li>
-            <li class="breadcrumb-item"><a href="/category/{{ page.taxonomy.category }}">{{ page.taxonomy.category_title | default: page.taxonomy.category | upcase }}</a></li>
+            <li class="breadcrumb-item"><a href="{{ site.url | absolute_url }}/category/{{ page.taxonomy.topic |default: site.topic }}">{{ page.taxonomy.topic_title | default: site.topic_title }}</a></li>
+            <li class="breadcrumb-item"><a href="{{ site.url | absolute_url }}/category/{{ page.taxonomy.category }}">{{ page.taxonomy.category_title | default: page.taxonomy.category | upcase }}</a></li>
             <li class="breadcrumb-item active text-muted" aria-current="page">{{ page.title }}</li>
           </ol>
         </nav>
@@ -21,7 +28,19 @@
         <article class="post post-item">
           {%- if page_image.size > 0 -%}
           <figure class="img-responsive mb-4 text-center">
-            <img class="img-fluid" src="{{ page_image }}" width="773" height="464" alt="{{ page.title }}" />
+            {%- comment -%}
+            <picture class="img-fluid">
+              <source srcset="{{ page_image | replace: '.jpg', '.webp' }}" type="image/webp">
+              <source srcset="{{ page_image }}" type="image/jpeg">
+              <img class="img-fluid" src="{{ page_image }}" width="823" height="463" alt="{{ page.title }}">
+            </picture>
+            {%- endcomment -%}
+            {%- if page_webp -%}
+            <img width="1200" height="675" class="img-fluid" src="{{ page_image | replace: '.jpg', '.webp' }}" onerror="this.onerror=null; this.src='{{ page_image }}'" alt="{{ page.title }}">
+             {%- else -%}
+             <img width="1200" height="675" class="img-fluid" src="{{ page_image }}" alt="{{ page.title }}">
+            {%- endif -%}
+
           </figure>
           {%- endif -%}
           <h1 class="title mb-4">{{ page.title }}</h1>

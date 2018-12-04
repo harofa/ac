@@ -6,7 +6,7 @@
           <div class="mt-4 summary">
 {%- for collection in site.collections -%}
  {%- assign name = collection.label -%}
- {%- for post in site[name] reversed limit: 2 -%}
+ {%- for post in site[name] reversed limit: 1 -%}
 
   {%- if forloop.index == 6 -%}
     {%- assign index_post_url = post.url -%}
@@ -15,9 +15,17 @@
   {%- endif -%}
 {% assign post_author = site.data.people[post.author] %}
               <article class="mb-4 d-md-flex item-wrapper">
-                {%- if post.images.figure -%}
+                {%- assign image_url = post.image.url | strip -%}
+                {%- assign image_url_webp =  post.image.webp  -%}
+                {%- if image_url.size > 0 -%}
                 <div class="img-responsive m-0 mr-md-4">
-                  <a href="{{ post.url | absolute_url }}" class=""><img class="img-fluid" src="{{ post.images.figure | prepend: site.images_path.images | absolute_url }}" width="350" height="" alt="233" /></a>
+                  <a href="{{ post.url | absolute_url }}" class="">
+                    {%- if image_url_webp -%}
+                    <img width="350" height="196" class="img-fluid" src="{{ image_url | replace: '.jpg', '.webp' }}" onerror="this.onerror=null; this.src='{{ image_url }}'" alt="{{ post.title }}">
+                     {%- else -%}
+                     <img width="350" height="196" class="img-fluid" src="{{ image_url }}" alt="{{ post.title }}">
+                    {%- endif -%}
+                  </a>
                 </div>
                 {%- endif -%}
                 <div class="mr-auto w-100">

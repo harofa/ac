@@ -1,8 +1,15 @@
+{%- assign image_url = page.image.url | strip -%}
 {%- capture page_image -%}
-  {%- if page.images.figure -%}
-    {{ page.images.figure | prepend: site.images_path.images | absolute_url }}
+  {%- if image_url and image_url.size > 0 -%}
+    {{ page.image.url | strip | absolute_url }}
   {%- endif -%}
 {%- endcapture -%}
+
+{%- if page.image.webp -%}
+  {%- capture page_webp -%}
+    {{ page_image | replace: '.jpg', '.webp' | replace: '.png', '.webp' }}
+  {%- endcapture -%}
+{%- endif -%}
 <main class="container content-wrapper">
     <div class="content" id="content">
       <div class="post-wrapper">
@@ -14,13 +21,18 @@
             <li class="breadcrumb-item active text-muted" aria-current="page">{{ page.title }}</li>
           </ol>
         </nav>
+
       {%- include banner_amp.html -%}
 
         <!-- post content -->
         <article class="post post-item">
           {%- if page_image.size > 0 -%}
           <figure class="img-responsive mb-4 text-center">
-            <amp-img class="img-fluid" alt="{{ page.title }}" width="773" height="464" layout="responsive" src="{{ page_image }}"></amp-img>        </figure>
+            <amp-img layout="responsive" alt="{{ page.title }}" width="1200" height="675" src="{{ page_webp | default: page_image }}">
+            {%- if page_webp -%}
+            <amp-img layout="responsive" alt="{{ page.title }}" fallback width="1200" height="675" src="{{ page_image }}"></amp-img></amp-img>
+            {%- endif -%}
+          </figure>
           {%- endif -%}
           <h1 class="title mb-4">{{ page.title }}</h1>
           <div class="post-meta mb-2 pb-3 mt-4 text-muted text-xs a-title">

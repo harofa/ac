@@ -1,0 +1,8 @@
+---
+
+---
+{%- assign index_category = "html" -%}
+
+{%- for post in site[index_category] limit: 15 offset: 75 -%}
+$title[{{ forloop.index }}] = "{{ post.short_title | replace: "_css/" | remove: ".html" }}";
+{% endfor %}
