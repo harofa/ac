@@ -37,7 +37,4 @@ inject_header: '<link rel="stylesheet" href="/assets/css/search.css"/>'
   </div>
 </main>
 <script src="{{ "/assets/js/super-search.js" | prepend: site.baseurl | prepend: site.url }}"></script>
- <script>superSearch({
- 	// rss feed file path
- 	searchFile: "{{site.url}}/feed-full.xml"
- });</script>
+ <script>superSearch({searchFile: "{{site.url}}/feed-full.xml"});</script>
