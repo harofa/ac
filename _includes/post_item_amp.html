@@ -57,7 +57,11 @@
           {%- if site.environment == "production" -%}
             {%- include ads_amp/top.html -%}
           {%- endif -%}
-{{ content }}
+          {%- comment -%}
+          <div><div>
+          {%- endcomment -%}
+
+{{ content | replace: 'img class="lozad" data-src' , 'amp-img layout="responsive" src'  | replace: 'alt=""/></div>', 'alt=""></amp-img></div>' }}
 
         </article>
         {%- if site.environment == "production" -%}

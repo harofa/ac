@@ -22,14 +22,28 @@
   {%- include script/bootstrap_footer.html -%}
   <script src="/assets/js/bundle.js?v4"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.15.0/prism.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 {%- else -%}
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.bundle.min.js"></script>
 
 <script src="/assets/js/bundle.js?v4"></script>
 <script src="/assets/js/prism.js?v4"></script>
+<script src="/assets/js/lozad.min.js"></script>
 {%- endif -%}
+<script>
+    var observer = lozad('.lozad', {
+      rootMargin: '10px 0px',
+      threshold: 0.1
+    });
 
+    var pictureObserver = lozad('.lozad-picture', {
+      threshold: 0.1
+    });
+
+    observer.observe();
+    pictureObserver.observe();
+</script>
 {%- if page.inject_footer -%}
   {{ page.inject_footer }}
 {%- endif -%}

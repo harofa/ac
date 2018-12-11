@@ -23,6 +23,9 @@
 - slug: "apa"
   title: "APA"
 
+- slug: "cara"
+  title: "CARA"
+
 - slug: "tutorial"
   title: "Tutorial Web Design"
   hidden: true
