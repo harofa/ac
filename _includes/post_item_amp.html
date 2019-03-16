@@ -58,10 +58,10 @@
             {%- include ads_amp/top.html -%}
           {%- endif -%}
           {%- comment -%}
-          <div><div>
+          <div
           {%- endcomment -%}
 
-{{ content | replace: 'img class="lozad" data-src' , 'amp-img layout="responsive" src'  | replace: 'alt=""/></div>', 'alt=""></amp-img></div>' }}
+{{ content | replace: 'lazy-loader"><img data-src', 'lazy-loader"><amp-img src' | replace: 'class="lazyload"/></div>', '></amp-img></div>' }}
 
         </article>
         {%- if site.environment == "production" -%}
