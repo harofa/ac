@@ -61,7 +61,11 @@
           <div
           {%- endcomment -%}
 
+{%- if page.lazyload == true -%}
 {{ content | replace: 'lazy-loader"><img data-src', 'lazy-loader"><amp-img src' | replace: 'class="lazyload"/></div>', '></amp-img></div>' }}
+{%- else -%}
+{{ content }}
+{%- endif -%}
 
         </article>
         {%- if site.environment == "production" -%}
