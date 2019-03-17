@@ -137,7 +137,7 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: true
-markdown_ext        : "htm,html,markdown,md"
+#markdown_ext        : "htm,html,markdown,md"
 
 exclude:
   - Gemfile
