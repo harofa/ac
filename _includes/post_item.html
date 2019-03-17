@@ -34,14 +34,18 @@
               <source srcset="{{ page_image }}" type="image/jpeg">
               <img class="img-fluid" src="{{ page_image }}" width="823" height="463" alt="{{ page.title }}">
             </picture>
+              <img width="1200" height="675" class="img-fluid" src="{{ page_image | replace: '.jpg', '.webp' }}" onerror="this.onerror=null; this.src='{{ page_image }}'" alt="{{ page.title }}">
+              else
+              <img width="1200" height="675" class="img-fluid" src="{{ page_image }}" alt="{{ page.title }}">
             {%- endcomment -%}
-            {%- if page_webp -%}
-            <img width="1200" height="675" class="img-fluid" src="{{ page_image | replace: '.jpg', '.webp' }}" onerror="this.onerror=null; this.src='{{ page_image }}'" alt="{{ page.title }}">
-             {%- else -%}
-             <img width="1200" height="675" class="img-fluid" src="{{ page_image }}" alt="{{ page.title }}">
-            {%- endif -%}
 
+            {%- if page_webp -%}
+            <div class="lazy lazy-loader"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ page_image | replace: '.jpg', '.webp' }}" width="1200" height="675" alt="{{ page.title }}" class="lazyload"/></div>
+             {%- else -%}
+              <div class="lazy lazy-loader"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ page_image }}" width="1200" height="675" alt="{{ page.title }}" class="lazyload"/></div>
+            {%- endif -%}
           </figure>
+
           {%- endif -%}
           <h1 class="title mb-4">{{ page.title }}</h1>
           <div class="post-meta mb-2 pb-3 mt-4 text-muted text-xs a-title">
